@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="side" data-source="pcb-original-technical-art">
   <title id="title">ATX motherboard</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M128 430 H872 Q880 430 880 438 V532 Q880 540 872 540 H128 Q120 540 120 532 V438 Q120 430 128 430 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M145 425 H855 V425 H145 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M156 480 A24 24 0 1 0 204 480 A24 24 0 1 0 156 480 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M168 480 A12 12 0 1 0 192 480 A12 12 0 1 0 168 480 Z" fill="#f7f2e8" fill-opacity="0.82" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
+  <path d="M128 430 H872 Q880 430 880 438 V532 Q880 540 872 540 H128 Q120 540 120 532 V438 Q120 430 128 430 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M145 425 H855 V425 H145 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M156 480 A24 24 0 1 0 204 480 A24 24 0 1 0 156 480 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M168 480 A12 12 0 1 0 192 480 A12 12 0 1 0 168 480 Z" fill="#f7f2e8" fill-opacity="0.90" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
   </g>
 </svg>

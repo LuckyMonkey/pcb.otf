@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="side" data-source="pcb-original-technical-art">
   <title id="title">SATA solid-state drive</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M162 380 H838 Q850 380 850 392 V618 Q850 630 838 630 H162 Q150 630 150 618 V392 Q150 380 162 380 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M226 425 H774 Q780 425 780 431 V539 Q780 545 774 545 H226 Q220 545 220 539 V431 Q220 425 226 425 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M180 615 H820 V615 H180 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M162 380 H838 Q850 380 850 392 V618 Q850 630 838 630 H162 Q150 630 150 618 V392 Q150 380 162 380 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M226 425 H774 Q780 425 780 431 V539 Q780 545 774 545 H226 Q220 545 220 539 V431 Q220 425 226 425 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M180 615 H820 V615 H180 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

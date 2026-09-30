@@ -16,6 +16,10 @@
   full-registry technical SVG fallbacks, and a semantic ligature/PUA font specimen.
 - Kept compact filled font masters separate from the outlined technical catalog
   renderer so the catalog can become more detailed without making the font noisy.
+- Fixed the webfont CSS newline bug so browser `@font-face` and `liga` shaping
+  rules parse correctly; HarfBuzz and browser assets now agree on shortcode output.
+- Made isometric the default assembly view with a CSS 3D plane, coherent image
+  sizing, eight validated connection routes, and exploded Z-depth.
 
 ## 0.1.0 - 2026-09-30
 

@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
   <title id="title">Transformer</title>
   <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
-  <path d="M260 260 H370 Q410 260 410 300 V700 Q410 740 370 740 H260 Q220 740 220 700 V300 Q220 260 260 260 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M630 260 H740 Q780 260 780 300 V700 Q780 740 740 740 H630 Q590 740 590 700 V300 Q590 260 630 260 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M475 200 L475 200 L475 800 L475 800 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M525 200 L525 200 L525 800 L525 800 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M260 260 H370 Q410 260 410 300 V700 Q410 740 370 740 H260 Q220 740 220 700 V300 Q220 260 260 260 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M630 260 H740 Q780 260 780 300 V700 Q780 740 740 740 H630 Q590 740 590 700 V300 Q590 260 630 260 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M475 200 L475 200 L475 800 L475 800 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M525 200 L525 200 L525 800 L525 800 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

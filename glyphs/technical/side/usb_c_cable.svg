@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="side" data-source="pcb-original-technical-art">
   <title id="title">USB-C cable</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M120 500 Q300 180 500 500 T880 500 L830 560 Q680 470 500 560 T170 560 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M90 530 A60 60 0 1 0 210 530 A60 60 0 1 0 90 530 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M790 530 A60 60 0 1 0 910 530 A60 60 0 1 0 790 530 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M120 500 Q300 180 500 500 T880 500 L830 560 Q680 470 500 560 T170 560 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M90 530 A60 60 0 1 0 210 530 A60 60 0 1 0 90 530 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M790 530 A60 60 0 1 0 910 530 A60 60 0 1 0 790 530 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

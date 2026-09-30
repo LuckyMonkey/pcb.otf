@@ -7,7 +7,7 @@ window.PCB_ASSEMBLIES = [
       1600,
       1000
     ],
-    "default_view": "top",
+    "default_view": "isometric",
     "default_opacity": 0.78,
     "layers": [
       {
@@ -505,6 +505,64 @@ window.PCB_ASSEMBLIES = [
           50,
           10
         ]
+      }
+    ],
+    "connections": [
+      {
+        "id": "cpu_power_route",
+        "from": "cpu_power",
+        "to": "cpu_socket",
+        "label": "CPU_PWR",
+        "kind": "power"
+      },
+      {
+        "id": "atx_power_route",
+        "from": "atx_power",
+        "to": "motherboard",
+        "label": "ATX_PWR",
+        "kind": "power"
+      },
+      {
+        "id": "pcie_power_route",
+        "from": "pcie_power",
+        "to": "gpu",
+        "label": "PCIe_PWR",
+        "kind": "power"
+      },
+      {
+        "id": "memory_route_a",
+        "from": "dimm_a",
+        "to": "dimm_slot_1",
+        "label": "DDR4_A",
+        "kind": "signal"
+      },
+      {
+        "id": "memory_route_b",
+        "from": "dimm_b",
+        "to": "dimm_slot_3",
+        "label": "DDR4_B",
+        "kind": "signal"
+      },
+      {
+        "id": "nvme_route",
+        "from": "nvme",
+        "to": "m2_socket",
+        "label": "NVMe",
+        "kind": "signal"
+      },
+      {
+        "id": "sata_route",
+        "from": "sata_drive",
+        "to": "sata_connector",
+        "label": "SATA",
+        "kind": "signal"
+      },
+      {
+        "id": "fan_route",
+        "from": "fan",
+        "to": "cpu_socket",
+        "label": "FAN_PWM",
+        "kind": "cooling"
       }
     ]
   }

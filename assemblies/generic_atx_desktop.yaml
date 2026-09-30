@@ -2,7 +2,7 @@ id: assembly:generic_atx_desktop
 label: Generic ATX desktop assembly
 description: A vendor-neutral ATX board composed from canonical PCB.OTF objects.
 viewBox: [1600, 1000]
-default_view: top
+default_view: isometric
 default_opacity: 0.78
 layers:
   - {instance: motherboard, object: hardware:atx_motherboard, view: top, x: 40, y: 40, width: 1120, height: 820, z: 0, opacity: 0.40, group: board, explode: [0, 0]}
@@ -36,3 +36,16 @@ layers:
   - {instance: usb_a, object: hardware:usb_a, view: top, x: 1070, y: 300, width: 70, height: 105, z: 6, opacity: 0.88, group: io, explode: [50, -10]}
   - {instance: rj45, object: hardware:rj45, view: top, x: 1070, y: 430, width: 70, height: 105, z: 6, opacity: 0.88, group: io, explode: [50, 0]}
   - {instance: audio, object: hardware:audio_jack_35mm, view: top, x: 1070, y: 560, width: 70, height: 105, z: 6, opacity: 0.88, group: io, explode: [50, 10]}
+
+# These are assembly-level visual connections, not new Unicode objects. They
+# make the physical build legible while the canonical endpoints remain the
+# registry-backed parts above.
+connections:
+  - {id: cpu_power_route, from: cpu_power, to: cpu_socket, label: CPU_PWR, kind: power}
+  - {id: atx_power_route, from: atx_power, to: motherboard, label: ATX_PWR, kind: power}
+  - {id: pcie_power_route, from: pcie_power, to: gpu, label: PCIe_PWR, kind: power}
+  - {id: memory_route_a, from: dimm_a, to: dimm_slot_1, label: DDR4_A, kind: signal}
+  - {id: memory_route_b, from: dimm_b, to: dimm_slot_3, label: DDR4_B, kind: signal}
+  - {id: nvme_route, from: nvme, to: m2_socket, label: NVMe, kind: signal}
+  - {id: sata_route, from: sata_drive, to: sata_connector, label: SATA, kind: signal}
+  - {id: fan_route, from: fan, to: cpu_socket, label: FAN_PWM, kind: cooling}

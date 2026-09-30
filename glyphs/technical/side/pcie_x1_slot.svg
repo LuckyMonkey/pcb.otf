@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="side" data-source="pcb-original-technical-art">
   <title id="title">PCI Express x1 slot</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M156 430 H844 Q850 430 850 436 V564 Q850 570 844 570 H156 Q150 570 150 564 V436 Q150 430 156 430 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M182 455 H818 Q820 455 820 457 V523 Q820 525 818 525 H182 Q180 525 180 523 V457 Q180 455 182 455 Z" fill="#f7f2e8" fill-opacity="0.82" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
-  <path d="M220 425 H780 V425 H220 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M156 430 H844 Q850 430 850 436 V564 Q850 570 844 570 H156 Q150 570 150 564 V436 Q150 430 156 430 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M182 455 H818 Q820 455 820 457 V523 Q820 525 818 525 H182 Q180 525 180 523 V457 Q180 455 182 455 Z" fill="#f7f2e8" fill-opacity="0.90" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
+  <path d="M220 425 H780 V425 H220 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

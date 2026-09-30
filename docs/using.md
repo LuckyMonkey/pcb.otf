@@ -63,10 +63,12 @@ const parts = instances("assembly:generic_atx_desktop");
 ```
 
 The specimen renderer layers technical SVG views with explicit position, scale,
-z-order, opacity, and exploded offsets. The same scene can render as a
-top-down plate, front/side profile, or isometric X-ray view. Use the font for
-compact symbols and labels; use technical SVG masters when physical detail
-matters. 🧰
+z-order, opacity, and exploded offsets. Isometric is the default: a CSS 3D
+plane rotates the same registry-backed parts together, while assembly-level
+route overlays show power, memory, storage, and cooling connections. The same
+scene can render as a top-down plate, front/side profile, or isometric X-ray
+view. Use the font for compact symbols and labels; use technical SVG masters
+when physical detail matters. 🧰
 
 ## Graph API
 

@@ -16,6 +16,7 @@ def main() -> int:
     ontology = yaml.safe_load((ROOT / "ontology/hardware.yaml").read_text())
     objects = {item["id"]: item for item in ontology["objects"]}
     checked = 0
+    connection_count = 0
     for path in sorted((ROOT / "assemblies").glob("*.yaml")):
         scene = yaml.safe_load(path.read_text())
         if not scene.get("id", "").startswith("assembly:"):
@@ -42,7 +43,16 @@ def main() -> int:
             if not svg.is_file():
                 raise SystemExit(f"missing technical scene asset: {svg}")
             checked += 1
-    print(f"assemblies OK: {checked} layers, zero dangling object references")
+        connection_ids = set()
+        for connection in scene.get("connections", []):
+            connection_id = connection.get("id")
+            if not connection_id or connection_id in connection_ids:
+                raise SystemExit(f"duplicate/missing assembly connection in {path}: {connection_id}")
+            connection_ids.add(connection_id)
+            if connection.get("from") not in instances or connection.get("to") not in instances:
+                raise SystemExit(f"dangling assembly connection in {path}: {connection_id}")
+            connection_count += 1
+    print(f"assemblies OK: {checked} layers, {connection_count} connection routes, zero dangling object references")
     return 0
 
 

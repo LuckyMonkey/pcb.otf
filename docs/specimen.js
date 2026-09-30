@@ -59,8 +59,8 @@
     row.innerHTML = `
       <div class="font-sample-index">${String(index + 1).padStart(2, '0')}</div>
       <div class="font-sample-name"><strong>${label}</strong><code>${item.id}</code></div>
-      <div class="font-sample-cell"><span class="sample-label">LIGATURE</span><span class="pcb sample-glyph" aria-label="${item.accessible_label}">${item.shortcode}</span></div>
-      <div class="font-sample-cell"><span class="sample-label">DIRECT PUA</span><span class="pcb-emoji sample-glyph" aria-label="${item.accessible_label}">${item.char}</span></div>
+      <div class="font-sample-cell"><span class="sample-label">LIGATURE OUTPUT</span><span class="pcb sample-glyph" aria-label="${item.accessible_label}">${item.shortcode}</span><code class="sample-source">source ${item.shortcode}</code></div>
+      <div class="font-sample-cell"><span class="sample-label">DIRECT PUA</span><span class="pcb-emoji sample-glyph" aria-label="${item.accessible_label}">${item.char}</span><code class="sample-source">${item.codepoint}</code></div>
       <div class="font-sample-meta"><code>${item.codepoint}</code><code>${item.shortcode}</code></div>`;
     return row;
   }

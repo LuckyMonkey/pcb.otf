@@ -10,12 +10,23 @@
   const groupBar = document.querySelector('#assembly-groups');
   if (!scene || !stage || !inspector) return;
 
-  let view = scene.default_view || 'top';
+  let view = scene.default_view || 'isometric';
   let selected = null;
   const groups = [...new Set(scene.layers.map((layer) => layer.group))];
   const visibleGroups = new Set(groups);
   const prefix = document.body.dataset.pcbAssetPrefix || '';
+  const byInstance = new Map(scene.layers.map((layer) => [layer.instance, layer]));
   stage.style.aspectRatio = `${scene.viewBox[0]} / ${scene.viewBox[1]}`;
+
+  const sceneRoot = document.createElement('div');
+  sceneRoot.className = 'assembly-scene';
+  const plane = document.createElement('div');
+  plane.className = 'assembly-plane';
+  const traces = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  traces.classList.add('assembly-traces');
+  traces.setAttribute('aria-hidden', 'true');
+  sceneRoot.append(plane);
+  stage.replaceChildren(sceneRoot);
 
   groupBar.replaceChildren(...groups.map((group) => {
     const label = document.createElement('label');
@@ -28,8 +39,29 @@
   }));
 
   function assetFor(record) {
-    const viewName = view === 'isometric' ? 'isometric' : view;
-    return `${prefix}glyphs/technical/${viewName}/${record.glyph_base}.svg`;
+    const viewName = view === 'isometric' ? 'technical_iso_svg' : `technical_${view}_svg`;
+    return `${prefix}${record[viewName] || record.color_svg}`;
+  }
+
+  function positionOf(layer, isExploded) {
+    const dx = isExploded ? layer.explode[0] : 0;
+    const dy = isExploded ? layer.explode[1] : 0;
+    return { x: layer.x + dx, y: layer.y + dy, cx: layer.x + dx + layer.width / 2, cy: layer.y + dy + layer.height / 2 };
+  }
+
+  function renderConnections(isExploded) {
+    traces.setAttribute('viewBox', `0 0 ${scene.viewBox[0]} ${scene.viewBox[1]}`);
+    traces.innerHTML = (scene.connections || []).map((connection) => {
+      const fromLayer = byInstance.get(connection.from);
+      const toLayer = byInstance.get(connection.to);
+      if (!fromLayer || !toLayer) return '';
+      const from = positionOf(fromLayer, isExploded);
+      const to = positionOf(toLayer, isExploded);
+      const elbow = from.cx + (to.cx - from.cx) * 0.52;
+      const color = connection.kind === 'power' ? '#c77645' : connection.kind === 'cooling' ? '#5b83a0' : '#7b9a8c';
+      return `<path class="assembly-trace ${connection.kind || 'signal'}" d="M ${from.cx} ${from.cy} L ${elbow} ${from.cy} L ${elbow} ${to.cy} L ${to.cx} ${to.cy}" stroke="${color}"/><circle cx="${from.cx}" cy="${from.cy}" r="9" stroke="${color}"/><circle cx="${to.cx}" cy="${to.cy}" r="9" stroke="${color}"/><text x="${elbow + 10}" y="${(from.cy + to.cy) / 2 - 8}" fill="${color}">${connection.label || connection.id}</text>`;
+    }).join('');
+    plane.append(traces);
   }
 
   function selectLayer(layer, record, element) {
@@ -50,28 +82,33 @@
   }
 
   function render() {
-    stage.classList.toggle('isometric', view === 'isometric');
-    stage.replaceChildren();
-    const factor = Number(opacity.value || 78) / 100;
     const isExploded = explode.checked;
+    stage.classList.toggle('isometric', view === 'isometric');
+    stage.classList.toggle('front-view', view === 'front');
+    stage.classList.toggle('side-view', view === 'side');
+    plane.dataset.view = view;
+    plane.replaceChildren();
+    renderConnections(isExploded);
+    const factor = Number(opacity.value || 78) / 100;
     [...scene.layers].sort((a, b) => a.z - b.z).forEach((layer) => {
       if (!visibleGroups.has(layer.group)) return;
       const record = byId.get(layer.object);
       if (!record) return;
       const button = document.createElement('button');
       button.type = 'button'; button.className = 'assembly-layer'; button.dataset.instance = layer.instance;
-      const dx = isExploded ? layer.explode[0] : 0; const dy = isExploded ? layer.explode[1] : 0;
-      button.style.left = `${((layer.x + dx) / scene.viewBox[0]) * 100}%`;
-      button.style.top = `${((layer.y + dy) / scene.viewBox[1]) * 100}%`;
+      const position = positionOf(layer, isExploded);
+      button.style.left = `${(position.x / scene.viewBox[0]) * 100}%`;
+      button.style.top = `${(position.y / scene.viewBox[1]) * 100}%`;
       button.style.width = `${(layer.width / scene.viewBox[0]) * 100}%`;
       button.style.height = `${(layer.height / scene.viewBox[1]) * 100}%`;
       button.style.zIndex = layer.z;
       button.style.opacity = Math.max(0.12, layer.opacity * factor);
-      button.setAttribute('aria-label', `${record.label}, ${layer.instance}`);
+      button.style.transform = `translateZ(${(isExploded ? layer.z * 12 : layer.z * 3)}px)`;
+      button.setAttribute('aria-label', `${record.label}, ${layer.instance}, ${view} view`);
       const image = document.createElement('img'); image.src = assetFor(record); image.alt = '';
       button.append(image);
       button.addEventListener('click', () => selectLayer(layer, record, button));
-      stage.append(button);
+      plane.append(button);
       if (selected === layer.instance) button.classList.add('selected');
     });
   }

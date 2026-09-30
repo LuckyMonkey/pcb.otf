@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
   <title id="title">Copper trace</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M140 650 H320 V550 H520 V350 H860 V410 H570 V610 H370 V710 H140 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M140 650 H320 V550 H520 V350 H860 V410 H570 V610 H370 V710 H140 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
   </g>
 </svg>

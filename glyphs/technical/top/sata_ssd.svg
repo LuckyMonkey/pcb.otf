@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
   <title id="title">SATA solid-state drive</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M202 230 H798 Q820 230 820 252 V748 Q820 770 798 770 H202 Q180 770 180 748 V252 Q180 230 202 230 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M262 300 H738 Q750 300 750 312 V668 Q750 680 738 680 H262 Q250 680 250 668 V312 Q250 300 262 300 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M500 370 H500 Q680 370 680 550 V430 Q680 610 500 610 H500 Q320 610 320 430 V550 Q320 370 500 370 Z" fill="#f7f2e8" fill-opacity="0.82" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
-  <path d="M510 485 H490 Q510 485 510 505 V485 Q510 505 490 505 H510 Q490 505 490 485 V505 Q490 485 510 485 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M202 230 H798 Q820 230 820 252 V748 Q820 770 798 770 H202 Q180 770 180 748 V252 Q180 230 202 230 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M262 300 H738 Q750 300 750 312 V668 Q750 680 738 680 H262 Q250 680 250 668 V312 Q250 300 262 300 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M500 370 H500 Q680 370 680 550 V430 Q680 610 500 610 H500 Q320 610 320 430 V550 Q320 370 500 370 Z" fill="#f7f2e8" fill-opacity="0.90" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
+  <path d="M510 485 H490 Q510 485 510 505 V485 Q510 505 490 505 H510 Q490 505 490 485 V505 Q490 485 510 485 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

@@ -20,13 +20,23 @@
     .assembly-toolbar button { padding:8px 11px; } .assembly-toolbar button.active { color:#fff; background:var(--pcb); border-color:var(--pcb); }
     .assembly-toolbar input[type=range] { width:120px; accent-color:var(--copper); } .assembly-toolbar input[type=checkbox] { accent-color:var(--copper); }
     .assembly-workspace { display:grid; grid-template-columns:minmax(0,1fr) 220px; gap:14px; align-items:stretch; }
-    .assembly-stage { position:relative; min-height:560px; overflow:hidden; border:1px solid #213d3a; border-radius:14px; background:radial-gradient(circle at 50% 40%,#39776b,#16443f 65%,#092a2a); box-shadow:inset 0 0 50px #031818; }
+    .assembly-stage { position:relative; min-height:560px; overflow:hidden; border:1px solid #213d3a; border-radius:14px; background:radial-gradient(circle at 50% 40%,#39776b,#16443f 65%,#092a2a); box-shadow:inset 0 0 50px #031818; perspective:1500px; }
     .assembly-stage::before { position:absolute; inset:26px; border:1px solid #b2d6b354; border-radius:8px; content:""; box-shadow:0 0 0 18px #b2d6b30c; pointer-events:none; }
     .assembly-stage.isometric { background:linear-gradient(145deg,#eee8dc,#c7c0b3); box-shadow:inset 0 0 50px #7c746844; }
-    .assembly-layer { position:absolute; display:block; margin:0; padding:0; border:0; border-radius:5px; background:transparent; cursor:pointer; transition:transform .25s ease,opacity .2s ease,filter .2s ease; }
+    .assembly-scene { position:absolute; inset:28px; transform-style:preserve-3d; }
+    .assembly-plane { position:absolute; inset:0; transform-origin:50% 50%; transform-style:preserve-3d; transition:transform .55s cubic-bezier(.2,.75,.25,1); }
+    .assembly-stage.isometric .assembly-plane { transform:rotateX(58deg) rotateZ(-35deg) scale(.78); }
+    .assembly-stage.front-view .assembly-plane { transform:rotateX(70deg) scale(.86); }
+    .assembly-stage.side-view .assembly-plane { transform:rotateY(68deg) scale(.86); }
+    .assembly-traces { position:absolute; inset:0; z-index:0; width:100%; height:100%; overflow:visible; pointer-events:none; }
+    .assembly-trace { fill:none; stroke-width:5; stroke-dasharray:16 14; opacity:.46; vector-effect:non-scaling-stroke; }
+    .assembly-traces circle { fill:#fffdf8; stroke-width:4; opacity:.66; vector-effect:non-scaling-stroke; }
+    .assembly-traces text { font:700 18px ui-monospace,monospace; letter-spacing:.08em; opacity:.62; }
+    .assembly-layer { position:absolute; display:block; margin:0; padding:0; border:0; border-radius:5px; background:transparent; cursor:pointer; transform-style:preserve-3d; backface-visibility:visible; transition:transform .35s ease,opacity .2s ease,filter .2s ease; }
     .assembly-layer:hover,.assembly-layer:focus-visible,.assembly-layer.selected { filter:drop-shadow(0 0 8px #f4d28e); outline:1px solid #f4d28e; }
-    .assembly-layer img { display:block; width:100%; height:100%; object-fit:contain; pointer-events:none; }
+    .assembly-layer img { display:block; width:100%; height:100%; object-fit:fill; pointer-events:none; }
     .assembly-stage.isometric .assembly-layer img { filter:drop-shadow(0 8px 5px #17252c44); }
+    .assembly-stage:not(.isometric) .assembly-layer img { filter:invert(1) sepia(.12) saturate(.7) brightness(1.22); }
     .assembly-inspector { min-height:240px; padding:16px; border:1px solid var(--line); border-radius:14px; background:#fffdf8; }
     .assembly-inspector h3 { margin:0 0 7px; font:700 21px/1.05 Georgia,serif; } .assembly-inspector p { margin-bottom:10px; color:var(--muted); font-size:12px; }
     .assembly-inspector code { display:block; margin:5px 0; font-size:10px; overflow-wrap:anywhere; }
@@ -50,9 +60,9 @@
   </header>
   <main>
     <section class="panel assembly" aria-labelledby="assembly-title">
-      <div class="assembly-head"><div><p class="eyebrow">PLATE 01 / LAYERED TECHNICAL ASSEMBLY</p><h2 id="assembly-title">A computer, assembled from objects.</h2></div><div class="plate-mark">technical vector layers<br>every part is registry-backed</div></div>
+      <div class="assembly-head"><div><p class="eyebrow">PLATE 01 / LAYERED TECHNICAL ASSEMBLY</p><h2 id="assembly-title">A computer, assembled from objects.</h2></div><div class="plate-mark">isometric first / x-ray assembly<br>every part and route is registry-backed</div></div>
       <div class="assembly-toolbar" aria-label="Assembly controls">
-        <button type="button" class="active" data-assembly-view="top">TOP</button><button type="button" data-assembly-view="front">FRONT</button><button type="button" data-assembly-view="side">SIDE</button><button type="button" data-assembly-view="isometric">ISOMETRIC</button>
+        <button type="button" data-assembly-view="top">TOP</button><button type="button" data-assembly-view="front">FRONT</button><button type="button" data-assembly-view="side">SIDE</button><button type="button" class="active" data-assembly-view="isometric">ISOMETRIC</button>
         <label for="assembly-opacity">X-RAY <input id="assembly-opacity" type="range" min="30" max="100" value="78"></label>
         <label><input id="assembly-explode" type="checkbox"> EXPLODE</label>
         <span id="assembly-groups" aria-label="Assembly layers"></span>
@@ -61,7 +71,7 @@
         <div id="assembly-stage" class="assembly-stage" role="group" aria-label="Interactive ATX desktop assembly"></div>
         <aside id="assembly-inspector" class="assembly-inspector" aria-live="polite"><p class="eyebrow">OBJECT INSPECTOR</p><h3>Select a part</h3><p>Click a layer to inspect its canonical hardware identity, glyph, and relationships.</p></aside>
       </div>
-      <p class="assembly-caption">The board is an arrangement, not a new canonical object. CPU, memory, storage, slots, power, cooling, and chipset remain independently searchable hardware objects with explicit relation edges. 🔧</p>
+      <p class="assembly-caption">The board is an arrangement, not a new canonical object. The faint routed lines show assembly-level power, memory, storage, and cooling connections; CPU, memory, storage, slots, power, cooling, and chipset remain independently searchable hardware objects with explicit relation edges. 🔧</p>
     </section>
 
     <section class="panel catalog-plate" aria-labelledby="drawing-title">
@@ -71,8 +81,8 @@
     </section>
 
     <section class="panel type-specimen" aria-labelledby="specimen-title">
-      <div class="assembly-head"><div><p class="eyebrow">PLATE 03 / FONT SPECIMEN</p><h2 id="specimen-title">Set the catalog as text.</h2></div><div class="plate-mark">semantic ligature<br>direct PUA character</div></div>
-      <p class="note">The same hardware object can be authored as readable <code>:shortcode:</code> text, shaped by OpenType, or copied as its stable project-assigned PUA character.</p>
+      <div class="assembly-head"><div><p class="eyebrow">PLATE 03 / FONT INDEX</p><h2 id="specimen-title">The font is the index; the drawing is the part.</h2></div><div class="plate-mark">semantic ligature<br>direct PUA character</div></div>
+      <p class="note">These are compact semantic handles for text and UI. The detailed, contrasting SVG plates above carry the actual physical representation; the font is not pretending to replace a parts drawing.</p>
       <div id="font-specimen" class="font-specimen" aria-live="polite"></div>
     </section>
 

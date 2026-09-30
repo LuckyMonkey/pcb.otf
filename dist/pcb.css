@@ -14,3 +14,7 @@
 }
 .pcb { font-family: "PCB", sans-serif; font-variant-ligatures: common-ligatures; }
 .pcb-emoji { font-family: "PCB Color", "PCB", sans-serif; font-variant-ligatures: common-ligatures; }
+
+.pcb { font-feature-settings: "liga" 1; text-rendering: optimizeLegibility; }
+.pcb-emoji { font-family: "PCB", "PCB Color", sans-serif; font-feature-settings: "liga" 1; text-rendering: optimizeLegibility; }
+.pcb-color { font-family: "PCB Color", "PCB", sans-serif; font-feature-settings: "liga" 1; }

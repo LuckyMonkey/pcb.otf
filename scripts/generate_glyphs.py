@@ -21,9 +21,9 @@ MONO_PAPER = PALETTE["paper"]
 # grammar of patent plates and service-manual drawings: thin ink outlines,
 # restrained section fills, and visible internal construction.
 TECHNICAL_STYLE = {
-    "body": ("#edf0ea", "0.06", "#21343b", "12"),
-    "detail": ("#bd7446", "0.10", "#46565b", "8"),
-    "knockout": ("#f7f2e8", "0.82", "#21343b", "10"),
+    "body": ("#edf0ea", "0.10", "#21343b", "12"),
+    "detail": ("#bd7446", "0.18", "#46565b", "8"),
+    "knockout": ("#f7f2e8", "0.90", "#21343b", "10"),
 }
 
 
