@@ -33,3 +33,8 @@ hardware:usb_c_cable,CONNECTS_TO,hardware:usb_c
 hardware:sata_cable,CONNECTS_TO,hardware:sata_connector
 hardware:ethernet_cable,CONNECTS_TO,hardware:rj45
 hardware:ddr4_dimm,PREDECESSOR_OF,hardware:ddr5_dimm
+hardware:atx_motherboard,IS_A,hardware:motherboard
+hardware:atx_motherboard,CONTAINS,hardware:cpu_socket
+hardware:atx_motherboard,CONTAINS,hardware:vrm
+hardware:atx_motherboard,CONTAINS,hardware:ddr4_dimm_slot
+hardware:atx_motherboard,CONTAINS,hardware:pcie_x1_slot

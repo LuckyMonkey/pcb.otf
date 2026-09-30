@@ -26,6 +26,17 @@ def main() -> int:
             if directory != "glyphs/iso" and 'data-role="body"' not in text:
                 raise SystemExit(f"SVG has no body role: {path}")
             count += 1
+        if item["glyph"]["base"] in {
+            "atx_motherboard", "mounting_hole", "cpu_socket", "cpu", "vrm", "heatsink", "fan", "chipset",
+            "ddr4_dimm_slot", "ddr4_dimm", "pcie_x16_slot", "gpu", "pcie_x1_slot", "m2_socket", "nvme_ssd",
+            "sata_connector", "sata_ssd", "atx_24pin", "cpu_power_8pin", "pcie_power_8pin", "coin_cell_battery",
+            "usb_a", "rj45", "audio_jack_35mm",
+        }:
+            for view in ("top", "front", "side", "isometric"):
+                path = ROOT / "glyphs/technical" / view / f"{name}.svg"
+                if not path.is_file() or 'data-source="pcb-original-technical-art"' not in path.read_text(encoding="utf-8"):
+                    raise SystemExit(f"missing technical SVG master: {path}")
+                count += 1
     print(f"SVG masters OK: {count} vector files")
     return 0
 

@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">Jumper</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M280 300 H720 Q750 300 750 330 V530 Q750 560 720 560 H280 Q250 560 250 530 V330 Q250 300 280 300 Z" fill="#d8d0bd" data-role="body"/>
-  <path d="M340 430 A50 50 0 1 0 440 430 A50 50 0 1 0 340 430 Z" fill="#c8cbc4" data-role="detail"/>
-  <path d="M560 430 A50 50 0 1 0 660 430 A50 50 0 1 0 560 430 Z" fill="#c8cbc4" data-role="detail"/>
+  <path d="M280 300 H720 Q750 300 750 330 V530 Q750 560 720 560 H280 Q250 560 250 530 V330 Q250 300 280 300 Z" fill="#d8d0bd" data-role="body" data-layer="body"/>
+  <path d="M340 430 A50 50 0 1 0 440 430 A50 50 0 1 0 340 430 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
+  <path d="M560 430 A50 50 0 1 0 660 430 A50 50 0 1 0 560 430 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

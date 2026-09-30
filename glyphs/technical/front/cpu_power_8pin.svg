@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="front" data-source="pcb-original-technical-art">
+  <title id="title">CPU 8-pin power connector</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M344 260 H656 Q670 260 670 274 V726 Q670 740 656 740 H344 Q330 740 330 726 V274 Q330 260 344 260 Z" fill="#d8d0bd" data-role="body" data-layer="body"/>
+  <path d="M375 305 H625 Q630 305 630 310 V690 Q630 695 625 695 H375 Q370 695 370 690 V310 Q370 305 375 305 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M393 340 A12 12 0 1 0 417 340 A12 12 0 1 0 393 340 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M393 410 A12 12 0 1 0 417 410 A12 12 0 1 0 393 410 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M393 480 A12 12 0 1 0 417 480 A12 12 0 1 0 393 480 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M393 550 A12 12 0 1 0 417 550 A12 12 0 1 0 393 550 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M393 620 A12 12 0 1 0 417 620 A12 12 0 1 0 393 620 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M393 690 A12 12 0 1 0 417 690 A12 12 0 1 0 393 690 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M448 340 A12 12 0 1 0 472 340 A12 12 0 1 0 448 340 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M448 410 A12 12 0 1 0 472 410 A12 12 0 1 0 448 410 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M448 480 A12 12 0 1 0 472 480 A12 12 0 1 0 448 480 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M448 550 A12 12 0 1 0 472 550 A12 12 0 1 0 448 550 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M448 620 A12 12 0 1 0 472 620 A12 12 0 1 0 448 620 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M448 690 A12 12 0 1 0 472 690 A12 12 0 1 0 448 690 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M503 340 A12 12 0 1 0 527 340 A12 12 0 1 0 503 340 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M503 410 A12 12 0 1 0 527 410 A12 12 0 1 0 503 410 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M503 480 A12 12 0 1 0 527 480 A12 12 0 1 0 503 480 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M503 550 A12 12 0 1 0 527 550 A12 12 0 1 0 503 550 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M503 620 A12 12 0 1 0 527 620 A12 12 0 1 0 503 620 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M503 690 A12 12 0 1 0 527 690 A12 12 0 1 0 503 690 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M558 340 A12 12 0 1 0 582 340 A12 12 0 1 0 558 340 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M558 410 A12 12 0 1 0 582 410 A12 12 0 1 0 558 410 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M558 480 A12 12 0 1 0 582 480 A12 12 0 1 0 558 480 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M558 550 A12 12 0 1 0 582 550 A12 12 0 1 0 558 550 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M558 620 A12 12 0 1 0 582 620 A12 12 0 1 0 558 620 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M558 690 A12 12 0 1 0 582 690 A12 12 0 1 0 558 690 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  </g>
+</svg>

@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">SCSI connector</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M256 320 H744 Q780 320 780 356 V634 Q780 670 744 670 H256 Q220 670 220 634 V356 Q220 320 256 320 Z" fill="#c8cbc4" data-role="body"/>
-  <path d="M272 435 A18 18 0 1 0 308 435 A18 18 0 1 0 272 435 Z" fill="#17252c" data-role="knockout"/>
-  <path d="M356 435 A18 18 0 1 0 392 435 A18 18 0 1 0 356 435 Z" fill="#17252c" data-role="knockout"/>
-  <path d="M440 435 A18 18 0 1 0 476 435 A18 18 0 1 0 440 435 Z" fill="#17252c" data-role="knockout"/>
-  <path d="M524 435 A18 18 0 1 0 560 435 A18 18 0 1 0 524 435 Z" fill="#17252c" data-role="knockout"/>
-  <path d="M608 435 A18 18 0 1 0 644 435 A18 18 0 1 0 608 435 Z" fill="#17252c" data-role="knockout"/>
-  <path d="M692 435 A18 18 0 1 0 728 435 A18 18 0 1 0 692 435 Z" fill="#17252c" data-role="knockout"/>
-  <path d="M272 555 A18 18 0 1 0 308 555 A18 18 0 1 0 272 555 Z" fill="#17252c" data-role="knockout"/>
-  <path d="M356 555 A18 18 0 1 0 392 555 A18 18 0 1 0 356 555 Z" fill="#17252c" data-role="knockout"/>
-  <path d="M440 555 A18 18 0 1 0 476 555 A18 18 0 1 0 440 555 Z" fill="#17252c" data-role="knockout"/>
-  <path d="M524 555 A18 18 0 1 0 560 555 A18 18 0 1 0 524 555 Z" fill="#17252c" data-role="knockout"/>
-  <path d="M608 555 A18 18 0 1 0 644 555 A18 18 0 1 0 608 555 Z" fill="#17252c" data-role="knockout"/>
-  <path d="M692 555 A18 18 0 1 0 728 555 A18 18 0 1 0 692 555 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M256 320 H744 Q780 320 780 356 V634 Q780 670 744 670 H256 Q220 670 220 634 V356 Q220 320 256 320 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
+  <path d="M272 435 A18 18 0 1 0 308 435 A18 18 0 1 0 272 435 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M356 435 A18 18 0 1 0 392 435 A18 18 0 1 0 356 435 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M440 435 A18 18 0 1 0 476 435 A18 18 0 1 0 440 435 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M524 435 A18 18 0 1 0 560 435 A18 18 0 1 0 524 435 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M608 435 A18 18 0 1 0 644 435 A18 18 0 1 0 608 435 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M692 435 A18 18 0 1 0 728 435 A18 18 0 1 0 692 435 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M272 555 A18 18 0 1 0 308 555 A18 18 0 1 0 272 555 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M356 555 A18 18 0 1 0 392 555 A18 18 0 1 0 356 555 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M440 555 A18 18 0 1 0 476 555 A18 18 0 1 0 440 555 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M524 555 A18 18 0 1 0 560 555 A18 18 0 1 0 524 555 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M608 555 A18 18 0 1 0 644 555 A18 18 0 1 0 608 555 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M692 555 A18 18 0 1 0 728 555 A18 18 0 1 0 692 555 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
   </g>
 </svg>

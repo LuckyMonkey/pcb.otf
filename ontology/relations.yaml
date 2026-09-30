@@ -76,3 +76,8 @@ edges:
   - {from: hardware:sata_cable, relation: CONNECTS_TO, to: hardware:sata_connector}
   - {from: hardware:ethernet_cable, relation: CONNECTS_TO, to: hardware:rj45}
   - {from: hardware:ddr4_dimm, relation: PREDECESSOR_OF, to: hardware:ddr5_dimm}
+  - {from: hardware:atx_motherboard, relation: IS_A, to: hardware:motherboard}
+  - {from: hardware:atx_motherboard, relation: CONTAINS, to: hardware:cpu_socket}
+  - {from: hardware:atx_motherboard, relation: CONTAINS, to: hardware:vrm}
+  - {from: hardware:atx_motherboard, relation: CONTAINS, to: hardware:ddr4_dimm_slot}
+  - {from: hardware:atx_motherboard, relation: CONTAINS, to: hardware:pcie_x1_slot}

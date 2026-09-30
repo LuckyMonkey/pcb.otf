@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">Antenna</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M500 760 L500 760 L500 290 L500 290 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M410 220 A90 90 0 1 0 590 220 A90 90 0 1 0 410 220 Z" fill="#17252c" data-role="body"/>
-  <path d="M350 300 Q500 120 650 300 L620 330 Q500 190 380 330 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M500 760 L500 760 L500 290 L500 290 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M410 220 A90 90 0 1 0 590 220 A90 90 0 1 0 410 220 Z" fill="#17252c" data-role="body" data-layer="body"/>
+  <path d="M350 300 Q500 120 650 300 L620 330 Q500 190 380 330 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

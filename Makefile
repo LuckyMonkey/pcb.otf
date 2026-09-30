@@ -13,9 +13,11 @@ validate:
 	$(PYTHON) scripts/validate_relations.py
 	$(PYTHON) scripts/generate_glyphs.py
 	$(PYTHON) scripts/validate_glyphs.py
+	$(PYTHON) scripts/validate_assemblies.py
 
 build: validate
 	$(PYTHON) scripts/generate_registry.py
+	$(PYTHON) scripts/generate_assemblies.py
 	$(PYTHON) scripts/build_font.py
 	$(PYTHON) scripts/subset_webfonts.py
 	$(PYTHON) scripts/validate_fonts.py

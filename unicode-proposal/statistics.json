@@ -1,16 +1,16 @@
 {
-  "version": "0.1.0",
-  "object_count": 101,
+  "version": "0.2.0",
+  "object_count": 104,
   "category_counts": {
     "passive_component": 10,
     "semiconductor": 16,
     "package": 7,
-    "board": 2,
+    "board": 3,
     "pcb_feature": 14,
     "mechanical_component": 2,
     "memory_module": 4,
     "slot": 8,
-    "socket": 1,
+    "socket": 2,
     "storage_device": 3,
     "connector": 14,
     "cooling_component": 2,
@@ -22,13 +22,14 @@
     "protocol": 4,
     "architecture": 3,
     "cable": 3,
-    "storage_medium": 1
+    "storage_medium": 1,
+    "power_component": 1
   },
   "pua": {
     "first": "U+E100",
-    "last": "U+E164",
-    "assigned": 101
+    "last": "U+E167",
+    "assigned": 104
   },
-  "shortcodes": 101,
-  "relation_count": 34
+  "shortcodes": 104,
+  "relation_count": 39
 }

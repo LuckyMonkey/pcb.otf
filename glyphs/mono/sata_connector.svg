@@ -1,18 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
   <title id="title">SATA connector</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M296 360 H704 Q740 360 740 396 V584 Q740 620 704 620 H296 Q260 620 260 584 V396 Q260 360 296 360 Z" fill="#17252c" data-role="body"/>
-  <path d="M312 475 A18 18 0 1 0 348 475 A18 18 0 1 0 312 475 Z" fill="#f5f0e6" data-role="knockout"/>
-  <path d="M380 475 A18 18 0 1 0 416 475 A18 18 0 1 0 380 475 Z" fill="#f5f0e6" data-role="knockout"/>
-  <path d="M448 475 A18 18 0 1 0 484 475 A18 18 0 1 0 448 475 Z" fill="#f5f0e6" data-role="knockout"/>
-  <path d="M516 475 A18 18 0 1 0 552 475 A18 18 0 1 0 516 475 Z" fill="#f5f0e6" data-role="knockout"/>
-  <path d="M584 475 A18 18 0 1 0 620 475 A18 18 0 1 0 584 475 Z" fill="#f5f0e6" data-role="knockout"/>
-  <path d="M652 475 A18 18 0 1 0 688 475 A18 18 0 1 0 652 475 Z" fill="#f5f0e6" data-role="knockout"/>
-  <path d="M312 555 A18 18 0 1 0 348 555 A18 18 0 1 0 312 555 Z" fill="#f5f0e6" data-role="knockout"/>
-  <path d="M380 555 A18 18 0 1 0 416 555 A18 18 0 1 0 380 555 Z" fill="#f5f0e6" data-role="knockout"/>
-  <path d="M448 555 A18 18 0 1 0 484 555 A18 18 0 1 0 448 555 Z" fill="#f5f0e6" data-role="knockout"/>
-  <path d="M516 555 A18 18 0 1 0 552 555 A18 18 0 1 0 516 555 Z" fill="#f5f0e6" data-role="knockout"/>
-  <path d="M584 555 A18 18 0 1 0 620 555 A18 18 0 1 0 584 555 Z" fill="#f5f0e6" data-role="knockout"/>
-  <path d="M652 555 A18 18 0 1 0 688 555 A18 18 0 1 0 652 555 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M284 300 H716 Q730 300 730 314 V686 Q730 700 716 700 H284 Q270 700 270 686 V314 Q270 300 284 300 Z" fill="#17252c" data-role="body" data-layer="body"/>
+  <path d="M320 360 H680 Q685 360 685 365 V635 Q685 640 680 640 H320 Q315 640 315 635 V365 Q315 360 320 360 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M350 395 L350 395 L350 605 L350 605 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M376 395 L376 395 L376 605 L376 605 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M402 395 L402 395 L402 605 L402 605 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M428 395 L428 395 L428 605 L428 605 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M454 395 L454 395 L454 605 L454 605 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M480 395 L480 395 L480 605 L480 605 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M506 395 L506 395 L506 605 L506 605 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M532 395 L532 395 L532 605 L532 605 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M558 395 L558 395 L558 605 L558 605 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M584 395 L584 395 L584 605 L584 605 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M610 395 L610 395 L610 605 L610 605 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M636 395 L636 395 L636 605 L636 605 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

@@ -9,6 +9,7 @@ from pathlib import Path
 import yaml
 
 from hardware_designs import PALETTE, design_for
+from technical_art import TECHNICAL_BASES, technical_for
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,13 +25,13 @@ def mono_parts(parts: list[tuple[str, str, str]]) -> list[tuple[str, str, str]]:
     return [(data, MONO_INK if role == "body" else MONO_PAPER, role) for data, _fill, role in parts]
 
 
-def svg_text(label: str, parts: list[tuple[str, str, str]], mode: str) -> str:
-    iso = mode == "iso"
+def svg_text(label: str, parts: list[tuple[str, str, str]], mode: str, view: str, source: str = "pcb-original-art") -> str:
+    iso = view == "isometric"
     selected = mono_parts(parts) if mode == "mono" else parts
     transform = ' transform="matrix(.56 .20 -.56 .20 500 300)"' if iso else ""
-    elements = [f'  <path d="{html.escape(data, quote=True)}" fill="{fill}" data-role="{role}"/>' for data, fill, role in selected]
+    elements = [f'  <path d="{html.escape(data, quote=True)}" fill="{fill}" data-role="{role}" data-layer="{role}"/>' for data, fill, role in selected]
     return "\n".join([
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="{view}" data-source="{source}">',
         f'  <title id="title">{html.escape(label)}</title>',
         f'  <g fill-rule="evenodd" clip-rule="evenodd"{transform}>',
         *elements,
@@ -44,11 +45,23 @@ def main() -> int:
     data = source()
     for item in data["objects"]:
         base = item["glyph"]["base"]
+        name = item["id"].split(":", 1)[1]
+        if base in TECHNICAL_BASES:
+            for view in ("top", "front", "side", "isometric"):
+                parts = technical_for(base, view)
+                mode = "color"
+                technical_path = ROOT / "glyphs/technical" / view / f"{name}.svg"
+                technical_path.parent.mkdir(parents=True, exist_ok=True)
+                technical_path.write_text(svg_text(item["label"], parts, mode, view, "pcb-original-technical-art"), encoding="utf-8")
+            (ROOT / "glyphs/color" / f"{name}.svg").write_text((ROOT / "glyphs/technical/top" / f"{name}.svg").read_text(encoding="utf-8"), encoding="utf-8")
+            (ROOT / "glyphs/mono" / f"{name}.svg").write_text(svg_text(item["label"], technical_for(base, "top"), "mono", "top", "pcb-original-technical-art"), encoding="utf-8")
+            (ROOT / "glyphs/iso" / f"{name}.svg").write_text((ROOT / "glyphs/technical/isometric" / f"{name}.svg").read_text(encoding="utf-8"), encoding="utf-8")
+            continue
         parts = design_for(base)
-        for mode, key, directory in (("mono", "monochrome", "glyphs/mono"), ("color", "color", "glyphs/color"), ("iso", "isometric", "glyphs/iso")):
-            path = ROOT / directory / f"{item['id'].split(':', 1)[1]}.svg"
+        for mode, view, directory in (("mono", "top", "glyphs/mono"), ("color", "top", "glyphs/color"), ("color", "isometric", "glyphs/iso")):
+            path = ROOT / directory / f"{name}.svg"
             path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text(svg_text(item["label"], parts, mode), encoding="utf-8")
+            path.write_text(svg_text(item["label"], parts, mode, view), encoding="utf-8")
     print(f"generated {len(data['objects'])} monochrome, color, and isometric SVG masters")
     return 0
 

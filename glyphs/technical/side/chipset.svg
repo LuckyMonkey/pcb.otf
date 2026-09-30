@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="side" data-source="pcb-original-technical-art">
+  <title id="title">Chipset</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M270 340 H730 Q740 340 740 350 V550 Q740 560 730 560 H270 Q260 560 260 550 V350 Q260 340 270 340 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
+  <path d="M325 375 H675 Q680 375 680 380 V465 Q680 470 675 470 H325 Q320 470 320 465 V380 Q320 375 325 375 Z" fill="#d8d0bd" data-role="detail" data-layer="detail"/>
+  <path d="M290 560 H710 V560 H290 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  </g>
+</svg>

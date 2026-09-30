@@ -100,3 +100,6 @@ hardware:scsi_connector,SCSI connector,:scsi_connector:,hardware_scsi_connector,
 hardware:vga,VGA connector,:vga:,hardware_vga,U+E161
 hardware:ps2,PS/2 connector,:ps2:,hardware_ps2,U+E162
 hardware:sd_card,SD card,:sd_card:,hardware_sd_card,U+E163
+hardware:atx_motherboard,ATX motherboard,:atx_motherboard:,hardware_atx_motherboard,U+E165
+hardware:cpu_socket,CPU socket,:cpu_socket:,hardware_cpu_socket,U+E166
+hardware:vrm,Voltage regulator module,:vrm:,hardware_vrm,U+E167

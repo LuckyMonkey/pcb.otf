@@ -40,7 +40,7 @@ Unicode emoji or standards-body logos.
 
 ## MVP coverage
 
-The initial vertical slice contains 101 canonical objects and 34 typed relation
+The initial vertical slice contains 104 canonical objects and 39 typed relation
 edges across:
 
 - passives and semiconductors;
@@ -50,7 +50,8 @@ edges across:
 - PCIe, ISA, PCI, AGP, M.2, SATA, IDE, and SCSI;
 - USB-A, USB-C, HDMI, DisplayPort, VGA, PS/2, RJ45, audio, and power connectors;
 - NVMe, SATA SSD, HDD, SD card, cables, power, cooling, networking, architectures,
-  and historical hardware.
+  and historical hardware. The generic ATX assembly uses 31 layered object
+  instances from the first computer-hardware plate.
 
 The object model deliberately distinguishes connector geometry from protocol,
 socket from device, memory generation from module form factor, and physical slot
@@ -91,7 +92,7 @@ top-down/isometric SVG use, and PUA copy behavior. ♿
 
 ```sh
 make install   # once: creates .venv and installs open Python dependencies
-make build     # validate, generate 303 SVG masters, compile fonts, export PNGs
+make build     # validate, generate technical/fallback SVG masters, compile fonts, export PNGs
 make test      # build the deployable site and run ontology/font/shaping/web tests
 make site      # write the compact GitHub Pages artifact to _site/
 make clean
@@ -105,7 +106,7 @@ source; no proprietary font application is required. PNG export needs either
 
 The hardware object is canonical. Its ID survives changes to labels, filenames,
 glyph outlines, and language. `registry/codepoints.csv` is append-only after a
-release. The current project-assigned PUA range is U+E100–U+E164; these are valid
+release. The current project-assigned PUA range is U+E100–U+E167; these are valid
 Unicode code points but are not official Unicode Consortium hardware characters.
 `unicode-proposal/` documents the future-standardization strategy.
 

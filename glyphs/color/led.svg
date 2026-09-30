@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">Light-emitting diode</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M120 500 H360 V500 H120 Z" fill="#c8cbc4" data-role="detail"/>
-  <path d="M360 350 L650 500 L360 650 Z" fill="#b85d4e" data-role="body"/>
-  <path d="M650 340 L650 340 L650 660 L650 660 Z" fill="#17252c" data-role="detail"/>
-  <path d="M650 500 H880 V500 H650 Z" fill="#c8cbc4" data-role="detail"/>
+  <path d="M120 500 H360 V500 H120 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
+  <path d="M360 350 L650 500 L360 650 Z" fill="#b85d4e" data-role="body" data-layer="body"/>
+  <path d="M650 340 L650 340 L650 660 L650 660 Z" fill="#17252c" data-role="detail" data-layer="detail"/>
+  <path d="M650 500 H880 V500 H650 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

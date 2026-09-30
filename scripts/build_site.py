@@ -22,6 +22,7 @@ def main() -> int:
     shutil.copytree(ROOT / "docs", SITE / "docs", dirs_exist_ok=True)
     shutil.copytree(ROOT / "glyphs/color", SITE / "glyphs/color", dirs_exist_ok=True)
     shutil.copytree(ROOT / "glyphs/iso", SITE / "glyphs/iso", dirs_exist_ok=True)
+    shutil.copytree(ROOT / "glyphs/technical", SITE / "glyphs/technical", dirs_exist_ok=True)
     dist = SITE / "dist"
     dist.mkdir()
     for filename in ("PCB.woff2", "PCB-Color.woff2", "pcb.css"):

@@ -41,11 +41,32 @@ const usb = get("hardware:usb_c");
 usb.svg;       // monochrome vector
 usb.color_svg; // top-down/color vector
 usb.iso_svg;   // angled/isometric vector
+usb.technical_top_svg;
+usb.technical_front_svg;
+usb.technical_side_svg;
+usb.technical_iso_svg;
 ```
 
 The isometric master is a deterministic geometric view of the same canonical
 object, not a second identity. Applications can use either renderer in diagrams,
 cards, or hardware assemblies. 📐
+
+## Layered assemblies
+
+Assemblies are compositions of canonical objects, not new Unicode identities:
+
+```js
+import { assembly, instances } from "pcb-otf";
+
+const scene = assembly("assembly:generic_atx_desktop");
+const parts = instances("assembly:generic_atx_desktop");
+```
+
+The specimen renderer layers technical SVG views with explicit position, scale,
+z-order, opacity, and exploded offsets. The same scene can render as a
+top-down plate, front/side profile, or isometric X-ray view. Use the font for
+compact symbols and labels; use technical SVG masters when physical detail
+matters. 🧰
 
 ## Graph API
 

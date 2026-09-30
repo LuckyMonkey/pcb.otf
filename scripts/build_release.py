@@ -29,7 +29,7 @@ def main() -> int:
         "README.md", "LICENSE", "CHANGELOG.md", "CONTRIBUTING.md",
         "CODE_OF_CONDUCT.md", "SECURITY.md", "CITATION.cff", "Makefile",
         "project.yaml", "requirements.txt", "demo.html",
-        "ontology", "registry", "glyphs/mono", "glyphs/color", "glyphs/iso",
+        "ontology", "registry", "assemblies", "glyphs/mono", "glyphs/color", "glyphs/iso", "glyphs/technical",
         "packages/js", "scripts", "docs", "unicode-proposal", "dist",
     ]
     with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as bundle:

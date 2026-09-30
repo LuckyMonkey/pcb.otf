@@ -308,3 +308,13 @@ hardware:ps2,PS2,alias
 hardware:sd_card,SD card,label
 hardware:sd_card,:sd_card:,shortcode
 hardware:sd_card,Secure Digital,alias
+hardware:atx_motherboard,ATX motherboard,label
+hardware:atx_motherboard,:atx_motherboard:,shortcode
+hardware:atx_motherboard,ATX mainboard,alias
+hardware:cpu_socket,CPU socket,label
+hardware:cpu_socket,:cpu_socket:,shortcode
+hardware:cpu_socket,processor socket,alias
+hardware:vrm,Voltage regulator module,label
+hardware:vrm,:vrm:,shortcode
+hardware:vrm,VRM,alias
+hardware:vrm,CPU power delivery,alias

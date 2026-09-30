@@ -100,3 +100,6 @@ hardware:scsi_connector,SCSI connector,connector,storage,U+E160,,hardware_scs
 hardware:vga,VGA connector,connector,display,U+E161,,hardware_vga,glyphs/mono/vga.svg,glyphs/color/vga.svg,glyphs/iso/vga.svg
 hardware:ps2,PS/2 connector,connector,input,U+E162,,hardware_ps2,glyphs/mono/ps2.svg,glyphs/color/ps2.svg,glyphs/iso/ps2.svg
 hardware:sd_card,SD card,storage_medium,storage,U+E163,,hardware_sd_card,glyphs/mono/sd_card.svg,glyphs/color/sd_card.svg,glyphs/iso/sd_card.svg
+hardware:atx_motherboard,ATX motherboard,board,computer,U+E165,,hardware_atx_motherboard,glyphs/mono/atx_motherboard.svg,glyphs/color/atx_motherboard.svg,glyphs/iso/atx_motherboard.svg
+hardware:cpu_socket,CPU socket,socket,computer,U+E166,,hardware_cpu_socket,glyphs/mono/cpu_socket.svg,glyphs/color/cpu_socket.svg,glyphs/iso/cpu_socket.svg
+hardware:vrm,Voltage regulator module,power_component,power,U+E167,,hardware_vrm,glyphs/mono/vrm.svg,glyphs/color/vrm.svg,glyphs/iso/vrm.svg

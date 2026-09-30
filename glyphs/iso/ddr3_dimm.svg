@@ -1,37 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">DDR3 DIMM</title>
   <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
-  <path d="M165 315 H835 Q855 315 855 335 V665 Q855 685 835 685 H165 Q145 685 145 665 V335 Q145 315 165 315 Z" fill="#1f554d" data-role="body"/>
-  <path d="M455 685 H510 V745 H455 Z" fill="#f5f0e6" data-role="knockout"/>
-  <path d="M240 365 H290 Q300 365 300 375 V535 Q300 545 290 545 H240 Q230 545 230 535 V375 Q230 365 240 365 Z" fill="#5b83a0" data-role="body"/>
-  <path d="M340 365 H390 Q400 365 400 375 V535 Q400 545 390 545 H340 Q330 545 330 535 V375 Q330 365 340 365 Z" fill="#5b83a0" data-role="body"/>
-  <path d="M440 365 H490 Q500 365 500 375 V535 Q500 545 490 545 H440 Q430 545 430 535 V375 Q430 365 440 365 Z" fill="#5b83a0" data-role="body"/>
-  <path d="M540 365 H590 Q600 365 600 375 V535 Q600 545 590 545 H540 Q530 545 530 535 V375 Q530 365 540 365 Z" fill="#5b83a0" data-role="body"/>
-  <path d="M640 365 H690 Q700 365 700 375 V535 Q700 545 690 545 H640 Q630 545 630 535 V375 Q630 365 640 365 Z" fill="#5b83a0" data-role="body"/>
-  <path d="M740 365 H790 Q800 365 800 375 V535 Q800 545 790 545 H740 Q730 545 730 535 V375 Q730 365 740 365 Z" fill="#5b83a0" data-role="body"/>
-  <path d="M172 690 H180 Q182 690 182 692 V732 Q182 734 180 734 H172 Q170 734 170 732 V692 Q170 690 172 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M200 690 H208 Q210 690 210 692 V732 Q210 734 208 734 H200 Q198 734 198 732 V692 Q198 690 200 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M228 690 H236 Q238 690 238 692 V732 Q238 734 236 734 H228 Q226 734 226 732 V692 Q226 690 228 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M256 690 H264 Q266 690 266 692 V732 Q266 734 264 734 H256 Q254 734 254 732 V692 Q254 690 256 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M284 690 H292 Q294 690 294 692 V732 Q294 734 292 734 H284 Q282 734 282 732 V692 Q282 690 284 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M312 690 H320 Q322 690 322 692 V732 Q322 734 320 734 H312 Q310 734 310 732 V692 Q310 690 312 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M340 690 H348 Q350 690 350 692 V732 Q350 734 348 734 H340 Q338 734 338 732 V692 Q338 690 340 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M368 690 H376 Q378 690 378 692 V732 Q378 734 376 734 H368 Q366 734 366 732 V692 Q366 690 368 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M396 690 H404 Q406 690 406 692 V732 Q406 734 404 734 H396 Q394 734 394 732 V692 Q394 690 396 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M424 690 H432 Q434 690 434 692 V732 Q434 734 432 734 H424 Q422 734 422 732 V692 Q422 690 424 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M452 690 H460 Q462 690 462 692 V732 Q462 734 460 734 H452 Q450 734 450 732 V692 Q450 690 452 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M480 690 H488 Q490 690 490 692 V732 Q490 734 488 734 H480 Q478 734 478 732 V692 Q478 690 480 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M508 690 H516 Q518 690 518 692 V732 Q518 734 516 734 H508 Q506 734 506 732 V692 Q506 690 508 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M536 690 H544 Q546 690 546 692 V732 Q546 734 544 734 H536 Q534 734 534 732 V692 Q534 690 536 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M564 690 H572 Q574 690 574 692 V732 Q574 734 572 734 H564 Q562 734 562 732 V692 Q562 690 564 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M592 690 H600 Q602 690 602 692 V732 Q602 734 600 734 H592 Q590 734 590 732 V692 Q590 690 592 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M620 690 H628 Q630 690 630 692 V732 Q630 734 628 734 H620 Q618 734 618 732 V692 Q618 690 620 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M648 690 H656 Q658 690 658 692 V732 Q658 734 656 734 H648 Q646 734 646 732 V692 Q646 690 648 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M676 690 H684 Q686 690 686 692 V732 Q686 734 684 734 H676 Q674 734 674 732 V692 Q674 690 676 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M704 690 H712 Q714 690 714 692 V732 Q714 734 712 734 H704 Q702 734 702 732 V692 Q702 690 704 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M732 690 H740 Q742 690 742 692 V732 Q742 734 740 734 H732 Q730 734 730 732 V692 Q730 690 732 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M760 690 H768 Q770 690 770 692 V732 Q770 734 768 734 H760 Q758 734 758 732 V692 Q758 690 760 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M788 690 H796 Q798 690 798 692 V732 Q798 734 796 734 H788 Q786 734 786 732 V692 Q786 690 788 690 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M816 690 H824 Q826 690 826 692 V732 Q826 734 824 734 H816 Q814 734 814 732 V692 Q814 690 816 690 Z" fill="#d3a44c" data-role="detail"/>
+  <path d="M165 315 H835 Q855 315 855 335 V665 Q855 685 835 685 H165 Q145 685 145 665 V335 Q145 315 165 315 Z" fill="#1f554d" data-role="body" data-layer="body"/>
+  <path d="M455 685 H510 V745 H455 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M240 365 H290 Q300 365 300 375 V535 Q300 545 290 545 H240 Q230 545 230 535 V375 Q230 365 240 365 Z" fill="#5b83a0" data-role="body" data-layer="body"/>
+  <path d="M340 365 H390 Q400 365 400 375 V535 Q400 545 390 545 H340 Q330 545 330 535 V375 Q330 365 340 365 Z" fill="#5b83a0" data-role="body" data-layer="body"/>
+  <path d="M440 365 H490 Q500 365 500 375 V535 Q500 545 490 545 H440 Q430 545 430 535 V375 Q430 365 440 365 Z" fill="#5b83a0" data-role="body" data-layer="body"/>
+  <path d="M540 365 H590 Q600 365 600 375 V535 Q600 545 590 545 H540 Q530 545 530 535 V375 Q530 365 540 365 Z" fill="#5b83a0" data-role="body" data-layer="body"/>
+  <path d="M640 365 H690 Q700 365 700 375 V535 Q700 545 690 545 H640 Q630 545 630 535 V375 Q630 365 640 365 Z" fill="#5b83a0" data-role="body" data-layer="body"/>
+  <path d="M740 365 H790 Q800 365 800 375 V535 Q800 545 790 545 H740 Q730 545 730 535 V375 Q730 365 740 365 Z" fill="#5b83a0" data-role="body" data-layer="body"/>
+  <path d="M172 690 H180 Q182 690 182 692 V732 Q182 734 180 734 H172 Q170 734 170 732 V692 Q170 690 172 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M200 690 H208 Q210 690 210 692 V732 Q210 734 208 734 H200 Q198 734 198 732 V692 Q198 690 200 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M228 690 H236 Q238 690 238 692 V732 Q238 734 236 734 H228 Q226 734 226 732 V692 Q226 690 228 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M256 690 H264 Q266 690 266 692 V732 Q266 734 264 734 H256 Q254 734 254 732 V692 Q254 690 256 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M284 690 H292 Q294 690 294 692 V732 Q294 734 292 734 H284 Q282 734 282 732 V692 Q282 690 284 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M312 690 H320 Q322 690 322 692 V732 Q322 734 320 734 H312 Q310 734 310 732 V692 Q310 690 312 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M340 690 H348 Q350 690 350 692 V732 Q350 734 348 734 H340 Q338 734 338 732 V692 Q338 690 340 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M368 690 H376 Q378 690 378 692 V732 Q378 734 376 734 H368 Q366 734 366 732 V692 Q366 690 368 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M396 690 H404 Q406 690 406 692 V732 Q406 734 404 734 H396 Q394 734 394 732 V692 Q394 690 396 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M424 690 H432 Q434 690 434 692 V732 Q434 734 432 734 H424 Q422 734 422 732 V692 Q422 690 424 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M452 690 H460 Q462 690 462 692 V732 Q462 734 460 734 H452 Q450 734 450 732 V692 Q450 690 452 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M480 690 H488 Q490 690 490 692 V732 Q490 734 488 734 H480 Q478 734 478 732 V692 Q478 690 480 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M508 690 H516 Q518 690 518 692 V732 Q518 734 516 734 H508 Q506 734 506 732 V692 Q506 690 508 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M536 690 H544 Q546 690 546 692 V732 Q546 734 544 734 H536 Q534 734 534 732 V692 Q534 690 536 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M564 690 H572 Q574 690 574 692 V732 Q574 734 572 734 H564 Q562 734 562 732 V692 Q562 690 564 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M592 690 H600 Q602 690 602 692 V732 Q602 734 600 734 H592 Q590 734 590 732 V692 Q590 690 592 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M620 690 H628 Q630 690 630 692 V732 Q630 734 628 734 H620 Q618 734 618 732 V692 Q618 690 620 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M648 690 H656 Q658 690 658 692 V732 Q658 734 656 734 H648 Q646 734 646 732 V692 Q646 690 648 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M676 690 H684 Q686 690 686 692 V732 Q686 734 684 734 H676 Q674 734 674 732 V692 Q674 690 676 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M704 690 H712 Q714 690 714 692 V732 Q714 734 712 734 H704 Q702 734 702 732 V692 Q702 690 704 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M732 690 H740 Q742 690 742 692 V732 Q742 734 740 734 H732 Q730 734 730 732 V692 Q730 690 732 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M760 690 H768 Q770 690 770 692 V732 Q770 734 768 734 H760 Q758 734 758 732 V692 Q758 690 760 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M788 690 H796 Q798 690 798 692 V732 Q798 734 796 734 H788 Q786 734 786 732 V692 Q786 690 788 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M816 690 H824 Q826 690 826 692 V732 Q826 734 824 734 H816 Q814 734 814 732 V692 Q814 690 816 690 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

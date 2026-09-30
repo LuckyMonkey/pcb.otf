@@ -18,11 +18,13 @@ if (!usb || usb.shortcode !== ':usb_c:') process.exit(1);
 if (pcb.resolveShortcode(':ddr4_dimm:').id !== 'hardware:ddr4_dimm') process.exit(2);
 if (!pcb.search('memory_generation').some((item) => item.id === 'hardware:ddr4_dimm')) process.exit(3);
 if (!pcb.connectionsFor('hardware:nvme_ssd').some((edge) => edge.to === 'hardware:m2_socket')) process.exit(4);
+if (pcb.assembly('assembly:generic_atx_desktop').layers.length !== 31) process.exit(5);
+if (pcb.instances('assembly:generic_atx_desktop').some((item) => !item.object_record)) process.exit(6);
 console.log(JSON.stringify({objects: pcb.registry.length, usb: usb.char, parents: pcb.parents('hardware:ddr4_dimm')}));
 """
         result = subprocess.run(["node", "-e", script], cwd=ROOT, check=True, capture_output=True, text=True)
         payload = json.loads(result.stdout)
-        self.assertEqual(payload["objects"], 101)
+        self.assertEqual(payload["objects"], 104)
         self.assertEqual(payload["parents"], ["hardware:memory"])
 
 

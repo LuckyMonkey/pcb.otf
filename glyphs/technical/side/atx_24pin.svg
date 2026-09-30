@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="side" data-source="pcb-original-technical-art">
+  <title id="title">ATX 24-pin power connector</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M304 160 H696 Q710 160 710 174 V826 Q710 840 696 840 H304 Q290 840 290 826 V174 Q290 160 304 160 Z" fill="#d8d0bd" data-role="body" data-layer="body"/>
+  <path d="M335 205 H665 Q670 205 670 210 V790 Q670 795 665 795 H335 Q330 795 330 790 V210 Q330 205 335 205 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M353 240 A12 12 0 1 0 377 240 A12 12 0 1 0 353 240 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M353 310 A12 12 0 1 0 377 310 A12 12 0 1 0 353 310 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M353 380 A12 12 0 1 0 377 380 A12 12 0 1 0 353 380 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M353 450 A12 12 0 1 0 377 450 A12 12 0 1 0 353 450 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M353 520 A12 12 0 1 0 377 520 A12 12 0 1 0 353 520 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M353 590 A12 12 0 1 0 377 590 A12 12 0 1 0 353 590 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M353 660 A12 12 0 1 0 377 660 A12 12 0 1 0 353 660 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M353 730 A12 12 0 1 0 377 730 A12 12 0 1 0 353 730 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M353 800 A12 12 0 1 0 377 800 A12 12 0 1 0 353 800 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M408 240 A12 12 0 1 0 432 240 A12 12 0 1 0 408 240 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M408 310 A12 12 0 1 0 432 310 A12 12 0 1 0 408 310 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M408 380 A12 12 0 1 0 432 380 A12 12 0 1 0 408 380 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M408 450 A12 12 0 1 0 432 450 A12 12 0 1 0 408 450 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M408 520 A12 12 0 1 0 432 520 A12 12 0 1 0 408 520 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M408 590 A12 12 0 1 0 432 590 A12 12 0 1 0 408 590 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M408 660 A12 12 0 1 0 432 660 A12 12 0 1 0 408 660 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M408 730 A12 12 0 1 0 432 730 A12 12 0 1 0 408 730 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M408 800 A12 12 0 1 0 432 800 A12 12 0 1 0 408 800 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M463 240 A12 12 0 1 0 487 240 A12 12 0 1 0 463 240 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M463 310 A12 12 0 1 0 487 310 A12 12 0 1 0 463 310 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M463 380 A12 12 0 1 0 487 380 A12 12 0 1 0 463 380 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M463 450 A12 12 0 1 0 487 450 A12 12 0 1 0 463 450 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M463 520 A12 12 0 1 0 487 520 A12 12 0 1 0 463 520 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M463 590 A12 12 0 1 0 487 590 A12 12 0 1 0 463 590 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M463 660 A12 12 0 1 0 487 660 A12 12 0 1 0 463 660 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M463 730 A12 12 0 1 0 487 730 A12 12 0 1 0 463 730 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M463 800 A12 12 0 1 0 487 800 A12 12 0 1 0 463 800 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M518 240 A12 12 0 1 0 542 240 A12 12 0 1 0 518 240 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M518 310 A12 12 0 1 0 542 310 A12 12 0 1 0 518 310 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M518 380 A12 12 0 1 0 542 380 A12 12 0 1 0 518 380 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M518 450 A12 12 0 1 0 542 450 A12 12 0 1 0 518 450 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M518 520 A12 12 0 1 0 542 520 A12 12 0 1 0 518 520 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M518 590 A12 12 0 1 0 542 590 A12 12 0 1 0 518 590 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M518 660 A12 12 0 1 0 542 660 A12 12 0 1 0 518 660 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M518 730 A12 12 0 1 0 542 730 A12 12 0 1 0 518 730 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M518 800 A12 12 0 1 0 542 800 A12 12 0 1 0 518 800 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M573 240 A12 12 0 1 0 597 240 A12 12 0 1 0 573 240 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M573 310 A12 12 0 1 0 597 310 A12 12 0 1 0 573 310 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M573 380 A12 12 0 1 0 597 380 A12 12 0 1 0 573 380 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M573 450 A12 12 0 1 0 597 450 A12 12 0 1 0 573 450 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M573 520 A12 12 0 1 0 597 520 A12 12 0 1 0 573 520 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M573 590 A12 12 0 1 0 597 590 A12 12 0 1 0 573 590 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M573 660 A12 12 0 1 0 597 660 A12 12 0 1 0 573 660 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M573 730 A12 12 0 1 0 597 730 A12 12 0 1 0 573 730 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M573 800 A12 12 0 1 0 597 800 A12 12 0 1 0 573 800 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M628 240 A12 12 0 1 0 652 240 A12 12 0 1 0 628 240 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M628 310 A12 12 0 1 0 652 310 A12 12 0 1 0 628 310 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M628 380 A12 12 0 1 0 652 380 A12 12 0 1 0 628 380 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M628 450 A12 12 0 1 0 652 450 A12 12 0 1 0 628 450 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M628 520 A12 12 0 1 0 652 520 A12 12 0 1 0 628 520 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M628 590 A12 12 0 1 0 652 590 A12 12 0 1 0 628 590 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M628 660 A12 12 0 1 0 652 660 A12 12 0 1 0 628 660 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M628 730 A12 12 0 1 0 652 730 A12 12 0 1 0 628 730 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M628 800 A12 12 0 1 0 652 800 A12 12 0 1 0 628 800 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  </g>
+</svg>

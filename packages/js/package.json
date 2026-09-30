@@ -1,6 +1,6 @@
 {
   "name": "pcb-otf",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Semantic metadata and relationship helpers for PCB.OTF",
   "main": "index.js",
   "types": "index.d.ts",

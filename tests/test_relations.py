@@ -15,7 +15,7 @@ class RelationTest(unittest.TestCase):
 
     def test_no_dangling_edges(self):
         edges = self.data["edges"]
-        self.assertEqual(len(edges), 34)
+        self.assertEqual(len(edges), 39)
         for edge in edges:
             self.assertIn(edge["from"], self.objects)
             self.assertIn(edge["to"], self.objects)

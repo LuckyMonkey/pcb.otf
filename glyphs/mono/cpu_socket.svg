@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
+  <title id="title">CPU socket</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M240 210 H760 Q780 210 780 230 V750 Q780 770 760 770 H240 Q220 770 220 750 V230 Q220 210 240 210 Z" fill="#17252c" data-role="body" data-layer="body"/>
+  <path d="M275 255 H725 Q735 255 735 265 V715 Q735 725 725 725 H275 Q265 725 265 715 V265 Q265 255 275 255 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M313 295 H687 Q695 295 695 303 V677 Q695 685 687 685 H313 Q305 685 305 677 V303 Q305 295 313 295 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M288 185 H300 Q303 185 303 188 V207 Q303 210 300 210 H288 Q285 210 285 207 V188 Q285 185 288 185 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M288 790 H300 Q303 790 303 793 V812 Q303 815 300 815 H288 Q285 815 285 812 V793 Q285 790 288 790 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M332 185 H344 Q347 185 347 188 V207 Q347 210 344 210 H332 Q329 210 329 207 V188 Q329 185 332 185 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M332 790 H344 Q347 790 347 793 V812 Q347 815 344 815 H332 Q329 815 329 812 V793 Q329 790 332 790 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M376 185 H388 Q391 185 391 188 V207 Q391 210 388 210 H376 Q373 210 373 207 V188 Q373 185 376 185 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M376 790 H388 Q391 790 391 793 V812 Q391 815 388 815 H376 Q373 815 373 812 V793 Q373 790 376 790 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M420 185 H432 Q435 185 435 188 V207 Q435 210 432 210 H420 Q417 210 417 207 V188 Q417 185 420 185 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M420 790 H432 Q435 790 435 793 V812 Q435 815 432 815 H420 Q417 815 417 812 V793 Q417 790 420 790 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M464 185 H476 Q479 185 479 188 V207 Q479 210 476 210 H464 Q461 210 461 207 V188 Q461 185 464 185 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M464 790 H476 Q479 790 479 793 V812 Q479 815 476 815 H464 Q461 815 461 812 V793 Q461 790 464 790 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M508 185 H520 Q523 185 523 188 V207 Q523 210 520 210 H508 Q505 210 505 207 V188 Q505 185 508 185 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M508 790 H520 Q523 790 523 793 V812 Q523 815 520 815 H508 Q505 815 505 812 V793 Q505 790 508 790 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M552 185 H564 Q567 185 567 188 V207 Q567 210 564 210 H552 Q549 210 549 207 V188 Q549 185 552 185 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M552 790 H564 Q567 790 567 793 V812 Q567 815 564 815 H552 Q549 815 549 812 V793 Q549 790 552 790 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M596 185 H608 Q611 185 611 188 V207 Q611 210 608 210 H596 Q593 210 593 207 V188 Q593 185 596 185 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M596 790 H608 Q611 790 611 793 V812 Q611 815 608 815 H596 Q593 815 593 812 V793 Q593 790 596 790 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M640 185 H652 Q655 185 655 188 V207 Q655 210 652 210 H640 Q637 210 637 207 V188 Q637 185 640 185 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M640 790 H652 Q655 790 655 793 V812 Q655 815 652 815 H640 Q637 815 637 812 V793 Q637 790 640 790 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M684 185 H696 Q699 185 699 188 V207 Q699 210 696 210 H684 Q681 210 681 207 V188 Q681 185 684 185 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M684 790 H696 Q699 790 699 793 V812 Q699 815 696 815 H684 Q681 815 681 812 V793 Q681 790 684 790 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M728 185 H740 Q743 185 743 188 V207 Q743 210 740 210 H728 Q725 210 725 207 V188 Q725 185 728 185 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M728 790 H740 Q743 790 743 793 V812 Q743 815 740 815 H728 Q725 815 725 812 V793 Q725 790 728 790 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M188 285 H207 Q210 285 210 288 V300 Q210 303 207 303 H188 Q185 303 185 300 V288 Q185 285 188 285 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M793 285 H812 Q815 285 815 288 V300 Q815 303 812 303 H793 Q790 303 790 300 V288 Q790 285 793 285 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M188 329 H207 Q210 329 210 332 V344 Q210 347 207 347 H188 Q185 347 185 344 V332 Q185 329 188 329 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M793 329 H812 Q815 329 815 332 V344 Q815 347 812 347 H793 Q790 347 790 344 V332 Q790 329 793 329 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M188 373 H207 Q210 373 210 376 V388 Q210 391 207 391 H188 Q185 391 185 388 V376 Q185 373 188 373 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M793 373 H812 Q815 373 815 376 V388 Q815 391 812 391 H793 Q790 391 790 388 V376 Q790 373 793 373 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M188 417 H207 Q210 417 210 420 V432 Q210 435 207 435 H188 Q185 435 185 432 V420 Q185 417 188 417 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M793 417 H812 Q815 417 815 420 V432 Q815 435 812 435 H793 Q790 435 790 432 V420 Q790 417 793 417 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M188 461 H207 Q210 461 210 464 V476 Q210 479 207 479 H188 Q185 479 185 476 V464 Q185 461 188 461 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M793 461 H812 Q815 461 815 464 V476 Q815 479 812 479 H793 Q790 479 790 476 V464 Q790 461 793 461 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M188 505 H207 Q210 505 210 508 V520 Q210 523 207 523 H188 Q185 523 185 520 V508 Q185 505 188 505 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M793 505 H812 Q815 505 815 508 V520 Q815 523 812 523 H793 Q790 523 790 520 V508 Q790 505 793 505 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M188 549 H207 Q210 549 210 552 V564 Q210 567 207 567 H188 Q185 567 185 564 V552 Q185 549 188 549 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M793 549 H812 Q815 549 815 552 V564 Q815 567 812 567 H793 Q790 567 790 564 V552 Q790 549 793 549 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M188 593 H207 Q210 593 210 596 V608 Q210 611 207 611 H188 Q185 611 185 608 V596 Q185 593 188 593 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M793 593 H812 Q815 593 815 596 V608 Q815 611 812 611 H793 Q790 611 790 608 V596 Q790 593 793 593 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M188 637 H207 Q210 637 210 640 V652 Q210 655 207 655 H188 Q185 655 185 652 V640 Q185 637 188 637 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M793 637 H812 Q815 637 815 640 V652 Q815 655 812 655 H793 Q790 655 790 652 V640 Q790 637 793 637 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M188 681 H207 Q210 681 210 684 V696 Q210 699 207 699 H188 Q185 699 185 696 V684 Q185 681 188 681 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M793 681 H812 Q815 681 815 684 V696 Q815 699 812 699 H793 Q790 699 790 696 V684 Q790 681 793 681 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M188 725 H207 Q210 725 210 728 V740 Q210 743 207 743 H188 Q185 743 185 740 V728 Q185 725 188 725 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M793 725 H812 Q815 725 815 728 V740 Q815 743 812 743 H793 Q790 743 790 740 V728 Q790 725 793 725 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  </g>
+</svg>

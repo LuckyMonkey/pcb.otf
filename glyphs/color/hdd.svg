@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">Hard disk drive</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M208 220 H792 Q830 220 830 258 V742 Q830 780 792 780 H208 Q170 780 170 742 V258 Q170 220 208 220 Z" fill="#c8cbc4" data-role="body"/>
-  <path d="M295 500 A205 205 0 1 0 705 500 A205 205 0 1 0 295 500 Z" fill="#293642" data-role="body"/>
-  <path d="M434 500 A66 66 0 1 0 566 500 A66 66 0 1 0 434 500 Z" fill="#c8cbc4" data-role="detail"/>
-  <path d="M500 500 L710 500 L710 365 L500 365 Z" fill="#b86f3f" data-role="detail"/>
+  <path d="M208 220 H792 Q830 220 830 258 V742 Q830 780 792 780 H208 Q170 780 170 742 V258 Q170 220 208 220 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
+  <path d="M295 500 A205 205 0 1 0 705 500 A205 205 0 1 0 295 500 Z" fill="#293642" data-role="body" data-layer="body"/>
+  <path d="M434 500 A66 66 0 1 0 566 500 A66 66 0 1 0 434 500 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
+  <path d="M500 500 L710 500 L710 365 L500 365 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

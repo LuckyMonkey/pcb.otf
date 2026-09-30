@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
   <title id="title">SATA solid-state drive</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M162 150 H838 Q880 150 880 192 V808 Q880 850 838 850 H162 Q120 850 120 808 V192 Q120 150 162 150 Z" fill="#17252c" data-role="body"/>
-  <path d="M218 300 H782 Q800 300 800 318 V682 Q800 700 782 700 H218 Q200 700 200 682 V318 Q200 300 218 300 Z" fill="#17252c" data-role="body"/>
-  <path d="M297 390 H423 Q435 390 435 402 V528 Q435 540 423 540 H297 Q285 540 285 528 V402 Q285 390 297 390 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M517 390 H643 Q655 390 655 402 V528 Q655 540 643 540 H517 Q505 540 505 528 V402 Q505 390 517 390 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M200 600 H800 V630 H200 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M202 230 H798 Q820 230 820 252 V748 Q820 770 798 770 H202 Q180 770 180 748 V252 Q180 230 202 230 Z" fill="#17252c" data-role="body" data-layer="body"/>
+  <path d="M262 300 H738 Q750 300 750 312 V668 Q750 680 738 680 H262 Q250 680 250 668 V312 Q250 300 262 300 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M500 370 H500 Q680 370 680 550 V430 Q680 610 500 610 H500 Q320 610 320 430 V550 Q320 370 500 370 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M510 485 H490 Q510 485 510 505 V485 Q510 505 490 505 H510 Q490 505 490 485 V505 Q490 485 510 485 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

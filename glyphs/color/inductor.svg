@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">Inductor</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M110 500 H220 V500 H110 Z" fill="#c8cbc4" data-role="detail"/>
-  <path d="M220 500 Q260 300 300 500 Q340 700 380 500 Q420 300 460 500 Q500 700 540 500 Q580 300 620 500 Q660 700 700 500" fill="#b86f3f" data-role="body"/>
-  <path d="M700 500 H890 V500 H700 Z" fill="#c8cbc4" data-role="detail"/>
+  <path d="M110 500 H220 V500 H110 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
+  <path d="M220 500 Q260 300 300 500 Q340 700 380 500 Q420 300 460 500 Q500 700 540 500 Q580 300 620 500 Q660 700 700 500" fill="#b86f3f" data-role="body" data-layer="body"/>
+  <path d="M700 500 H890 V500 H700 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

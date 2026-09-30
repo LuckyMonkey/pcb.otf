@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="front" data-source="pcb-original-technical-art">
+  <title id="title">PCI Express x1 slot</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M156 430 H844 Q850 430 850 436 V564 Q850 570 844 570 H156 Q150 570 150 564 V436 Q150 430 156 430 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
+  <path d="M182 455 H818 Q820 455 820 457 V523 Q820 525 818 525 H182 Q180 525 180 523 V457 Q180 455 182 455 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M220 425 H780 V425 H220 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  </g>
+</svg>

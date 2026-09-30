@@ -1,12 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
   <title id="title">Heatsink</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M290 280 H710 Q730 280 730 300 V700 Q730 720 710 720 H290 Q270 720 270 700 V300 Q270 280 290 280 Z" fill="#17252c" data-role="body"/>
-  <path d="M305 160 H323 Q328 160 328 165 V755 Q328 760 323 760 H305 Q300 760 300 755 V165 Q300 160 305 160 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M385 160 H403 Q408 160 408 165 V755 Q408 760 403 760 H385 Q380 760 380 755 V165 Q380 160 385 160 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M465 160 H483 Q488 160 488 165 V755 Q488 760 483 760 H465 Q460 760 460 755 V165 Q460 160 465 160 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M545 160 H563 Q568 160 568 165 V755 Q568 760 563 760 H545 Q540 760 540 755 V165 Q540 160 545 160 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M625 160 H643 Q648 160 648 165 V755 Q648 760 643 760 H625 Q620 760 620 755 V165 Q620 160 625 160 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M705 160 H723 Q728 160 728 165 V755 Q728 760 723 760 H705 Q700 760 700 755 V165 Q700 160 705 160 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M260 315 H740 Q750 315 750 325 V675 Q750 685 740 685 H260 Q250 685 250 675 V325 Q250 315 260 315 Z" fill="#17252c" data-role="body" data-layer="body"/>
+  <path d="M288 180 H308 Q311 180 311 183 V817 Q311 820 308 820 H288 Q285 820 285 817 V183 Q285 180 288 180 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M350 180 H370 Q373 180 373 183 V817 Q373 820 370 820 H350 Q347 820 347 817 V183 Q347 180 350 180 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M412 180 H432 Q435 180 435 183 V817 Q435 820 432 820 H412 Q409 820 409 817 V183 Q409 180 412 180 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M474 180 H494 Q497 180 497 183 V817 Q497 820 494 820 H474 Q471 820 471 817 V183 Q471 180 474 180 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M536 180 H556 Q559 180 559 183 V817 Q559 820 556 820 H536 Q533 820 533 817 V183 Q533 180 536 180 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M598 180 H618 Q621 180 621 183 V817 Q621 820 618 820 H598 Q595 820 595 817 V183 Q595 180 598 180 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M660 180 H680 Q683 180 683 183 V817 Q683 820 680 820 H660 Q657 820 657 817 V183 Q657 180 660 180 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M722 180 H742 Q745 180 745 183 V817 Q745 820 742 820 H722 Q719 820 719 817 V183 Q719 180 722 180 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M5 330 L285 330 L285 610 L5 610 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

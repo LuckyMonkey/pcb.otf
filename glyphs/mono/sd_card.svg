@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">SD card</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M162 150 H838 Q880 150 880 192 V808 Q880 850 838 850 H162 Q120 850 120 808 V192 Q120 150 162 150 Z" fill="#17252c" data-role="body"/>
-  <path d="M218 300 H782 Q800 300 800 318 V682 Q800 700 782 700 H218 Q200 700 200 682 V318 Q200 300 218 300 Z" fill="#17252c" data-role="body"/>
-  <path d="M297 390 H423 Q435 390 435 402 V528 Q435 540 423 540 H297 Q285 540 285 528 V402 Q285 390 297 390 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M517 390 H643 Q655 390 655 402 V528 Q655 540 643 540 H517 Q505 540 505 528 V402 Q505 390 517 390 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M200 600 H800 V630 H200 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M162 150 H838 Q880 150 880 192 V808 Q880 850 838 850 H162 Q120 850 120 808 V192 Q120 150 162 150 Z" fill="#17252c" data-role="body" data-layer="body"/>
+  <path d="M218 300 H782 Q800 300 800 318 V682 Q800 700 782 700 H218 Q200 700 200 682 V318 Q200 300 218 300 Z" fill="#17252c" data-role="body" data-layer="body"/>
+  <path d="M297 390 H423 Q435 390 435 402 V528 Q435 540 423 540 H297 Q285 540 285 528 V402 Q285 390 297 390 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M517 390 H643 Q655 390 655 402 V528 Q655 540 643 540 H517 Q505 540 505 528 V402 Q505 390 517 390 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M200 600 H800 V630 H200 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

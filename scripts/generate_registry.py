@@ -20,6 +20,10 @@ def load() -> tuple[dict, dict]:
     )
 
 
+def assemblies() -> list[dict]:
+    return [yaml.safe_load(path.read_text(encoding="utf-8")) for path in sorted((ROOT / "assemblies").glob("*.yaml"))]
+
+
 def project_version() -> str:
     return str(yaml.safe_load((ROOT / "project.yaml").read_text())["version"])
 
@@ -35,6 +39,10 @@ def record(item: dict) -> dict:
         "glyph_name": "hardware_" + item["id"].split(":", 1)[1], "glyph_base": item["glyph"]["base"],
         "svg": item["glyph"]["monochrome"], "color_svg": item["glyph"]["color"],
         "iso_svg": "glyphs/iso/" + item["id"].split(":", 1)[1] + ".svg",
+        "technical_top_svg": "glyphs/technical/top/" + item["id"].split(":", 1)[1] + ".svg",
+        "technical_front_svg": "glyphs/technical/front/" + item["id"].split(":", 1)[1] + ".svg",
+        "technical_side_svg": "glyphs/technical/side/" + item["id"].split(":", 1)[1] + ".svg",
+        "technical_iso_svg": "glyphs/technical/isometric/" + item["id"].split(":", 1)[1] + ".svg",
         "external_ids": item.get("external_ids", {}), "sources": item["provenance"],
         "accessible_label": item["label"],
     }
@@ -50,6 +58,7 @@ def write_csv(path: Path, rows: list[dict], fields: list[str]) -> None:
 
 def main() -> int:
     source, relation_data = load()
+    scene_data = assemblies()
     rows = [record(item) for item in source["objects"]]
     write_csv(ROOT / "registry/codepoints.csv", rows, ["id", "label", "category", "system", "codepoint", "char", "glyph_name", "svg", "color_svg", "iso_svg"])
     write_csv(ROOT / "registry/ligatures.csv", rows, ["id", "label", "ligature", "glyph_name", "codepoint"])
@@ -67,6 +76,7 @@ def main() -> int:
 const registry = %s;
 const groups = %s;
 const relations = %s;
+const assemblies = %s;
 const byId = new Map(registry.map((item) => [item.id, item]));
 const byShortcode = new Map(registry.map((item) => [item.shortcode, item]));
 function get(id) { return byId.get(id) || null; }
@@ -78,8 +88,11 @@ function children(id) { return registry.filter((item) => item.parent === id); }
 function relationsFor(id) { return relations.filter((edge) => edge.from === id || edge.to === id); }
 function compatibleWith(id) { return relations.filter((edge) => edge.from === id && ['COMPATIBLE_WITH', 'FITS_IN'].includes(edge.relation)).map((edge) => get(edge.to)).filter(Boolean); }
 function connectionsFor(id) { return relationsFor(id).filter((edge) => ['CONNECTS_TO', 'CARRIES_PROTOCOL', 'USES_INTERFACE'].includes(edge.relation)); }
-module.exports = { registry, groups, relations, get, resolveShortcode, unicodeFor, search, parents, children, relationsFor, compatibleWith, connectionsFor };
-""" % (json.dumps(rows, ensure_ascii=False, indent=2), json.dumps(groups, ensure_ascii=False, indent=2), json.dumps(relations, ensure_ascii=False, indent=2))
+function assembly(id) { return assemblies.find((scene) => scene.id === id) || null; }
+function instances(id) { const scene = assembly(id); return scene ? scene.layers.map((layer) => ({...layer, object_record: get(layer.object)})) : []; }
+function objectForInstance(sceneId, instanceId) { return instances(sceneId).find((layer) => layer.instance === instanceId)?.object_record || null; }
+module.exports = { registry, groups, relations, assemblies, get, resolveShortcode, unicodeFor, search, parents, children, relationsFor, compatibleWith, connectionsFor, assembly, instances, objectForInstance };
+""" % (json.dumps(rows, ensure_ascii=False, indent=2), json.dumps(groups, ensure_ascii=False, indent=2), json.dumps(relations, ensure_ascii=False, indent=2), json.dumps(scene_data, ensure_ascii=False, indent=2))
     (ROOT / "packages/js/index.js").write_text(package, encoding="utf-8")
     (ROOT / "packages/js/index.d.ts").write_text("""export interface HardwareGroup { id: string; label: string; parent: string | null; }
 export interface HardwareRecord { id: string; label: string; category: string; system: string; parent: string; aliases: string[]; attributes: Record<string, unknown>; interfaces: string[]; compatible_with: string[]; incompatible_with: string[]; review_required: boolean; codepoint: string; char: string; ligature: string; shortcode: string; glyph_name: string; glyph_base: string; svg: string; color_svg: string; iso_svg: string; external_ids: Record<string, string>; sources: string[]; accessible_label: string; }
@@ -99,7 +112,7 @@ export function connectionsFor(id: string): HardwareRelation[];
 """, encoding="utf-8")
     manifest_path = ROOT / "packages/js/package.json"
     manifest_path.write_text(json.dumps({"name": "pcb-otf", "version": project_version(), "description": "Semantic metadata and relationship helpers for PCB.OTF", "main": "index.js", "types": "index.d.ts", "license": "MIT", "sideEffects": False}, indent=2) + "\n", encoding="utf-8")
-    (ROOT / "docs/registry.js").write_text(f"window.PCB_REGISTRY = {json.dumps(rows, ensure_ascii=False)};\nwindow.PCB_RELATIONS = {json.dumps(relations, ensure_ascii=False)};\n", encoding="utf-8")
+    (ROOT / "docs/registry.js").write_text(f"window.PCB_REGISTRY = {json.dumps(rows, ensure_ascii=False)};\nwindow.PCB_RELATIONS = {json.dumps(relations, ensure_ascii=False)};\nwindow.PCB_ASSEMBLIES = {json.dumps(scene_data, ensure_ascii=False)};\n", encoding="utf-8")
     category_counts = {}
     for row in rows: category_counts[row["category"]] = category_counts.get(row["category"], 0) + 1
     cps = [int(row["codepoint"][2:], 16) for row in rows]

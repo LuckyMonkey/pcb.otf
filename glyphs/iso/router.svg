@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">Router</title>
   <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
-  <path d="M196 280 H804 Q840 280 840 316 V684 Q840 720 804 720 H196 Q160 720 160 684 V316 Q160 280 196 280 Z" fill="#293642" data-role="body"/>
-  <path d="M272 520 A28 28 0 1 0 328 520 A28 28 0 1 0 272 520 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M362 520 A28 28 0 1 0 418 520 A28 28 0 1 0 362 520 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M452 520 A28 28 0 1 0 508 520 A28 28 0 1 0 452 520 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M542 520 A28 28 0 1 0 598 520 A28 28 0 1 0 542 520 Z" fill="#d3a44c" data-role="detail"/>
-  <path d="M632 520 A28 28 0 1 0 688 520 A28 28 0 1 0 632 520 Z" fill="#d3a44c" data-role="detail"/>
+  <path d="M196 280 H804 Q840 280 840 316 V684 Q840 720 804 720 H196 Q160 720 160 684 V316 Q160 280 196 280 Z" fill="#293642" data-role="body" data-layer="body"/>
+  <path d="M272 520 A28 28 0 1 0 328 520 A28 28 0 1 0 272 520 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M362 520 A28 28 0 1 0 418 520 A28 28 0 1 0 362 520 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M452 520 A28 28 0 1 0 508 520 A28 28 0 1 0 452 520 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M542 520 A28 28 0 1 0 598 520 A28 28 0 1 0 542 520 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
+  <path d="M632 520 A28 28 0 1 0 688 520 A28 28 0 1 0 632 520 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

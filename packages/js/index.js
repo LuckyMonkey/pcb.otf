@@ -25,6 +25,10 @@ const registry = [
     "svg": "glyphs/mono/resistor.svg",
     "color_svg": "glyphs/color/resistor.svg",
     "iso_svg": "glyphs/iso/resistor.svg",
+    "technical_top_svg": "glyphs/technical/top/resistor.svg",
+    "technical_front_svg": "glyphs/technical/front/resistor.svg",
+    "technical_side_svg": "glyphs/technical/side/resistor.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/resistor.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -56,6 +60,10 @@ const registry = [
     "svg": "glyphs/mono/variable_resistor.svg",
     "color_svg": "glyphs/color/variable_resistor.svg",
     "iso_svg": "glyphs/iso/variable_resistor.svg",
+    "technical_top_svg": "glyphs/technical/top/variable_resistor.svg",
+    "technical_front_svg": "glyphs/technical/front/variable_resistor.svg",
+    "technical_side_svg": "glyphs/technical/side/variable_resistor.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/variable_resistor.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -87,6 +95,10 @@ const registry = [
     "svg": "glyphs/mono/potentiometer.svg",
     "color_svg": "glyphs/color/potentiometer.svg",
     "iso_svg": "glyphs/iso/potentiometer.svg",
+    "technical_top_svg": "glyphs/technical/top/potentiometer.svg",
+    "technical_front_svg": "glyphs/technical/front/potentiometer.svg",
+    "technical_side_svg": "glyphs/technical/side/potentiometer.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/potentiometer.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -119,6 +131,10 @@ const registry = [
     "svg": "glyphs/mono/ceramic_capacitor.svg",
     "color_svg": "glyphs/color/ceramic_capacitor.svg",
     "iso_svg": "glyphs/iso/ceramic_capacitor.svg",
+    "technical_top_svg": "glyphs/technical/top/ceramic_capacitor.svg",
+    "technical_front_svg": "glyphs/technical/front/ceramic_capacitor.svg",
+    "technical_side_svg": "glyphs/technical/side/ceramic_capacitor.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/ceramic_capacitor.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -151,6 +167,10 @@ const registry = [
     "svg": "glyphs/mono/electrolytic_capacitor.svg",
     "color_svg": "glyphs/color/electrolytic_capacitor.svg",
     "iso_svg": "glyphs/iso/electrolytic_capacitor.svg",
+    "technical_top_svg": "glyphs/technical/top/electrolytic_capacitor.svg",
+    "technical_front_svg": "glyphs/technical/front/electrolytic_capacitor.svg",
+    "technical_side_svg": "glyphs/technical/side/electrolytic_capacitor.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/electrolytic_capacitor.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -182,6 +202,10 @@ const registry = [
     "svg": "glyphs/mono/inductor.svg",
     "color_svg": "glyphs/color/inductor.svg",
     "iso_svg": "glyphs/iso/inductor.svg",
+    "technical_top_svg": "glyphs/technical/top/inductor.svg",
+    "technical_front_svg": "glyphs/technical/front/inductor.svg",
+    "technical_side_svg": "glyphs/technical/side/inductor.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/inductor.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -213,6 +237,10 @@ const registry = [
     "svg": "glyphs/mono/transformer.svg",
     "color_svg": "glyphs/color/transformer.svg",
     "iso_svg": "glyphs/iso/transformer.svg",
+    "technical_top_svg": "glyphs/technical/top/transformer.svg",
+    "technical_front_svg": "glyphs/technical/front/transformer.svg",
+    "technical_side_svg": "glyphs/technical/side/transformer.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/transformer.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -244,6 +272,10 @@ const registry = [
     "svg": "glyphs/mono/fuse.svg",
     "color_svg": "glyphs/color/fuse.svg",
     "iso_svg": "glyphs/iso/fuse.svg",
+    "technical_top_svg": "glyphs/technical/top/fuse.svg",
+    "technical_front_svg": "glyphs/technical/front/fuse.svg",
+    "technical_side_svg": "glyphs/technical/side/fuse.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/fuse.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -275,6 +307,10 @@ const registry = [
     "svg": "glyphs/mono/thermistor.svg",
     "color_svg": "glyphs/color/thermistor.svg",
     "iso_svg": "glyphs/iso/thermistor.svg",
+    "technical_top_svg": "glyphs/technical/top/thermistor.svg",
+    "technical_front_svg": "glyphs/technical/front/thermistor.svg",
+    "technical_side_svg": "glyphs/technical/side/thermistor.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/thermistor.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -306,6 +342,10 @@ const registry = [
     "svg": "glyphs/mono/diode.svg",
     "color_svg": "glyphs/color/diode.svg",
     "iso_svg": "glyphs/iso/diode.svg",
+    "technical_top_svg": "glyphs/technical/top/diode.svg",
+    "technical_front_svg": "glyphs/technical/front/diode.svg",
+    "technical_side_svg": "glyphs/technical/side/diode.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/diode.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -337,6 +377,10 @@ const registry = [
     "svg": "glyphs/mono/led.svg",
     "color_svg": "glyphs/color/led.svg",
     "iso_svg": "glyphs/iso/led.svg",
+    "technical_top_svg": "glyphs/technical/top/led.svg",
+    "technical_front_svg": "glyphs/technical/front/led.svg",
+    "technical_side_svg": "glyphs/technical/side/led.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/led.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -368,6 +412,10 @@ const registry = [
     "svg": "glyphs/mono/photodiode.svg",
     "color_svg": "glyphs/color/photodiode.svg",
     "iso_svg": "glyphs/iso/photodiode.svg",
+    "technical_top_svg": "glyphs/technical/top/photodiode.svg",
+    "technical_front_svg": "glyphs/technical/front/photodiode.svg",
+    "technical_side_svg": "glyphs/technical/side/photodiode.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/photodiode.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -400,6 +448,10 @@ const registry = [
     "svg": "glyphs/mono/npn_transistor.svg",
     "color_svg": "glyphs/color/npn_transistor.svg",
     "iso_svg": "glyphs/iso/npn_transistor.svg",
+    "technical_top_svg": "glyphs/technical/top/npn_transistor.svg",
+    "technical_front_svg": "glyphs/technical/front/npn_transistor.svg",
+    "technical_side_svg": "glyphs/technical/side/npn_transistor.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/npn_transistor.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -432,6 +484,10 @@ const registry = [
     "svg": "glyphs/mono/pnp_transistor.svg",
     "color_svg": "glyphs/color/pnp_transistor.svg",
     "iso_svg": "glyphs/iso/pnp_transistor.svg",
+    "technical_top_svg": "glyphs/technical/top/pnp_transistor.svg",
+    "technical_front_svg": "glyphs/technical/front/pnp_transistor.svg",
+    "technical_side_svg": "glyphs/technical/side/pnp_transistor.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/pnp_transistor.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -463,6 +519,10 @@ const registry = [
     "svg": "glyphs/mono/mosfet.svg",
     "color_svg": "glyphs/color/mosfet.svg",
     "iso_svg": "glyphs/iso/mosfet.svg",
+    "technical_top_svg": "glyphs/technical/top/mosfet.svg",
+    "technical_front_svg": "glyphs/technical/front/mosfet.svg",
+    "technical_side_svg": "glyphs/technical/side/mosfet.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/mosfet.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -494,6 +554,10 @@ const registry = [
     "svg": "glyphs/mono/voltage_regulator.svg",
     "color_svg": "glyphs/color/voltage_regulator.svg",
     "iso_svg": "glyphs/iso/voltage_regulator.svg",
+    "technical_top_svg": "glyphs/technical/top/voltage_regulator.svg",
+    "technical_front_svg": "glyphs/technical/front/voltage_regulator.svg",
+    "technical_side_svg": "glyphs/technical/side/voltage_regulator.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/voltage_regulator.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -525,6 +589,10 @@ const registry = [
     "svg": "glyphs/mono/op_amp.svg",
     "color_svg": "glyphs/color/op_amp.svg",
     "iso_svg": "glyphs/iso/op_amp.svg",
+    "technical_top_svg": "glyphs/technical/top/op_amp.svg",
+    "technical_front_svg": "glyphs/technical/front/op_amp.svg",
+    "technical_side_svg": "glyphs/technical/side/op_amp.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/op_amp.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -556,6 +624,10 @@ const registry = [
     "svg": "glyphs/mono/oscillator.svg",
     "color_svg": "glyphs/color/oscillator.svg",
     "iso_svg": "glyphs/iso/oscillator.svg",
+    "technical_top_svg": "glyphs/technical/top/oscillator.svg",
+    "technical_front_svg": "glyphs/technical/front/oscillator.svg",
+    "technical_side_svg": "glyphs/technical/side/oscillator.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/oscillator.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -587,6 +659,10 @@ const registry = [
     "svg": "glyphs/mono/crystal.svg",
     "color_svg": "glyphs/color/crystal.svg",
     "iso_svg": "glyphs/iso/crystal.svg",
+    "technical_top_svg": "glyphs/technical/top/crystal.svg",
+    "technical_front_svg": "glyphs/technical/front/crystal.svg",
+    "technical_side_svg": "glyphs/technical/side/crystal.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/crystal.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -618,6 +694,10 @@ const registry = [
     "svg": "glyphs/mono/logic_ic.svg",
     "color_svg": "glyphs/color/logic_ic.svg",
     "iso_svg": "glyphs/iso/logic_ic.svg",
+    "technical_top_svg": "glyphs/technical/top/logic_ic.svg",
+    "technical_front_svg": "glyphs/technical/front/logic_ic.svg",
+    "technical_side_svg": "glyphs/technical/side/logic_ic.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/logic_ic.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -649,6 +729,10 @@ const registry = [
     "svg": "glyphs/mono/microcontroller.svg",
     "color_svg": "glyphs/color/microcontroller.svg",
     "iso_svg": "glyphs/iso/microcontroller.svg",
+    "technical_top_svg": "glyphs/technical/top/microcontroller.svg",
+    "technical_front_svg": "glyphs/technical/front/microcontroller.svg",
+    "technical_side_svg": "glyphs/technical/side/microcontroller.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/microcontroller.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -680,6 +764,10 @@ const registry = [
     "svg": "glyphs/mono/microprocessor.svg",
     "color_svg": "glyphs/color/microprocessor.svg",
     "iso_svg": "glyphs/iso/microprocessor.svg",
+    "technical_top_svg": "glyphs/technical/top/microprocessor.svg",
+    "technical_front_svg": "glyphs/technical/front/microprocessor.svg",
+    "technical_side_svg": "glyphs/technical/side/microprocessor.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/microprocessor.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -711,6 +799,10 @@ const registry = [
     "svg": "glyphs/mono/fpga.svg",
     "color_svg": "glyphs/color/fpga.svg",
     "iso_svg": "glyphs/iso/fpga.svg",
+    "technical_top_svg": "glyphs/technical/top/fpga.svg",
+    "technical_front_svg": "glyphs/technical/front/fpga.svg",
+    "technical_side_svg": "glyphs/technical/side/fpga.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/fpga.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -742,6 +834,10 @@ const registry = [
     "svg": "glyphs/mono/dip.svg",
     "color_svg": "glyphs/color/dip.svg",
     "iso_svg": "glyphs/iso/dip.svg",
+    "technical_top_svg": "glyphs/technical/top/dip.svg",
+    "technical_front_svg": "glyphs/technical/front/dip.svg",
+    "technical_side_svg": "glyphs/technical/side/dip.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/dip.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -773,6 +869,10 @@ const registry = [
     "svg": "glyphs/mono/soic.svg",
     "color_svg": "glyphs/color/soic.svg",
     "iso_svg": "glyphs/iso/soic.svg",
+    "technical_top_svg": "glyphs/technical/top/soic.svg",
+    "technical_front_svg": "glyphs/technical/front/soic.svg",
+    "technical_side_svg": "glyphs/technical/side/soic.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/soic.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -804,6 +904,10 @@ const registry = [
     "svg": "glyphs/mono/qfp.svg",
     "color_svg": "glyphs/color/qfp.svg",
     "iso_svg": "glyphs/iso/qfp.svg",
+    "technical_top_svg": "glyphs/technical/top/qfp.svg",
+    "technical_front_svg": "glyphs/technical/front/qfp.svg",
+    "technical_side_svg": "glyphs/technical/side/qfp.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/qfp.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -836,6 +940,10 @@ const registry = [
     "svg": "glyphs/mono/qfn.svg",
     "color_svg": "glyphs/color/qfn.svg",
     "iso_svg": "glyphs/iso/qfn.svg",
+    "technical_top_svg": "glyphs/technical/top/qfn.svg",
+    "technical_front_svg": "glyphs/technical/front/qfn.svg",
+    "technical_side_svg": "glyphs/technical/side/qfn.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/qfn.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -867,6 +975,10 @@ const registry = [
     "svg": "glyphs/mono/bga.svg",
     "color_svg": "glyphs/color/bga.svg",
     "iso_svg": "glyphs/iso/bga.svg",
+    "technical_top_svg": "glyphs/technical/top/bga.svg",
+    "technical_front_svg": "glyphs/technical/front/bga.svg",
+    "technical_side_svg": "glyphs/technical/side/bga.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/bga.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -898,6 +1010,10 @@ const registry = [
     "svg": "glyphs/mono/lga.svg",
     "color_svg": "glyphs/color/lga.svg",
     "iso_svg": "glyphs/iso/lga.svg",
+    "technical_top_svg": "glyphs/technical/top/lga.svg",
+    "technical_front_svg": "glyphs/technical/front/lga.svg",
+    "technical_side_svg": "glyphs/technical/side/lga.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/lga.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -929,6 +1045,10 @@ const registry = [
     "svg": "glyphs/mono/to220.svg",
     "color_svg": "glyphs/color/to220.svg",
     "iso_svg": "glyphs/iso/to220.svg",
+    "technical_top_svg": "glyphs/technical/top/to220.svg",
+    "technical_front_svg": "glyphs/technical/front/to220.svg",
+    "technical_side_svg": "glyphs/technical/side/to220.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/to220.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -961,6 +1081,10 @@ const registry = [
     "svg": "glyphs/mono/pcb.svg",
     "color_svg": "glyphs/color/pcb.svg",
     "iso_svg": "glyphs/iso/pcb.svg",
+    "technical_top_svg": "glyphs/technical/top/pcb.svg",
+    "technical_front_svg": "glyphs/technical/front/pcb.svg",
+    "technical_side_svg": "glyphs/technical/side/pcb.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/pcb.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference",
@@ -993,6 +1117,10 @@ const registry = [
     "svg": "glyphs/mono/substrate.svg",
     "color_svg": "glyphs/color/substrate.svg",
     "iso_svg": "glyphs/iso/substrate.svg",
+    "technical_top_svg": "glyphs/technical/top/substrate.svg",
+    "technical_front_svg": "glyphs/technical/front/substrate.svg",
+    "technical_side_svg": "glyphs/technical/side/substrate.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/substrate.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1024,6 +1152,10 @@ const registry = [
     "svg": "glyphs/mono/copper_layer.svg",
     "color_svg": "glyphs/color/copper_layer.svg",
     "iso_svg": "glyphs/iso/copper_layer.svg",
+    "technical_top_svg": "glyphs/technical/top/copper_layer.svg",
+    "technical_front_svg": "glyphs/technical/front/copper_layer.svg",
+    "technical_side_svg": "glyphs/technical/side/copper_layer.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/copper_layer.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1055,6 +1187,10 @@ const registry = [
     "svg": "glyphs/mono/solder_mask.svg",
     "color_svg": "glyphs/color/solder_mask.svg",
     "iso_svg": "glyphs/iso/solder_mask.svg",
+    "technical_top_svg": "glyphs/technical/top/solder_mask.svg",
+    "technical_front_svg": "glyphs/technical/front/solder_mask.svg",
+    "technical_side_svg": "glyphs/technical/side/solder_mask.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/solder_mask.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1086,6 +1222,10 @@ const registry = [
     "svg": "glyphs/mono/silkscreen.svg",
     "color_svg": "glyphs/color/silkscreen.svg",
     "iso_svg": "glyphs/iso/silkscreen.svg",
+    "technical_top_svg": "glyphs/technical/top/silkscreen.svg",
+    "technical_front_svg": "glyphs/technical/front/silkscreen.svg",
+    "technical_side_svg": "glyphs/technical/side/silkscreen.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/silkscreen.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1117,6 +1257,10 @@ const registry = [
     "svg": "glyphs/mono/trace.svg",
     "color_svg": "glyphs/color/trace.svg",
     "iso_svg": "glyphs/iso/trace.svg",
+    "technical_top_svg": "glyphs/technical/top/trace.svg",
+    "technical_front_svg": "glyphs/technical/front/trace.svg",
+    "technical_side_svg": "glyphs/technical/side/trace.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/trace.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1148,6 +1292,10 @@ const registry = [
     "svg": "glyphs/mono/differential_pair.svg",
     "color_svg": "glyphs/color/differential_pair.svg",
     "iso_svg": "glyphs/iso/differential_pair.svg",
+    "technical_top_svg": "glyphs/technical/top/differential_pair.svg",
+    "technical_front_svg": "glyphs/technical/front/differential_pair.svg",
+    "technical_side_svg": "glyphs/technical/side/differential_pair.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/differential_pair.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1179,6 +1327,10 @@ const registry = [
     "svg": "glyphs/mono/ground_plane.svg",
     "color_svg": "glyphs/color/ground_plane.svg",
     "iso_svg": "glyphs/iso/ground_plane.svg",
+    "technical_top_svg": "glyphs/technical/top/ground_plane.svg",
+    "technical_front_svg": "glyphs/technical/front/ground_plane.svg",
+    "technical_side_svg": "glyphs/technical/side/ground_plane.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/ground_plane.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1210,6 +1362,10 @@ const registry = [
     "svg": "glyphs/mono/via.svg",
     "color_svg": "glyphs/color/via.svg",
     "iso_svg": "glyphs/iso/via.svg",
+    "technical_top_svg": "glyphs/technical/top/via.svg",
+    "technical_front_svg": "glyphs/technical/front/via.svg",
+    "technical_side_svg": "glyphs/technical/side/via.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/via.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1241,6 +1397,10 @@ const registry = [
     "svg": "glyphs/mono/plated_through_hole.svg",
     "color_svg": "glyphs/color/plated_through_hole.svg",
     "iso_svg": "glyphs/iso/plated_through_hole.svg",
+    "technical_top_svg": "glyphs/technical/top/plated_through_hole.svg",
+    "technical_front_svg": "glyphs/technical/front/plated_through_hole.svg",
+    "technical_side_svg": "glyphs/technical/side/plated_through_hole.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/plated_through_hole.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1272,6 +1432,10 @@ const registry = [
     "svg": "glyphs/mono/pad.svg",
     "color_svg": "glyphs/color/pad.svg",
     "iso_svg": "glyphs/iso/pad.svg",
+    "technical_top_svg": "glyphs/technical/top/pad.svg",
+    "technical_front_svg": "glyphs/technical/front/pad.svg",
+    "technical_side_svg": "glyphs/technical/side/pad.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/pad.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1303,6 +1467,10 @@ const registry = [
     "svg": "glyphs/mono/test_point.svg",
     "color_svg": "glyphs/color/test_point.svg",
     "iso_svg": "glyphs/iso/test_point.svg",
+    "technical_top_svg": "glyphs/technical/top/test_point.svg",
+    "technical_front_svg": "glyphs/technical/front/test_point.svg",
+    "technical_side_svg": "glyphs/technical/side/test_point.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/test_point.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1334,6 +1502,10 @@ const registry = [
     "svg": "glyphs/mono/jumper.svg",
     "color_svg": "glyphs/color/jumper.svg",
     "iso_svg": "glyphs/iso/jumper.svg",
+    "technical_top_svg": "glyphs/technical/top/jumper.svg",
+    "technical_front_svg": "glyphs/technical/front/jumper.svg",
+    "technical_side_svg": "glyphs/technical/side/jumper.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/jumper.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1365,6 +1537,10 @@ const registry = [
     "svg": "glyphs/mono/mounting_hole.svg",
     "color_svg": "glyphs/color/mounting_hole.svg",
     "iso_svg": "glyphs/iso/mounting_hole.svg",
+    "technical_top_svg": "glyphs/technical/top/mounting_hole.svg",
+    "technical_front_svg": "glyphs/technical/front/mounting_hole.svg",
+    "technical_side_svg": "glyphs/technical/side/mounting_hole.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/mounting_hole.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1396,6 +1572,10 @@ const registry = [
     "svg": "glyphs/mono/fiducial.svg",
     "color_svg": "glyphs/color/fiducial.svg",
     "iso_svg": "glyphs/iso/fiducial.svg",
+    "technical_top_svg": "glyphs/technical/top/fiducial.svg",
+    "technical_front_svg": "glyphs/technical/front/fiducial.svg",
+    "technical_side_svg": "glyphs/technical/side/fiducial.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/fiducial.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1427,6 +1607,10 @@ const registry = [
     "svg": "glyphs/mono/bga_footprint.svg",
     "color_svg": "glyphs/color/bga_footprint.svg",
     "iso_svg": "glyphs/iso/bga_footprint.svg",
+    "technical_top_svg": "glyphs/technical/top/bga_footprint.svg",
+    "technical_front_svg": "glyphs/technical/front/bga_footprint.svg",
+    "technical_side_svg": "glyphs/technical/side/bga_footprint.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/bga_footprint.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1458,6 +1642,10 @@ const registry = [
     "svg": "glyphs/mono/thermal_pad.svg",
     "color_svg": "glyphs/color/thermal_pad.svg",
     "iso_svg": "glyphs/iso/thermal_pad.svg",
+    "technical_top_svg": "glyphs/technical/top/thermal_pad.svg",
+    "technical_front_svg": "glyphs/technical/front/thermal_pad.svg",
+    "technical_side_svg": "glyphs/technical/side/thermal_pad.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/thermal_pad.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1489,6 +1677,10 @@ const registry = [
     "svg": "glyphs/mono/motherboard.svg",
     "color_svg": "glyphs/color/motherboard.svg",
     "iso_svg": "glyphs/iso/motherboard.svg",
+    "technical_top_svg": "glyphs/technical/top/motherboard.svg",
+    "technical_front_svg": "glyphs/technical/front/motherboard.svg",
+    "technical_side_svg": "glyphs/technical/side/motherboard.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/motherboard.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1521,6 +1713,10 @@ const registry = [
     "svg": "glyphs/mono/cpu.svg",
     "color_svg": "glyphs/color/cpu.svg",
     "iso_svg": "glyphs/iso/cpu.svg",
+    "technical_top_svg": "glyphs/technical/top/cpu.svg",
+    "technical_front_svg": "glyphs/technical/front/cpu.svg",
+    "technical_side_svg": "glyphs/technical/side/cpu.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/cpu.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1553,6 +1749,10 @@ const registry = [
     "svg": "glyphs/mono/gpu.svg",
     "color_svg": "glyphs/color/gpu.svg",
     "iso_svg": "glyphs/iso/gpu.svg",
+    "technical_top_svg": "glyphs/technical/top/gpu.svg",
+    "technical_front_svg": "glyphs/technical/front/gpu.svg",
+    "technical_side_svg": "glyphs/technical/side/gpu.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/gpu.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1584,6 +1784,10 @@ const registry = [
     "svg": "glyphs/mono/chipset.svg",
     "color_svg": "glyphs/color/chipset.svg",
     "iso_svg": "glyphs/iso/chipset.svg",
+    "technical_top_svg": "glyphs/technical/top/chipset.svg",
+    "technical_front_svg": "glyphs/technical/front/chipset.svg",
+    "technical_side_svg": "glyphs/technical/side/chipset.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/chipset.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1616,6 +1820,10 @@ const registry = [
     "svg": "glyphs/mono/memory_module.svg",
     "color_svg": "glyphs/color/memory_module.svg",
     "iso_svg": "glyphs/iso/memory_module.svg",
+    "technical_top_svg": "glyphs/technical/top/memory_module.svg",
+    "technical_front_svg": "glyphs/technical/front/memory_module.svg",
+    "technical_side_svg": "glyphs/technical/side/memory_module.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/memory_module.svg",
     "external_ids": {},
     "sources": [
       "jedec"
@@ -1649,6 +1857,10 @@ const registry = [
     "svg": "glyphs/mono/ddr3_dimm.svg",
     "color_svg": "glyphs/color/ddr3_dimm.svg",
     "iso_svg": "glyphs/iso/ddr3_dimm.svg",
+    "technical_top_svg": "glyphs/technical/top/ddr3_dimm.svg",
+    "technical_front_svg": "glyphs/technical/front/ddr3_dimm.svg",
+    "technical_side_svg": "glyphs/technical/side/ddr3_dimm.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/ddr3_dimm.svg",
     "external_ids": {},
     "sources": [
       "jedec"
@@ -1682,6 +1894,10 @@ const registry = [
     "svg": "glyphs/mono/ddr4_dimm.svg",
     "color_svg": "glyphs/color/ddr4_dimm.svg",
     "iso_svg": "glyphs/iso/ddr4_dimm.svg",
+    "technical_top_svg": "glyphs/technical/top/ddr4_dimm.svg",
+    "technical_front_svg": "glyphs/technical/front/ddr4_dimm.svg",
+    "technical_side_svg": "glyphs/technical/side/ddr4_dimm.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/ddr4_dimm.svg",
     "external_ids": {},
     "sources": [
       "jedec"
@@ -1715,6 +1931,10 @@ const registry = [
     "svg": "glyphs/mono/ddr5_dimm.svg",
     "color_svg": "glyphs/color/ddr5_dimm.svg",
     "iso_svg": "glyphs/iso/ddr5_dimm.svg",
+    "technical_top_svg": "glyphs/technical/top/ddr5_dimm.svg",
+    "technical_front_svg": "glyphs/technical/front/ddr5_dimm.svg",
+    "technical_side_svg": "glyphs/technical/side/ddr5_dimm.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/ddr5_dimm.svg",
     "external_ids": {},
     "sources": [
       "jedec"
@@ -1747,6 +1967,10 @@ const registry = [
     "svg": "glyphs/mono/ddr3_dimm_slot.svg",
     "color_svg": "glyphs/color/ddr3_dimm_slot.svg",
     "iso_svg": "glyphs/iso/ddr3_dimm_slot.svg",
+    "technical_top_svg": "glyphs/technical/top/ddr3_dimm_slot.svg",
+    "technical_front_svg": "glyphs/technical/front/ddr3_dimm_slot.svg",
+    "technical_side_svg": "glyphs/technical/side/ddr3_dimm_slot.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/ddr3_dimm_slot.svg",
     "external_ids": {},
     "sources": [
       "jedec"
@@ -1779,6 +2003,10 @@ const registry = [
     "svg": "glyphs/mono/ddr4_dimm_slot.svg",
     "color_svg": "glyphs/color/ddr4_dimm_slot.svg",
     "iso_svg": "glyphs/iso/ddr4_dimm_slot.svg",
+    "technical_top_svg": "glyphs/technical/top/ddr4_dimm_slot.svg",
+    "technical_front_svg": "glyphs/technical/front/ddr4_dimm_slot.svg",
+    "technical_side_svg": "glyphs/technical/side/ddr4_dimm_slot.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/ddr4_dimm_slot.svg",
     "external_ids": {},
     "sources": [
       "jedec"
@@ -1811,6 +2039,10 @@ const registry = [
     "svg": "glyphs/mono/ddr5_dimm_slot.svg",
     "color_svg": "glyphs/color/ddr5_dimm_slot.svg",
     "iso_svg": "glyphs/iso/ddr5_dimm_slot.svg",
+    "technical_top_svg": "glyphs/technical/top/ddr5_dimm_slot.svg",
+    "technical_front_svg": "glyphs/technical/front/ddr5_dimm_slot.svg",
+    "technical_side_svg": "glyphs/technical/side/ddr5_dimm_slot.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/ddr5_dimm_slot.svg",
     "external_ids": {},
     "sources": [
       "jedec"
@@ -1844,6 +2076,10 @@ const registry = [
     "svg": "glyphs/mono/pcie_x1_slot.svg",
     "color_svg": "glyphs/color/pcie_x1_slot.svg",
     "iso_svg": "glyphs/iso/pcie_x1_slot.svg",
+    "technical_top_svg": "glyphs/technical/top/pcie_x1_slot.svg",
+    "technical_front_svg": "glyphs/technical/front/pcie_x1_slot.svg",
+    "technical_side_svg": "glyphs/technical/side/pcie_x1_slot.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/pcie_x1_slot.svg",
     "external_ids": {},
     "sources": [
       "pcie_sig"
@@ -1877,6 +2113,10 @@ const registry = [
     "svg": "glyphs/mono/pcie_x16_slot.svg",
     "color_svg": "glyphs/color/pcie_x16_slot.svg",
     "iso_svg": "glyphs/iso/pcie_x16_slot.svg",
+    "technical_top_svg": "glyphs/technical/top/pcie_x16_slot.svg",
+    "technical_front_svg": "glyphs/technical/front/pcie_x16_slot.svg",
+    "technical_side_svg": "glyphs/technical/side/pcie_x16_slot.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/pcie_x16_slot.svg",
     "external_ids": {},
     "sources": [
       "pcie_sig"
@@ -1908,6 +2148,10 @@ const registry = [
     "svg": "glyphs/mono/m2_socket.svg",
     "color_svg": "glyphs/color/m2_socket.svg",
     "iso_svg": "glyphs/iso/m2_socket.svg",
+    "technical_top_svg": "glyphs/technical/top/m2_socket.svg",
+    "technical_front_svg": "glyphs/technical/front/m2_socket.svg",
+    "technical_side_svg": "glyphs/technical/side/m2_socket.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/m2_socket.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1940,6 +2184,10 @@ const registry = [
     "svg": "glyphs/mono/nvme_ssd.svg",
     "color_svg": "glyphs/color/nvme_ssd.svg",
     "iso_svg": "glyphs/iso/nvme_ssd.svg",
+    "technical_top_svg": "glyphs/technical/top/nvme_ssd.svg",
+    "technical_front_svg": "glyphs/technical/front/nvme_ssd.svg",
+    "technical_side_svg": "glyphs/technical/side/nvme_ssd.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/nvme_ssd.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -1971,6 +2219,10 @@ const registry = [
     "svg": "glyphs/mono/sata_connector.svg",
     "color_svg": "glyphs/color/sata_connector.svg",
     "iso_svg": "glyphs/iso/sata_connector.svg",
+    "technical_top_svg": "glyphs/technical/top/sata_connector.svg",
+    "technical_front_svg": "glyphs/technical/front/sata_connector.svg",
+    "technical_side_svg": "glyphs/technical/side/sata_connector.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/sata_connector.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2003,6 +2255,10 @@ const registry = [
     "svg": "glyphs/mono/sata_ssd.svg",
     "color_svg": "glyphs/color/sata_ssd.svg",
     "iso_svg": "glyphs/iso/sata_ssd.svg",
+    "technical_top_svg": "glyphs/technical/top/sata_ssd.svg",
+    "technical_front_svg": "glyphs/technical/front/sata_ssd.svg",
+    "technical_side_svg": "glyphs/technical/side/sata_ssd.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/sata_ssd.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2034,6 +2290,10 @@ const registry = [
     "svg": "glyphs/mono/hdd.svg",
     "color_svg": "glyphs/color/hdd.svg",
     "iso_svg": "glyphs/iso/hdd.svg",
+    "technical_top_svg": "glyphs/technical/top/hdd.svg",
+    "technical_front_svg": "glyphs/technical/front/hdd.svg",
+    "technical_side_svg": "glyphs/technical/side/hdd.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/hdd.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2065,6 +2325,10 @@ const registry = [
     "svg": "glyphs/mono/usb_a.svg",
     "color_svg": "glyphs/color/usb_a.svg",
     "iso_svg": "glyphs/iso/usb_a.svg",
+    "technical_top_svg": "glyphs/technical/top/usb_a.svg",
+    "technical_front_svg": "glyphs/technical/front/usb_a.svg",
+    "technical_side_svg": "glyphs/technical/side/usb_a.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/usb_a.svg",
     "external_ids": {},
     "sources": [
       "usb_if"
@@ -2096,6 +2360,10 @@ const registry = [
     "svg": "glyphs/mono/usb_c.svg",
     "color_svg": "glyphs/color/usb_c.svg",
     "iso_svg": "glyphs/iso/usb_c.svg",
+    "technical_top_svg": "glyphs/technical/top/usb_c.svg",
+    "technical_front_svg": "glyphs/technical/front/usb_c.svg",
+    "technical_side_svg": "glyphs/technical/side/usb_c.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/usb_c.svg",
     "external_ids": {},
     "sources": [
       "usb_if"
@@ -2127,6 +2395,10 @@ const registry = [
     "svg": "glyphs/mono/hdmi.svg",
     "color_svg": "glyphs/color/hdmi.svg",
     "iso_svg": "glyphs/iso/hdmi.svg",
+    "technical_top_svg": "glyphs/technical/top/hdmi.svg",
+    "technical_front_svg": "glyphs/technical/front/hdmi.svg",
+    "technical_side_svg": "glyphs/technical/side/hdmi.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/hdmi.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2158,6 +2430,10 @@ const registry = [
     "svg": "glyphs/mono/displayport.svg",
     "color_svg": "glyphs/color/displayport.svg",
     "iso_svg": "glyphs/iso/displayport.svg",
+    "technical_top_svg": "glyphs/technical/top/displayport.svg",
+    "technical_front_svg": "glyphs/technical/front/displayport.svg",
+    "technical_side_svg": "glyphs/technical/side/displayport.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/displayport.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2190,6 +2466,10 @@ const registry = [
     "svg": "glyphs/mono/rj45.svg",
     "color_svg": "glyphs/color/rj45.svg",
     "iso_svg": "glyphs/iso/rj45.svg",
+    "technical_top_svg": "glyphs/technical/top/rj45.svg",
+    "technical_front_svg": "glyphs/technical/front/rj45.svg",
+    "technical_side_svg": "glyphs/technical/side/rj45.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/rj45.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2221,6 +2501,10 @@ const registry = [
     "svg": "glyphs/mono/audio_jack_35mm.svg",
     "color_svg": "glyphs/color/audio_jack_35mm.svg",
     "iso_svg": "glyphs/iso/audio_jack_35mm.svg",
+    "technical_top_svg": "glyphs/technical/top/audio_jack_35mm.svg",
+    "technical_front_svg": "glyphs/technical/front/audio_jack_35mm.svg",
+    "technical_side_svg": "glyphs/technical/side/audio_jack_35mm.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/audio_jack_35mm.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2252,6 +2536,10 @@ const registry = [
     "svg": "glyphs/mono/atx_24pin.svg",
     "color_svg": "glyphs/color/atx_24pin.svg",
     "iso_svg": "glyphs/iso/atx_24pin.svg",
+    "technical_top_svg": "glyphs/technical/top/atx_24pin.svg",
+    "technical_front_svg": "glyphs/technical/front/atx_24pin.svg",
+    "technical_side_svg": "glyphs/technical/side/atx_24pin.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/atx_24pin.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2283,6 +2571,10 @@ const registry = [
     "svg": "glyphs/mono/cpu_power_8pin.svg",
     "color_svg": "glyphs/color/cpu_power_8pin.svg",
     "iso_svg": "glyphs/iso/cpu_power_8pin.svg",
+    "technical_top_svg": "glyphs/technical/top/cpu_power_8pin.svg",
+    "technical_front_svg": "glyphs/technical/front/cpu_power_8pin.svg",
+    "technical_side_svg": "glyphs/technical/side/cpu_power_8pin.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/cpu_power_8pin.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2314,6 +2606,10 @@ const registry = [
     "svg": "glyphs/mono/pcie_power_8pin.svg",
     "color_svg": "glyphs/color/pcie_power_8pin.svg",
     "iso_svg": "glyphs/iso/pcie_power_8pin.svg",
+    "technical_top_svg": "glyphs/technical/top/pcie_power_8pin.svg",
+    "technical_front_svg": "glyphs/technical/front/pcie_power_8pin.svg",
+    "technical_side_svg": "glyphs/technical/side/pcie_power_8pin.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/pcie_power_8pin.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2345,6 +2641,10 @@ const registry = [
     "svg": "glyphs/mono/fan.svg",
     "color_svg": "glyphs/color/fan.svg",
     "iso_svg": "glyphs/iso/fan.svg",
+    "technical_top_svg": "glyphs/technical/top/fan.svg",
+    "technical_front_svg": "glyphs/technical/front/fan.svg",
+    "technical_side_svg": "glyphs/technical/side/fan.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/fan.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2376,6 +2676,10 @@ const registry = [
     "svg": "glyphs/mono/heatsink.svg",
     "color_svg": "glyphs/color/heatsink.svg",
     "iso_svg": "glyphs/iso/heatsink.svg",
+    "technical_top_svg": "glyphs/technical/top/heatsink.svg",
+    "technical_front_svg": "glyphs/technical/front/heatsink.svg",
+    "technical_side_svg": "glyphs/technical/side/heatsink.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/heatsink.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2407,6 +2711,10 @@ const registry = [
     "svg": "glyphs/mono/wifi_nic.svg",
     "color_svg": "glyphs/color/wifi_nic.svg",
     "iso_svg": "glyphs/iso/wifi_nic.svg",
+    "technical_top_svg": "glyphs/technical/top/wifi_nic.svg",
+    "technical_front_svg": "glyphs/technical/front/wifi_nic.svg",
+    "technical_side_svg": "glyphs/technical/side/wifi_nic.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/wifi_nic.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2438,6 +2746,10 @@ const registry = [
     "svg": "glyphs/mono/ethernet_nic.svg",
     "color_svg": "glyphs/color/ethernet_nic.svg",
     "iso_svg": "glyphs/iso/ethernet_nic.svg",
+    "technical_top_svg": "glyphs/technical/top/ethernet_nic.svg",
+    "technical_front_svg": "glyphs/technical/front/ethernet_nic.svg",
+    "technical_side_svg": "glyphs/technical/side/ethernet_nic.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/ethernet_nic.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2469,6 +2781,10 @@ const registry = [
     "svg": "glyphs/mono/router.svg",
     "color_svg": "glyphs/color/router.svg",
     "iso_svg": "glyphs/iso/router.svg",
+    "technical_top_svg": "glyphs/technical/top/router.svg",
+    "technical_front_svg": "glyphs/technical/front/router.svg",
+    "technical_side_svg": "glyphs/technical/side/router.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/router.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2500,6 +2816,10 @@ const registry = [
     "svg": "glyphs/mono/switch.svg",
     "color_svg": "glyphs/color/switch.svg",
     "iso_svg": "glyphs/iso/switch.svg",
+    "technical_top_svg": "glyphs/technical/top/switch.svg",
+    "technical_front_svg": "glyphs/technical/front/switch.svg",
+    "technical_side_svg": "glyphs/technical/side/switch.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/switch.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2531,6 +2851,10 @@ const registry = [
     "svg": "glyphs/mono/antenna.svg",
     "color_svg": "glyphs/color/antenna.svg",
     "iso_svg": "glyphs/iso/antenna.svg",
+    "technical_top_svg": "glyphs/technical/top/antenna.svg",
+    "technical_front_svg": "glyphs/technical/front/antenna.svg",
+    "technical_side_svg": "glyphs/technical/side/antenna.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/antenna.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2562,6 +2886,10 @@ const registry = [
     "svg": "glyphs/mono/atx_psu.svg",
     "color_svg": "glyphs/color/atx_psu.svg",
     "iso_svg": "glyphs/iso/atx_psu.svg",
+    "technical_top_svg": "glyphs/technical/top/atx_psu.svg",
+    "technical_front_svg": "glyphs/technical/front/atx_psu.svg",
+    "technical_side_svg": "glyphs/technical/side/atx_psu.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/atx_psu.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2594,6 +2922,10 @@ const registry = [
     "svg": "glyphs/mono/coin_cell_battery.svg",
     "color_svg": "glyphs/color/coin_cell_battery.svg",
     "iso_svg": "glyphs/iso/coin_cell_battery.svg",
+    "technical_top_svg": "glyphs/technical/top/coin_cell_battery.svg",
+    "technical_front_svg": "glyphs/technical/front/coin_cell_battery.svg",
+    "technical_side_svg": "glyphs/technical/side/coin_cell_battery.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/coin_cell_battery.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2625,6 +2957,10 @@ const registry = [
     "svg": "glyphs/mono/usb_protocol.svg",
     "color_svg": "glyphs/color/usb_protocol.svg",
     "iso_svg": "glyphs/iso/usb_protocol.svg",
+    "technical_top_svg": "glyphs/technical/top/usb_protocol.svg",
+    "technical_front_svg": "glyphs/technical/front/usb_protocol.svg",
+    "technical_side_svg": "glyphs/technical/side/usb_protocol.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/usb_protocol.svg",
     "external_ids": {},
     "sources": [
       "usb_if"
@@ -2656,6 +2992,10 @@ const registry = [
     "svg": "glyphs/mono/pcie_protocol.svg",
     "color_svg": "glyphs/color/pcie_protocol.svg",
     "iso_svg": "glyphs/iso/pcie_protocol.svg",
+    "technical_top_svg": "glyphs/technical/top/pcie_protocol.svg",
+    "technical_front_svg": "glyphs/technical/front/pcie_protocol.svg",
+    "technical_side_svg": "glyphs/technical/side/pcie_protocol.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/pcie_protocol.svg",
     "external_ids": {},
     "sources": [
       "pcie_sig"
@@ -2687,6 +3027,10 @@ const registry = [
     "svg": "glyphs/mono/nvme_protocol.svg",
     "color_svg": "glyphs/color/nvme_protocol.svg",
     "iso_svg": "glyphs/iso/nvme_protocol.svg",
+    "technical_top_svg": "glyphs/technical/top/nvme_protocol.svg",
+    "technical_front_svg": "glyphs/technical/front/nvme_protocol.svg",
+    "technical_side_svg": "glyphs/technical/side/nvme_protocol.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/nvme_protocol.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2718,6 +3062,10 @@ const registry = [
     "svg": "glyphs/mono/sata_protocol.svg",
     "color_svg": "glyphs/color/sata_protocol.svg",
     "iso_svg": "glyphs/iso/sata_protocol.svg",
+    "technical_top_svg": "glyphs/technical/top/sata_protocol.svg",
+    "technical_front_svg": "glyphs/technical/front/sata_protocol.svg",
+    "technical_side_svg": "glyphs/technical/side/sata_protocol.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/sata_protocol.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2749,6 +3097,10 @@ const registry = [
     "svg": "glyphs/mono/x86_64.svg",
     "color_svg": "glyphs/color/x86_64.svg",
     "iso_svg": "glyphs/iso/x86_64.svg",
+    "technical_top_svg": "glyphs/technical/top/x86_64.svg",
+    "technical_front_svg": "glyphs/technical/front/x86_64.svg",
+    "technical_side_svg": "glyphs/technical/side/x86_64.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/x86_64.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2780,6 +3132,10 @@ const registry = [
     "svg": "glyphs/mono/arm64.svg",
     "color_svg": "glyphs/color/arm64.svg",
     "iso_svg": "glyphs/iso/arm64.svg",
+    "technical_top_svg": "glyphs/technical/top/arm64.svg",
+    "technical_front_svg": "glyphs/technical/front/arm64.svg",
+    "technical_side_svg": "glyphs/technical/side/arm64.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/arm64.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2811,6 +3167,10 @@ const registry = [
     "svg": "glyphs/mono/riscv.svg",
     "color_svg": "glyphs/color/riscv.svg",
     "iso_svg": "glyphs/iso/riscv.svg",
+    "technical_top_svg": "glyphs/technical/top/riscv.svg",
+    "technical_front_svg": "glyphs/technical/front/riscv.svg",
+    "technical_side_svg": "glyphs/technical/side/riscv.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/riscv.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2843,6 +3203,10 @@ const registry = [
     "svg": "glyphs/mono/usb_c_cable.svg",
     "color_svg": "glyphs/color/usb_c_cable.svg",
     "iso_svg": "glyphs/iso/usb_c_cable.svg",
+    "technical_top_svg": "glyphs/technical/top/usb_c_cable.svg",
+    "technical_front_svg": "glyphs/technical/front/usb_c_cable.svg",
+    "technical_side_svg": "glyphs/technical/side/usb_c_cable.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/usb_c_cable.svg",
     "external_ids": {},
     "sources": [
       "usb_if"
@@ -2875,6 +3239,10 @@ const registry = [
     "svg": "glyphs/mono/sata_cable.svg",
     "color_svg": "glyphs/color/sata_cable.svg",
     "iso_svg": "glyphs/iso/sata_cable.svg",
+    "technical_top_svg": "glyphs/technical/top/sata_cable.svg",
+    "technical_front_svg": "glyphs/technical/front/sata_cable.svg",
+    "technical_side_svg": "glyphs/technical/side/sata_cable.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/sata_cable.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2907,6 +3275,10 @@ const registry = [
     "svg": "glyphs/mono/ethernet_cable.svg",
     "color_svg": "glyphs/color/ethernet_cable.svg",
     "iso_svg": "glyphs/iso/ethernet_cable.svg",
+    "technical_top_svg": "glyphs/technical/top/ethernet_cable.svg",
+    "technical_front_svg": "glyphs/technical/front/ethernet_cable.svg",
+    "technical_side_svg": "glyphs/technical/side/ethernet_cable.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/ethernet_cable.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2938,6 +3310,10 @@ const registry = [
     "svg": "glyphs/mono/isa_slot.svg",
     "color_svg": "glyphs/color/isa_slot.svg",
     "iso_svg": "glyphs/iso/isa_slot.svg",
+    "technical_top_svg": "glyphs/technical/top/isa_slot.svg",
+    "technical_front_svg": "glyphs/technical/front/isa_slot.svg",
+    "technical_side_svg": "glyphs/technical/side/isa_slot.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/isa_slot.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -2969,6 +3345,10 @@ const registry = [
     "svg": "glyphs/mono/pci_slot.svg",
     "color_svg": "glyphs/color/pci_slot.svg",
     "iso_svg": "glyphs/iso/pci_slot.svg",
+    "technical_top_svg": "glyphs/technical/top/pci_slot.svg",
+    "technical_front_svg": "glyphs/technical/front/pci_slot.svg",
+    "technical_side_svg": "glyphs/technical/side/pci_slot.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/pci_slot.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -3000,6 +3380,10 @@ const registry = [
     "svg": "glyphs/mono/agp_slot.svg",
     "color_svg": "glyphs/color/agp_slot.svg",
     "iso_svg": "glyphs/iso/agp_slot.svg",
+    "technical_top_svg": "glyphs/technical/top/agp_slot.svg",
+    "technical_front_svg": "glyphs/technical/front/agp_slot.svg",
+    "technical_side_svg": "glyphs/technical/side/agp_slot.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/agp_slot.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -3032,6 +3416,10 @@ const registry = [
     "svg": "glyphs/mono/ide_connector.svg",
     "color_svg": "glyphs/color/ide_connector.svg",
     "iso_svg": "glyphs/iso/ide_connector.svg",
+    "technical_top_svg": "glyphs/technical/top/ide_connector.svg",
+    "technical_front_svg": "glyphs/technical/front/ide_connector.svg",
+    "technical_side_svg": "glyphs/technical/side/ide_connector.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/ide_connector.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -3063,6 +3451,10 @@ const registry = [
     "svg": "glyphs/mono/scsi_connector.svg",
     "color_svg": "glyphs/color/scsi_connector.svg",
     "iso_svg": "glyphs/iso/scsi_connector.svg",
+    "technical_top_svg": "glyphs/technical/top/scsi_connector.svg",
+    "technical_front_svg": "glyphs/technical/front/scsi_connector.svg",
+    "technical_side_svg": "glyphs/technical/side/scsi_connector.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/scsi_connector.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -3094,6 +3486,10 @@ const registry = [
     "svg": "glyphs/mono/vga.svg",
     "color_svg": "glyphs/color/vga.svg",
     "iso_svg": "glyphs/iso/vga.svg",
+    "technical_top_svg": "glyphs/technical/top/vga.svg",
+    "technical_front_svg": "glyphs/technical/front/vga.svg",
+    "technical_side_svg": "glyphs/technical/side/vga.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/vga.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -3125,6 +3521,10 @@ const registry = [
     "svg": "glyphs/mono/ps2.svg",
     "color_svg": "glyphs/color/ps2.svg",
     "iso_svg": "glyphs/iso/ps2.svg",
+    "technical_top_svg": "glyphs/technical/top/ps2.svg",
+    "technical_front_svg": "glyphs/technical/front/ps2.svg",
+    "technical_side_svg": "glyphs/technical/side/ps2.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/ps2.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
@@ -3156,11 +3556,124 @@ const registry = [
     "svg": "glyphs/mono/sd_card.svg",
     "color_svg": "glyphs/color/sd_card.svg",
     "iso_svg": "glyphs/iso/sd_card.svg",
+    "technical_top_svg": "glyphs/technical/top/sd_card.svg",
+    "technical_front_svg": "glyphs/technical/front/sd_card.svg",
+    "technical_side_svg": "glyphs/technical/side/sd_card.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/sd_card.svg",
     "external_ids": {},
     "sources": [
       "hardware_reference"
     ],
     "accessible_label": "SD card"
+  },
+  {
+    "id": "hardware:atx_motherboard",
+    "label": "ATX motherboard",
+    "category": "board",
+    "system": "computer",
+    "parent": "hardware:computer_parts",
+    "aliases": [
+      "ATX mainboard"
+    ],
+    "attributes": {
+      "kind": "system_board",
+      "form_factor": "ATX"
+    },
+    "interfaces": [],
+    "compatible_with": [],
+    "incompatible_with": [],
+    "review_required": true,
+    "codepoint": "U+E165",
+    "char": "",
+    "ligature": ":atx_motherboard:",
+    "shortcode": ":atx_motherboard:",
+    "glyph_name": "hardware_atx_motherboard",
+    "glyph_base": "atx_motherboard",
+    "svg": "glyphs/mono/atx_motherboard.svg",
+    "color_svg": "glyphs/color/atx_motherboard.svg",
+    "iso_svg": "glyphs/iso/atx_motherboard.svg",
+    "technical_top_svg": "glyphs/technical/top/atx_motherboard.svg",
+    "technical_front_svg": "glyphs/technical/front/atx_motherboard.svg",
+    "technical_side_svg": "glyphs/technical/side/atx_motherboard.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/atx_motherboard.svg",
+    "external_ids": {},
+    "sources": [
+      "hardware_reference",
+      "open_hardware"
+    ],
+    "accessible_label": "ATX motherboard"
+  },
+  {
+    "id": "hardware:cpu_socket",
+    "label": "CPU socket",
+    "category": "socket",
+    "system": "computer",
+    "parent": "hardware:computer_parts",
+    "aliases": [
+      "processor socket"
+    ],
+    "attributes": {
+      "kind": "package_socket"
+    },
+    "interfaces": [],
+    "compatible_with": [],
+    "incompatible_with": [],
+    "review_required": true,
+    "codepoint": "U+E166",
+    "char": "",
+    "ligature": ":cpu_socket:",
+    "shortcode": ":cpu_socket:",
+    "glyph_name": "hardware_cpu_socket",
+    "glyph_base": "cpu_socket",
+    "svg": "glyphs/mono/cpu_socket.svg",
+    "color_svg": "glyphs/color/cpu_socket.svg",
+    "iso_svg": "glyphs/iso/cpu_socket.svg",
+    "technical_top_svg": "glyphs/technical/top/cpu_socket.svg",
+    "technical_front_svg": "glyphs/technical/front/cpu_socket.svg",
+    "technical_side_svg": "glyphs/technical/side/cpu_socket.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/cpu_socket.svg",
+    "external_ids": {},
+    "sources": [
+      "hardware_reference"
+    ],
+    "accessible_label": "CPU socket"
+  },
+  {
+    "id": "hardware:vrm",
+    "label": "Voltage regulator module",
+    "category": "power_component",
+    "system": "power",
+    "parent": "hardware:power",
+    "aliases": [
+      "VRM",
+      "CPU power delivery"
+    ],
+    "attributes": {
+      "kind": "power_delivery"
+    },
+    "interfaces": [],
+    "compatible_with": [],
+    "incompatible_with": [],
+    "review_required": true,
+    "codepoint": "U+E167",
+    "char": "",
+    "ligature": ":vrm:",
+    "shortcode": ":vrm:",
+    "glyph_name": "hardware_vrm",
+    "glyph_base": "vrm",
+    "svg": "glyphs/mono/vrm.svg",
+    "color_svg": "glyphs/color/vrm.svg",
+    "iso_svg": "glyphs/iso/vrm.svg",
+    "technical_top_svg": "glyphs/technical/top/vrm.svg",
+    "technical_front_svg": "glyphs/technical/front/vrm.svg",
+    "technical_side_svg": "glyphs/technical/side/vrm.svg",
+    "technical_iso_svg": "glyphs/technical/isometric/vrm.svg",
+    "external_ids": {},
+    "sources": [
+      "hardware_reference",
+      "open_hardware"
+    ],
+    "accessible_label": "Voltage regulator module"
   }
 ];
 const groups = [
@@ -3420,6 +3933,542 @@ const relations = [
     "from": "hardware:ddr4_dimm",
     "relation": "PREDECESSOR_OF",
     "to": "hardware:ddr5_dimm"
+  },
+  {
+    "from": "hardware:atx_motherboard",
+    "relation": "IS_A",
+    "to": "hardware:motherboard"
+  },
+  {
+    "from": "hardware:atx_motherboard",
+    "relation": "CONTAINS",
+    "to": "hardware:cpu_socket"
+  },
+  {
+    "from": "hardware:atx_motherboard",
+    "relation": "CONTAINS",
+    "to": "hardware:vrm"
+  },
+  {
+    "from": "hardware:atx_motherboard",
+    "relation": "CONTAINS",
+    "to": "hardware:ddr4_dimm_slot"
+  },
+  {
+    "from": "hardware:atx_motherboard",
+    "relation": "CONTAINS",
+    "to": "hardware:pcie_x1_slot"
+  }
+];
+const assemblies = [
+  {
+    "id": "assembly:generic_atx_desktop",
+    "label": "Generic ATX desktop assembly",
+    "description": "A vendor-neutral ATX board composed from canonical PCB.OTF objects.",
+    "viewBox": [
+      1600,
+      1000
+    ],
+    "default_view": "top",
+    "default_opacity": 0.78,
+    "layers": [
+      {
+        "instance": "motherboard",
+        "object": "hardware:atx_motherboard",
+        "view": "top",
+        "x": 40,
+        "y": 40,
+        "width": 1120,
+        "height": 820,
+        "z": 0,
+        "opacity": 0.4,
+        "group": "board",
+        "explode": [
+          0,
+          0
+        ]
+      },
+      {
+        "instance": "mounting_hole_1",
+        "object": "hardware:mounting_hole",
+        "view": "top",
+        "x": 90,
+        "y": 90,
+        "width": 90,
+        "height": 90,
+        "z": 1,
+        "opacity": 0.9,
+        "group": "board",
+        "explode": [
+          -12,
+          -10
+        ]
+      },
+      {
+        "instance": "mounting_hole_2",
+        "object": "hardware:mounting_hole",
+        "view": "top",
+        "x": 1020,
+        "y": 90,
+        "width": 90,
+        "height": 90,
+        "z": 1,
+        "opacity": 0.9,
+        "group": "board",
+        "explode": [
+          12,
+          -10
+        ]
+      },
+      {
+        "instance": "mounting_hole_3",
+        "object": "hardware:mounting_hole",
+        "view": "top",
+        "x": 90,
+        "y": 720,
+        "width": 90,
+        "height": 90,
+        "z": 1,
+        "opacity": 0.9,
+        "group": "board",
+        "explode": [
+          -12,
+          10
+        ]
+      },
+      {
+        "instance": "mounting_hole_4",
+        "object": "hardware:mounting_hole",
+        "view": "top",
+        "x": 1020,
+        "y": 720,
+        "width": 90,
+        "height": 90,
+        "z": 1,
+        "opacity": 0.9,
+        "group": "board",
+        "explode": [
+          12,
+          10
+        ]
+      },
+      {
+        "instance": "cpu_socket",
+        "object": "hardware:cpu_socket",
+        "view": "top",
+        "x": 350,
+        "y": 205,
+        "width": 280,
+        "height": 260,
+        "z": 6,
+        "opacity": 0.94,
+        "group": "compute",
+        "explode": [
+          0,
+          -18
+        ]
+      },
+      {
+        "instance": "cpu",
+        "object": "hardware:cpu",
+        "view": "top",
+        "x": 375,
+        "y": 230,
+        "width": 230,
+        "height": 210,
+        "z": 8,
+        "opacity": 0.96,
+        "group": "compute",
+        "explode": [
+          0,
+          -34
+        ]
+      },
+      {
+        "instance": "vrm",
+        "object": "hardware:vrm",
+        "view": "top",
+        "x": 205,
+        "y": 185,
+        "width": 145,
+        "height": 310,
+        "z": 5,
+        "opacity": 0.92,
+        "group": "power",
+        "explode": [
+          -24,
+          -12
+        ]
+      },
+      {
+        "instance": "heatsink",
+        "object": "hardware:heatsink",
+        "view": "top",
+        "x": 675,
+        "y": 175,
+        "width": 190,
+        "height": 165,
+        "z": 5,
+        "opacity": 0.84,
+        "group": "cooling",
+        "explode": [
+          26,
+          -14
+        ]
+      },
+      {
+        "instance": "fan",
+        "object": "hardware:fan",
+        "view": "top",
+        "x": 705,
+        "y": 200,
+        "width": 130,
+        "height": 130,
+        "z": 7,
+        "opacity": 0.8,
+        "group": "cooling",
+        "explode": [
+          38,
+          -26
+        ]
+      },
+      {
+        "instance": "chipset",
+        "object": "hardware:chipset",
+        "view": "top",
+        "x": 520,
+        "y": 600,
+        "width": 150,
+        "height": 150,
+        "z": 5,
+        "opacity": 0.9,
+        "group": "compute",
+        "explode": [
+          0,
+          18
+        ]
+      },
+      {
+        "instance": "dimm_slot_1",
+        "object": "hardware:ddr4_dimm_slot",
+        "view": "top",
+        "x": 720,
+        "y": 390,
+        "width": 310,
+        "height": 48,
+        "z": 4,
+        "opacity": 0.78,
+        "group": "memory",
+        "explode": [
+          20,
+          0
+        ]
+      },
+      {
+        "instance": "dimm_slot_2",
+        "object": "hardware:ddr4_dimm_slot",
+        "view": "top",
+        "x": 720,
+        "y": 455,
+        "width": 310,
+        "height": 48,
+        "z": 4,
+        "opacity": 0.78,
+        "group": "memory",
+        "explode": [
+          20,
+          0
+        ]
+      },
+      {
+        "instance": "dimm_slot_3",
+        "object": "hardware:ddr4_dimm_slot",
+        "view": "top",
+        "x": 720,
+        "y": 520,
+        "width": 310,
+        "height": 48,
+        "z": 4,
+        "opacity": 0.78,
+        "group": "memory",
+        "explode": [
+          20,
+          0
+        ]
+      },
+      {
+        "instance": "dimm_slot_4",
+        "object": "hardware:ddr4_dimm_slot",
+        "view": "top",
+        "x": 720,
+        "y": 585,
+        "width": 310,
+        "height": 48,
+        "z": 4,
+        "opacity": 0.78,
+        "group": "memory",
+        "explode": [
+          20,
+          0
+        ]
+      },
+      {
+        "instance": "dimm_a",
+        "object": "hardware:ddr4_dimm",
+        "view": "top",
+        "x": 730,
+        "y": 394,
+        "width": 290,
+        "height": 40,
+        "z": 7,
+        "opacity": 0.92,
+        "group": "memory",
+        "explode": [
+          42,
+          -12
+        ]
+      },
+      {
+        "instance": "dimm_b",
+        "object": "hardware:ddr4_dimm",
+        "view": "top",
+        "x": 730,
+        "y": 524,
+        "width": 290,
+        "height": 40,
+        "z": 7,
+        "opacity": 0.92,
+        "group": "memory",
+        "explode": [
+          42,
+          12
+        ]
+      },
+      {
+        "instance": "pcie_x16_slot",
+        "object": "hardware:pcie_x16_slot",
+        "view": "top",
+        "x": 195,
+        "y": 650,
+        "width": 520,
+        "height": 62,
+        "z": 4,
+        "opacity": 0.82,
+        "group": "expansion",
+        "explode": [
+          0,
+          24
+        ]
+      },
+      {
+        "instance": "pcie_x1_slot",
+        "object": "hardware:pcie_x1_slot",
+        "view": "top",
+        "x": 220,
+        "y": 745,
+        "width": 270,
+        "height": 45,
+        "z": 4,
+        "opacity": 0.82,
+        "group": "expansion",
+        "explode": [
+          0,
+          28
+        ]
+      },
+      {
+        "instance": "gpu",
+        "object": "hardware:gpu",
+        "view": "top",
+        "x": 255,
+        "y": 660,
+        "width": 480,
+        "height": 96,
+        "z": 8,
+        "opacity": 0.92,
+        "group": "expansion",
+        "explode": [
+          0,
+          52
+        ]
+      },
+      {
+        "instance": "m2_socket",
+        "object": "hardware:m2_socket",
+        "view": "top",
+        "x": 330,
+        "y": 535,
+        "width": 245,
+        "height": 46,
+        "z": 4,
+        "opacity": 0.82,
+        "group": "storage",
+        "explode": [
+          -18,
+          34
+        ]
+      },
+      {
+        "instance": "nvme",
+        "object": "hardware:nvme_ssd",
+        "view": "top",
+        "x": 350,
+        "y": 540,
+        "width": 220,
+        "height": 38,
+        "z": 8,
+        "opacity": 0.92,
+        "group": "storage",
+        "explode": [
+          -28,
+          54
+        ]
+      },
+      {
+        "instance": "sata_connector",
+        "object": "hardware:sata_connector",
+        "view": "top",
+        "x": 900,
+        "y": 690,
+        "width": 105,
+        "height": 80,
+        "z": 5,
+        "opacity": 0.88,
+        "group": "storage",
+        "explode": [
+          28,
+          28
+        ]
+      },
+      {
+        "instance": "sata_drive",
+        "object": "hardware:sata_ssd",
+        "view": "top",
+        "x": 1030,
+        "y": 665,
+        "width": 145,
+        "height": 95,
+        "z": 7,
+        "opacity": 0.92,
+        "group": "storage",
+        "explode": [
+          54,
+          34
+        ]
+      },
+      {
+        "instance": "atx_power",
+        "object": "hardware:atx_24pin",
+        "view": "top",
+        "x": 930,
+        "y": 245,
+        "width": 115,
+        "height": 235,
+        "z": 6,
+        "opacity": 0.9,
+        "group": "power",
+        "explode": [
+          32,
+          -14
+        ]
+      },
+      {
+        "instance": "cpu_power",
+        "object": "hardware:cpu_power_8pin",
+        "view": "top",
+        "x": 185,
+        "y": 115,
+        "width": 105,
+        "height": 90,
+        "z": 6,
+        "opacity": 0.9,
+        "group": "power",
+        "explode": [
+          -24,
+          -22
+        ]
+      },
+      {
+        "instance": "pcie_power",
+        "object": "hardware:pcie_power_8pin",
+        "view": "top",
+        "x": 620,
+        "y": 760,
+        "width": 105,
+        "height": 90,
+        "z": 6,
+        "opacity": 0.9,
+        "group": "power",
+        "explode": [
+          18,
+          40
+        ]
+      },
+      {
+        "instance": "coin_cell",
+        "object": "hardware:coin_cell_battery",
+        "view": "top",
+        "x": 760,
+        "y": 690,
+        "width": 82,
+        "height": 82,
+        "z": 6,
+        "opacity": 0.9,
+        "group": "power",
+        "explode": [
+          22,
+          42
+        ]
+      },
+      {
+        "instance": "usb_a",
+        "object": "hardware:usb_a",
+        "view": "top",
+        "x": 1070,
+        "y": 300,
+        "width": 70,
+        "height": 105,
+        "z": 6,
+        "opacity": 0.88,
+        "group": "io",
+        "explode": [
+          50,
+          -10
+        ]
+      },
+      {
+        "instance": "rj45",
+        "object": "hardware:rj45",
+        "view": "top",
+        "x": 1070,
+        "y": 430,
+        "width": 70,
+        "height": 105,
+        "z": 6,
+        "opacity": 0.88,
+        "group": "io",
+        "explode": [
+          50,
+          0
+        ]
+      },
+      {
+        "instance": "audio",
+        "object": "hardware:audio_jack_35mm",
+        "view": "top",
+        "x": 1070,
+        "y": 560,
+        "width": 70,
+        "height": 105,
+        "z": 6,
+        "opacity": 0.88,
+        "group": "io",
+        "explode": [
+          50,
+          10
+        ]
+      }
+    ]
   }
 ];
 const byId = new Map(registry.map((item) => [item.id, item]));
@@ -3433,4 +4482,7 @@ function children(id) { return registry.filter((item) => item.parent === id); }
 function relationsFor(id) { return relations.filter((edge) => edge.from === id || edge.to === id); }
 function compatibleWith(id) { return relations.filter((edge) => edge.from === id && ['COMPATIBLE_WITH', 'FITS_IN'].includes(edge.relation)).map((edge) => get(edge.to)).filter(Boolean); }
 function connectionsFor(id) { return relationsFor(id).filter((edge) => ['CONNECTS_TO', 'CARRIES_PROTOCOL', 'USES_INTERFACE'].includes(edge.relation)); }
-module.exports = { registry, groups, relations, get, resolveShortcode, unicodeFor, search, parents, children, relationsFor, compatibleWith, connectionsFor };
+function assembly(id) { return assemblies.find((scene) => scene.id === id) || null; }
+function instances(id) { const scene = assembly(id); return scene ? scene.layers.map((layer) => ({...layer, object_record: get(layer.object)})) : []; }
+function objectForInstance(sceneId, instanceId) { return instances(sceneId).find((layer) => layer.instance === instanceId)?.object_record || null; }
+module.exports = { registry, groups, relations, assemblies, get, resolveShortcode, unicodeFor, search, parents, children, relationsFor, compatibleWith, connectionsFor, assembly, instances, objectForInstance };

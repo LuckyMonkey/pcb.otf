@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
   <title id="title">NVMe solid-state drive</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M162 150 H838 Q880 150 880 192 V808 Q880 850 838 850 H162 Q120 850 120 808 V192 Q120 150 162 150 Z" fill="#17252c" data-role="body"/>
-  <path d="M218 300 H782 Q800 300 800 318 V682 Q800 700 782 700 H218 Q200 700 200 682 V318 Q200 300 218 300 Z" fill="#17252c" data-role="body"/>
-  <path d="M297 390 H423 Q435 390 435 402 V528 Q435 540 423 540 H297 Q285 540 285 528 V402 Q285 390 297 390 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M517 390 H643 Q655 390 655 402 V528 Q655 540 643 540 H517 Q505 540 505 528 V402 Q505 390 517 390 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M200 600 H800 V630 H200 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M130 440 H850 V560 H130 Z" fill="#17252c" data-role="body" data-layer="body"/>
+  <path d="M184 465 H286 Q290 465 290 469 V531 Q290 535 286 535 H184 Q180 535 180 531 V469 Q180 465 184 465 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M364 465 H466 Q470 465 470 469 V531 Q470 535 466 535 H364 Q360 535 360 531 V469 Q360 465 364 465 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M544 465 H646 Q650 465 650 469 V531 Q650 535 646 535 H544 Q540 535 540 531 V469 Q540 465 544 465 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M790 440 V560 H850" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
   </g>
 </svg>

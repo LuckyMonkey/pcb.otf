@@ -1,29 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
   <title id="title">DDR4 DIMM slot</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M210 390 H790 Q815 390 815 415 V545 Q815 570 790 570 H210 Q185 570 185 545 V415 Q185 390 210 390 Z" fill="#17252c" data-role="body"/>
-  <path d="M217 585 H225 Q227 585 227 587 V638 Q227 640 225 640 H217 Q215 640 215 638 V587 Q215 585 217 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M245 585 H253 Q255 585 255 587 V638 Q255 640 253 640 H245 Q243 640 243 638 V587 Q243 585 245 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M273 585 H281 Q283 585 283 587 V638 Q283 640 281 640 H273 Q271 640 271 638 V587 Q271 585 273 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M301 585 H309 Q311 585 311 587 V638 Q311 640 309 640 H301 Q299 640 299 638 V587 Q299 585 301 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M329 585 H337 Q339 585 339 587 V638 Q339 640 337 640 H329 Q327 640 327 638 V587 Q327 585 329 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M357 585 H365 Q367 585 367 587 V638 Q367 640 365 640 H357 Q355 640 355 638 V587 Q355 585 357 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M385 585 H393 Q395 585 395 587 V638 Q395 640 393 640 H385 Q383 640 383 638 V587 Q383 585 385 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M413 585 H421 Q423 585 423 587 V638 Q423 640 421 640 H413 Q411 640 411 638 V587 Q411 585 413 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M441 585 H449 Q451 585 451 587 V638 Q451 640 449 640 H441 Q439 640 439 638 V587 Q439 585 441 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M469 585 H477 Q479 585 479 587 V638 Q479 640 477 640 H469 Q467 640 467 638 V587 Q467 585 469 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M497 585 H505 Q507 585 507 587 V638 Q507 640 505 640 H497 Q495 640 495 638 V587 Q495 585 497 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M525 585 H533 Q535 585 535 587 V638 Q535 640 533 640 H525 Q523 640 523 638 V587 Q523 585 525 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M553 585 H561 Q563 585 563 587 V638 Q563 640 561 640 H553 Q551 640 551 638 V587 Q551 585 553 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M581 585 H589 Q591 585 591 587 V638 Q591 640 589 640 H581 Q579 640 579 638 V587 Q579 585 581 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M609 585 H617 Q619 585 619 587 V638 Q619 640 617 640 H609 Q607 640 607 638 V587 Q607 585 609 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M637 585 H645 Q647 585 647 587 V638 Q647 640 645 640 H637 Q635 640 635 638 V587 Q635 585 637 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M665 585 H673 Q675 585 675 587 V638 Q675 640 673 640 H665 Q663 640 663 638 V587 Q663 585 665 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M693 585 H701 Q703 585 703 587 V638 Q703 640 701 640 H693 Q691 640 691 638 V587 Q691 585 693 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M721 585 H729 Q731 585 731 587 V638 Q731 640 729 640 H721 Q719 640 719 638 V587 Q719 585 721 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M749 585 H757 Q759 585 759 587 V638 Q759 640 757 640 H749 Q747 640 747 638 V587 Q747 585 749 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M777 585 H785 Q787 585 787 587 V638 Q787 640 785 640 H777 Q775 640 775 638 V587 Q775 585 777 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M805 585 H813 Q815 585 815 587 V638 Q815 640 813 640 H805 Q803 640 803 638 V587 Q803 585 805 585 Z" fill="#f5f0e6" data-role="detail"/>
-  <path d="M470 390 H530 V470 H470 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M136 420 H864 Q880 420 880 436 V564 Q880 580 864 580 H136 Q120 580 120 564 V436 Q120 420 136 420 Z" fill="#17252c" data-role="body" data-layer="body"/>
+  <path d="M159 455 H841 Q845 455 845 459 V541 Q845 545 841 545 H159 Q155 545 155 541 V459 Q155 455 159 455 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M479 420 H513 Q517 420 517 424 V576 Q517 580 513 580 H479 Q475 580 475 576 V424 Q475 420 479 420 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   </g>
 </svg>
