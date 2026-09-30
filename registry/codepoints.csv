@@ -1,0 +1,102 @@
+id,label,category,system,codepoint,char,glyph_name,svg,color_svg,iso_svg
+hardware:resistor,Resistor,passive_component,analog,U+E100,,hardware_resistor,glyphs/mono/resistor.svg,glyphs/color/resistor.svg,glyphs/iso/resistor.svg
+hardware:variable_resistor,Variable resistor,passive_component,analog,U+E101,,hardware_variable_resistor,glyphs/mono/variable_resistor.svg,glyphs/color/variable_resistor.svg,glyphs/iso/variable_resistor.svg
+hardware:potentiometer,Potentiometer,passive_component,analog,U+E102,,hardware_potentiometer,glyphs/mono/potentiometer.svg,glyphs/color/potentiometer.svg,glyphs/iso/potentiometer.svg
+hardware:ceramic_capacitor,Ceramic capacitor,passive_component,analog,U+E103,,hardware_ceramic_capacitor,glyphs/mono/ceramic_capacitor.svg,glyphs/color/ceramic_capacitor.svg,glyphs/iso/ceramic_capacitor.svg
+hardware:electrolytic_capacitor,Electrolytic capacitor,passive_component,analog,U+E104,,hardware_electrolytic_capacitor,glyphs/mono/electrolytic_capacitor.svg,glyphs/color/electrolytic_capacitor.svg,glyphs/iso/electrolytic_capacitor.svg
+hardware:inductor,Inductor,passive_component,analog,U+E105,,hardware_inductor,glyphs/mono/inductor.svg,glyphs/color/inductor.svg,glyphs/iso/inductor.svg
+hardware:transformer,Transformer,passive_component,power,U+E106,,hardware_transformer,glyphs/mono/transformer.svg,glyphs/color/transformer.svg,glyphs/iso/transformer.svg
+hardware:fuse,Fuse,passive_component,power,U+E107,,hardware_fuse,glyphs/mono/fuse.svg,glyphs/color/fuse.svg,glyphs/iso/fuse.svg
+hardware:thermistor,Thermistor,passive_component,analog,U+E108,,hardware_thermistor,glyphs/mono/thermistor.svg,glyphs/color/thermistor.svg,glyphs/iso/thermistor.svg
+hardware:diode,Diode,semiconductor,analog,U+E109,,hardware_diode,glyphs/mono/diode.svg,glyphs/color/diode.svg,glyphs/iso/diode.svg
+hardware:led,Light-emitting diode,semiconductor,optoelectronics,U+E10A,,hardware_led,glyphs/mono/led.svg,glyphs/color/led.svg,glyphs/iso/led.svg
+hardware:photodiode,Photodiode,semiconductor,optoelectronics,U+E10B,,hardware_photodiode,glyphs/mono/photodiode.svg,glyphs/color/photodiode.svg,glyphs/iso/photodiode.svg
+hardware:npn_transistor,NPN transistor,semiconductor,analog,U+E10C,,hardware_npn_transistor,glyphs/mono/npn_transistor.svg,glyphs/color/npn_transistor.svg,glyphs/iso/npn_transistor.svg
+hardware:pnp_transistor,PNP transistor,semiconductor,analog,U+E10D,,hardware_pnp_transistor,glyphs/mono/pnp_transistor.svg,glyphs/color/pnp_transistor.svg,glyphs/iso/pnp_transistor.svg
+hardware:mosfet,MOSFET,semiconductor,power,U+E10E,,hardware_mosfet,glyphs/mono/mosfet.svg,glyphs/color/mosfet.svg,glyphs/iso/mosfet.svg
+hardware:voltage_regulator,Voltage regulator,semiconductor,power,U+E10F,,hardware_voltage_regulator,glyphs/mono/voltage_regulator.svg,glyphs/color/voltage_regulator.svg,glyphs/iso/voltage_regulator.svg
+hardware:op_amp,Operational amplifier,semiconductor,analog,U+E110,,hardware_op_amp,glyphs/mono/op_amp.svg,glyphs/color/op_amp.svg,glyphs/iso/op_amp.svg
+hardware:oscillator,Oscillator,semiconductor,timing,U+E111,,hardware_oscillator,glyphs/mono/oscillator.svg,glyphs/color/oscillator.svg,glyphs/iso/oscillator.svg
+hardware:crystal,Crystal resonator,passive_component,timing,U+E112,,hardware_crystal,glyphs/mono/crystal.svg,glyphs/color/crystal.svg,glyphs/iso/crystal.svg
+hardware:logic_ic,Logic IC,semiconductor,digital,U+E113,,hardware_logic_ic,glyphs/mono/logic_ic.svg,glyphs/color/logic_ic.svg,glyphs/iso/logic_ic.svg
+hardware:microcontroller,Microcontroller,semiconductor,digital,U+E114,,hardware_microcontroller,glyphs/mono/microcontroller.svg,glyphs/color/microcontroller.svg,glyphs/iso/microcontroller.svg
+hardware:microprocessor,Microprocessor,semiconductor,digital,U+E115,,hardware_microprocessor,glyphs/mono/microprocessor.svg,glyphs/color/microprocessor.svg,glyphs/iso/microprocessor.svg
+hardware:fpga,FPGA,semiconductor,digital,U+E116,,hardware_fpga,glyphs/mono/fpga.svg,glyphs/color/fpga.svg,glyphs/iso/fpga.svg
+hardware:dip,Dual in-line package,package,mechanical,U+E117,,hardware_dip,glyphs/mono/dip.svg,glyphs/color/dip.svg,glyphs/iso/dip.svg
+hardware:soic,Small-outline integrated circuit package,package,mechanical,U+E118,,hardware_soic,glyphs/mono/soic.svg,glyphs/color/soic.svg,glyphs/iso/soic.svg
+hardware:qfp,Quad flat package,package,mechanical,U+E119,,hardware_qfp,glyphs/mono/qfp.svg,glyphs/color/qfp.svg,glyphs/iso/qfp.svg
+hardware:qfn,Quad flat no-lead package,package,mechanical,U+E11A,,hardware_qfn,glyphs/mono/qfn.svg,glyphs/color/qfn.svg,glyphs/iso/qfn.svg
+hardware:bga,Ball grid array package,package,mechanical,U+E11B,,hardware_bga,glyphs/mono/bga.svg,glyphs/color/bga.svg,glyphs/iso/bga.svg
+hardware:lga,Land grid array package,package,mechanical,U+E11C,,hardware_lga,glyphs/mono/lga.svg,glyphs/color/lga.svg,glyphs/iso/lga.svg
+hardware:to220,TO-220 package,package,mechanical,U+E11D,,hardware_to220,glyphs/mono/to220.svg,glyphs/color/to220.svg,glyphs/iso/to220.svg
+hardware:pcb,Printed circuit board,board,pcb,U+E11E,,hardware_pcb,glyphs/mono/pcb.svg,glyphs/color/pcb.svg,glyphs/iso/pcb.svg
+hardware:substrate,PCB substrate,pcb_feature,pcb,U+E11F,,hardware_substrate,glyphs/mono/substrate.svg,glyphs/color/substrate.svg,glyphs/iso/substrate.svg
+hardware:copper_layer,Copper layer,pcb_feature,pcb,U+E120,,hardware_copper_layer,glyphs/mono/copper_layer.svg,glyphs/color/copper_layer.svg,glyphs/iso/copper_layer.svg
+hardware:solder_mask,Solder mask,pcb_feature,pcb,U+E121,,hardware_solder_mask,glyphs/mono/solder_mask.svg,glyphs/color/solder_mask.svg,glyphs/iso/solder_mask.svg
+hardware:silkscreen,Silkscreen,pcb_feature,pcb,U+E122,,hardware_silkscreen,glyphs/mono/silkscreen.svg,glyphs/color/silkscreen.svg,glyphs/iso/silkscreen.svg
+hardware:trace,Copper trace,pcb_feature,pcb,U+E123,,hardware_trace,glyphs/mono/trace.svg,glyphs/color/trace.svg,glyphs/iso/trace.svg
+hardware:differential_pair,Differential pair,pcb_feature,signal,U+E124,,hardware_differential_pair,glyphs/mono/differential_pair.svg,glyphs/color/differential_pair.svg,glyphs/iso/differential_pair.svg
+hardware:ground_plane,Ground plane,pcb_feature,power,U+E125,,hardware_ground_plane,glyphs/mono/ground_plane.svg,glyphs/color/ground_plane.svg,glyphs/iso/ground_plane.svg
+hardware:via,Via,pcb_feature,pcb,U+E126,,hardware_via,glyphs/mono/via.svg,glyphs/color/via.svg,glyphs/iso/via.svg
+hardware:plated_through_hole,Plated through-hole,pcb_feature,pcb,U+E127,,hardware_plated_through_hole,glyphs/mono/plated_through_hole.svg,glyphs/color/plated_through_hole.svg,glyphs/iso/plated_through_hole.svg
+hardware:pad,Solder pad,pcb_feature,pcb,U+E128,,hardware_pad,glyphs/mono/pad.svg,glyphs/color/pad.svg,glyphs/iso/pad.svg
+hardware:test_point,Test point,pcb_feature,test,U+E129,,hardware_test_point,glyphs/mono/test_point.svg,glyphs/color/test_point.svg,glyphs/iso/test_point.svg
+hardware:jumper,Jumper,mechanical_component,configuration,U+E12A,,hardware_jumper,glyphs/mono/jumper.svg,glyphs/color/jumper.svg,glyphs/iso/jumper.svg
+hardware:mounting_hole,Mounting hole,mechanical_component,mechanical,U+E12B,,hardware_mounting_hole,glyphs/mono/mounting_hole.svg,glyphs/color/mounting_hole.svg,glyphs/iso/mounting_hole.svg
+hardware:fiducial,Fiducial marker,pcb_feature,assembly,U+E12C,,hardware_fiducial,glyphs/mono/fiducial.svg,glyphs/color/fiducial.svg,glyphs/iso/fiducial.svg
+hardware:bga_footprint,BGA footprint,pcb_feature,assembly,U+E12D,,hardware_bga_footprint,glyphs/mono/bga_footprint.svg,glyphs/color/bga_footprint.svg,glyphs/iso/bga_footprint.svg
+hardware:thermal_pad,Thermal pad,pcb_feature,thermal,U+E12E,,hardware_thermal_pad,glyphs/mono/thermal_pad.svg,glyphs/color/thermal_pad.svg,glyphs/iso/thermal_pad.svg
+hardware:motherboard,Motherboard,board,computer,U+E12F,,hardware_motherboard,glyphs/mono/motherboard.svg,glyphs/color/motherboard.svg,glyphs/iso/motherboard.svg
+hardware:cpu,Central processing unit,semiconductor,computer,U+E130,,hardware_cpu,glyphs/mono/cpu.svg,glyphs/color/cpu.svg,glyphs/iso/cpu.svg
+hardware:gpu,Graphics processing unit,semiconductor,computer,U+E131,,hardware_gpu,glyphs/mono/gpu.svg,glyphs/color/gpu.svg,glyphs/iso/gpu.svg
+hardware:chipset,Chipset,semiconductor,computer,U+E132,,hardware_chipset,glyphs/mono/chipset.svg,glyphs/color/chipset.svg,glyphs/iso/chipset.svg
+hardware:memory_module,Memory module,memory_module,memory,U+E164,,hardware_memory_module,glyphs/mono/memory_module.svg,glyphs/color/memory_module.svg,glyphs/iso/memory_module.svg
+hardware:ddr3_dimm,DDR3 DIMM,memory_module,memory,U+E133,,hardware_ddr3_dimm,glyphs/mono/ddr3_dimm.svg,glyphs/color/ddr3_dimm.svg,glyphs/iso/ddr3_dimm.svg
+hardware:ddr4_dimm,DDR4 DIMM,memory_module,memory,U+E134,,hardware_ddr4_dimm,glyphs/mono/ddr4_dimm.svg,glyphs/color/ddr4_dimm.svg,glyphs/iso/ddr4_dimm.svg
+hardware:ddr5_dimm,DDR5 DIMM,memory_module,memory,U+E135,,hardware_ddr5_dimm,glyphs/mono/ddr5_dimm.svg,glyphs/color/ddr5_dimm.svg,glyphs/iso/ddr5_dimm.svg
+hardware:ddr3_dimm_slot,DDR3 DIMM slot,slot,memory,U+E136,,hardware_ddr3_dimm_slot,glyphs/mono/ddr3_dimm_slot.svg,glyphs/color/ddr3_dimm_slot.svg,glyphs/iso/ddr3_dimm_slot.svg
+hardware:ddr4_dimm_slot,DDR4 DIMM slot,slot,memory,U+E137,,hardware_ddr4_dimm_slot,glyphs/mono/ddr4_dimm_slot.svg,glyphs/color/ddr4_dimm_slot.svg,glyphs/iso/ddr4_dimm_slot.svg
+hardware:ddr5_dimm_slot,DDR5 DIMM slot,slot,memory,U+E138,,hardware_ddr5_dimm_slot,glyphs/mono/ddr5_dimm_slot.svg,glyphs/color/ddr5_dimm_slot.svg,glyphs/iso/ddr5_dimm_slot.svg
+hardware:pcie_x1_slot,PCI Express x1 slot,slot,expansion,U+E139,,hardware_pcie_x1_slot,glyphs/mono/pcie_x1_slot.svg,glyphs/color/pcie_x1_slot.svg,glyphs/iso/pcie_x1_slot.svg
+hardware:pcie_x16_slot,PCI Express x16 slot,slot,expansion,U+E13A,,hardware_pcie_x16_slot,glyphs/mono/pcie_x16_slot.svg,glyphs/color/pcie_x16_slot.svg,glyphs/iso/pcie_x16_slot.svg
+hardware:m2_socket,M.2 socket,socket,storage,U+E13B,,hardware_m2_socket,glyphs/mono/m2_socket.svg,glyphs/color/m2_socket.svg,glyphs/iso/m2_socket.svg
+hardware:nvme_ssd,NVMe solid-state drive,storage_device,storage,U+E13C,,hardware_nvme_ssd,glyphs/mono/nvme_ssd.svg,glyphs/color/nvme_ssd.svg,glyphs/iso/nvme_ssd.svg
+hardware:sata_connector,SATA connector,connector,storage,U+E13D,,hardware_sata_connector,glyphs/mono/sata_connector.svg,glyphs/color/sata_connector.svg,glyphs/iso/sata_connector.svg
+hardware:sata_ssd,SATA solid-state drive,storage_device,storage,U+E13E,,hardware_sata_ssd,glyphs/mono/sata_ssd.svg,glyphs/color/sata_ssd.svg,glyphs/iso/sata_ssd.svg
+hardware:hdd,Hard disk drive,storage_device,storage,U+E13F,,hardware_hdd,glyphs/mono/hdd.svg,glyphs/color/hdd.svg,glyphs/iso/hdd.svg
+hardware:usb_a,USB Type-A connector,connector,external_io,U+E140,,hardware_usb_a,glyphs/mono/usb_a.svg,glyphs/color/usb_a.svg,glyphs/iso/usb_a.svg
+hardware:usb_c,USB Type-C connector,connector,external_io,U+E141,,hardware_usb_c,glyphs/mono/usb_c.svg,glyphs/color/usb_c.svg,glyphs/iso/usb_c.svg
+hardware:hdmi,HDMI connector,connector,display,U+E142,,hardware_hdmi,glyphs/mono/hdmi.svg,glyphs/color/hdmi.svg,glyphs/iso/hdmi.svg
+hardware:displayport,DisplayPort connector,connector,display,U+E143,,hardware_displayport,glyphs/mono/displayport.svg,glyphs/color/displayport.svg,glyphs/iso/displayport.svg
+hardware:rj45,RJ45 / 8P8C connector,connector,networking,U+E144,,hardware_rj45,glyphs/mono/rj45.svg,glyphs/color/rj45.svg,glyphs/iso/rj45.svg
+hardware:audio_jack_35mm,3.5 mm audio jack,connector,audio,U+E145,,hardware_audio_jack_35mm,glyphs/mono/audio_jack_35mm.svg,glyphs/color/audio_jack_35mm.svg,glyphs/iso/audio_jack_35mm.svg
+hardware:atx_24pin,ATX 24-pin power connector,connector,power,U+E146,,hardware_atx_24pin,glyphs/mono/atx_24pin.svg,glyphs/color/atx_24pin.svg,glyphs/iso/atx_24pin.svg
+hardware:cpu_power_8pin,CPU 8-pin power connector,connector,power,U+E147,,hardware_cpu_power_8pin,glyphs/mono/cpu_power_8pin.svg,glyphs/color/cpu_power_8pin.svg,glyphs/iso/cpu_power_8pin.svg
+hardware:pcie_power_8pin,PCIe 8-pin power connector,connector,power,U+E148,,hardware_pcie_power_8pin,glyphs/mono/pcie_power_8pin.svg,glyphs/color/pcie_power_8pin.svg,glyphs/iso/pcie_power_8pin.svg
+hardware:fan,Cooling fan,cooling_component,thermal,U+E149,,hardware_fan,glyphs/mono/fan.svg,glyphs/color/fan.svg,glyphs/iso/fan.svg
+hardware:heatsink,Heatsink,cooling_component,thermal,U+E14A,,hardware_heatsink,glyphs/mono/heatsink.svg,glyphs/color/heatsink.svg,glyphs/iso/heatsink.svg
+hardware:wifi_nic,Wi-Fi network interface card,expansion_card,networking,U+E14B,,hardware_wifi_nic,glyphs/mono/wifi_nic.svg,glyphs/color/wifi_nic.svg,glyphs/iso/wifi_nic.svg
+hardware:ethernet_nic,Ethernet network interface card,expansion_card,networking,U+E14C,,hardware_ethernet_nic,glyphs/mono/ethernet_nic.svg,glyphs/color/ethernet_nic.svg,glyphs/iso/ethernet_nic.svg
+hardware:router,Router,network_device,networking,U+E14D,,hardware_router,glyphs/mono/router.svg,glyphs/color/router.svg,glyphs/iso/router.svg
+hardware:switch,Network switch,network_device,networking,U+E14E,,hardware_switch,glyphs/mono/switch.svg,glyphs/color/switch.svg,glyphs/iso/switch.svg
+hardware:antenna,Antenna,networking,radio,U+E14F,,hardware_antenna,glyphs/mono/antenna.svg,glyphs/color/antenna.svg,glyphs/iso/antenna.svg
+hardware:atx_psu,ATX power supply,power_supply,power,U+E150,,hardware_atx_psu,glyphs/mono/atx_psu.svg,glyphs/color/atx_psu.svg,glyphs/iso/atx_psu.svg
+hardware:coin_cell_battery,Coin-cell battery,power_source,power,U+E151,,hardware_coin_cell_battery,glyphs/mono/coin_cell_battery.svg,glyphs/color/coin_cell_battery.svg,glyphs/iso/coin_cell_battery.svg
+hardware:usb_protocol,USB protocol,protocol,external_io,U+E152,,hardware_usb_protocol,glyphs/mono/usb_protocol.svg,glyphs/color/usb_protocol.svg,glyphs/iso/usb_protocol.svg
+hardware:pcie_protocol,PCI Express protocol,protocol,expansion,U+E153,,hardware_pcie_protocol,glyphs/mono/pcie_protocol.svg,glyphs/color/pcie_protocol.svg,glyphs/iso/pcie_protocol.svg
+hardware:nvme_protocol,NVMe protocol,protocol,storage,U+E154,,hardware_nvme_protocol,glyphs/mono/nvme_protocol.svg,glyphs/color/nvme_protocol.svg,glyphs/iso/nvme_protocol.svg
+hardware:sata_protocol,SATA protocol,protocol,storage,U+E155,,hardware_sata_protocol,glyphs/mono/sata_protocol.svg,glyphs/color/sata_protocol.svg,glyphs/iso/sata_protocol.svg
+hardware:x86_64,x86-64 architecture,architecture,processor,U+E156,,hardware_x86_64,glyphs/mono/x86_64.svg,glyphs/color/x86_64.svg,glyphs/iso/x86_64.svg
+hardware:arm64,ARM64 architecture,architecture,processor,U+E157,,hardware_arm64,glyphs/mono/arm64.svg,glyphs/color/arm64.svg,glyphs/iso/arm64.svg
+hardware:riscv,RISC-V architecture,architecture,processor,U+E158,,hardware_riscv,glyphs/mono/riscv.svg,glyphs/color/riscv.svg,glyphs/iso/riscv.svg
+hardware:usb_c_cable,USB-C cable,cable,external_io,U+E159,,hardware_usb_c_cable,glyphs/mono/usb_c_cable.svg,glyphs/color/usb_c_cable.svg,glyphs/iso/usb_c_cable.svg
+hardware:sata_cable,SATA data cable,cable,storage,U+E15A,,hardware_sata_cable,glyphs/mono/sata_cable.svg,glyphs/color/sata_cable.svg,glyphs/iso/sata_cable.svg
+hardware:ethernet_cable,Ethernet cable,cable,networking,U+E15B,,hardware_ethernet_cable,glyphs/mono/ethernet_cable.svg,glyphs/color/ethernet_cable.svg,glyphs/iso/ethernet_cable.svg
+hardware:isa_slot,ISA slot,slot,expansion,U+E15C,,hardware_isa_slot,glyphs/mono/isa_slot.svg,glyphs/color/isa_slot.svg,glyphs/iso/isa_slot.svg
+hardware:pci_slot,PCI slot,slot,expansion,U+E15D,,hardware_pci_slot,glyphs/mono/pci_slot.svg,glyphs/color/pci_slot.svg,glyphs/iso/pci_slot.svg
+hardware:agp_slot,AGP slot,slot,expansion,U+E15E,,hardware_agp_slot,glyphs/mono/agp_slot.svg,glyphs/color/agp_slot.svg,glyphs/iso/agp_slot.svg
+hardware:ide_connector,IDE / PATA connector,connector,storage,U+E15F,,hardware_ide_connector,glyphs/mono/ide_connector.svg,glyphs/color/ide_connector.svg,glyphs/iso/ide_connector.svg
+hardware:scsi_connector,SCSI connector,connector,storage,U+E160,,hardware_scsi_connector,glyphs/mono/scsi_connector.svg,glyphs/color/scsi_connector.svg,glyphs/iso/scsi_connector.svg
+hardware:vga,VGA connector,connector,display,U+E161,,hardware_vga,glyphs/mono/vga.svg,glyphs/color/vga.svg,glyphs/iso/vga.svg
+hardware:ps2,PS/2 connector,connector,input,U+E162,,hardware_ps2,glyphs/mono/ps2.svg,glyphs/color/ps2.svg,glyphs/iso/ps2.svg
+hardware:sd_card,SD card,storage_medium,storage,U+E163,,hardware_sd_card,glyphs/mono/sd_card.svg,glyphs/color/sd_card.svg,glyphs/iso/sd_card.svg

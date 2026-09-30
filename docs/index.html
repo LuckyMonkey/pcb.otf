@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PCB.OTF — hardware registry</title>
+  <link rel="stylesheet" href="assets/pcb.css"><link rel="stylesheet" href="./styles.css">
+</head>
+<body data-pcb-asset-prefix="../">
+  <header class="hero"><nav class="hero-nav"><a href="../demo.html">PCB.OTF</a><a href="https://github.com/LuckyMonkey/pcb.otf">GitHub →</a></nav>
+    <p class="eyebrow">PCB.OTF / 0.1.0 🧩</p><h1>Hardware, with a glyph.</h1>
+    <p class="lede">A semantic registry for components, boards, connectors, ports, slots, memory, storage, power, cooling, networking, and historic hardware.</p>
+    <p class="note">Not Wingdings. A connector is not a protocol; a socket is not a device; a DDR generation is not a form factor. Search the distinctions. 🔌</p>
+    <p class="note">Top-down and angled/isometric previews are generated from deterministic SVG masters. <a href="../docs/using.md">Read how to use PCB.OTF →</a></p>
+    <a class="download" href="../dist/PCB.woff2" download>Download PCB.woff2</a><a class="download" href="../demo.html">Open assembly →</a>
+  </header>
+  <main>
+    <section class="panel playground" aria-labelledby="playground-title"><p class="eyebrow">SHAPING PLAYGROUND</p><h2 id="playground-title">Semantic text in, hardware out.</h2>
+      <label for="playground">Type a sentence</label><input id="playground" value="Install the :ddr4_dimm: in the :ddr4_dimm_slot:." autocomplete="off">
+      <div class="playground-output"><span id="ligature-output" class="pcb" aria-label="Shaped semantic text"></span><span id="unicode-output" class="pcb-emoji" aria-label="Direct Unicode output"></span></div>
+      <p class="hint">The first line retains the shortcode as meaningful text; the second line resolves it to the direct PUA character. PUA is project-assigned, not official Unicode. 🧠</p>
+    </section>
+    <section class="panel" aria-labelledby="registry-title"><div class="section-head"><div><p class="eyebrow">OBJECT REGISTRY</p><h2 id="registry-title">Search hardware</h2></div><div id="counts" class="counts"></div></div>
+      <div id="filters" class="filters" role="toolbar" aria-label="Filter hardware"><button class="active" data-filter="all">All</button></div>
+      <label for="search">Search name, ID, shortcode, attribute, or source reference</label><input id="search" placeholder="try DDR4, USB-C, PCIe, memory_generation, or JEDEC">
+      <div id="cards" class="cards"></div>
+    </section>
+  </main>
+  <footer><span>PCB.OTF is open source. PUA codepoints are project assignments, not official Unicode characters.</span><span><a href="../docs/accessibility.md">Accessibility</a> · <a href="https://github.com/LuckyMonkey/pcb.otf">GitHub</a> · <a href="../README.md">README</a></span></footer>
+  <script src="./registry.js"></script><script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+  <title id="title">Cooling fan</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M190 500 A310 310 0 1 0 810 500 A310 310 0 1 0 190 500 Z" fill="#c8cbc4" data-role="body"/>
+  <path d="M415 500 A85 85 0 1 0 585 500 A85 85 0 1 0 415 500 Z" fill="#b86f3f" data-role="detail"/>
+  <path d="M500 460 Q670 260 610 500 Q670 740 500 540 Q330 740 390 500 Q330 260 500 460 Z" fill="#5b83a0" data-role="detail"/>
+  </g>
+</svg>

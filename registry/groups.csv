@@ -1,0 +1,18 @@
+id,label,parent
+hardware:computer_hardware,Computer hardware,
+hardware:passive_components,Passive components,hardware:computer_hardware
+hardware:semiconductors,Semiconductors,hardware:computer_hardware
+hardware:ic_packages,IC packages,hardware:computer_hardware
+hardware:pcb_features,PCB features,hardware:computer_hardware
+hardware:computer_parts,Computer parts,hardware:computer_hardware
+hardware:memory,Memory,hardware:computer_hardware
+hardware:expansion,Expansion slots and buses,hardware:computer_hardware
+hardware:storage,Storage,hardware:computer_hardware
+hardware:ports,External ports,hardware:computer_hardware
+hardware:power,Power,hardware:computer_hardware
+hardware:cooling,Cooling,hardware:computer_hardware
+hardware:networking,Networking,hardware:computer_hardware
+hardware:protocols,Interfaces and protocols,hardware:computer_hardware
+hardware:architectures,CPU architectures,hardware:computer_hardware
+hardware:cables,Cables,hardware:computer_hardware
+hardware:historic,Historic hardware,hardware:computer_hardware

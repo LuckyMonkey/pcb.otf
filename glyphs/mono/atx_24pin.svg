@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+  <title id="title">ATX 24-pin power connector</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M306 250 H694 Q730 250 730 286 V714 Q730 750 694 750 H306 Q270 750 270 714 V286 Q270 250 306 250 Z" fill="#17252c" data-role="body"/>
+  <path d="M322 365 A18 18 0 1 0 358 365 A18 18 0 1 0 322 365 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M386 365 A18 18 0 1 0 422 365 A18 18 0 1 0 386 365 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M450 365 A18 18 0 1 0 486 365 A18 18 0 1 0 450 365 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M514 365 A18 18 0 1 0 550 365 A18 18 0 1 0 514 365 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M578 365 A18 18 0 1 0 614 365 A18 18 0 1 0 578 365 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M642 365 A18 18 0 1 0 678 365 A18 18 0 1 0 642 365 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M322 635 A18 18 0 1 0 358 635 A18 18 0 1 0 322 635 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M386 635 A18 18 0 1 0 422 635 A18 18 0 1 0 386 635 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M450 635 A18 18 0 1 0 486 635 A18 18 0 1 0 450 635 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M514 635 A18 18 0 1 0 550 635 A18 18 0 1 0 514 635 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M578 635 A18 18 0 1 0 614 635 A18 18 0 1 0 578 635 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M642 635 A18 18 0 1 0 678 635 A18 18 0 1 0 642 635 Z" fill="#f5f0e6" data-role="knockout"/>
+  </g>
+</svg>

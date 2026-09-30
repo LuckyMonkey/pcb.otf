@@ -1,0 +1,10 @@
+.venv/
+.firefox-profile/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/png/
+_site/
+release/
+font/sources/*.fea
+font/sources/*.json

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PCB.OTF hardware ontology",
+  "type": "object",
+  "required": ["version", "namespace", "groups", "objects"],
+  "properties": {
+    "version": {"type": ["string", "number"]},
+    "namespace": {"const": "hardware"},
+    "groups": {"type": "array", "items": {"type": "object"}},
+    "objects": {"type": "array", "items": {"type": "object"}}
+  }
+}

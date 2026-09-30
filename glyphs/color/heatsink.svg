@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+  <title id="title">Heatsink</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M290 280 H710 Q730 280 730 300 V700 Q730 720 710 720 H290 Q270 720 270 700 V300 Q270 280 290 280 Z" fill="#c8cbc4" data-role="body"/>
+  <path d="M305 160 H323 Q328 160 328 165 V755 Q328 760 323 760 H305 Q300 760 300 755 V165 Q300 160 305 160 Z" fill="#b86f3f" data-role="detail"/>
+  <path d="M385 160 H403 Q408 160 408 165 V755 Q408 760 403 760 H385 Q380 760 380 755 V165 Q380 160 385 160 Z" fill="#b86f3f" data-role="detail"/>
+  <path d="M465 160 H483 Q488 160 488 165 V755 Q488 760 483 760 H465 Q460 760 460 755 V165 Q460 160 465 160 Z" fill="#b86f3f" data-role="detail"/>
+  <path d="M545 160 H563 Q568 160 568 165 V755 Q568 760 563 760 H545 Q540 760 540 755 V165 Q540 160 545 160 Z" fill="#b86f3f" data-role="detail"/>
+  <path d="M625 160 H643 Q648 160 648 165 V755 Q648 760 643 760 H625 Q620 760 620 755 V165 Q620 160 625 160 Z" fill="#b86f3f" data-role="detail"/>
+  <path d="M705 160 H723 Q728 160 728 165 V755 Q728 760 723 760 H705 Q700 760 700 755 V165 Q700 160 705 160 Z" fill="#b86f3f" data-role="detail"/>
+  </g>
+</svg>

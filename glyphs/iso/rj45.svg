@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+  <title id="title">RJ45 / 8P8C connector</title>
+  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <path d="M336 300 H664 Q700 300 700 336 V654 Q700 690 664 690 H336 Q300 690 300 654 V336 Q300 300 336 300 Z" fill="#c8cbc4" data-role="body"/>
+  <path d="M363 405 A17 17 0 1 0 397 405 A17 17 0 1 0 363 405 Z" fill="#d3a44c" data-role="detail"/>
+  <path d="M441 405 A17 17 0 1 0 475 405 A17 17 0 1 0 441 405 Z" fill="#d3a44c" data-role="detail"/>
+  <path d="M519 405 A17 17 0 1 0 553 405 A17 17 0 1 0 519 405 Z" fill="#d3a44c" data-role="detail"/>
+  <path d="M597 405 A17 17 0 1 0 631 405 A17 17 0 1 0 597 405 Z" fill="#d3a44c" data-role="detail"/>
+  <path d="M363 495 A17 17 0 1 0 397 495 A17 17 0 1 0 363 495 Z" fill="#d3a44c" data-role="detail"/>
+  <path d="M441 495 A17 17 0 1 0 475 495 A17 17 0 1 0 441 495 Z" fill="#d3a44c" data-role="detail"/>
+  <path d="M519 495 A17 17 0 1 0 553 495 A17 17 0 1 0 519 495 Z" fill="#d3a44c" data-role="detail"/>
+  <path d="M597 495 A17 17 0 1 0 631 495 A17 17 0 1 0 597 495 Z" fill="#d3a44c" data-role="detail"/>
+  </g>
+</svg>

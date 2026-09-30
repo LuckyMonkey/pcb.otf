@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If PCB.OTF helps your work, please cite the project."
+title: "PCB.OTF"
+abstract: "An open semantic symbol system for computer hardware and electronics with stable object identities, typed relationships, vector glyphs, and emoji-like rendering."
+type: software
+version: 0.1.0
+date-released: 2026-09-30
+license: MIT
+url: https://github.com/LuckyMonkey/pcb.otf
+repository-code: https://github.com/LuckyMonkey/pcb.otf
+authors:
+  - name: PCB.OTF contributors

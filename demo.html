@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PCB.OTF — semantic computer hardware symbols in top-down and isometric views">
+  <title>PCB.OTF — Hardware as objects</title>
+  <link rel="stylesheet" href="dist/pcb.css">
+  <link rel="stylesheet" href="docs/styles.css">
+  <style>
+    .hero-nav { display:flex; justify-content:space-between; gap:18px; margin-bottom:48px; font:700 12px/1 ui-monospace,monospace; }
+    .hero-nav a { color:var(--ink); text-decoration:none; } .hero-nav a:last-child { color:var(--copper); }
+    .hero-grid { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr); align-items:end; gap:40px; }
+    .hero-glyphs { display:flex; justify-content:flex-end; gap:10px; flex-wrap:wrap; font-size:68px; line-height:.8; }
+    .hero-glyphs span:nth-child(3n) { color:var(--copper); } .hero-glyphs span:nth-child(4n) { color:var(--blue); }
+    .assembly { overflow:hidden; } .assembly-head { display:flex; justify-content:space-between; align-items:end; gap:24px; margin-bottom:26px; }
+    .assembly-head h2 { margin-bottom:0; } .plate-mark { color:var(--muted); font:700 11px/1.3 ui-monospace,monospace; text-align:right; letter-spacing:.1em; text-transform:uppercase; }
+    .assembly-grid { display:grid; grid-template-columns:minmax(320px,1fr) minmax(320px,1fr); gap:18px; }
+    .view-plate { min-height:520px; padding:16px; border:1px solid var(--line); border-radius:18px; background:#e4ded2; }
+    .view-plate h3 { display:flex; justify-content:space-between; margin:0 0 14px; font:700 12px/1 ui-monospace,monospace; letter-spacing:.12em; text-transform:uppercase; }
+    .view-plate h3 span { color:var(--copper); font-size:10px; }
+    .board-stage { position:relative; height:450px; overflow:hidden; border:1px solid #213d3a; border-radius:14px; background:radial-gradient(circle at 50% 40%,#39776b,#16443f 65%,#092a2a); box-shadow:inset 0 0 50px #031818; }
+    .board-stage::before { position:absolute; inset:26px; border:1px solid #b2d6b354; border-radius:8px; content:""; box-shadow:0 0 0 18px #b2d6b30c; }
+    .board-part { position:absolute; z-index:1; margin:0; } .board-part img { display:block; width:100%; height:100%; object-fit:contain; filter:drop-shadow(0 7px 6px #06181780); }
+    .board-part.board-base { inset:55px 50px 45px; z-index:0; } .board-part.board-base img { opacity:.65; }
+    .board-part.cpu { top:104px; left:34%; width:25%; height:22%; } .board-part.ram-a { top:72px; right:12%; width:14%; height:29%; transform:rotate(90deg); }
+    .board-part.ram-b { top:72px; right:27%; width:14%; height:29%; transform:rotate(90deg); } .board-part.gpu { right:12%; bottom:76px; width:35%; height:22%; }
+    .board-part.m2 { top:47%; left:35%; width:27%; height:13%; } .board-part.atx { bottom:74px; left:10%; width:13%; height:26%; }
+    .board-part.pcie { bottom:35px; left:25%; width:60%; height:14%; } .board-part.fan { top:42%; left:8%; width:15%; height:18%; }
+    .board-part.power { top:85px; left:11%; width:12%; height:14%; } .board-part.chipset { bottom:128px; left:45%; width:13%; height:12%; }
+    .iso-stage { perspective:900px; background:linear-gradient(145deg,#eee8dc,#c7c0b3); }
+    .iso-stage .board-part { transform-style:preserve-3d; } .iso-stage .board-part.board-base { transform:rotateX(58deg) rotateZ(-8deg) translateY(28px) scale(.92); }
+    .iso-stage .board-part:not(.board-base) { transform:rotateX(52deg) rotateZ(-8deg) translateY(-5px) scale(.92); }
+    .iso-stage .board-part.ram-a { transform:rotateX(52deg) rotateZ(78deg) scale(.92); } .iso-stage .board-part.ram-b { transform:rotateX(52deg) rotateZ(78deg) scale(.92); }
+    .iso-stage .board-part.gpu { transform:rotateX(52deg) rotateZ(-8deg) translateY(-10px) scale(.92); }
+    .iso-stage .board-part.fan { transform:rotateX(52deg) rotateZ(-8deg) translateY(-10px) scale(.92); }
+    .assembly-caption { margin:0; padding:14px 18px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+    .showcase { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; } .showcase-card { padding:15px; border:1px solid var(--line); border-radius:14px; background:#fff; }
+    .showcase-card strong { display:block; margin-bottom:5px; font:700 16px Georgia,serif; } .showcase-card code { color:var(--muted); font-size:10px; }
+    @media(max-width:800px) { .hero-grid,.assembly-grid { grid-template-columns:1fr; } .hero-glyphs { justify-content:flex-start; } .showcase { grid-template-columns:repeat(2,1fr); } }
+    @media(max-width:480px) { .showcase { grid-template-columns:1fr; } .view-plate { min-height:420px; } .board-stage { height:360px; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <nav class="hero-nav" aria-label="Demo navigation"><a href="index.html">PCB.OTF</a><a href="docs/index.html">Open hardware registry →</a></nav>
+    <div class="hero-grid">
+      <div><p class="eyebrow">PCB.OTF / HARDWARE AS OBJECTS</p><h1>A PCIe slot is an object that happens to have a glyph.</h1><p class="lede">Open semantic symbols for boards, components, connectors, interfaces, memory, storage, power, cooling, and historic hardware. 🧩</p></div>
+      <div class="hero-glyphs pcb-emoji" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    </div>
+    <p class="note">Not Wingdings. Ordinary letters stay ordinary. Try <code>:usb_c:</code>, <code>:pcie_x16_slot:</code>, or <code>:ddr4_dimm:</code>; without PCB installed, the source remains readable.</p>
+    <div class="data-strip"><code>101 objects</code><code>34 typed relations</code><code>U+E100–U+E164</code><code>COLRv1</code><code>top-down + isometric SVG</code></div>
+  </header>
+  <main>
+    <section class="panel assembly" aria-labelledby="assembly-title">
+      <div class="assembly-head"><div><p class="eyebrow">PLATE 01 / HARDWARE ASSEMBLY</p><h2 id="assembly-title">A computer, assembled from objects.</h2></div><div class="plate-mark">top-down + angled view<br>every part is registry-backed</div></div>
+      <div class="assembly-grid">
+        <article class="view-plate"><h3>Top-down <span>BOARD VIEW</span></h3><div class="board-stage">
+          <figure class="board-part board-base"><img src="glyphs/color/motherboard.svg" alt=""></figure>
+          <figure class="board-part cpu"><img src="glyphs/color/cpu.svg" alt=""></figure><figure class="board-part ram-a"><img src="glyphs/color/ddr4_dimm.svg" alt=""></figure><figure class="board-part ram-b"><img src="glyphs/color/ddr4_dimm.svg" alt=""></figure>
+          <figure class="board-part gpu"><img src="glyphs/color/gpu.svg" alt=""></figure><figure class="board-part m2"><img src="glyphs/color/nvme_ssd.svg" alt=""></figure><figure class="board-part atx"><img src="glyphs/color/atx_24pin.svg" alt=""></figure>
+          <figure class="board-part pcie"><img src="glyphs/color/pcie_x16_slot.svg" alt=""></figure><figure class="board-part fan"><img src="glyphs/color/fan.svg" alt=""></figure><figure class="board-part power"><img src="glyphs/color/cpu_power_8pin.svg" alt=""></figure><figure class="board-part chipset"><img src="glyphs/color/chipset.svg" alt=""></figure>
+        </div></article>
+        <article class="view-plate"><h3>Isometric <span>ANGLE / DEPTH</span></h3><div class="board-stage iso-stage">
+          <figure class="board-part board-base"><img src="glyphs/iso/motherboard.svg" alt=""></figure>
+          <figure class="board-part cpu"><img src="glyphs/iso/cpu.svg" alt=""></figure><figure class="board-part ram-a"><img src="glyphs/iso/ddr4_dimm.svg" alt=""></figure><figure class="board-part ram-b"><img src="glyphs/iso/ddr4_dimm.svg" alt=""></figure>
+          <figure class="board-part gpu"><img src="glyphs/iso/gpu.svg" alt=""></figure><figure class="board-part m2"><img src="glyphs/iso/nvme_ssd.svg" alt=""></figure><figure class="board-part atx"><img src="glyphs/iso/atx_24pin.svg" alt=""></figure>
+          <figure class="board-part pcie"><img src="glyphs/iso/pcie_x16_slot.svg" alt=""></figure><figure class="board-part fan"><img src="glyphs/iso/fan.svg" alt=""></figure><figure class="board-part power"><img src="glyphs/iso/cpu_power_8pin.svg" alt=""></figure><figure class="board-part chipset"><img src="glyphs/iso/chipset.svg" alt=""></figure>
+        </div></article>
+      </div>
+      <p class="assembly-caption">The board is an arrangement, not a new canonical object. CPU, memory, storage, slots, power, cooling, and chipset remain independently searchable hardware objects with explicit relation edges. 🔧</p>
+    </section>
+    <section class="panel" aria-labelledby="ideas-title"><p class="eyebrow">PLATE 02 / SEMANTIC DISTINCTIONS</p><h2 id="ideas-title">The details are the point.</h2><div class="showcase">
+      <div class="showcase-card"><strong>🔌 Connector ≠ protocol</strong><code>:usb_c: → :usb_protocol:</code></div><div class="showcase-card"><strong>🧠 Socket ≠ device</strong><code>:m2_socket: → :nvme_ssd:</code></div><div class="showcase-card"><strong>💾 Generation ≠ form factor</strong><code>:ddr4_dimm: → :ddr4_dimm_slot:</code></div><div class="showcase-card"><strong>🕰️ History is hardware</strong><code>:isa_slot: · :agp_slot: · :ide_connector:</code></div>
+    </div></section>
+    <section class="panel demo-callout"><div><p class="eyebrow">LIVE REGISTRY</p><h2>Search every part in both views.</h2><p class="note">Browse all 101 canonical objects, inspect attributes and relation edges, then copy a shortcode or PUA character.</p></div><a class="download" href="docs/index.html">Open the registry →</a></section>
+  </main>
+  <footer><span>PCB.OTF is an open semantic hardware symbol system.</span><a href="README.md">Read the README</a></footer>
+</body>
+</html>

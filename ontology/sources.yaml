@@ -1,0 +1,27 @@
+sources:
+  hardware_reference:
+    label: Open hardware reference corpus
+    note: Standards names and component classes are recorded as semantic references; no proprietary drawings or logos are copied.
+    links:
+      - https://en.wikipedia.org/wiki/Printed_circuit_board
+      - https://en.wikipedia.org/wiki/Computer_hardware
+  usb_if:
+    label: USB Implementers Forum public terminology
+    note: Connector and protocol names are kept distinct; artwork is original.
+    links:
+      - https://www.usb.org/documents
+  pcie_sig:
+    label: PCI-SIG public terminology
+    note: Slot width and protocol are modeled separately.
+    links:
+      - https://pcisig.com/specifications
+  jedec:
+    label: JEDEC public memory terminology
+    note: DDR generation and module form factor are modeled as separate objects.
+    links:
+      - https://www.jedec.org/standards-documents
+  open_hardware:
+    label: Open hardware documentation
+    note: Generic board and component geometry references.
+    links:
+      - https://www.sparkfun.com/tutorials

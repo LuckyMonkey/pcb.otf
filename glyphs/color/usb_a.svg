@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+  <title id="title">USB Type-A connector</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M426 300 H574 Q610 300 610 336 V664 Q610 700 574 700 H426 Q390 700 390 664 V336 Q390 300 426 300 Z" fill="#c8cbc4" data-role="body"/>
+  <path d="M442 415 A18 18 0 1 0 478 415 A18 18 0 1 0 442 415 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M458 415 A18 18 0 1 0 494 415 A18 18 0 1 0 458 415 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M474 415 A18 18 0 1 0 510 415 A18 18 0 1 0 474 415 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M490 415 A18 18 0 1 0 526 415 A18 18 0 1 0 490 415 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M506 415 A18 18 0 1 0 542 415 A18 18 0 1 0 506 415 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M522 415 A18 18 0 1 0 558 415 A18 18 0 1 0 522 415 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M442 585 A18 18 0 1 0 478 585 A18 18 0 1 0 442 585 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M458 585 A18 18 0 1 0 494 585 A18 18 0 1 0 458 585 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M474 585 A18 18 0 1 0 510 585 A18 18 0 1 0 474 585 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M490 585 A18 18 0 1 0 526 585 A18 18 0 1 0 490 585 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M506 585 A18 18 0 1 0 542 585 A18 18 0 1 0 506 585 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M522 585 A18 18 0 1 0 558 585 A18 18 0 1 0 522 585 Z" fill="#17252c" data-role="knockout"/>
+  </g>
+</svg>

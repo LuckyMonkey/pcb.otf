@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+  <title id="title">3.5 mm audio jack</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M426 240 H574 Q610 240 610 276 V724 Q610 760 574 760 H426 Q390 760 390 724 V276 Q390 240 426 240 Z" fill="#c8cbc4" data-role="body"/>
+  <path d="M380 500 A120 120 0 1 0 620 500 A120 120 0 1 0 380 500 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M442 500 A58 58 0 1 0 558 500 A58 58 0 1 0 442 500 Z" fill="#c8cbc4" data-role="detail"/>
+  </g>
+</svg>

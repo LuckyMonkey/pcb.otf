@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+  <title id="title">SATA connector</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M296 360 H704 Q740 360 740 396 V584 Q740 620 704 620 H296 Q260 620 260 584 V396 Q260 360 296 360 Z" fill="#17252c" data-role="body"/>
+  <path d="M312 475 A18 18 0 1 0 348 475 A18 18 0 1 0 312 475 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M380 475 A18 18 0 1 0 416 475 A18 18 0 1 0 380 475 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M448 475 A18 18 0 1 0 484 475 A18 18 0 1 0 448 475 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M516 475 A18 18 0 1 0 552 475 A18 18 0 1 0 516 475 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M584 475 A18 18 0 1 0 620 475 A18 18 0 1 0 584 475 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M652 475 A18 18 0 1 0 688 475 A18 18 0 1 0 652 475 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M312 555 A18 18 0 1 0 348 555 A18 18 0 1 0 312 555 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M380 555 A18 18 0 1 0 416 555 A18 18 0 1 0 380 555 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M448 555 A18 18 0 1 0 484 555 A18 18 0 1 0 448 555 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M516 555 A18 18 0 1 0 552 555 A18 18 0 1 0 516 555 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M584 555 A18 18 0 1 0 620 555 A18 18 0 1 0 584 555 Z" fill="#f5f0e6" data-role="knockout"/>
+  <path d="M652 555 A18 18 0 1 0 688 555 A18 18 0 1 0 652 555 Z" fill="#f5f0e6" data-role="knockout"/>
+  </g>
+</svg>

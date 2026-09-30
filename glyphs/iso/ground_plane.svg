@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+  <title id="title">Ground plane</title>
+  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <path d="M192 180 H808 Q850 180 850 222 V778 Q850 820 808 820 H192 Q150 820 150 778 V222 Q150 180 192 180 Z" fill="#1f554d" data-role="body"/>
+  <path d="M250 500 A100 100 0 1 0 450 500 A100 100 0 1 0 250 500 Z" fill="#c8cbc4" data-role="detail"/>
+  <path d="M550 500 A100 100 0 1 0 750 500 A100 100 0 1 0 550 500 Z" fill="#c8cbc4" data-role="detail"/>
+  </g>
+</svg>

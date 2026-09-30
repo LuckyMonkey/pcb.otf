@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+  <title id="title">Logic IC</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M290 250 H710 Q750 250 750 290 V710 Q750 750 710 750 H290 Q250 750 250 710 V290 Q250 250 290 250 Z" fill="#17252c" data-role="body"/>
+  <path d="M293 155 H301 Q309 155 309 163 V242 Q309 250 301 250 H293 Q285 250 285 242 V163 Q285 155 293 155 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M293 750 H301 Q309 750 309 758 V837 Q309 845 301 845 H293 Q285 845 285 837 V758 Q285 750 293 750 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M398 155 H406 Q414 155 414 163 V242 Q414 250 406 250 H398 Q390 250 390 242 V163 Q390 155 398 155 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M398 750 H406 Q414 750 414 758 V837 Q414 845 406 845 H398 Q390 845 390 837 V758 Q390 750 398 750 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M503 155 H511 Q519 155 519 163 V242 Q519 250 511 250 H503 Q495 250 495 242 V163 Q495 155 503 155 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M503 750 H511 Q519 750 519 758 V837 Q519 845 511 845 H503 Q495 845 495 837 V758 Q495 750 503 750 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M608 155 H616 Q624 155 624 163 V242 Q624 250 616 250 H608 Q600 250 600 242 V163 Q600 155 608 155 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M608 750 H616 Q624 750 624 758 V837 Q624 845 616 845 H608 Q600 845 600 837 V758 Q600 750 608 750 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M713 155 H721 Q729 155 729 163 V242 Q729 250 721 250 H713 Q705 250 705 242 V163 Q705 155 713 155 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M713 750 H721 Q729 750 729 758 V837 Q729 845 721 845 H713 Q705 845 705 837 V758 Q705 750 713 750 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M163 285 H242 Q250 285 250 293 V301 Q250 309 242 309 H163 Q155 309 155 301 V293 Q155 285 163 285 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M758 285 H837 Q845 285 845 293 V301 Q845 309 837 309 H758 Q750 309 750 301 V293 Q750 285 758 285 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M163 390 H242 Q250 390 250 398 V406 Q250 414 242 414 H163 Q155 414 155 406 V398 Q155 390 163 390 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M758 390 H837 Q845 390 845 398 V406 Q845 414 837 414 H758 Q750 414 750 406 V398 Q750 390 758 390 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M163 495 H242 Q250 495 250 503 V511 Q250 519 242 519 H163 Q155 519 155 511 V503 Q155 495 163 495 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M758 495 H837 Q845 495 845 503 V511 Q845 519 837 519 H758 Q750 519 750 511 V503 Q750 495 758 495 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M163 600 H242 Q250 600 250 608 V616 Q250 624 242 624 H163 Q155 624 155 616 V608 Q155 600 163 600 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M758 600 H837 Q845 600 845 608 V616 Q845 624 837 624 H758 Q750 624 750 616 V608 Q750 600 758 600 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M163 705 H242 Q250 705 250 713 V721 Q250 729 242 729 H163 Q155 729 155 721 V713 Q155 705 163 705 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M758 705 H837 Q845 705 845 713 V721 Q845 729 837 729 H758 Q750 729 750 721 V713 Q750 705 758 705 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M314 350 A36 36 0 1 0 386 350 A36 36 0 1 0 314 350 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M426 430 H574 Q590 430 590 446 V494 Q590 510 574 510 H426 Q410 510 410 494 V446 Q410 430 426 430 Z" fill="#f5f0e6" data-role="detail"/>
+  </g>
+</svg>

@@ -1,0 +1,310 @@
+id,alias,kind
+hardware:resistor,Resistor,label
+hardware:resistor,:resistor:,shortcode
+hardware:resistor,resistance,alias
+hardware:variable_resistor,Variable resistor,label
+hardware:variable_resistor,:variable_resistor:,shortcode
+hardware:variable_resistor,rheostat,alias
+hardware:potentiometer,Potentiometer,label
+hardware:potentiometer,:potentiometer:,shortcode
+hardware:potentiometer,pot,alias
+hardware:ceramic_capacitor,Ceramic capacitor,label
+hardware:ceramic_capacitor,:ceramic_capacitor:,shortcode
+hardware:ceramic_capacitor,MLCC,alias
+hardware:electrolytic_capacitor,Electrolytic capacitor,label
+hardware:electrolytic_capacitor,:electrolytic_capacitor:,shortcode
+hardware:electrolytic_capacitor,electrolytic,alias
+hardware:inductor,Inductor,label
+hardware:inductor,:inductor:,shortcode
+hardware:inductor,coil,alias
+hardware:transformer,Transformer,label
+hardware:transformer,:transformer:,shortcode
+hardware:transformer,power transformer,alias
+hardware:fuse,Fuse,label
+hardware:fuse,:fuse:,shortcode
+hardware:fuse,overcurrent fuse,alias
+hardware:thermistor,Thermistor,label
+hardware:thermistor,:thermistor:,shortcode
+hardware:thermistor,temperature resistor,alias
+hardware:diode,Diode,label
+hardware:diode,:diode:,shortcode
+hardware:diode,rectifier diode,alias
+hardware:led,Light-emitting diode,label
+hardware:led,:led:,shortcode
+hardware:led,LED,alias
+hardware:photodiode,Photodiode,label
+hardware:photodiode,:photodiode:,shortcode
+hardware:photodiode,light sensor,alias
+hardware:npn_transistor,NPN transistor,label
+hardware:npn_transistor,:npn_transistor:,shortcode
+hardware:npn_transistor,NPN,alias
+hardware:pnp_transistor,PNP transistor,label
+hardware:pnp_transistor,:pnp_transistor:,shortcode
+hardware:pnp_transistor,PNP,alias
+hardware:mosfet,MOSFET,label
+hardware:mosfet,:mosfet:,shortcode
+hardware:mosfet,MOS transistor,alias
+hardware:voltage_regulator,Voltage regulator,label
+hardware:voltage_regulator,:voltage_regulator:,shortcode
+hardware:voltage_regulator,regulator,alias
+hardware:op_amp,Operational amplifier,label
+hardware:op_amp,:op_amp:,shortcode
+hardware:op_amp,op amp,alias
+hardware:oscillator,Oscillator,label
+hardware:oscillator,:oscillator:,shortcode
+hardware:oscillator,clock oscillator,alias
+hardware:crystal,Crystal resonator,label
+hardware:crystal,:crystal:,shortcode
+hardware:crystal,quartz crystal,alias
+hardware:logic_ic,Logic IC,label
+hardware:logic_ic,:logic_ic:,shortcode
+hardware:logic_ic,logic chip,alias
+hardware:microcontroller,Microcontroller,label
+hardware:microcontroller,:microcontroller:,shortcode
+hardware:microcontroller,MCU,alias
+hardware:microprocessor,Microprocessor,label
+hardware:microprocessor,:microprocessor:,shortcode
+hardware:microprocessor,CPU,alias
+hardware:fpga,FPGA,label
+hardware:fpga,:fpga:,shortcode
+hardware:fpga,field-programmable gate array,alias
+hardware:dip,Dual in-line package,label
+hardware:dip,:dip:,shortcode
+hardware:dip,DIP,alias
+hardware:soic,Small-outline integrated circuit package,label
+hardware:soic,:soic:,shortcode
+hardware:soic,SOIC,alias
+hardware:qfp,Quad flat package,label
+hardware:qfp,:qfp:,shortcode
+hardware:qfp,QFP,alias
+hardware:qfn,Quad flat no-lead package,label
+hardware:qfn,:qfn:,shortcode
+hardware:qfn,QFN,alias
+hardware:bga,Ball grid array package,label
+hardware:bga,:bga:,shortcode
+hardware:bga,BGA,alias
+hardware:lga,Land grid array package,label
+hardware:lga,:lga:,shortcode
+hardware:lga,LGA,alias
+hardware:to220,TO-220 package,label
+hardware:to220,:to220:,shortcode
+hardware:to220,TO220,alias
+hardware:pcb,Printed circuit board,label
+hardware:pcb,:pcb:,shortcode
+hardware:pcb,PCB,alias
+hardware:pcb,circuit board,alias
+hardware:substrate,PCB substrate,label
+hardware:substrate,:substrate:,shortcode
+hardware:substrate,board substrate,alias
+hardware:copper_layer,Copper layer,label
+hardware:copper_layer,:copper_layer:,shortcode
+hardware:copper_layer,copper pour,alias
+hardware:solder_mask,Solder mask,label
+hardware:solder_mask,:solder_mask:,shortcode
+hardware:solder_mask,mask,alias
+hardware:silkscreen,Silkscreen,label
+hardware:silkscreen,:silkscreen:,shortcode
+hardware:silkscreen,legend,alias
+hardware:trace,Copper trace,label
+hardware:trace,:trace:,shortcode
+hardware:trace,track,alias
+hardware:differential_pair,Differential pair,label
+hardware:differential_pair,:differential_pair:,shortcode
+hardware:differential_pair,matched pair,alias
+hardware:ground_plane,Ground plane,label
+hardware:ground_plane,:ground_plane:,shortcode
+hardware:ground_plane,ground pour,alias
+hardware:via,Via,label
+hardware:via,:via:,shortcode
+hardware:via,plated via,alias
+hardware:plated_through_hole,Plated through-hole,label
+hardware:plated_through_hole,:plated_through_hole:,shortcode
+hardware:plated_through_hole,PTH,alias
+hardware:pad,Solder pad,label
+hardware:pad,:pad:,shortcode
+hardware:pad,land,alias
+hardware:test_point,Test point,label
+hardware:test_point,:test_point:,shortcode
+hardware:test_point,probe point,alias
+hardware:jumper,Jumper,label
+hardware:jumper,:jumper:,shortcode
+hardware:jumper,header jumper,alias
+hardware:mounting_hole,Mounting hole,label
+hardware:mounting_hole,:mounting_hole:,shortcode
+hardware:mounting_hole,fixing hole,alias
+hardware:fiducial,Fiducial marker,label
+hardware:fiducial,:fiducial:,shortcode
+hardware:fiducial,fiducial,alias
+hardware:bga_footprint,BGA footprint,label
+hardware:bga_footprint,:bga_footprint:,shortcode
+hardware:bga_footprint,BGA land pattern,alias
+hardware:thermal_pad,Thermal pad,label
+hardware:thermal_pad,:thermal_pad:,shortcode
+hardware:thermal_pad,exposed pad,alias
+hardware:motherboard,Motherboard,label
+hardware:motherboard,:motherboard:,shortcode
+hardware:motherboard,mainboard,alias
+hardware:cpu,Central processing unit,label
+hardware:cpu,:cpu:,shortcode
+hardware:cpu,CPU,alias
+hardware:cpu,processor,alias
+hardware:gpu,Graphics processing unit,label
+hardware:gpu,:gpu:,shortcode
+hardware:gpu,GPU,alias
+hardware:gpu,graphics card,alias
+hardware:chipset,Chipset,label
+hardware:chipset,:chipset:,shortcode
+hardware:chipset,platform controller hub,alias
+hardware:memory_module,Memory module,label
+hardware:memory_module,:memory_module:,shortcode
+hardware:memory_module,RAM module,alias
+hardware:ddr3_dimm,DDR3 DIMM,label
+hardware:ddr3_dimm,:ddr3_dimm:,shortcode
+hardware:ddr3_dimm,DDR3 memory module,alias
+hardware:ddr4_dimm,DDR4 DIMM,label
+hardware:ddr4_dimm,:ddr4_dimm:,shortcode
+hardware:ddr4_dimm,DDR4 memory module,alias
+hardware:ddr5_dimm,DDR5 DIMM,label
+hardware:ddr5_dimm,:ddr5_dimm:,shortcode
+hardware:ddr5_dimm,DDR5 memory module,alias
+hardware:ddr3_dimm_slot,DDR3 DIMM slot,label
+hardware:ddr3_dimm_slot,:ddr3_dimm_slot:,shortcode
+hardware:ddr3_dimm_slot,DDR3 socket,alias
+hardware:ddr4_dimm_slot,DDR4 DIMM slot,label
+hardware:ddr4_dimm_slot,:ddr4_dimm_slot:,shortcode
+hardware:ddr4_dimm_slot,DDR4 socket,alias
+hardware:ddr5_dimm_slot,DDR5 DIMM slot,label
+hardware:ddr5_dimm_slot,:ddr5_dimm_slot:,shortcode
+hardware:ddr5_dimm_slot,DDR5 socket,alias
+hardware:pcie_x1_slot,PCI Express x1 slot,label
+hardware:pcie_x1_slot,:pcie_x1_slot:,shortcode
+hardware:pcie_x1_slot,PCIe x1,alias
+hardware:pcie_x16_slot,PCI Express x16 slot,label
+hardware:pcie_x16_slot,:pcie_x16_slot:,shortcode
+hardware:pcie_x16_slot,PCIe x16,alias
+hardware:m2_socket,M.2 socket,label
+hardware:m2_socket,:m2_socket:,shortcode
+hardware:m2_socket,M2 slot,alias
+hardware:nvme_ssd,NVMe solid-state drive,label
+hardware:nvme_ssd,:nvme_ssd:,shortcode
+hardware:nvme_ssd,NVMe SSD,alias
+hardware:sata_connector,SATA connector,label
+hardware:sata_connector,:sata_connector:,shortcode
+hardware:sata_connector,SATA data connector,alias
+hardware:sata_ssd,SATA solid-state drive,label
+hardware:sata_ssd,:sata_ssd:,shortcode
+hardware:sata_ssd,SATA SSD,alias
+hardware:hdd,Hard disk drive,label
+hardware:hdd,:hdd:,shortcode
+hardware:hdd,HDD,alias
+hardware:usb_a,USB Type-A connector,label
+hardware:usb_a,:usb_a:,shortcode
+hardware:usb_a,USB-A,alias
+hardware:usb_c,USB Type-C connector,label
+hardware:usb_c,:usb_c:,shortcode
+hardware:usb_c,USB-C,alias
+hardware:hdmi,HDMI connector,label
+hardware:hdmi,:hdmi:,shortcode
+hardware:hdmi,HDMI port,alias
+hardware:displayport,DisplayPort connector,label
+hardware:displayport,:displayport:,shortcode
+hardware:displayport,DP,alias
+hardware:rj45,RJ45 / 8P8C connector,label
+hardware:rj45,:rj45:,shortcode
+hardware:rj45,Ethernet port,alias
+hardware:rj45,8P8C,alias
+hardware:audio_jack_35mm,3.5 mm audio jack,label
+hardware:audio_jack_35mm,:audio_jack_35mm:,shortcode
+hardware:audio_jack_35mm,headphone jack,alias
+hardware:atx_24pin,ATX 24-pin power connector,label
+hardware:atx_24pin,:atx_24pin:,shortcode
+hardware:atx_24pin,mainboard power,alias
+hardware:cpu_power_8pin,CPU 8-pin power connector,label
+hardware:cpu_power_8pin,:cpu_power_8pin:,shortcode
+hardware:cpu_power_8pin,EPS12V,alias
+hardware:pcie_power_8pin,PCIe 8-pin power connector,label
+hardware:pcie_power_8pin,:pcie_power_8pin:,shortcode
+hardware:pcie_power_8pin,GPU power connector,alias
+hardware:fan,Cooling fan,label
+hardware:fan,:fan:,shortcode
+hardware:fan,case fan,alias
+hardware:heatsink,Heatsink,label
+hardware:heatsink,:heatsink:,shortcode
+hardware:heatsink,heat sink,alias
+hardware:wifi_nic,Wi-Fi network interface card,label
+hardware:wifi_nic,:wifi_nic:,shortcode
+hardware:wifi_nic,wireless NIC,alias
+hardware:ethernet_nic,Ethernet network interface card,label
+hardware:ethernet_nic,:ethernet_nic:,shortcode
+hardware:ethernet_nic,Ethernet NIC,alias
+hardware:router,Router,label
+hardware:router,:router:,shortcode
+hardware:router,network router,alias
+hardware:switch,Network switch,label
+hardware:switch,:switch:,shortcode
+hardware:switch,Ethernet switch,alias
+hardware:antenna,Antenna,label
+hardware:antenna,:antenna:,shortcode
+hardware:antenna,RF antenna,alias
+hardware:atx_psu,ATX power supply,label
+hardware:atx_psu,:atx_psu:,shortcode
+hardware:atx_psu,PSU,alias
+hardware:coin_cell_battery,Coin-cell battery,label
+hardware:coin_cell_battery,:coin_cell_battery:,shortcode
+hardware:coin_cell_battery,CMOS battery,alias
+hardware:coin_cell_battery,CR2032,alias
+hardware:usb_protocol,USB protocol,label
+hardware:usb_protocol,:usb_protocol:,shortcode
+hardware:usb_protocol,Universal Serial Bus,alias
+hardware:pcie_protocol,PCI Express protocol,label
+hardware:pcie_protocol,:pcie_protocol:,shortcode
+hardware:pcie_protocol,PCIe,alias
+hardware:nvme_protocol,NVMe protocol,label
+hardware:nvme_protocol,:nvme_protocol:,shortcode
+hardware:nvme_protocol,Non-Volatile Memory Express,alias
+hardware:sata_protocol,SATA protocol,label
+hardware:sata_protocol,:sata_protocol:,shortcode
+hardware:sata_protocol,Serial ATA,alias
+hardware:x86_64,x86-64 architecture,label
+hardware:x86_64,:x86_64:,shortcode
+hardware:x86_64,AMD64,alias
+hardware:arm64,ARM64 architecture,label
+hardware:arm64,:arm64:,shortcode
+hardware:arm64,AArch64,alias
+hardware:riscv,RISC-V architecture,label
+hardware:riscv,:riscv:,shortcode
+hardware:riscv,RISC-V,alias
+hardware:usb_c_cable,USB-C cable,label
+hardware:usb_c_cable,:usb_c_cable:,shortcode
+hardware:usb_c_cable,USB Type-C cable,alias
+hardware:sata_cable,SATA data cable,label
+hardware:sata_cable,:sata_cable:,shortcode
+hardware:sata_cable,Serial ATA cable,alias
+hardware:ethernet_cable,Ethernet cable,label
+hardware:ethernet_cable,:ethernet_cable:,shortcode
+hardware:ethernet_cable,network cable,alias
+hardware:isa_slot,ISA slot,label
+hardware:isa_slot,:isa_slot:,shortcode
+hardware:isa_slot,Industry Standard Architecture,alias
+hardware:pci_slot,PCI slot,label
+hardware:pci_slot,:pci_slot:,shortcode
+hardware:pci_slot,Peripheral Component Interconnect,alias
+hardware:agp_slot,AGP slot,label
+hardware:agp_slot,:agp_slot:,shortcode
+hardware:agp_slot,Accelerated Graphics Port,alias
+hardware:ide_connector,IDE / PATA connector,label
+hardware:ide_connector,:ide_connector:,shortcode
+hardware:ide_connector,PATA,alias
+hardware:ide_connector,ATA ribbon connector,alias
+hardware:scsi_connector,SCSI connector,label
+hardware:scsi_connector,:scsi_connector:,shortcode
+hardware:scsi_connector,Small Computer System Interface,alias
+hardware:vga,VGA connector,label
+hardware:vga,:vga:,shortcode
+hardware:vga,DE-15,alias
+hardware:ps2,PS/2 connector,label
+hardware:ps2,:ps2:,shortcode
+hardware:ps2,PS2,alias
+hardware:sd_card,SD card,label
+hardware:sd_card,:sd_card:,shortcode
+hardware:sd_card,Secure Digital,alias

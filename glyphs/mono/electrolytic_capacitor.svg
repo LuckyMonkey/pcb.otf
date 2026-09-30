@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+  <title id="title">Electrolytic capacitor</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M410 230 H590 Q720 230 720 360 V640 Q720 770 590 770 H410 Q280 770 280 640 V360 Q280 230 410 230 Z" fill="#17252c" data-role="body"/>
+  <path d="M500 270 L500 270 L500 430 L500 430 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M420 350 H580 V350 H420 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M500 770 L500 770 L500 880 L500 880 Z" fill="#f5f0e6" data-role="detail"/>
+  </g>
+</svg>

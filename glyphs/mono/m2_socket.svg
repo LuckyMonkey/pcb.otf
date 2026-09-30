@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+  <title id="title">M.2 socket</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M345 390 H655 Q680 390 680 415 V545 Q680 570 655 570 H345 Q320 570 320 545 V415 Q320 390 345 390 Z" fill="#17252c" data-role="body"/>
+  <path d="M352 585 H360 Q362 585 362 587 V638 Q362 640 360 640 H352 Q350 640 350 638 V587 Q350 585 352 585 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M380 585 H388 Q390 585 390 587 V638 Q390 640 388 640 H380 Q378 640 378 638 V587 Q378 585 380 585 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M408 585 H416 Q418 585 418 587 V638 Q418 640 416 640 H408 Q406 640 406 638 V587 Q406 585 408 585 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M436 585 H444 Q446 585 446 587 V638 Q446 640 444 640 H436 Q434 640 434 638 V587 Q434 585 436 585 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M464 585 H472 Q474 585 474 587 V638 Q474 640 472 640 H464 Q462 640 462 638 V587 Q462 585 464 585 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M492 585 H500 Q502 585 502 587 V638 Q502 640 500 640 H492 Q490 640 490 638 V587 Q490 585 492 585 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M520 585 H528 Q530 585 530 587 V638 Q530 640 528 640 H520 Q518 640 518 638 V587 Q518 585 520 585 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M548 585 H556 Q558 585 558 587 V638 Q558 640 556 640 H548 Q546 640 546 638 V587 Q546 585 548 585 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M576 585 H584 Q586 585 586 587 V638 Q586 640 584 640 H576 Q574 640 574 638 V587 Q574 585 576 585 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M604 585 H612 Q614 585 614 587 V638 Q614 640 612 640 H604 Q602 640 602 638 V587 Q602 585 604 585 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M632 585 H640 Q642 585 642 587 V638 Q642 640 640 640 H632 Q630 640 630 638 V587 Q630 585 632 585 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M660 585 H668 Q670 585 670 587 V638 Q670 640 668 640 H660 Q658 640 658 638 V587 Q658 585 660 585 Z" fill="#f5f0e6" data-role="detail"/>
+  <path d="M470 390 H530 V470 H470 Z" fill="#f5f0e6" data-role="knockout"/>
+  </g>
+</svg>

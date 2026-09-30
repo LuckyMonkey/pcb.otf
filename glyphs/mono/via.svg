@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+  <title id="title">Via</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M230 500 A270 270 0 1 0 770 500 A270 270 0 1 0 230 500 Z" fill="#17252c" data-role="body"/>
+  <path d="M360 500 A140 140 0 1 0 640 500 A140 140 0 1 0 360 500 Z" fill="#f5f0e6" data-role="detail"/>
+  </g>
+</svg>

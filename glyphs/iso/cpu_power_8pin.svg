@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-source="pcb-original-art">
+  <title id="title">CPU 8-pin power connector</title>
+  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <path d="M366 260 H634 Q670 260 670 296 V694 Q670 730 634 730 H366 Q330 730 330 694 V296 Q330 260 366 260 Z" fill="#c8cbc4" data-role="body"/>
+  <path d="M382 375 A18 18 0 1 0 418 375 A18 18 0 1 0 382 375 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M422 375 A18 18 0 1 0 458 375 A18 18 0 1 0 422 375 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M462 375 A18 18 0 1 0 498 375 A18 18 0 1 0 462 375 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M502 375 A18 18 0 1 0 538 375 A18 18 0 1 0 502 375 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M382 615 A18 18 0 1 0 418 615 A18 18 0 1 0 382 615 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M422 615 A18 18 0 1 0 458 615 A18 18 0 1 0 422 615 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M462 615 A18 18 0 1 0 498 615 A18 18 0 1 0 462 615 Z" fill="#17252c" data-role="knockout"/>
+  <path d="M502 615 A18 18 0 1 0 538 615 A18 18 0 1 0 502 615 Z" fill="#17252c" data-role="knockout"/>
+  </g>
+</svg>

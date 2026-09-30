@@ -1,0 +1,102 @@
+id,label,ligature,glyph_name,codepoint
+hardware:resistor,Resistor,:resistor:,hardware_resistor,U+E100
+hardware:variable_resistor,Variable resistor,:variable_resistor:,hardware_variable_resistor,U+E101
+hardware:potentiometer,Potentiometer,:potentiometer:,hardware_potentiometer,U+E102
+hardware:ceramic_capacitor,Ceramic capacitor,:ceramic_capacitor:,hardware_ceramic_capacitor,U+E103
+hardware:electrolytic_capacitor,Electrolytic capacitor,:electrolytic_capacitor:,hardware_electrolytic_capacitor,U+E104
+hardware:inductor,Inductor,:inductor:,hardware_inductor,U+E105
+hardware:transformer,Transformer,:transformer:,hardware_transformer,U+E106
+hardware:fuse,Fuse,:fuse:,hardware_fuse,U+E107
+hardware:thermistor,Thermistor,:thermistor:,hardware_thermistor,U+E108
+hardware:diode,Diode,:diode:,hardware_diode,U+E109
+hardware:led,Light-emitting diode,:led:,hardware_led,U+E10A
+hardware:photodiode,Photodiode,:photodiode:,hardware_photodiode,U+E10B
+hardware:npn_transistor,NPN transistor,:npn_transistor:,hardware_npn_transistor,U+E10C
+hardware:pnp_transistor,PNP transistor,:pnp_transistor:,hardware_pnp_transistor,U+E10D
+hardware:mosfet,MOSFET,:mosfet:,hardware_mosfet,U+E10E
+hardware:voltage_regulator,Voltage regulator,:voltage_regulator:,hardware_voltage_regulator,U+E10F
+hardware:op_amp,Operational amplifier,:op_amp:,hardware_op_amp,U+E110
+hardware:oscillator,Oscillator,:oscillator:,hardware_oscillator,U+E111
+hardware:crystal,Crystal resonator,:crystal:,hardware_crystal,U+E112
+hardware:logic_ic,Logic IC,:logic_ic:,hardware_logic_ic,U+E113
+hardware:microcontroller,Microcontroller,:microcontroller:,hardware_microcontroller,U+E114
+hardware:microprocessor,Microprocessor,:microprocessor:,hardware_microprocessor,U+E115
+hardware:fpga,FPGA,:fpga:,hardware_fpga,U+E116
+hardware:dip,Dual in-line package,:dip:,hardware_dip,U+E117
+hardware:soic,Small-outline integrated circuit package,:soic:,hardware_soic,U+E118
+hardware:qfp,Quad flat package,:qfp:,hardware_qfp,U+E119
+hardware:qfn,Quad flat no-lead package,:qfn:,hardware_qfn,U+E11A
+hardware:bga,Ball grid array package,:bga:,hardware_bga,U+E11B
+hardware:lga,Land grid array package,:lga:,hardware_lga,U+E11C
+hardware:to220,TO-220 package,:to220:,hardware_to220,U+E11D
+hardware:pcb,Printed circuit board,:pcb:,hardware_pcb,U+E11E
+hardware:substrate,PCB substrate,:substrate:,hardware_substrate,U+E11F
+hardware:copper_layer,Copper layer,:copper_layer:,hardware_copper_layer,U+E120
+hardware:solder_mask,Solder mask,:solder_mask:,hardware_solder_mask,U+E121
+hardware:silkscreen,Silkscreen,:silkscreen:,hardware_silkscreen,U+E122
+hardware:trace,Copper trace,:trace:,hardware_trace,U+E123
+hardware:differential_pair,Differential pair,:differential_pair:,hardware_differential_pair,U+E124
+hardware:ground_plane,Ground plane,:ground_plane:,hardware_ground_plane,U+E125
+hardware:via,Via,:via:,hardware_via,U+E126
+hardware:plated_through_hole,Plated through-hole,:plated_through_hole:,hardware_plated_through_hole,U+E127
+hardware:pad,Solder pad,:pad:,hardware_pad,U+E128
+hardware:test_point,Test point,:test_point:,hardware_test_point,U+E129
+hardware:jumper,Jumper,:jumper:,hardware_jumper,U+E12A
+hardware:mounting_hole,Mounting hole,:mounting_hole:,hardware_mounting_hole,U+E12B
+hardware:fiducial,Fiducial marker,:fiducial:,hardware_fiducial,U+E12C
+hardware:bga_footprint,BGA footprint,:bga_footprint:,hardware_bga_footprint,U+E12D
+hardware:thermal_pad,Thermal pad,:thermal_pad:,hardware_thermal_pad,U+E12E
+hardware:motherboard,Motherboard,:motherboard:,hardware_motherboard,U+E12F
+hardware:cpu,Central processing unit,:cpu:,hardware_cpu,U+E130
+hardware:gpu,Graphics processing unit,:gpu:,hardware_gpu,U+E131
+hardware:chipset,Chipset,:chipset:,hardware_chipset,U+E132
+hardware:memory_module,Memory module,:memory_module:,hardware_memory_module,U+E164
+hardware:ddr3_dimm,DDR3 DIMM,:ddr3_dimm:,hardware_ddr3_dimm,U+E133
+hardware:ddr4_dimm,DDR4 DIMM,:ddr4_dimm:,hardware_ddr4_dimm,U+E134
+hardware:ddr5_dimm,DDR5 DIMM,:ddr5_dimm:,hardware_ddr5_dimm,U+E135
+hardware:ddr3_dimm_slot,DDR3 DIMM slot,:ddr3_dimm_slot:,hardware_ddr3_dimm_slot,U+E136
+hardware:ddr4_dimm_slot,DDR4 DIMM slot,:ddr4_dimm_slot:,hardware_ddr4_dimm_slot,U+E137
+hardware:ddr5_dimm_slot,DDR5 DIMM slot,:ddr5_dimm_slot:,hardware_ddr5_dimm_slot,U+E138
+hardware:pcie_x1_slot,PCI Express x1 slot,:pcie_x1_slot:,hardware_pcie_x1_slot,U+E139
+hardware:pcie_x16_slot,PCI Express x16 slot,:pcie_x16_slot:,hardware_pcie_x16_slot,U+E13A
+hardware:m2_socket,M.2 socket,:m2_socket:,hardware_m2_socket,U+E13B
+hardware:nvme_ssd,NVMe solid-state drive,:nvme_ssd:,hardware_nvme_ssd,U+E13C
+hardware:sata_connector,SATA connector,:sata_connector:,hardware_sata_connector,U+E13D
+hardware:sata_ssd,SATA solid-state drive,:sata_ssd:,hardware_sata_ssd,U+E13E
+hardware:hdd,Hard disk drive,:hdd:,hardware_hdd,U+E13F
+hardware:usb_a,USB Type-A connector,:usb_a:,hardware_usb_a,U+E140
+hardware:usb_c,USB Type-C connector,:usb_c:,hardware_usb_c,U+E141
+hardware:hdmi,HDMI connector,:hdmi:,hardware_hdmi,U+E142
+hardware:displayport,DisplayPort connector,:displayport:,hardware_displayport,U+E143
+hardware:rj45,RJ45 / 8P8C connector,:rj45:,hardware_rj45,U+E144
+hardware:audio_jack_35mm,3.5 mm audio jack,:audio_jack_35mm:,hardware_audio_jack_35mm,U+E145
+hardware:atx_24pin,ATX 24-pin power connector,:atx_24pin:,hardware_atx_24pin,U+E146
+hardware:cpu_power_8pin,CPU 8-pin power connector,:cpu_power_8pin:,hardware_cpu_power_8pin,U+E147
+hardware:pcie_power_8pin,PCIe 8-pin power connector,:pcie_power_8pin:,hardware_pcie_power_8pin,U+E148
+hardware:fan,Cooling fan,:fan:,hardware_fan,U+E149
+hardware:heatsink,Heatsink,:heatsink:,hardware_heatsink,U+E14A
+hardware:wifi_nic,Wi-Fi network interface card,:wifi_nic:,hardware_wifi_nic,U+E14B
+hardware:ethernet_nic,Ethernet network interface card,:ethernet_nic:,hardware_ethernet_nic,U+E14C
+hardware:router,Router,:router:,hardware_router,U+E14D
+hardware:switch,Network switch,:switch:,hardware_switch,U+E14E
+hardware:antenna,Antenna,:antenna:,hardware_antenna,U+E14F
+hardware:atx_psu,ATX power supply,:atx_psu:,hardware_atx_psu,U+E150
+hardware:coin_cell_battery,Coin-cell battery,:coin_cell_battery:,hardware_coin_cell_battery,U+E151
+hardware:usb_protocol,USB protocol,:usb_protocol:,hardware_usb_protocol,U+E152
+hardware:pcie_protocol,PCI Express protocol,:pcie_protocol:,hardware_pcie_protocol,U+E153
+hardware:nvme_protocol,NVMe protocol,:nvme_protocol:,hardware_nvme_protocol,U+E154
+hardware:sata_protocol,SATA protocol,:sata_protocol:,hardware_sata_protocol,U+E155
+hardware:x86_64,x86-64 architecture,:x86_64:,hardware_x86_64,U+E156
+hardware:arm64,ARM64 architecture,:arm64:,hardware_arm64,U+E157
+hardware:riscv,RISC-V architecture,:riscv:,hardware_riscv,U+E158
+hardware:usb_c_cable,USB-C cable,:usb_c_cable:,hardware_usb_c_cable,U+E159
+hardware:sata_cable,SATA data cable,:sata_cable:,hardware_sata_cable,U+E15A
+hardware:ethernet_cable,Ethernet cable,:ethernet_cable:,hardware_ethernet_cable,U+E15B
+hardware:isa_slot,ISA slot,:isa_slot:,hardware_isa_slot,U+E15C
+hardware:pci_slot,PCI slot,:pci_slot:,hardware_pci_slot,U+E15D
+hardware:agp_slot,AGP slot,:agp_slot:,hardware_agp_slot,U+E15E
+hardware:ide_connector,IDE / PATA connector,:ide_connector:,hardware_ide_connector,U+E15F
+hardware:scsi_connector,SCSI connector,:scsi_connector:,hardware_scsi_connector,U+E160
+hardware:vga,VGA connector,:vga:,hardware_vga,U+E161
+hardware:ps2,PS/2 connector,:ps2:,hardware_ps2,U+E162
+hardware:sd_card,SD card,:sd_card:,hardware_sd_card,U+E163

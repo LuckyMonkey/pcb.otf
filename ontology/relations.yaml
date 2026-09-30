@@ -1,0 +1,78 @@
+relations:
+  - id: IS_A
+    label: is a
+    inverse: HAS_INSTANCE_TYPE
+  - id: PART_OF
+    label: is part of
+    inverse: CONTAINS
+  - id: CONTAINS
+    label: contains
+    inverse: PART_OF
+  - id: CONNECTS_TO
+    label: connects to
+    inverse: CONNECTED_BY
+  - id: FITS_IN
+    label: fits in
+    inverse: ACCEPTS
+  - id: PACKAGED_AS
+    label: packaged as
+    inverse: PACKAGE_OF
+  - id: USES_INTERFACE
+    label: uses interface
+    inverse: INTERFACE_OF
+  - id: CARRIES_PROTOCOL
+    label: carries protocol
+    inverse: CARRIED_BY
+  - id: COMPATIBLE_WITH
+    label: compatible with
+    inverse: COMPATIBLE_WITH
+  - id: INCOMPATIBLE_WITH
+    label: incompatible with
+    inverse: INCOMPATIBLE_WITH
+  - id: MOUNTS_TO
+    label: mounts to
+    inverse: MOUNTED_BY
+  - id: POWERED_BY
+    label: powered by
+    inverse: POWERS
+  - id: COOLS
+    label: cools
+    inverse: COOLED_BY
+  - id: PREDECESSOR_OF
+    label: predecessor of
+    inverse: SUCCESSOR_OF
+edges:
+  - {from: hardware:ddr3_dimm, relation: IS_A, to: hardware:memory_module}
+  - {from: hardware:ddr4_dimm, relation: IS_A, to: hardware:memory_module}
+  - {from: hardware:ddr5_dimm, relation: IS_A, to: hardware:memory_module}
+  - {from: hardware:ddr3_dimm, relation: FITS_IN, to: hardware:ddr3_dimm_slot}
+  - {from: hardware:ddr4_dimm, relation: FITS_IN, to: hardware:ddr4_dimm_slot}
+  - {from: hardware:ddr5_dimm, relation: FITS_IN, to: hardware:ddr5_dimm_slot}
+  - {from: hardware:ddr3_dimm, relation: INCOMPATIBLE_WITH, to: hardware:ddr4_dimm_slot}
+  - {from: hardware:ddr3_dimm, relation: INCOMPATIBLE_WITH, to: hardware:ddr5_dimm_slot}
+  - {from: hardware:ddr4_dimm, relation: INCOMPATIBLE_WITH, to: hardware:ddr3_dimm_slot}
+  - {from: hardware:ddr4_dimm, relation: INCOMPATIBLE_WITH, to: hardware:ddr5_dimm_slot}
+  - {from: hardware:ddr5_dimm, relation: INCOMPATIBLE_WITH, to: hardware:ddr3_dimm_slot}
+  - {from: hardware:ddr5_dimm, relation: INCOMPATIBLE_WITH, to: hardware:ddr4_dimm_slot}
+  - {from: hardware:cpu, relation: PACKAGED_AS, to: hardware:lga}
+  - {from: hardware:motherboard, relation: CONTAINS, to: hardware:cpu}
+  - {from: hardware:motherboard, relation: CONTAINS, to: hardware:pcie_x16_slot}
+  - {from: hardware:motherboard, relation: CONTAINS, to: hardware:m2_socket}
+  - {from: hardware:motherboard, relation: CONTAINS, to: hardware:sata_connector}
+  - {from: hardware:motherboard, relation: CONTAINS, to: hardware:atx_24pin}
+  - {from: hardware:motherboard, relation: CONTAINS, to: hardware:cpu_power_8pin}
+  - {from: hardware:nvme_ssd, relation: USES_INTERFACE, to: hardware:m2_socket}
+  - {from: hardware:nvme_ssd, relation: CARRIES_PROTOCOL, to: hardware:nvme_protocol}
+  - {from: hardware:sata_ssd, relation: CONNECTS_TO, to: hardware:sata_connector}
+  - {from: hardware:sata_ssd, relation: CARRIES_PROTOCOL, to: hardware:sata_protocol}
+  - {from: hardware:usb_c, relation: CARRIES_PROTOCOL, to: hardware:usb_protocol}
+  - {from: hardware:usb_a, relation: CARRIES_PROTOCOL, to: hardware:usb_protocol}
+  - {from: hardware:pcie_x1_slot, relation: CARRIES_PROTOCOL, to: hardware:pcie_protocol}
+  - {from: hardware:pcie_x16_slot, relation: CARRIES_PROTOCOL, to: hardware:pcie_protocol}
+  - {from: hardware:fan, relation: POWERED_BY, to: hardware:atx_psu}
+  - {from: hardware:heatsink, relation: COOLS, to: hardware:cpu}
+  - {from: hardware:gpu, relation: PACKAGED_AS, to: hardware:bga}
+  - {from: hardware:usb_c_cable, relation: CONNECTS_TO, to: hardware:usb_c}
+  - {from: hardware:sata_cable, relation: CONNECTS_TO, to: hardware:sata_connector}
+  - {from: hardware:ethernet_cable, relation: CONNECTS_TO, to: hardware:rj45}
+  - {from: hardware:ddr4_dimm, relation: PREDECESSOR_OF, to: hardware:ddr5_dimm}
