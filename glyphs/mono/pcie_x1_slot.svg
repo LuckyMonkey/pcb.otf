@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">PCI Express x1 slot</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
   <path d="M108 430 H522 Q530 430 530 438 V562 Q530 570 522 570 H108 Q100 570 100 562 V438 Q100 430 108 430 Z" fill="#17252c" data-role="body" data-layer="body"/>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">DDR4 DIMM slot</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
   <path d="M136 420 H864 Q880 420 880 436 V564 Q880 580 864 580 H136 Q120 580 120 564 V436 Q120 420 136 420 Z" fill="#17252c" data-role="body" data-layer="body"/>

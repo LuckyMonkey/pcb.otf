@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="side" data-source="pcb-original-technical-art">
   <title id="title">DDR4 DIMM slot</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M188 350 H812 Q820 350 820 358 V612 Q820 620 812 620 H188 Q180 620 180 612 V358 Q180 350 188 350 Z" fill="#1f554d" data-role="body" data-layer="body"/>
-  <path d="M190 600 H810 V600 H190 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M234 390 H766 Q770 390 770 394 V506 Q770 510 766 510 H234 Q230 510 230 506 V394 Q230 390 234 390 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M188 350 H812 Q820 350 820 358 V612 Q820 620 812 620 H188 Q180 620 180 612 V358 Q180 350 188 350 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M190 600 H810 V600 H190 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M234 390 H766 Q770 390 770 394 V506 Q770 510 766 510 H234 Q230 510 230 506 V394 Q230 390 234 390 Z" fill="#f7f2e8" fill-opacity="0.82" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
   </g>
 </svg>

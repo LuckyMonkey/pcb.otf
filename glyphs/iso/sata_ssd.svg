@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">SATA solid-state drive</title>
   <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
   <path d="M202 230 H798 Q820 230 820 252 V748 Q820 770 798 770 H202 Q180 770 180 748 V252 Q180 230 202 230 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>

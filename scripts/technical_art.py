@@ -61,7 +61,13 @@ def cpu_socket() -> list[tuple[str, str, str]]:
 
 
 def cpu() -> list[tuple[str, str, str]]:
-    return [rr(250, 250, 500, 500, 14, SILICON), rr(285, 285, 430, 430, 8, METAL, "detail"), rr(330, 330, 340, 340, 5, CERAMIC, "detail"), part("M380 380 H620 V620 H380 Z", INK, "knockout")]
+    result = [rr(250, 250, 500, 500, 14, SILICON), rr(285, 285, 430, 430, 8, METAL, "detail"), rr(330, 330, 340, 340, 5, CERAMIC, "detail"), part("M380 380 H620 V620 H380 Z", INK, "knockout")]
+    for x in range(310, 720, 58):
+        result += [rr(x, 210, 18, 40, 3, METAL, "detail"), rr(x, 750, 18, 40, 3, METAL, "detail")]
+    for y in range(310, 720, 58):
+        result += [rr(210, y, 40, 18, 3, METAL, "detail"), rr(750, y, 40, 18, 3, METAL, "detail")]
+    result.append(circle(315, 315, 12, COPPER, "detail"))
+    return result
 
 
 def vrm() -> list[tuple[str, str, str]]:
@@ -89,7 +95,11 @@ def expansion_slot(length: int) -> list[tuple[str, str, str]]:
 
 
 def gpu() -> list[tuple[str, str, str]]:
-    return [rr(110, 360, 780, 280, 14, PCB), rr(155, 405, 250, 190, 8, SILICON, "detail"), rr(470, 400, 310, 200, 8, METAL, "detail"), *[circle(x, 500, 32, BLUE, "detail") for x in (520, 620, 720)], part("M150 575 H850", COPPER, "detail")]
+    result = [rr(110, 360, 780, 280, 14, PCB), rr(155, 405, 250, 190, 8, SILICON, "detail"), rr(470, 400, 310, 200, 8, METAL, "detail"), *[circle(x, 500, 32, BLUE, "detail") for x in (520, 620, 720)], part("M150 575 H850", COPPER, "detail")]
+    result += [rr(90, 385, 34, 230, 4, METAL, "detail"), rr(860, 430, 45, 130, 4, METAL, "detail")]
+    result += [circle(145, 390, 12, COPPER, "detail"), circle(145, 610, 12, COPPER, "detail"), circle(855, 390, 12, COPPER, "detail"), circle(855, 610, 12, COPPER, "detail")]
+    result += [rr(x, 640, 22, 70, 2, COPPER, "detail") for x in range(170, 840, 34)]
+    return result
 
 
 def m2_socket() -> list[tuple[str, str, str]]:

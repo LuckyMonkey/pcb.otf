@@ -1,9 +1,10 @@
 # PCB.OTF art direction
 
-The 0.1.0 artwork is a deliberately compact vector vocabulary. It proves the
-object → identity → relation → glyph pipeline, but it is not yet a collection
-of canonical mechanical illustrations. The silhouettes are closer to a
-technical icon set than to a patent plate or a service-manual drawing.
+The 0.2.0 artwork has two deliberate layers. The downloadable font remains a
+compact filled vector vocabulary; the catalog and assembly now have a separate
+technical renderer with patent-plate linework, restrained section tones, and
+top/front/side/isometric assets for every registry object. The drawings are
+original technical studies, not claims of manufacturer-accurate dimensions.
 
 That distinction is intentional and should remain visible in project language.
 Do not describe the current masters as manufacturer-accurate drawings.
@@ -73,7 +74,9 @@ marks, or logos. A drawing can be technically recognizable without being a copy.
 
 ## Current status
 
-PCB.OTF 0.1.0 has the complete semantic vertical slice and a broad starter
-registry. Its artwork should be treated as prototype symbol masters. Future
-releases should improve the vector plates in place while keeping object IDs,
-shortcodes, and released PUA assignments stable.
+PCB.OTF 0.2.0 has the complete semantic vertical slice, a broad starter
+registry, an illustrated parts-catalog specimen, and 728 deterministic SVG
+masters: compact mono/color/iso masters plus four technical plate views per
+object. Future releases should add more dimensioned and source-reviewed
+geometry—especially historical boards, drive mechanisms, and server hardware—
+while keeping object IDs, shortcodes, and released PUA assignments stable.

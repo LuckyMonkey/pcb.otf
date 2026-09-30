@@ -58,12 +58,14 @@ socket from device, memory generation from module form factor, and physical slot
 width from negotiated electrical lanes. Compatibility claims remain explicit
 relation data rather than guesses. 🔬
 
-The 0.1.0 artwork is intentionally a prototype symbol vocabulary, not a set of
-manufacturer-accurate or patent-plate illustrations. The next art pass starts
-with PCB-native geometry—footprints, pads, vias, traces, packages, connectors,
-and board features—using original orthographic and isometric vector drawings.
+The current artwork is an original technical study rather than copied patent or
+manufacturer art. The catalog now ships a drafting renderer for every object,
+with a richer orthographic/isometric construction set for PCB-native parts,
+connectors, CPU packages, memory, boards, and the ATX assembly. The specimen
+uses patent-sheet conventions—multiple views, construction tones, and catalog
+plates—while keeping the downloadable color and monochrome font masters compact.
 Larger computer assemblies such as B75/Z97-era boards, drives, and server racks
-follow that foundation. See [`docs/art-direction.md`](docs/art-direction.md).
+follow this foundation. See [`docs/art-direction.md`](docs/art-direction.md).
 
 ## Usage
 
@@ -130,7 +132,7 @@ and docs are MIT; generated font artifacts are OFL-1.1. See `LICENSE` and
 
 ## Status
 
-This is an independently usable 0.1.0 MVP, not a claim that every historical
+This is an independently usable 0.2.0 MVP, not a claim that every historical
 package, connector, or vendor compatibility rule is complete. Objects marked
 `review_required: true` need a sourced hardware review before 1.0. Stable object
 IDs and released PUA assignments must not be casually recycled. 🛠️

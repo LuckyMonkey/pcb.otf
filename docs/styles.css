@@ -16,3 +16,38 @@
 .relation-note { margin-top:8px; padding-top:8px; border-top:1px solid var(--line); color:var(--muted); font:11px/1.4 ui-monospace,monospace; } .relation-note strong { color:var(--copper); }
 footer { display:flex; justify-content:space-between; gap:20px; padding:24px 0 48px; color:var(--muted); font-size:13px; } footer a { color:var(--ink); }
 @media(max-width:620px) { .hero { padding-top:42px; } .section-head,footer { align-items:start; flex-direction:column; } .card-view { height:98px; } }
+
+/* Catalog / patent-plate presentation. The drawing remains vector artwork;
+   this paper treatment only supplies the service-manual context around it. */
+.catalog-plate { background:#f8f5ee; }
+.patent-drawings { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-top:22px; }
+.patent-plate { min-width:0; margin:0; padding:12px; border:1px solid #c9c0b2; background-color:#f4f0e7; background-image:linear-gradient(#5e7a7c16 1px,transparent 1px),linear-gradient(90deg,#5e7a7c16 1px,transparent 1px); background-size:24px 24px; box-shadow:inset 0 0 0 5px #f4f0e766; }
+.patent-plate-head { display:flex; align-items:center; justify-content:space-between; gap:12px; padding-bottom:8px; border-bottom:1px solid #b9b0a2; color:var(--copper); font:700 10px ui-monospace,monospace; letter-spacing:.12em; }
+.patent-plate-head code { color:var(--muted); background:transparent; font-size:9px; overflow-wrap:anywhere; }
+.patent-plate-views { display:grid; grid-template-columns:repeat(4,1fr); gap:4px; padding:9px 0 5px; }
+.patent-view { display:grid; grid-template-rows:minmax(0,1fr) auto; min-width:0; min-height:110px; place-items:center; }
+.patent-view img { width:100%; height:92px; object-fit:contain; filter:contrast(1.08); }
+.patent-view span { color:var(--muted); font:700 8px ui-monospace,monospace; letter-spacing:.08em; }
+.patent-plate figcaption { display:grid; grid-template-columns:1fr; gap:3px; padding-top:8px; border-top:1px solid #b9b0a2; font-size:11px; }
+.patent-plate figcaption strong { font:700 15px Georgia,serif; }
+.patent-plate figcaption span { color:var(--muted); }
+.patent-plate figcaption code { width:max-content; color:var(--copper); background:transparent; padding:0; font-size:9px; }
+.card-view.technical { background-color:#f2eee5; background-image:linear-gradient(#5e7a7c12 1px,transparent 1px),linear-gradient(90deg,#5e7a7c12 1px,transparent 1px); background-size:16px 16px; }
+.card-view.technical img { width:96px; height:96px; filter:contrast(1.12); }
+.card-view.iso.technical { perspective:300px; background-color:#e8e2d6; }
+.type-specimen { background:#fffdf8; }
+.font-specimen { overflow:hidden; border:1px solid var(--line); border-radius:12px; background:#f2ede4; }
+.font-specimen-head,.font-sample-row { display:grid; grid-template-columns:34px minmax(170px,1.1fr) minmax(150px,1fr) minmax(150px,1fr) 150px; align-items:center; gap:12px; }
+.font-specimen-head { padding:9px 12px; color:var(--muted); border-bottom:1px solid var(--line); font:700 9px ui-monospace,monospace; letter-spacing:.08em; }
+.font-sample-row { min-height:82px; padding:10px 12px; border-bottom:1px solid var(--line); }
+.font-sample-row:last-child { border-bottom:0; }
+.font-sample-index { color:var(--copper); font:700 11px ui-monospace,monospace; }
+.font-sample-name { display:grid; gap:2px; }
+.font-sample-name strong { font:700 14px Georgia,serif; }
+.font-sample-name code,.font-sample-meta code { padding:0; color:var(--muted); background:transparent; font-size:9px; overflow-wrap:anywhere; }
+.font-sample-cell { display:grid; gap:2px; min-width:0; }
+.sample-label { color:var(--muted); font:700 8px ui-monospace,monospace; letter-spacing:.08em; }
+.sample-glyph { display:block; min-height:39px; color:var(--ink); font-size:42px; line-height:1; overflow:hidden; white-space:nowrap; }
+.font-sample-cell:nth-child(4) .sample-glyph { color:var(--copper); }
+.font-sample-meta { display:grid; gap:3px; justify-items:start; }
+@media(max-width:800px) { .patent-drawings { grid-template-columns:1fr; } .font-specimen { overflow-x:auto; } .font-specimen-head,.font-sample-row { min-width:720px; } }

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
+  <title id="title">ARM64 architecture</title>
+  <g fill-rule="evenodd" clip-rule="evenodd">
+  <path d="M240 500 A260 260 0 1 0 760 500 A260 260 0 1 0 240 500 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M280 500 H720 M500 280 V720 M350 350 L650 650 M650 350 L350 650" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  </g>
+</svg>

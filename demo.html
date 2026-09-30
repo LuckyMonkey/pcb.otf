@@ -42,11 +42,11 @@
   <header class="hero">
     <nav class="hero-nav" aria-label="Demo navigation"><a href="index.html">PCB.OTF</a><a href="docs/index.html">Open hardware registry →</a></nav>
     <div class="hero-grid">
-      <div><p class="eyebrow">PCB.OTF / HARDWARE AS OBJECTS</p><h1>A PCIe slot is an object that happens to have a glyph.</h1><p class="lede">Open semantic symbols for boards, components, connectors, interfaces, memory, storage, power, cooling, and historic hardware. 🧩</p></div>
+      <div><p class="eyebrow">PCB.OTF / ILLUSTRATED PARTS CATALOG</p><h1>A PCIe slot is an object that happens to have a glyph.</h1><p class="lede">An open, searchable computer-parts catalog: semantic hardware objects, original technical vectors, and a font that can set them in running text. 🧩</p></div>
       <div class="hero-glyphs pcb-emoji" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
     </div>
     <p class="note">Not Wingdings. Ordinary letters stay ordinary. Try <code>:usb_c:</code>, <code>:pcie_x16_slot:</code>, or <code>:ddr4_dimm:</code>; without PCB installed, the source remains readable.</p>
-    <div class="data-strip"><code>104 objects</code><code>39 typed relations</code><code>U+E100–U+E167</code><code>COLRv1</code><code>technical top/front/side/isometric</code></div>
+    <div class="data-strip"><code>104 objects</code><code>39 typed relations</code><code>U+E100–U+E167</code><code>COLRv1</code><code>patent-plate vector studies</code></div>
   </header>
   <main>
     <section class="panel assembly" aria-labelledby="assembly-title">
@@ -63,12 +63,25 @@
       </div>
       <p class="assembly-caption">The board is an arrangement, not a new canonical object. CPU, memory, storage, slots, power, cooling, and chipset remain independently searchable hardware objects with explicit relation edges. 🔧</p>
     </section>
-    <section class="panel" aria-labelledby="ideas-title"><p class="eyebrow">PLATE 02 / SEMANTIC DISTINCTIONS</p><h2 id="ideas-title">The details are the point.</h2><div class="showcase">
+
+    <section class="panel catalog-plate" aria-labelledby="drawing-title">
+      <div class="assembly-head"><div><p class="eyebrow">PLATE 02 / ORIGINAL VECTOR DRAWINGS</p><h2 id="drawing-title">Computer parts, drawn like a service manual.</h2></div><div class="plate-mark">top · front · side · isometric<br>original linework / no vendor art</div></div>
+      <p class="note">These are original vector studies using patent-sheet conventions: construction lines, section tones, reference geometry, and multiple views. They are not copied patent figures or vendor illustrations.</p>
+      <div id="patent-drawings" class="patent-drawings" aria-live="polite"></div>
+    </section>
+
+    <section class="panel type-specimen" aria-labelledby="specimen-title">
+      <div class="assembly-head"><div><p class="eyebrow">PLATE 03 / FONT SPECIMEN</p><h2 id="specimen-title">Set the catalog as text.</h2></div><div class="plate-mark">semantic ligature<br>direct PUA character</div></div>
+      <p class="note">The same hardware object can be authored as readable <code>:shortcode:</code> text, shaped by OpenType, or copied as its stable project-assigned PUA character.</p>
+      <div id="font-specimen" class="font-specimen" aria-live="polite"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="ideas-title"><p class="eyebrow">PLATE 04 / SEMANTIC DISTINCTIONS</p><h2 id="ideas-title">The details are the point.</h2><div class="showcase">
       <div class="showcase-card"><strong>🔌 Connector ≠ protocol</strong><code>:usb_c: → :usb_protocol:</code></div><div class="showcase-card"><strong>🧠 Socket ≠ device</strong><code>:m2_socket: → :nvme_ssd:</code></div><div class="showcase-card"><strong>💾 Generation ≠ form factor</strong><code>:ddr4_dimm: → :ddr4_dimm_slot:</code></div><div class="showcase-card"><strong>🕰️ History is hardware</strong><code>:isa_slot: · :agp_slot: · :ide_connector:</code></div>
     </div></section>
     <section class="panel demo-callout"><div><p class="eyebrow">LIVE REGISTRY</p><h2>Search every part in every view.</h2><p class="note">Browse all 104 canonical objects, inspect attributes and relation edges, then copy a shortcode or PUA character.</p></div><a class="download" href="docs/index.html">Open the registry →</a></section>
   </main>
   <footer><span>PCB.OTF is an open semantic hardware symbol system.</span><a href="README.md">Read the README</a></footer>
-  <script src="docs/registry.js"></script><script src="docs/assembly.js"></script>
+  <script src="docs/registry.js"></script><script src="docs/specimen.js"></script><script src="docs/assembly.js"></script>
 </body>
 </html>

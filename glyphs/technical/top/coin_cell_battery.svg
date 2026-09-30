@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
   <title id="title">Coin-cell battery</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M240 500 A260 260 0 1 0 760 500 A260 260 0 1 0 240 500 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
-  <path d="M290 500 A210 210 0 1 0 710 500 A210 210 0 1 0 290 500 Z" fill="#d8d0bd" data-role="detail" data-layer="detail"/>
-  <path d="M500 300 L500 300 L500 410 L500 410 Z" fill="#b85d4e" data-role="detail" data-layer="detail"/>
-  <path d="M445 355 H555 V355 H445 Z" fill="#b85d4e" data-role="detail" data-layer="detail"/>
+  <path d="M240 500 A260 260 0 1 0 760 500 A260 260 0 1 0 240 500 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M290 500 A210 210 0 1 0 710 500 A210 210 0 1 0 290 500 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M500 300 L500 300 L500 410 L500 410 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M445 355 H555 V355 H445 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

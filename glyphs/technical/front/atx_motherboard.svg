@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="front" data-source="pcb-original-technical-art">
   <title id="title">ATX motherboard</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M128 400 H872 Q880 400 880 408 V572 Q880 580 872 580 H128 Q120 580 120 572 V408 Q120 400 128 400 Z" fill="#1f554d" data-role="body" data-layer="body"/>
-  <path d="M145 390 H855 V390 H145 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M156 490 A24 24 0 1 0 204 490 A24 24 0 1 0 156 490 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
-  <path d="M168 490 A12 12 0 1 0 192 490 A12 12 0 1 0 168 490 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M128 400 H872 Q880 400 880 408 V572 Q880 580 872 580 H128 Q120 580 120 572 V408 Q120 400 128 400 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M145 390 H855 V390 H145 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M156 490 A24 24 0 1 0 204 490 A24 24 0 1 0 156 490 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M168 490 A12 12 0 1 0 192 490 A12 12 0 1 0 168 490 Z" fill="#f7f2e8" fill-opacity="0.82" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
   </g>
 </svg>

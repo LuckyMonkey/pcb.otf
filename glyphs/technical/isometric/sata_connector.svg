@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
   <title id="title">SATA connector</title>
   <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
-  <path d="M284 300 H716 Q730 300 730 314 V686 Q730 700 716 700 H284 Q270 700 270 686 V314 Q270 300 284 300 Z" fill="#d8d0bd" data-role="body" data-layer="body"/>
-  <path d="M320 360 H680 Q685 360 685 365 V635 Q685 640 680 640 H320 Q315 640 315 635 V365 Q315 360 320 360 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
-  <path d="M350 395 L350 395 L350 605 L350 605 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M376 395 L376 395 L376 605 L376 605 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M402 395 L402 395 L402 605 L402 605 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M428 395 L428 395 L428 605 L428 605 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M454 395 L454 395 L454 605 L454 605 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M480 395 L480 395 L480 605 L480 605 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M506 395 L506 395 L506 605 L506 605 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M532 395 L532 395 L532 605 L532 605 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M558 395 L558 395 L558 605 L558 605 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M584 395 L584 395 L584 605 L584 605 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M610 395 L610 395 L610 605 L610 605 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M636 395 L636 395 L636 605 L636 605 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M284 300 H716 Q730 300 730 314 V686 Q730 700 716 700 H284 Q270 700 270 686 V314 Q270 300 284 300 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M320 360 H680 Q685 360 685 365 V635 Q685 640 680 640 H320 Q315 640 315 635 V365 Q315 360 320 360 Z" fill="#f7f2e8" fill-opacity="0.82" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
+  <path d="M350 395 L350 395 L350 605 L350 605 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M376 395 L376 395 L376 605 L376 605 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M402 395 L402 395 L402 605 L402 605 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M428 395 L428 395 L428 605 L428 605 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M454 395 L454 395 L454 605 L454 605 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M480 395 L480 395 L480 605 L480 605 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M506 395 L506 395 L506 605 L506 605 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M532 395 L532 395 L532 605 L532 605 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M558 395 L558 395 L558 605 L558 605 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M584 395 L584 395 L584 605 L584 605 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M610 395 L610 395 L610 605 L610 605 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M636 395 L636 395 L636 605 L636 605 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

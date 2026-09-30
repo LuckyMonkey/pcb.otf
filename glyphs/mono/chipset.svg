@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">Chipset</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
   <path d="M272 260 H728 Q740 260 740 272 V728 Q740 740 728 740 H272 Q260 740 260 728 V272 Q260 260 272 260 Z" fill="#17252c" data-role="body" data-layer="body"/>

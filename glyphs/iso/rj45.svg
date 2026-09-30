@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">RJ45 / 8P8C connector</title>
   <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
   <path d="M234 300 H666 Q680 300 680 314 V686 Q680 700 666 700 H234 Q220 700 220 686 V314 Q220 300 234 300 Z" fill="#d8d0bd" data-role="body" data-layer="body"/>

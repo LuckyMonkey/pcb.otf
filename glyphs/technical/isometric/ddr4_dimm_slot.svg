@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
   <title id="title">DDR4 DIMM slot</title>
   <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
-  <path d="M136 420 H864 Q880 420 880 436 V564 Q880 580 864 580 H136 Q120 580 120 564 V436 Q120 420 136 420 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
-  <path d="M159 455 H841 Q845 455 845 459 V541 Q845 545 841 545 H159 Q155 545 155 541 V459 Q155 455 159 455 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
-  <path d="M479 420 H513 Q517 420 517 424 V576 Q517 580 513 580 H479 Q475 580 475 576 V424 Q475 420 479 420 Z" fill="#d8d0bd" data-role="detail" data-layer="detail"/>
+  <path d="M136 420 H864 Q880 420 880 436 V564 Q880 580 864 580 H136 Q120 580 120 564 V436 Q120 420 136 420 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M159 455 H841 Q845 455 845 459 V541 Q845 545 841 545 H159 Q155 545 155 541 V459 Q155 455 159 455 Z" fill="#f7f2e8" fill-opacity="0.82" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
+  <path d="M479 420 H513 Q517 420 517 424 V576 Q517 580 513 580 H479 Q475 580 475 576 V424 Q475 420 479 420 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

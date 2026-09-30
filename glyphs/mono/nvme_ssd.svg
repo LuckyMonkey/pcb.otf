@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">NVMe solid-state drive</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
   <path d="M130 440 H850 V560 H130 Z" fill="#17252c" data-role="body" data-layer="body"/>

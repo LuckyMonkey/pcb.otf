@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
   <title id="title">DDR4 DIMM</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M140 450 H820 V530 H140 Z" fill="#1f554d" data-role="body" data-layer="body"/>
-  <path d="M161 385 H799 Q805 385 805 391 V479 Q805 485 799 485 H161 Q155 485 155 479 V391 Q155 385 161 385 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
-  <path d="M170 450 H790 V500 H170 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M188 395 H212 Q215 395 215 398 V464 Q215 467 212 467 H188 Q185 467 185 464 V398 Q185 395 188 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M233 395 H257 Q260 395 260 398 V464 Q260 467 257 467 H233 Q230 467 230 464 V398 Q230 395 233 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M278 395 H302 Q305 395 305 398 V464 Q305 467 302 467 H278 Q275 467 275 464 V398 Q275 395 278 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M323 395 H347 Q350 395 350 398 V464 Q350 467 347 467 H323 Q320 467 320 464 V398 Q320 395 323 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M368 395 H392 Q395 395 395 398 V464 Q395 467 392 467 H368 Q365 467 365 464 V398 Q365 395 368 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M413 395 H437 Q440 395 440 398 V464 Q440 467 437 467 H413 Q410 467 410 464 V398 Q410 395 413 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M458 395 H482 Q485 395 485 398 V464 Q485 467 482 467 H458 Q455 467 455 464 V398 Q455 395 458 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M503 395 H527 Q530 395 530 398 V464 Q530 467 527 467 H503 Q500 467 500 464 V398 Q500 395 503 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M548 395 H572 Q575 395 575 398 V464 Q575 467 572 467 H548 Q545 467 545 464 V398 Q545 395 548 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M593 395 H617 Q620 395 620 398 V464 Q620 467 617 467 H593 Q590 467 590 464 V398 Q590 395 593 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M638 395 H662 Q665 395 665 398 V464 Q665 467 662 467 H638 Q635 467 635 464 V398 Q635 395 638 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M683 395 H707 Q710 395 710 398 V464 Q710 467 707 467 H683 Q680 467 680 464 V398 Q680 395 683 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M728 395 H752 Q755 395 755 398 V464 Q755 467 752 467 H728 Q725 467 725 464 V398 Q725 395 728 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M773 395 H797 Q800 395 800 398 V464 Q800 467 797 467 H773 Q770 467 770 464 V398 Q770 395 773 395 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M465 450 V530 H520 V450" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M140 450 H820 V530 H140 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M161 385 H799 Q805 385 805 391 V479 Q805 485 799 485 H161 Q155 485 155 479 V391 Q155 385 161 385 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M170 450 H790 V500 H170 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M188 395 H212 Q215 395 215 398 V464 Q215 467 212 467 H188 Q185 467 185 464 V398 Q185 395 188 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M233 395 H257 Q260 395 260 398 V464 Q260 467 257 467 H233 Q230 467 230 464 V398 Q230 395 233 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M278 395 H302 Q305 395 305 398 V464 Q305 467 302 467 H278 Q275 467 275 464 V398 Q275 395 278 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M323 395 H347 Q350 395 350 398 V464 Q350 467 347 467 H323 Q320 467 320 464 V398 Q320 395 323 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M368 395 H392 Q395 395 395 398 V464 Q395 467 392 467 H368 Q365 467 365 464 V398 Q365 395 368 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M413 395 H437 Q440 395 440 398 V464 Q440 467 437 467 H413 Q410 467 410 464 V398 Q410 395 413 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M458 395 H482 Q485 395 485 398 V464 Q485 467 482 467 H458 Q455 467 455 464 V398 Q455 395 458 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M503 395 H527 Q530 395 530 398 V464 Q530 467 527 467 H503 Q500 467 500 464 V398 Q500 395 503 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M548 395 H572 Q575 395 575 398 V464 Q575 467 572 467 H548 Q545 467 545 464 V398 Q545 395 548 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M593 395 H617 Q620 395 620 398 V464 Q620 467 617 467 H593 Q590 467 590 464 V398 Q590 395 593 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M638 395 H662 Q665 395 665 398 V464 Q665 467 662 467 H638 Q635 467 635 464 V398 Q635 395 638 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M683 395 H707 Q710 395 710 398 V464 Q710 467 707 467 H683 Q680 467 680 464 V398 Q680 395 683 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M728 395 H752 Q755 395 755 398 V464 Q755 467 752 467 H728 Q725 467 725 464 V398 Q725 395 728 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M773 395 H797 Q800 395 800 398 V464 Q800 467 797 467 H773 Q770 467 770 464 V398 Q770 395 773 395 Z" fill="#bd7446" fill-opacity="0.10" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M465 450 V530 H520 V450" fill="#f7f2e8" fill-opacity="0.82" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
   </g>
 </svg>

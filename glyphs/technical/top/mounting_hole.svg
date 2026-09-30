@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
   <title id="title">Mounting hole</title>
   <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M220 500 A280 280 0 1 0 780 500 A280 280 0 1 0 220 500 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
-  <path d="M232 500 A268 268 0 1 0 768 500 A268 268 0 1 0 232 500 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
+  <path d="M220 500 A280 280 0 1 0 780 500 A280 280 0 1 0 220 500 Z" fill="#edf0ea" fill-opacity="0.06" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M232 500 A268 268 0 1 0 768 500 A268 268 0 1 0 232 500 Z" fill="#f7f2e8" fill-opacity="0.82" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
   </g>
 </svg>
