@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">RJ45 / 8P8C connector</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M234 300 H666 Q680 300 680 314 V686 Q680 700 666 700 H234 Q220 700 220 686 V314 Q220 300 234 300 Z" fill="#d8d0bd" data-role="body" data-layer="body"/>
   <path d="M273 355 H627 Q635 355 635 363 V637 Q635 645 627 645 H273 Q265 645 265 637 V363 Q265 355 273 355 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
   <path d="M306 625 A14 14 0 1 0 334 625 A14 14 0 1 0 306 625 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>

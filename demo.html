@@ -11,23 +11,23 @@
     .hero-nav { display:flex; justify-content:space-between; gap:18px; margin-bottom:48px; font:700 12px/1 ui-monospace,monospace; }
     .hero-nav a { color:var(--ink); text-decoration:none; } .hero-nav a:last-child { color:var(--copper); }
     .hero-grid { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr); align-items:end; gap:40px; }
-    .hero-glyphs { display:flex; justify-content:flex-end; gap:10px; flex-wrap:wrap; font-size:68px; line-height:.8; }
-    .hero-glyphs span:nth-child(3n) { color:var(--copper); } .hero-glyphs span:nth-child(4n) { color:var(--blue); }
+    .hero-glyphs { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; align-items:center; }
+    .hero-glyphs img { width:100%; height:86px; object-fit:contain; padding:8px; border:1px solid var(--line); background:#fff; filter:contrast(1.2); }
     .assembly { overflow:hidden; } .assembly-head { display:flex; justify-content:space-between; align-items:end; gap:24px; margin-bottom:22px; }
     .assembly-head h2 { margin-bottom:0; } .plate-mark { color:var(--muted); font:700 11px/1.3 ui-monospace,monospace; text-align:right; letter-spacing:.1em; text-transform:uppercase; }
     .assembly-toolbar { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:0 0 16px; padding:10px; border:1px solid var(--line); border-radius:12px; background:#f2ede4; }
     .assembly-toolbar button,.assembly-toolbar label { margin:0; font:700 11px ui-monospace,monospace; letter-spacing:.05em; }
     .assembly-toolbar button { padding:8px 11px; } .assembly-toolbar button.active { color:#fff; background:var(--pcb); border-color:var(--pcb); }
     .assembly-toolbar input[type=range] { width:120px; accent-color:var(--copper); } .assembly-toolbar input[type=checkbox] { accent-color:var(--copper); }
-    .assembly-workspace { display:grid; grid-template-columns:minmax(0,1fr) 220px; gap:14px; align-items:stretch; }
-    .assembly-stage { position:relative; min-height:560px; overflow:hidden; border:1px solid #213d3a; border-radius:14px; background:radial-gradient(circle at 50% 40%,#39776b,#16443f 65%,#092a2a); box-shadow:inset 0 0 50px #031818; perspective:1500px; }
-    .assembly-stage::before { position:absolute; inset:26px; border:1px solid #b2d6b354; border-radius:8px; content:""; box-shadow:0 0 0 18px #b2d6b30c; pointer-events:none; }
-    .assembly-stage.isometric { background:linear-gradient(145deg,#eee8dc,#c7c0b3); box-shadow:inset 0 0 50px #7c746844; }
+    .assembly-workspace { display:grid; grid-template-columns:minmax(0,1fr) minmax(240px,270px); gap:14px; align-items:stretch; }
+    .assembly-stage { position:relative; min-height:560px; overflow:hidden; border:1px solid #17252c; border-radius:14px; background-color:#fff; background-image:linear-gradient(#17252c12 1px,transparent 1px),linear-gradient(90deg,#17252c12 1px,transparent 1px); background-size:32px 32px; box-shadow:inset 0 0 50px #17252c14; perspective:1800px; }
+    .assembly-stage::before { position:absolute; inset:26px; border:1px solid #17252c38; border-radius:8px; content:""; box-shadow:0 0 0 18px #17252c08; pointer-events:none; }
+    .assembly-stage.isometric { background:radial-gradient(circle at 50% 45%,#ffffff,#e8e8e3 72%,#d4d2ca); box-shadow:inset 0 0 50px #7c746844; }
     .assembly-scene { position:absolute; inset:28px; transform-style:preserve-3d; }
     .assembly-plane { position:absolute; inset:0; transform-origin:50% 50%; transform-style:preserve-3d; transition:transform .55s cubic-bezier(.2,.75,.25,1); }
-    .assembly-stage.isometric .assembly-plane { transform:rotateX(58deg) rotateZ(-35deg) scale(.78); }
-    .assembly-stage.front-view .assembly-plane { transform:rotateX(70deg) scale(.86); }
-    .assembly-stage.side-view .assembly-plane { transform:rotateY(68deg) scale(.86); }
+    .assembly-stage.isometric .assembly-plane { transform:rotateX(60deg) rotateZ(-28deg) scale(.93); }
+    .assembly-stage.front-view .assembly-plane { transform:rotateX(72deg) scale(.91); }
+    .assembly-stage.side-view .assembly-plane { transform:rotateY(68deg) scale(.91); }
     .assembly-traces { position:absolute; inset:0; z-index:0; width:100%; height:100%; overflow:visible; pointer-events:none; }
     .assembly-trace { fill:none; stroke-width:5; stroke-dasharray:16 14; opacity:.46; vector-effect:non-scaling-stroke; }
     .assembly-traces circle { fill:#fffdf8; stroke-width:4; opacity:.66; vector-effect:non-scaling-stroke; }
@@ -35,16 +35,18 @@
     .assembly-layer { position:absolute; display:block; margin:0; padding:0; border:0; border-radius:5px; background:transparent; cursor:pointer; transform-style:preserve-3d; backface-visibility:visible; transition:transform .35s ease,opacity .2s ease,filter .2s ease; }
     .assembly-layer:hover,.assembly-layer:focus-visible,.assembly-layer.selected { filter:drop-shadow(0 0 8px #f4d28e); outline:1px solid #f4d28e; }
     .assembly-layer img { display:block; width:100%; height:100%; object-fit:fill; pointer-events:none; }
-    .assembly-stage.isometric .assembly-layer img { filter:drop-shadow(0 8px 5px #17252c44); }
-    .assembly-stage:not(.isometric) .assembly-layer img { filter:invert(1) sepia(.12) saturate(.7) brightness(1.22); }
-    .assembly-inspector { min-height:240px; padding:16px; border:1px solid var(--line); border-radius:14px; background:#fffdf8; }
+    .assembly-stage.isometric .assembly-layer img { filter:drop-shadow(0 8px 5px #17252c30); }
+    .assembly-stage:not(.isometric) .assembly-layer img { filter:none; }
+    .assembly-inspector { min-height:240px; padding:16px; border:1px solid var(--line); border-radius:14px; background:#fffdf8; overflow:auto; }
     .assembly-inspector h3 { margin:0 0 7px; font:700 21px/1.05 Georgia,serif; } .assembly-inspector p { margin-bottom:10px; color:var(--muted); font-size:12px; }
     .assembly-inspector code { display:block; margin:5px 0; font-size:10px; overflow-wrap:anywhere; }
     .assembly-inspector dl { margin:15px 0 0; font-size:11px; } .assembly-inspector dt { color:var(--copper); font:700 9px ui-monospace,monospace; text-transform:uppercase; } .assembly-inspector dd { margin:2px 0 9px; }
     .assembly-caption { margin:0; padding:14px 18px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+    #assembly-groups { display:flex; flex:1 1 320px; flex-wrap:wrap; align-items:center; justify-content:flex-end; gap:5px 11px; }
+    #assembly-groups label { display:inline-flex; align-items:center; gap:4px; margin:0; white-space:nowrap; }
     .showcase { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; } .showcase-card { padding:15px; border:1px solid var(--line); border-radius:14px; background:#fff; }
     .showcase-card strong { display:block; margin-bottom:5px; font:700 16px Georgia,serif; } .showcase-card code { color:var(--muted); font-size:10px; }
-    @media(max-width:800px) { .hero-grid { grid-template-columns:1fr; } .hero-glyphs { justify-content:flex-start; } .showcase { grid-template-columns:repeat(2,1fr); } .assembly-workspace { grid-template-columns:1fr; } .assembly-stage { min-height:480px; } }
+    @media(max-width:800px) { .hero-grid { grid-template-columns:1fr; } .hero-glyphs { justify-content:flex-start; } .showcase { grid-template-columns:repeat(2,1fr); } .assembly-workspace { grid-template-columns:1fr; } .assembly-stage { min-height:480px; } #assembly-groups { justify-content:flex-start; } }
     @media(max-width:480px) { .showcase { grid-template-columns:1fr; } .assembly-stage { min-height:360px; } }
   </style>
 </head>
@@ -52,8 +54,8 @@
   <header class="hero">
     <nav class="hero-nav" aria-label="Demo navigation"><a href="index.html">PCB.OTF</a><a href="docs/index.html">Open hardware registry →</a></nav>
     <div class="hero-grid">
-      <div><p class="eyebrow">PCB.OTF / ILLUSTRATED PARTS CATALOG</p><h1>A PCIe slot is an object that happens to have a glyph.</h1><p class="lede">An open, searchable computer-parts catalog: semantic hardware objects, original technical vectors, and a font that can set them in running text. 🧩</p></div>
-      <div class="hero-glyphs pcb-emoji" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div><p class="eyebrow">PCB.OTF / ILLUSTRATED PARTS CATALOG</p><h1>A PCIe slot is an object that happens to have a glyph.</h1><p class="lede">An open, searchable computer-parts catalog: semantic hardware objects, original technical vectors, and a font that can set them in running text.</p></div>
+      <div class="hero-glyphs" aria-label="Technical vector samples"><img src="glyphs/technical/top/atx_motherboard.svg" alt="ATX motherboard technical drawing"><img src="glyphs/technical/top/cpu_socket.svg" alt="CPU socket technical drawing"><img src="glyphs/technical/top/ddr4_dimm.svg" alt="DDR4 DIMM technical drawing"><img src="glyphs/technical/top/gpu.svg" alt="GPU technical drawing"></div>
     </div>
     <p class="note">Not Wingdings. Ordinary letters stay ordinary. Try <code>:usb_c:</code>, <code>:pcie_x16_slot:</code>, or <code>:ddr4_dimm:</code>; without PCB installed, the source remains readable.</p>
     <div class="data-strip"><code>104 objects</code><code>39 typed relations</code><code>U+E100–U+E167</code><code>COLRv1</code><code>patent-plate vector studies</code></div>
@@ -71,12 +73,12 @@
         <div id="assembly-stage" class="assembly-stage" role="group" aria-label="Interactive ATX desktop assembly"></div>
         <aside id="assembly-inspector" class="assembly-inspector" aria-live="polite"><p class="eyebrow">OBJECT INSPECTOR</p><h3>Select a part</h3><p>Click a layer to inspect its canonical hardware identity, glyph, and relationships.</p></aside>
       </div>
-      <p class="assembly-caption">The board is an arrangement, not a new canonical object. The faint routed lines show assembly-level power, memory, storage, and cooling connections; CPU, memory, storage, slots, power, cooling, and chipset remain independently searchable hardware objects with explicit relation edges. 🔧</p>
+      <p class="assembly-caption">The board is an arrangement, not a new canonical object. The faint routed lines show assembly-level power, memory, storage, and cooling connections; CPU, memory, storage, slots, power, cooling, and chipset remain independently searchable hardware objects with explicit relation edges.</p>
     </section>
 
     <section class="panel catalog-plate" aria-labelledby="drawing-title">
       <div class="assembly-head"><div><p class="eyebrow">PLATE 02 / ORIGINAL VECTOR DRAWINGS</p><h2 id="drawing-title">Computer parts, drawn like a service manual.</h2></div><div class="plate-mark">top · front · side · isometric<br>original linework / no vendor art</div></div>
-      <p class="note">These are original vector studies using patent-sheet conventions: construction lines, section tones, reference geometry, and multiple views. They are not copied patent figures or vendor illustrations.</p>
+      <p class="note">These are high-resolution black-on-white vector studies using patent-sheet conventions: construction lines, section tones, reference geometry, and multiple views. Transparent interiors keep assemblies readable when layers overlap. They are not copied patent figures or vendor illustrations.</p>
       <div id="patent-drawings" class="patent-drawings" aria-live="polite"></div>
     </section>
 
@@ -87,7 +89,7 @@
     </section>
 
     <section class="panel" aria-labelledby="ideas-title"><p class="eyebrow">PLATE 04 / SEMANTIC DISTINCTIONS</p><h2 id="ideas-title">The details are the point.</h2><div class="showcase">
-      <div class="showcase-card"><strong>🔌 Connector ≠ protocol</strong><code>:usb_c: → :usb_protocol:</code></div><div class="showcase-card"><strong>🧠 Socket ≠ device</strong><code>:m2_socket: → :nvme_ssd:</code></div><div class="showcase-card"><strong>💾 Generation ≠ form factor</strong><code>:ddr4_dimm: → :ddr4_dimm_slot:</code></div><div class="showcase-card"><strong>🕰️ History is hardware</strong><code>:isa_slot: · :agp_slot: · :ide_connector:</code></div>
+      <div class="showcase-card"><strong>Connector ≠ protocol</strong><code>:usb_c: → :usb_protocol:</code></div><div class="showcase-card"><strong>Socket ≠ device</strong><code>:m2_socket: → :nvme_ssd:</code></div><div class="showcase-card"><strong>Generation ≠ form factor</strong><code>:ddr4_dimm: → :ddr4_dimm_slot:</code></div><div class="showcase-card"><strong>History is hardware</strong><code>:isa_slot: · :agp_slot: · :ide_connector:</code></div>
     </div></section>
     <section class="panel demo-callout"><div><p class="eyebrow">LIVE REGISTRY</p><h2>Search every part in every view.</h2><p class="note">Browse all 104 canonical objects, inspect attributes and relation edges, then copy a shortcode or PUA character.</p></div><a class="download" href="docs/index.html">Open the registry →</a></section>
   </main>

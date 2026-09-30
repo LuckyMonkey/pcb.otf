@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">CPU socket</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M240 210 H760 Q780 210 780 230 V750 Q780 770 760 770 H240 Q220 770 220 750 V230 Q220 210 240 210 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
   <path d="M275 255 H725 Q735 255 735 265 V715 Q735 725 725 725 H275 Q265 725 265 715 V265 Q265 255 275 255 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
   <path d="M313 295 H687 Q695 295 695 303 V677 Q695 685 687 685 H313 Q305 685 305 677 V303 Q305 295 313 295 Z" fill="#d8d0bd" data-role="detail" data-layer="detail"/>

@@ -26,7 +26,7 @@ footer { display:flex; justify-content:space-between; gap:20px; padding:24px 0 4
 .patent-plate-head code { color:var(--muted); background:transparent; font-size:9px; overflow-wrap:anywhere; }
 .patent-plate-views { display:grid; grid-template-columns:repeat(4,1fr); gap:4px; padding:9px 0 5px; }
 .patent-view { display:grid; grid-template-rows:minmax(0,1fr) auto; min-width:0; min-height:110px; place-items:center; }
-.patent-view img { width:100%; height:92px; object-fit:contain; filter:contrast(1.08); }
+.patent-view img { width:100%; height:92px; object-fit:contain; filter:contrast(1.18) saturate(.72); }
 .patent-view span { color:var(--muted); font:700 8px ui-monospace,monospace; letter-spacing:.08em; }
 .patent-plate figcaption { display:grid; grid-template-columns:1fr; gap:3px; padding-top:8px; border-top:1px solid #b9b0a2; font-size:11px; }
 .patent-plate figcaption strong { font:700 15px Georgia,serif; }
@@ -47,7 +47,7 @@ footer { display:flex; justify-content:space-between; gap:20px; padding:24px 0 4
 .font-sample-name code,.font-sample-meta code { padding:0; color:var(--muted); background:transparent; font-size:9px; overflow-wrap:anywhere; }
 .font-sample-cell { display:grid; gap:2px; min-width:0; }
 .sample-label { color:var(--muted); font:700 8px ui-monospace,monospace; letter-spacing:.08em; }
-.sample-glyph { display:block; min-height:39px; color:var(--ink); font-size:42px; line-height:1; overflow:hidden; white-space:nowrap; }
+.sample-glyph { display:block; min-height:34px; color:var(--ink); font-size:34px; line-height:1; overflow:hidden; white-space:nowrap; }
 .font-sample-cell:nth-child(4) .sample-glyph { color:var(--copper); }
 .sample-source { padding:0; color:var(--muted); background:transparent; font-size:9px; }
 .font-sample-meta { display:grid; gap:3px; justify-items:start; }

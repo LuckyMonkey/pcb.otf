@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">VGA connector</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M276 300 H724 Q760 300 760 336 V644 Q760 680 724 680 H276 Q240 680 240 644 V336 Q240 300 276 300 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
   <path d="M303 405 A17 17 0 1 0 337 405 A17 17 0 1 0 303 405 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>
   <path d="M381 405 A17 17 0 1 0 415 405 A17 17 0 1 0 381 405 Z" fill="#d3a44c" data-role="detail" data-layer="detail"/>

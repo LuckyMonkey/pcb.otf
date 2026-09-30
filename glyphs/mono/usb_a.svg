@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">USB Type-A connector</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M244 350 H636 Q650 350 650 364 V636 Q650 650 636 650 H244 Q230 650 230 636 V364 Q230 350 244 350 Z" fill="#17252c" data-role="body" data-layer="body"/>
   <path d="M293 405 H587 Q595 405 595 413 V587 Q595 595 587 595 H293 Q285 595 285 587 V413 Q285 405 293 405 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
   <path d="M341 475 H539 Q545 475 545 481 V504 Q545 510 539 510 H341 Q335 510 335 504 V481 Q335 475 341 475 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>

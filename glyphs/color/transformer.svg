@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">Transformer</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M260 260 H370 Q410 260 410 300 V700 Q410 740 370 740 H260 Q220 740 220 700 V300 Q220 260 260 260 Z" fill="#d8d0bd" data-role="body" data-layer="body"/>
   <path d="M630 260 H740 Q780 260 780 300 V700 Q780 740 740 740 H630 Q590 740 590 700 V300 Q590 260 630 260 Z" fill="#d8d0bd" data-role="body" data-layer="body"/>
   <path d="M475 200 L475 200 L475 800 L475 800 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">PCIe 8-pin power connector</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M344 260 H656 Q670 260 670 274 V726 Q670 740 656 740 H344 Q330 740 330 726 V274 Q330 260 344 260 Z" fill="#d8d0bd" data-role="body" data-layer="body"/>
   <path d="M375 305 H625 Q630 305 630 310 V690 Q630 695 625 695 H375 Q370 695 370 690 V310 Q370 305 375 305 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
   <path d="M393 340 A12 12 0 1 0 417 340 A12 12 0 1 0 393 340 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>

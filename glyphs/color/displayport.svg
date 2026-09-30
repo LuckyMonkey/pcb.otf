@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">DisplayPort connector</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M346 340 H654 Q690 340 690 376 V624 Q690 660 654 660 H346 Q310 660 310 624 V376 Q310 340 346 340 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
   <path d="M362 455 A18 18 0 1 0 398 455 A18 18 0 1 0 362 455 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
   <path d="M410 455 A18 18 0 1 0 446 455 A18 18 0 1 0 410 455 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>

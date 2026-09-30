@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="front" data-source="pcb-original-technical-art">
   <title id="title">Voltage regulator module</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M270 340 H730 Q740 340 740 350 V550 Q740 560 730 560 H270 Q260 560 260 550 V350 Q260 340 270 340 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M325 375 H675 Q680 375 680 380 V465 Q680 470 675 470 H325 Q320 470 320 465 V380 Q320 375 325 375 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M290 560 H710 V560 H290 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
+  <path d="M270 340 H730 Q740 340 740 350 V550 Q740 560 730 560 H270 Q260 560 260 550 V350 Q260 340 270 340 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M325 375 H675 Q680 375 680 380 V465 Q680 470 675 470 H325 Q320 470 320 465 V380 Q320 375 325 375 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M353 485 H647 Q650 485 650 488 V520 Q650 523 647 523 H353 Q350 523 350 520 V488 Q350 485 353 485 Z" fill="#ffffff" fill-opacity="0.78" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
+  <path d="M290 560 H710 V560 H290 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

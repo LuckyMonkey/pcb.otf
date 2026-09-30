@@ -1,4 +1,4 @@
-# PCB.OTF 🧩
+# PCB.OTF
 
 [![Build](https://github.com/LuckyMonkey/pcb.otf/actions/workflows/ci.yml/badge.svg)](https://github.com/LuckyMonkey/pcb.otf/actions/workflows/ci.yml)
 [![Pages](https://github.com/LuckyMonkey/pcb.otf/actions/workflows/pages.yml/badge.svg)](https://github.com/LuckyMonkey/pcb.otf/actions/workflows/pages.yml)
@@ -15,9 +15,9 @@ cooling, networking, and historic hardware stable identities, Unicode-compatible
 representations, semantic shortcodes, vector glyphs, and emoji-like rendering.
 
 It is not Wingdings. Ordinary letters stay ordinary. A PCIe slot is not an icon;
-it is a hardware object that happens to have a glyph. 🔌
+it is a hardware object that happens to have a glyph.
 
-## See it live 🚀
+## See it live
 
 - **[Open the assembly demo](https://luckymonkey.github.io/pcb.otf/)** — top-down
   and angled/isometric computer views made from registry-backed objects.
@@ -27,13 +27,13 @@ it is a hardware object that happens to have a glyph. 🔌
   from Fridge and suitable for downstream hardware graphs.
 
 ```text
-🧩 A computer is an assembly of related hardware objects.
-🔌 Install the :usb_c: connector.
-💾 Put the :ddr4_dimm: in the :ddr4_dimm_slot:.
-🕰️ Document the :isa_slot: beside the :pcie_x16_slot:.
+A computer is an assembly of related hardware objects.
+Install the :usb_c: connector.
+Put the :ddr4_dimm: in the :ddr4_dimm_slot:.
+Document the :isa_slot: beside the :pcie_x16_slot:.
 ```
 
-The emoji above are ordinary Unicode examples. The colon-delimited tokens are
+Ordinary Unicode remains ordinary text. The colon-delimited tokens are
 PCB semantic text; the font shapes them when selected. Without the font, the
 source remains readable. PCB symbols are emoji-like renderings, not official
 Unicode emoji or standards-body logos.
@@ -88,7 +88,7 @@ connectionsFor("hardware:m2_socket");
 ```
 
 Read [`docs/using.md`](docs/using.md) for semantic fallback, accessibility,
-top-down/isometric SVG use, and PUA copy behavior. ♿
+top-down/isometric SVG use, and PUA copy behavior.
 
 ## Build
 
@@ -135,4 +135,4 @@ and docs are MIT; generated font artifacts are OFL-1.1. See `LICENSE` and
 This is an independently usable 0.2.0 MVP, not a claim that every historical
 package, connector, or vendor compatibility rule is complete. Objects marked
 `review_required: true` need a sourced hardware review before 1.0. Stable object
-IDs and released PUA assignments must not be casually recycled. 🛠️
+IDs and released PUA assignments must not be casually recycled.

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">SATA connector</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M284 300 H716 Q730 300 730 314 V686 Q730 700 716 700 H284 Q270 700 270 686 V314 Q270 300 284 300 Z" fill="#17252c" data-role="body" data-layer="body"/>
   <path d="M320 360 H680 Q685 360 685 365 V635 Q685 640 680 640 H320 Q315 640 315 635 V365 Q315 360 320 360 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
   <path d="M350 395 L350 395 L350 605 L350 605 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>

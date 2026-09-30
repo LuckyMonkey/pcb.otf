@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">ATX 24-pin power connector</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M304 160 H696 Q710 160 710 174 V826 Q710 840 696 840 H304 Q290 840 290 826 V174 Q290 160 304 160 Z" fill="#d8d0bd" data-role="body" data-layer="body"/>
   <path d="M335 205 H665 Q670 205 670 210 V790 Q670 795 665 795 H335 Q330 795 330 790 V210 Q330 205 335 205 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
   <path d="M353 240 A12 12 0 1 0 377 240 A12 12 0 1 0 353 240 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">Wi-Fi network interface card</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M162 150 H838 Q880 150 880 192 V808 Q880 850 838 850 H162 Q120 850 120 808 V192 Q120 150 162 150 Z" fill="#17252c" data-role="body" data-layer="body"/>
   <path d="M145 220 A45 45 0 1 0 235 220 A45 45 0 1 0 145 220 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   <path d="M170 220 A20 20 0 1 0 210 220 A20 20 0 1 0 170 220 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>

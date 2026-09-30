@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="side" data-source="pcb-original-technical-art">
   <title id="title">Variable resistor</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M100 500 L270 500 L270 520 L100 520 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M340 390 H660 Q730 390 730 460 V540 Q730 610 660 610 H340 Q270 610 270 540 V460 Q270 390 340 390 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M330 400 L375 600 M430 400 L475 600 M530 400 L575 600 M630 400 L675 600" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M730 500 L900 500 L900 520 L730 520 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M430 250 L650 390 L620 420 L400 280 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
+  <path d="M100 500 L270 500 L270 520 L100 520 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M340 390 H660 Q730 390 730 460 V540 Q730 610 660 610 H340 Q270 610 270 540 V460 Q270 390 340 390 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M330 400 L375 600 M430 400 L475 600 M530 400 L575 600 M630 400 L675 600" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M730 500 L900 500 L900 520 L730 520 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M430 250 L650 390 L620 420 L400 280 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

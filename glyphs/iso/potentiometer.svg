@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">Potentiometer</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M240 500 A260 260 0 1 0 760 500 A260 260 0 1 0 240 500 Z" fill="#d8d0bd" data-role="body" data-layer="body"/>
   <path d="M420 500 A80 80 0 1 0 580 500 A80 80 0 1 0 420 500 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
   <path d="M500 150 L500 150 L500 300 L500 300 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>

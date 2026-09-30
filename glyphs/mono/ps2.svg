@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">PS/2 connector</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M366 300 H634 Q670 300 670 336 V644 Q670 680 634 680 H366 Q330 680 330 644 V336 Q330 300 366 300 Z" fill="#17252c" data-role="body" data-layer="body"/>
   <path d="M393 405 A17 17 0 1 0 427 405 A17 17 0 1 0 393 405 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   <path d="M471 405 A17 17 0 1 0 505 405 A17 17 0 1 0 471 405 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>

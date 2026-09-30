@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">Ethernet network interface card</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M162 150 H838 Q880 150 880 192 V808 Q880 850 838 850 H162 Q120 850 120 808 V192 Q120 150 162 150 Z" fill="#1f554d" data-role="body" data-layer="body"/>
   <path d="M145 220 A45 45 0 1 0 235 220 A45 45 0 1 0 145 220 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
   <path d="M170 220 A20 20 0 1 0 210 220 A20 20 0 1 0 170 220 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>

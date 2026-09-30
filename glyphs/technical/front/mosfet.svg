@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="front" data-source="pcb-original-technical-art">
   <title id="title">MOSFET</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M270 500 A230 230 0 1 0 730 500 A230 230 0 1 0 270 500 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M210 500 H350 V500 H210 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M500 270 L500 270 L500 380 L500 380 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M500 620 L500 620 L500 730 L500 730 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M430 390 L600 500 L430 610 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
+  <path d="M270 500 A230 230 0 1 0 730 500 A230 230 0 1 0 270 500 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M210 500 H350 V500 H210 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M500 270 L500 270 L500 380 L500 380 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M500 620 L500 620 L500 730 L500 730 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M430 390 L600 500 L430 610 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">Variable resistor</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M100 500 L270 500 L270 520 L100 520 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
   <path d="M340 390 H660 Q730 390 730 460 V540 Q730 610 660 610 H340 Q270 610 270 540 V460 Q270 390 340 390 Z" fill="#5b83a0" data-role="body" data-layer="body"/>
   <path d="M330 400 L375 600 M430 400 L475 600 M530 400 L575 600 M630 400 L675 600" fill="#b86f3f" data-role="detail" data-layer="detail"/>

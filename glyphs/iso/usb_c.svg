@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">USB Type-C connector</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M406 330 H594 Q630 330 630 366 V634 Q630 670 594 670 H406 Q370 670 370 634 V366 Q370 330 406 330 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
   <path d="M495 430 H505 Q595 430 595 520 V480 Q595 570 505 570 H495 Q405 570 405 480 V520 Q405 430 495 430 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
   </g>

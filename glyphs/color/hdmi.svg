@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">HDMI connector</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M336 360 H664 Q700 360 700 396 V604 Q700 640 664 640 H336 Q300 640 300 604 V396 Q300 360 336 360 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
   <path d="M352 475 A18 18 0 1 0 388 475 A18 18 0 1 0 352 475 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
   <path d="M404 475 A18 18 0 1 0 440 475 A18 18 0 1 0 404 475 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>

@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
   <title id="title">M.2 socket</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
-  <path d="M130 430 H870 Q880 430 880 440 V560 Q880 570 870 570 H130 Q120 570 120 560 V440 Q120 430 130 430 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M158 460 H842 Q845 460 845 463 V537 Q845 540 842 540 H158 Q155 540 155 537 V463 Q155 460 158 460 Z" fill="#f7f2e8" fill-opacity="0.90" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
-  <path d="M482 430 H518 Q520 430 520 432 V568 Q520 570 518 570 H482 Q480 570 480 568 V432 Q480 430 482 430 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <path d="M130 430 H870 Q880 430 880 440 V560 Q880 570 870 570 H130 Q120 570 120 560 V440 Q120 430 130 430 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M158 460 H842 Q845 460 845 463 V537 Q845 540 842 540 H158 Q155 540 155 537 V463 Q155 460 158 460 Z" fill="#ffffff" fill-opacity="0.78" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
+  <path d="M482 430 H518 Q520 430 520 432 V568 Q520 570 518 570 H482 Q480 570 480 568 V432 Q480 430 482 430 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

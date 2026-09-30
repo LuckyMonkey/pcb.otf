@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">Hard disk drive</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M208 220 H792 Q830 220 830 258 V742 Q830 780 792 780 H208 Q170 780 170 742 V258 Q170 220 208 220 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
   <path d="M295 500 A205 205 0 1 0 705 500 A205 205 0 1 0 295 500 Z" fill="#293642" data-role="body" data-layer="body"/>
   <path d="M434 500 A66 66 0 1 0 566 500 A66 66 0 1 0 434 500 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>

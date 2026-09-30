@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">Dual in-line package</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M289 245 H711 Q745 245 745 279 V721 Q745 755 711 755 H289 Q255 755 255 721 V279 Q255 245 289 245 Z" fill="#d8d0bd" data-role="body" data-layer="body"/>
   <path d="M173 300 H247 Q255 300 255 308 V320 Q255 328 247 328 H173 Q165 328 165 320 V308 Q165 300 173 300 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
   <path d="M753 300 H827 Q835 300 835 308 V320 Q835 328 827 328 H753 Q745 328 745 320 V308 Q745 300 753 300 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>

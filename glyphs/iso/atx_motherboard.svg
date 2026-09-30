@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">ATX motherboard</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M114 80 H886 Q910 80 910 104 V896 Q910 920 886 920 H114 Q90 920 90 896 V104 Q90 80 114 80 Z" fill="#1f554d" data-role="body" data-layer="body"/>
   <path d="M101 125 A34 34 0 1 0 169 125 A34 34 0 1 0 101 125 Z" fill="#c8cbc4" data-role="body" data-layer="body"/>
   <path d="M113 125 A22 22 0 1 0 157 125 A22 22 0 1 0 113 125 Z" fill="#17252c" data-role="knockout" data-layer="knockout"/>
@@ -15,26 +15,26 @@
   <path d="M317 750 H783 Q790 750 790 757 V785 Q790 792 783 792 H317 Q310 792 310 785 V757 Q310 750 317 750 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
   <path d="M337 210 H658 Q670 210 670 222 V498 Q670 510 658 510 H337 Q325 510 325 498 V222 Q325 210 337 210 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
   <path d="M348 225 H647 Q655 225 655 233 V487 Q655 495 647 495 H348 Q340 495 340 487 V233 Q340 225 348 225 Z" fill="#293642" data-role="detail" data-layer="detail"/>
-  <path d="M45 545 L155 545 L155 655 L45 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M87 545 L197 545 L197 655 L87 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M129 545 L239 545 L239 655 L129 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M171 545 L281 545 L281 655 L171 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M213 545 L323 545 L323 655 L213 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M255 545 L365 545 L365 655 L255 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M297 545 L407 545 L407 655 L297 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M339 545 L449 545 L449 655 L339 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M381 545 L491 545 L491 655 L381 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M423 545 L533 545 L533 655 L423 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M465 545 L575 545 L575 655 L465 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M507 545 L617 545 L617 655 L507 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M549 545 L659 545 L659 655 L549 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M591 545 L701 545 L701 655 L591 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M633 545 L743 545 L743 655 L633 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M675 545 L785 545 L785 655 L675 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M717 545 L827 545 L827 655 L717 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M759 545 L869 545 L869 655 L759 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M801 545 L911 545 L911 655 L801 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
-  <path d="M843 545 L953 545 L953 655 L843 655 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <path d="M45 655 L155 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M87 655 L197 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M129 655 L239 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M171 655 L281 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M213 655 L323 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M255 655 L365 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M297 655 L407 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M339 655 L449 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M381 655 L491 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M423 655 L533 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M465 655 L575 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M507 655 L617 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M549 655 L659 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M591 655 L701 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M633 655 L743 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M675 655 L785 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M717 655 L827 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M759 655 L869 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M801 655 L911 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
+  <path d="M843 655 L953 545" fill="#b86f3f" data-role="hatch" data-layer="hatch"/>
   <path d="M180 720 H330 V680 H620 V720 H850" fill="#b86f3f" data-role="detail" data-layer="detail"/>
   <path d="M290 145 V330 H650 V145" fill="#b86f3f" data-role="detail" data-layer="detail"/>
   <path d="M650 510 V660 H840" fill="#b86f3f" data-role="detail" data-layer="detail"/>

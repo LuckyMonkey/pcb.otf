@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">Graphics processing unit</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M124 360 H876 Q890 360 890 374 V626 Q890 640 876 640 H124 Q110 640 110 626 V374 Q110 360 124 360 Z" fill="#1f554d" data-role="body" data-layer="body"/>
   <path d="M163 405 H397 Q405 405 405 413 V587 Q405 595 397 595 H163 Q155 595 155 587 V413 Q155 405 163 405 Z" fill="#293642" data-role="detail" data-layer="detail"/>
   <path d="M478 400 H772 Q780 400 780 408 V592 Q780 600 772 600 H478 Q470 600 470 592 V408 Q470 400 478 400 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>

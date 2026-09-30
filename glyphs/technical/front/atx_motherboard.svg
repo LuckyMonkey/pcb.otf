@@ -1,9 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="front" data-source="pcb-original-technical-art">
   <title id="title">ATX motherboard</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M128 400 H872 Q880 400 880 408 V572 Q880 580 872 580 H128 Q120 580 120 572 V408 Q120 400 128 400 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M145 390 H855 V390 H145 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M156 490 A24 24 0 1 0 204 490 A24 24 0 1 0 156 490 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M168 490 A12 12 0 1 0 192 490 A12 12 0 1 0 168 490 Z" fill="#f7f2e8" fill-opacity="0.90" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
+  <path d="M128 400 H872 Q880 400 880 408 V572 Q880 580 872 580 H128 Q120 580 120 572 V408 Q120 400 128 400 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M148 422 H852 Q855 422 855 425 V549 Q855 552 852 552 H148 Q145 552 145 549 V425 Q145 422 148 422 Z" fill="#ffffff" fill-opacity="0.78" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
+  <path d="M145 395 H855 V395 H145 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M145 585 H855 V585 H145 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M156 490 A24 24 0 1 0 204 490 A24 24 0 1 0 156 490 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M168 490 A12 12 0 1 0 192 490 A12 12 0 1 0 168 490 Z" fill="#ffffff" fill-opacity="0.78" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
+  <path d="M796 490 A24 24 0 1 0 844 490 A24 24 0 1 0 796 490 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M808 490 A12 12 0 1 0 832 490 A12 12 0 1 0 808 490 Z" fill="#ffffff" fill-opacity="0.78" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
   </g>
 </svg>

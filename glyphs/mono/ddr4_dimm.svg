@@ -1,23 +1,176 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">DDR4 DIMM</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M140 450 H820 V530 H140 Z" fill="#17252c" data-role="body" data-layer="body"/>
-  <path d="M161 385 H799 Q805 385 805 391 V479 Q805 485 799 485 H161 Q155 485 155 479 V391 Q155 385 161 385 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M170 450 H790 V500 H170 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M188 395 H212 Q215 395 215 398 V464 Q215 467 212 467 H188 Q185 467 185 464 V398 Q185 395 188 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M233 395 H257 Q260 395 260 398 V464 Q260 467 257 467 H233 Q230 467 230 464 V398 Q230 395 233 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M278 395 H302 Q305 395 305 398 V464 Q305 467 302 467 H278 Q275 467 275 464 V398 Q275 395 278 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M323 395 H347 Q350 395 350 398 V464 Q350 467 347 467 H323 Q320 467 320 464 V398 Q320 395 323 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M368 395 H392 Q395 395 395 398 V464 Q395 467 392 467 H368 Q365 467 365 464 V398 Q365 395 368 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M413 395 H437 Q440 395 440 398 V464 Q440 467 437 467 H413 Q410 467 410 464 V398 Q410 395 413 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M458 395 H482 Q485 395 485 398 V464 Q485 467 482 467 H458 Q455 467 455 464 V398 Q455 395 458 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M503 395 H527 Q530 395 530 398 V464 Q530 467 527 467 H503 Q500 467 500 464 V398 Q500 395 503 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M548 395 H572 Q575 395 575 398 V464 Q575 467 572 467 H548 Q545 467 545 464 V398 Q545 395 548 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M593 395 H617 Q620 395 620 398 V464 Q620 467 617 467 H593 Q590 467 590 464 V398 Q590 395 593 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M638 395 H662 Q665 395 665 398 V464 Q665 467 662 467 H638 Q635 467 635 464 V398 Q635 395 638 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M683 395 H707 Q710 395 710 398 V464 Q710 467 707 467 H683 Q680 467 680 464 V398 Q680 395 683 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M728 395 H752 Q755 395 755 398 V464 Q755 467 752 467 H728 Q725 467 725 464 V398 Q725 395 728 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M773 395 H797 Q800 395 800 398 V464 Q800 467 797 467 H773 Q770 467 770 464 V398 Q770 395 773 395 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M465 450 V530 H520 V450" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
+  <path d="M120 330 H880 V690 H120 Z" fill="#17252c" data-role="body" data-layer="body"/>
+  <path d="M153 350 H847 Q855 350 855 358 V657 Q855 665 847 665 H153 Q145 665 145 657 V358 Q145 350 153 350 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M157 405 H203 Q208 405 208 410 V525 Q208 530 203 530 H157 Q152 530 152 525 V410 Q152 405 157 405 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M163 420 H197 Q199 420 199 422 V438 Q199 440 197 440 H163 Q161 440 161 438 V422 Q161 420 163 420 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M162 545 H198 V545 H162 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M247 405 H293 Q298 405 298 410 V525 Q298 530 293 530 H247 Q242 530 242 525 V410 Q242 405 247 405 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M253 420 H287 Q289 420 289 422 V438 Q289 440 287 440 H253 Q251 440 251 438 V422 Q251 420 253 420 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M252 545 H288 V545 H252 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M337 405 H383 Q388 405 388 410 V525 Q388 530 383 530 H337 Q332 530 332 525 V410 Q332 405 337 405 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M343 420 H377 Q379 420 379 422 V438 Q379 440 377 440 H343 Q341 440 341 438 V422 Q341 420 343 420 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M342 545 H378 V545 H342 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M427 405 H473 Q478 405 478 410 V525 Q478 530 473 530 H427 Q422 530 422 525 V410 Q422 405 427 405 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M433 420 H467 Q469 420 469 422 V438 Q469 440 467 440 H433 Q431 440 431 438 V422 Q431 420 433 420 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M432 545 H468 V545 H432 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M517 405 H563 Q568 405 568 410 V525 Q568 530 563 530 H517 Q512 530 512 525 V410 Q512 405 517 405 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M523 420 H557 Q559 420 559 422 V438 Q559 440 557 440 H523 Q521 440 521 438 V422 Q521 420 523 420 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M522 545 H558 V545 H522 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M607 405 H653 Q658 405 658 410 V525 Q658 530 653 530 H607 Q602 530 602 525 V410 Q602 405 607 405 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M613 420 H647 Q649 420 649 422 V438 Q649 440 647 440 H613 Q611 440 611 438 V422 Q611 420 613 420 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M612 545 H648 V545 H612 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M697 405 H743 Q748 405 748 410 V525 Q748 530 743 530 H697 Q692 530 692 525 V410 Q692 405 697 405 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M703 420 H737 Q739 420 739 422 V438 Q739 440 737 440 H703 Q701 440 701 438 V422 Q701 420 703 420 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M702 545 H738 V545 H702 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M787 405 H833 Q838 405 838 410 V525 Q838 530 833 530 H787 Q782 530 782 525 V410 Q782 405 787 405 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M793 420 H827 Q829 420 829 422 V438 Q829 440 827 440 H793 Q791 440 791 438 V422 Q791 420 793 420 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
+  <path d="M792 545 H828 V545 H792 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M155.00 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M159.83 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M164.65 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M169.48 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M174.30 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M179.13 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M183.95 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M188.78 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M193.60 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M198.43 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M203.25 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M208.08 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M212.90 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M217.73 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M222.55 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M227.38 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M232.20 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M237.03 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M241.85 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M246.68 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M251.50 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M256.33 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M261.15 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M265.98 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M270.80 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M275.63 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M280.45 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M285.28 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M290.10 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M294.93 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M299.76 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M304.58 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M309.41 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M314.23 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M319.06 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M323.88 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M328.71 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M333.53 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M338.36 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M343.18 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M348.01 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M352.83 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M357.66 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M362.48 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M367.31 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M372.13 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M376.96 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M381.78 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M386.61 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M391.43 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M396.26 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M401.08 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M405.91 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M410.73 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M415.56 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M420.38 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M425.21 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M430.03 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M434.86 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M439.69 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M444.51 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M449.34 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M454.16 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M458.99 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M463.81 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M468.64 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M473.46 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M478.29 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M483.11 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M487.94 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M492.76 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M497.59 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M502.41 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M507.24 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M512.06 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M516.89 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M521.71 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M526.54 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M531.36 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M536.19 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M541.01 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M545.84 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M550.66 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M555.49 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M560.31 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M565.14 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M569.97 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M574.79 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M579.62 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M584.44 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M589.27 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M594.09 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M598.92 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M603.74 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M608.57 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M613.39 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M618.22 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M623.04 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M627.87 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M632.69 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M637.52 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M642.34 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M647.17 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M651.99 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M656.82 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M661.64 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M666.47 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M671.29 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M676.12 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M680.94 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M685.77 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M690.59 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M695.42 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M700.24 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M705.07 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M709.90 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M714.72 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M719.55 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M724.37 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M729.20 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M734.02 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M738.85 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M743.67 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M748.50 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M753.32 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M758.15 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M762.97 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M767.80 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M772.62 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M777.45 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M782.27 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M787.10 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M791.92 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M796.75 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M801.57 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M806.40 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M811.22 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M816.05 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M820.87 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M825.70 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M830.52 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M835.35 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M840.17 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M845.00 655 V685" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M475 330 V405 H525 V330" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
   </g>
 </svg>

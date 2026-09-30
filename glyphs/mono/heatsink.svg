@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">Heatsink</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M260 315 H740 Q750 315 750 325 V675 Q750 685 740 685 H260 Q250 685 250 675 V325 Q250 315 260 315 Z" fill="#17252c" data-role="body" data-layer="body"/>
   <path d="M288 180 H308 Q311 180 311 183 V817 Q311 820 308 820 H288 Q285 820 285 817 V183 Q285 180 288 180 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   <path d="M350 180 H370 Q373 180 373 183 V817 Q373 820 370 820 H350 Q347 820 347 817 V183 Q347 180 350 180 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
@@ -10,6 +10,6 @@
   <path d="M598 180 H618 Q621 180 621 183 V817 Q621 820 618 820 H598 Q595 820 595 817 V183 Q595 180 598 180 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   <path d="M660 180 H680 Q683 180 683 183 V817 Q683 820 680 820 H660 Q657 820 657 817 V183 Q657 180 660 180 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   <path d="M722 180 H742 Q745 180 745 183 V817 Q745 820 742 820 H722 Q719 820 719 817 V183 Q719 180 722 180 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
-  <path d="M5 330 L285 330 L285 610 L5 610 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
+  <path d="M5 610 L285 330" fill="#f5f0e6" data-role="hatch" data-layer="hatch"/>
   </g>
 </svg>

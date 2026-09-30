@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">DDR5 DIMM slot</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M195 390 H805 Q830 390 830 415 V545 Q830 570 805 570 H195 Q170 570 170 545 V415 Q170 390 195 390 Z" fill="#17252c" data-role="body" data-layer="body"/>
   <path d="M202 585 H210 Q212 585 212 587 V638 Q212 640 210 640 H202 Q200 640 200 638 V587 Q200 585 202 585 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   <path d="M230 585 H238 Q240 585 240 587 V638 Q240 640 238 640 H230 Q228 640 228 638 V587 Q228 585 230 585 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>

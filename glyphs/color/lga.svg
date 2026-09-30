@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">Land grid array package</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M262 230 H738 Q770 230 770 262 V738 Q770 770 738 770 H262 Q230 770 230 738 V262 Q230 230 262 230 Z" fill="#293642" data-role="body" data-layer="body"/>
   <path d="M304 300 H330 Q334 300 334 304 V312 Q334 316 330 316 H304 Q300 316 300 312 V304 Q300 300 304 300 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
   <path d="M304 390 H330 Q334 390 334 394 V402 Q334 406 330 406 H304 Q300 406 300 402 V394 Q300 390 304 390 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>

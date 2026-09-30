@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
   <title id="title">Chipset</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M272 260 H728 Q740 260 740 272 V728 Q740 740 728 740 H272 Q260 740 260 728 V272 Q260 260 272 260 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M320 315 H680 Q685 315 685 320 V680 Q685 685 680 685 H320 Q315 685 315 680 V320 Q315 315 320 315 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M380 380 H620 V620 H380 Z" fill="#f7f2e8" fill-opacity="0.90" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
+  <path d="M272 260 H728 Q740 260 740 272 V728 Q740 740 728 740 H272 Q260 740 260 728 V272 Q260 260 272 260 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M320 315 H680 Q685 315 685 320 V680 Q685 685 680 685 H320 Q315 685 315 680 V320 Q315 315 320 315 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M380 380 H620 V620 H380 Z" fill="#ffffff" fill-opacity="0.78" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
   </g>
 </svg>

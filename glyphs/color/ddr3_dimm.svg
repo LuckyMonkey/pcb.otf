@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">DDR3 DIMM</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M165 315 H835 Q855 315 855 335 V665 Q855 685 835 685 H165 Q145 685 145 665 V335 Q145 315 165 315 Z" fill="#1f554d" data-role="body" data-layer="body"/>
   <path d="M455 685 H510 V745 H455 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
   <path d="M240 365 H290 Q300 365 300 375 V535 Q300 545 290 545 H240 Q230 545 230 535 V375 Q230 365 240 365 Z" fill="#5b83a0" data-role="body" data-layer="body"/>

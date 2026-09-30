@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-technical-art">
   <title id="title">3.5 mm audio jack</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
-  <path d="M314 270 H586 Q600 270 600 284 V716 Q600 730 586 730 H314 Q300 730 300 716 V284 Q300 270 314 270 Z" fill="#edf0ea" fill-opacity="0.10" stroke="#21343b" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M360 445 A90 90 0 1 0 540 445 A90 90 0 1 0 360 445 Z" fill="#f7f2e8" fill-opacity="0.90" stroke="#21343b" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
-  <path d="M412 445 A38 38 0 1 0 488 445 A38 38 0 1 0 412 445 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M350 570 H550 V570 H350 Z" fill="#bd7446" fill-opacity="0.18" stroke="#46565b" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
+  <path d="M314 270 H586 Q600 270 600 284 V716 Q600 730 586 730 H314 Q300 730 300 716 V284 Q300 270 314 270 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
+  <path d="M360 445 A90 90 0 1 0 540 445 A90 90 0 1 0 360 445 Z" fill="#ffffff" fill-opacity="0.78" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="knockout" data-layer="knockout"/>
+  <path d="M412 445 A38 38 0 1 0 488 445 A38 38 0 1 0 412 445 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <path d="M350 570 H550 V570 H350 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
   </g>
 </svg>

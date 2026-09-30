@@ -1879,7 +1879,8 @@ const registry = [
     "attributes": {
       "memory_generation": "DDR4",
       "form_factor": "DIMM",
-      "pin_count_common": 288
+      "pin_count_common": 288,
+      "artwork_reference": "single-rank 1Rx8 study / 8 packages on shown face"
     },
     "interfaces": [],
     "compatible_with": [],

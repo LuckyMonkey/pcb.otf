@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">BGA footprint</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M262 230 H738 Q770 230 770 262 V738 Q770 770 738 770 H262 Q230 770 230 738 V262 Q230 230 262 230 Z" fill="#17252c" data-role="body" data-layer="body"/>
   <path d="M295 315 A20 20 0 1 0 335 315 A20 20 0 1 0 295 315 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   <path d="M295 405 A20 20 0 1 0 335 405 A20 20 0 1 0 295 405 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>

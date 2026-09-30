@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">Memory module</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M290 250 H710 Q750 250 750 290 V710 Q750 750 710 750 H290 Q250 750 250 710 V290 Q250 250 290 250 Z" fill="#293642" data-role="body" data-layer="body"/>
   <path d="M293 155 H301 Q309 155 309 163 V242 Q309 250 301 250 H293 Q285 250 285 242 V163 Q285 155 293 155 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
   <path d="M293 750 H301 Q309 750 309 758 V837 Q309 845 301 845 H293 Q285 845 285 837 V758 Q285 750 293 750 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>

@@ -20,7 +20,7 @@
   const drawings = [
     ['hardware:atx_motherboard', 'ATX motherboard', 'board / assembly datum'],
     ['hardware:cpu_socket', 'CPU socket', 'package interface / contact field'],
-    ['hardware:ddr4_dimm', 'DDR4 DIMM', 'memory module / keyed edge'],
+    ['hardware:ddr4_dimm', 'DDR4 DIMM', '1Rx8 reference / 8 packages / 288 contacts'],
     ['hardware:gpu', 'GPU card', 'expansion board / bracket edge']
   ];
 

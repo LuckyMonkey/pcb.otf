@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">Ceramic capacitor</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M270 500 H430 V500 H270 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
   <path d="M570 500 H730 V500 H570 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
   <path d="M427 250 H448 Q460 250 460 262 V738 Q460 750 448 750 H427 Q415 750 415 738 V262 Q415 250 427 250 Z" fill="#d8d0bd" data-role="body" data-layer="body"/>

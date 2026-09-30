@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">Quad flat no-lead package</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M298 260 H702 Q740 260 740 298 V702 Q740 740 702 740 H298 Q260 740 260 702 V298 Q260 260 298 260 Z" fill="#293642" data-role="body" data-layer="body"/>
   <path d="M305 150 H317 Q322 150 322 155 V255 Q322 260 317 260 H305 Q300 260 300 255 V155 Q300 150 305 150 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
   <path d="M305 740 H317 Q322 740 322 745 V845 Q322 850 317 850 H305 Q300 850 300 845 V745 Q300 740 305 740 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>

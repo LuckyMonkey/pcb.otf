@@ -21,9 +21,13 @@ MONO_PAPER = PALETTE["paper"]
 # grammar of patent plates and service-manual drawings: thin ink outlines,
 # restrained section fills, and visible internal construction.
 TECHNICAL_STYLE = {
-    "body": ("#edf0ea", "0.10", "#21343b", "12"),
-    "detail": ("#bd7446", "0.18", "#46565b", "8"),
-    "knockout": ("#f7f2e8", "0.90", "#21343b", "10"),
+    # Technical masters are black-on-white drafting plates.  Interiors stay
+    # transparent so the assembly can be layered and read as an x-ray; white
+    # knockouts are reserved for actual cavities and keyed openings.
+    "body": ("none", "1", "#17252c", "5"),
+    "detail": ("none", "1", "#17252c", "3"),
+    "knockout": ("#ffffff", "0.78", "#17252c", "3"),
+    "hatch": ("none", "1", "#17252c", "2"),
 }
 
 
@@ -38,7 +42,9 @@ def mono_parts(parts: list[tuple[str, str, str]]) -> list[tuple[str, str, str]]:
 def svg_text(label: str, parts: list[tuple[str, str, str]], mode: str, view: str, source: str = "pcb-original-art") -> str:
     iso = view == "isometric"
     selected = mono_parts(parts) if mode == "mono" else parts
-    transform = ' transform="matrix(.56 .20 -.56 .20 500 300)"' if iso else ""
+    # A broad, readable projection: the former shallow matrix made every ISO
+    # plate look like a dark sliver once object-fit contain was applied.
+    transform = ' transform="matrix(.46 .34 -.46 .34 500 160)"' if iso else ""
     technical = source == "pcb-original-technical-art"
     if technical:
         elements = []
@@ -54,7 +60,7 @@ def svg_text(label: str, parts: list[tuple[str, str, str]], mode: str, view: str
     return "\n".join([
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="{view}" data-source="{source}">',
         f'  <title id="title">{html.escape(label)}</title>',
-        f'  <g fill-rule="evenodd" clip-rule="evenodd"{transform}>',
+        f'  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision"{transform}>',
         *elements,
         "  </g>",
         "</svg>",

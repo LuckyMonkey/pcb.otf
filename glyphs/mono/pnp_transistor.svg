@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">PNP transistor</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M270 500 A230 230 0 1 0 730 500 A230 230 0 1 0 270 500 Z" fill="#17252c" data-role="body" data-layer="body"/>
   <path d="M210 500 H350 V500 H210 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   <path d="M500 270 L500 270 L500 380 L500 380 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>

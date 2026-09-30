@@ -39,7 +39,10 @@
   }));
 
   function assetFor(record) {
-    const viewName = view === 'isometric' ? 'technical_iso_svg' : `technical_${view}_svg`;
+    // The catalog ISO asset is already projected.  The live assembly must
+    // start from planar technical geometry so the CSS3D plane performs the
+    // only isometric projection; otherwise every part gets flattened twice.
+    const viewName = view === 'isometric' ? 'technical_top_svg' : `technical_${view}_svg`;
     return `${prefix}${record[viewName] || record.color_svg}`;
   }
 

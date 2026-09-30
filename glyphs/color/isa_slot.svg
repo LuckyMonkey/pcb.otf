@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">ISA slot</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M185 390 H815 Q840 390 840 415 V545 Q840 570 815 570 H185 Q160 570 160 545 V415 Q160 390 185 390 Z" fill="#293642" data-role="body" data-layer="body"/>
   <path d="M192 585 H200 Q202 585 202 587 V638 Q202 640 200 640 H192 Q190 640 190 638 V587 Q190 585 192 585 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
   <path d="M220 585 H228 Q230 585 230 587 V638 Q230 640 228 640 H220 Q218 640 218 638 V587 Q218 585 220 585 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>

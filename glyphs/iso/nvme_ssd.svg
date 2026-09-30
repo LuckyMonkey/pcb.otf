@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-art">
   <title id="title">NVMe solid-state drive</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" transform="matrix(.56 .20 -.56 .20 500 300)">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
   <path d="M130 440 H850 V560 H130 Z" fill="#1f554d" data-role="body" data-layer="body"/>
   <path d="M184 465 H286 Q290 465 290 469 V531 Q290 535 286 535 H184 Q180 535 180 531 V469 Q180 465 184 465 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
   <path d="M364 465 H466 Q470 465 470 469 V531 Q470 535 466 535 H364 Q360 535 360 531 V469 Q360 465 364 465 Z" fill="#293642" data-role="detail" data-layer="detail"/>

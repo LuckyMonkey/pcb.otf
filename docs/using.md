@@ -1,11 +1,11 @@
-# Using PCB.OTF 🧩
+# Using PCB.OTF
 
 PCB uses semantic text as the portable interface:
 
 ```text
-🧩 Install the :usb_c: connector.
-💾 Put the :ddr4_dimm: in the :ddr4_dimm_slot:.
-🕰️ Keep the :isa_slot: in a retro-computing diagram.
+Install the :usb_c: connector.
+Put the :ddr4_dimm: in the :ddr4_dimm_slot:.
+Keep the :isa_slot: in a retro-computing diagram.
 ```
 
 Without PCB.OTF, the colon-delimited names remain readable. With the font's
@@ -27,7 +27,7 @@ The direct PUA character is available for applications that need one character:
 ```
 
 Keep the semantic shortcode or an explicit accessible label. A screen reader
-cannot infer that a project-assigned `U+E13A` means “PCI Express x16 slot.” ♿
+cannot infer that a project-assigned `U+E13A` means “PCI Express x16 slot.”
 
 ## Top-down and isometric SVGs
 
@@ -49,7 +49,7 @@ usb.technical_iso_svg;
 
 The isometric master is a deterministic geometric view of the same canonical
 object, not a second identity. Applications can use either renderer in diagrams,
-cards, or hardware assemblies. 📐
+cards, or hardware assemblies.
 
 ## Layered assemblies
 
@@ -68,7 +68,7 @@ plane rotates the same registry-backed parts together, while assembly-level
 route overlays show power, memory, storage, and cooling connections. The same
 scene can render as a top-down plate, front/side profile, or isometric X-ray
 view. Use the font for compact symbols and labels; use technical SVG masters
-when physical detail matters. 🧰
+when physical detail matters.
 
 ## Graph API
 
@@ -82,7 +82,7 @@ connectionsFor("hardware:usb_c");
 ```
 
 Compatibility is explicit graph data. PCB does not infer that every M.2 device is
-NVMe or that socket identity alone guarantees CPU support. 🔌
+NVMe or that socket identity alone guarantees CPU support.
 
 ## Build locally
 

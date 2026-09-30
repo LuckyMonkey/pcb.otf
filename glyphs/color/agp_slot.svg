@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">AGP slot</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M265 390 H735 Q760 390 760 415 V545 Q760 570 735 570 H265 Q240 570 240 545 V415 Q240 390 265 390 Z" fill="#293642" data-role="body" data-layer="body"/>
   <path d="M272 585 H280 Q282 585 282 587 V638 Q282 640 280 640 H272 Q270 640 270 638 V587 Q270 585 272 585 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
   <path d="M300 585 H308 Q310 585 310 587 V638 Q310 640 308 640 H300 Q298 640 298 638 V587 Q298 585 300 585 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>

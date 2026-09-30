@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">Central processing unit</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M264 250 H736 Q750 250 750 264 V736 Q750 750 736 750 H264 Q250 750 250 736 V264 Q250 250 264 250 Z" fill="#17252c" data-role="body" data-layer="body"/>
   <path d="M293 285 H707 Q715 285 715 293 V707 Q715 715 707 715 H293 Q285 715 285 707 V293 Q285 285 293 285 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>
   <path d="M335 330 H665 Q670 330 670 335 V665 Q670 670 665 670 H335 Q330 670 330 665 V335 Q330 330 335 330 Z" fill="#f5f0e6" data-role="detail" data-layer="detail"/>

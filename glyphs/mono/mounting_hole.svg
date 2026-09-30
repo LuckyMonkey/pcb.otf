@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
   <title id="title">Mounting hole</title>
-  <g fill-rule="evenodd" clip-rule="evenodd">
+  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
   <path d="M220 500 A280 280 0 1 0 780 500 A280 280 0 1 0 220 500 Z" fill="#17252c" data-role="body" data-layer="body"/>
   <path d="M232 500 A268 268 0 1 0 768 500 A268 268 0 1 0 232 500 Z" fill="#f5f0e6" data-role="knockout" data-layer="knockout"/>
   </g>

@@ -24,7 +24,9 @@ PAPER = PALETTE["paper"]
 
 
 def hatch(x: int, y: int, w: int, h: int, spacing: int = 24, fill: str = COPPER) -> list[tuple[str, str, str]]:
-    return [line(x + offset, y, x + offset + h, y + h, 7, fill, "detail") for offset in range(-h, w, spacing)]
+    # Real open strokes, rather than closed rectangles.  The old helper made
+    # diagonal hatching look like a stack of filled bars after plate styling.
+    return [part(f"M{x + offset} {y + h} L{x + offset + h} {y}", fill, "hatch") for offset in range(-h, w, spacing)]
 
 
 def hole(cx: int, cy: int, r: int = 30) -> list[tuple[str, str, str]]:
@@ -83,10 +85,21 @@ def dimm_slot() -> list[tuple[str, str, str]]:
 
 
 def dimm() -> list[tuple[str, str, str]]:
-    result = [part("M140 450 H820 V530 H140 Z", PCB), rr(155, 385, 650, 100, 6, METAL, "detail"), part("M170 450 H790 V500 H170 Z", COPPER, "detail")]
-    for x in range(185, 790, 45):
-        result.append(rr(x, 395, 30, 72, 3, SILICON, "detail"))
-    result.append(part("M465 450 V530 H520 V450", PAPER, "knockout"))
+    # Reference drawing: a single-rank 1Rx8 DDR4 UDIMM face.  Eight package
+    # outlines are intentional; the ontology records this as an artwork
+    # reference, not a claim that every DDR4 DIMM has the same population.
+    result = [part("M120 330 H880 V690 H120 Z", PCB), rr(145, 350, 710, 315, 8, PAPER, "knockout")]
+    package_x = [180, 270, 360, 450, 540, 630, 720, 810]
+    for x in package_x:
+        result.append(rr(x - 28, 405, 56, 125, 5, SILICON, "detail"))
+        result.append(rr(x - 19, 420, 38, 20, 2, PAPER, "knockout"))
+        result.append(line(x - 18, 545, x + 18, 545, 4, COPPER, "detail"))
+    # DDR4 DIMM: 288 total contacts, represented as 144 contact fingers on
+    # the shown face.  Fine vector strokes preserve the count at source scale.
+    for index in range(144):
+        x = 155 + index * (690 / 143)
+        result.append(part(f"M{x:.2f} 655 V685", COPPER, "detail"))
+    result.append(part("M475 330 V405 H525 V330", PAPER, "knockout"))
     return result
 
 
@@ -156,15 +169,50 @@ def mounting_hole() -> list[tuple[str, str, str]]:
 
 def profile(name: str, side: bool = False) -> list[tuple[str, str, str]]:
     if name in {"atx_motherboard", "motherboard"}:
-        return [rr(120, 430 if side else 400, 760, 110 if side else 180, 8, PCB), line(145, 425 if side else 390, 855, 425 if side else 390, 10, COPPER, "detail"), *hole(180, 480 if side else 490, 24)]
-    if name in {"cpu", "cpu_socket", "chipset", "vrm"}:
-        return [rr(260, 340, 480, 220, 10, SILICON if name == "cpu" else METAL), rr(320, 375, 360, 95, 5, CERAMIC, "detail"), line(290, 560, 710, 560, 16, COPPER, "detail")]
+        y = 430 if side else 400
+        height = 110 if side else 180
+        return [
+            rr(120, y, 760, height, 8, PCB),
+            rr(145, y + 22, 710, max(34, height - 50), 3, PAPER, "knockout"),
+            line(145, y - 5, 855, y - 5, 8, COPPER, "detail"),
+            line(145, y + height + 5, 855, y + height + 5, 8, COPPER, "detail"),
+            *hole(180, y + height // 2, 24),
+            *hole(820, y + height // 2, 24),
+        ]
+    if name == "cpu_socket":
+        return [
+            rr(240, 360, 520, 250, 12, METAL),
+            rr(285, 390, 430, 150, 5, PAPER, "knockout"),
+            line(270, 625, 730, 625, 12, COPPER, "detail"),
+            line(735, 330, 790, 590, 10, METAL, "detail"),
+            *[rr(x, 345, 12, 22, 2, COPPER, "detail") for x in range(300, 710, 34)],
+        ]
+    if name in {"cpu", "chipset", "vrm"}:
+        return [
+            rr(260, 340, 480, 220, 10, SILICON if name == "cpu" else METAL),
+            rr(320, 375, 360, 95, 5, CERAMIC, "detail"),
+            rr(350, 485, 300, 38, 3, PAPER, "knockout"),
+            line(290, 560, 710, 560, 16, COPPER, "detail"),
+        ]
     if name in {"ddr4_dimm", "ddr4_dimm_slot"}:
-        return [rr(180, 350, 640, 270, 8, PCB), line(190, 600, 810, 600, 12, COPPER, "detail"), rr(230, 390, 540, 120, 4, SILICON if name == "ddr4_dimm" else INK, "detail" if name == "ddr4_dimm" else "knockout")]
+        return [
+            rr(180, 350, 640, 270, 8, PCB),
+            rr(230, 390, 540, 120, 4, SILICON if name == "ddr4_dimm" else INK, "detail" if name == "ddr4_dimm" else "knockout"),
+            line(190, 600, 810, 600, 12, COPPER, "detail"),
+            *[line(x, 565, x, 615, 6, COPPER, "detail") for x in range(205, 800, 24)],
+            part("M485 350 V425 H530 V350", PAPER, "knockout"),
+        ]
     if name in {"pcie_x16_slot", "pcie_x1_slot", "m2_socket", "sata_connector"}:
         return [rr(150, 430, 700, 140, 6, METAL), rr(180, 455, 640, 70, 2, INK, "knockout"), line(220, 425, 780, 425, 12, COPPER, "detail")]
     if name in {"gpu", "nvme_ssd", "sata_ssd"}:
-        return [rr(150, 380, 700, 250, 12, METAL), rr(220, 425, 560, 120, 6, SILICON, "detail"), line(180, 615, 820, 615, 14, COPPER, "detail")]
+        return [
+            rr(150, 380, 700, 250, 12, METAL),
+            rr(220, 425, 560, 120, 6, SILICON, "detail"),
+            rr(275, 445, 110, 80, 4, CERAMIC, "knockout"),
+            rr(420, 445, 210, 80, 4, PAPER, "knockout"),
+            line(180, 615, 820, 615, 14, COPPER, "detail"),
+            *[circle(x, 395, 10, COPPER, "detail") for x in (190, 230, 770, 810)],
+        ]
     if name in {"heatsink", "fan"}:
         return [rr(200, 300, 600, 300, 10, METAL), *[rr(x, 230, 24, 440, 2, COPPER, "detail") for x in range(240, 780, 70)]]
     if name == "mounting_hole":
