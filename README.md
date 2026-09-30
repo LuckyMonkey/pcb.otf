@@ -57,6 +57,13 @@ socket from device, memory generation from module form factor, and physical slot
 width from negotiated electrical lanes. Compatibility claims remain explicit
 relation data rather than guesses. 🔬
 
+The 0.1.0 artwork is intentionally a prototype symbol vocabulary, not a set of
+manufacturer-accurate or patent-plate illustrations. The next art pass starts
+with PCB-native geometry—footprints, pads, vias, traces, packages, connectors,
+and board features—using original orthographic and isometric vector drawings.
+Larger computer assemblies such as B75/Z97-era boards, drives, and server racks
+follow that foundation. See [`docs/art-direction.md`](docs/art-direction.md).
+
 ## Usage
 
 ```html
