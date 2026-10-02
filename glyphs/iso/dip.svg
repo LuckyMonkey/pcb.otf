@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Dual in-line package</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M654 120 L658.1 120.5 L662 122.1 L665.3 124.7 L667.9 128 L669.5 131.9 L670 136 L670 864 L669.5 868.1 L667.9 872 L665.3 875.3 L662 877.9 L658.1 879.5 L654 880 L346 880 L341.9 879.5 L338 877.9 L334.7 875.3 L332.1 872 L330.5 868.1 L330 864 L330 136 L330.5 131.9 L332.1 128 L334.7 124.7 L338 122.1 L341.9 120.5 L346 120 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M330 230 L270 230 L270 180 L330 180 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M670 180 L730 180 L730 230 L670 230 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>

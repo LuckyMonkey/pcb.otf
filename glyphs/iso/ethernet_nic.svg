@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Ethernet network interface card</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M848 230 L851.1 230.4 L854 231.6 L856.5 233.5 L858.4 236 L859.6 238.9 L860 242 L860 648 L859.6 651.1 L858.4 654 L856.5 656.5 L854 658.4 L851.1 659.6 L848 660 L172 660 L168.9 659.6 L166 658.4 L163.5 656.5 L161.6 654 L160.4 651.1 L160 648 L160 242 L160.4 238.9 L161.6 236 L163.5 233.5 L166 231.6 L168.9 230.4 L172 230 Z" fill="#cfe0d6" data-role="fill" data-layer="fill"/>
   <path d="M337 620 L337.5 620.1 L338 620.3 L338.4 620.6 L338.7 621 L338.9 621.5 L339 622 L339 688 L338.9 688.5 L338.7 689 L338.4 689.4 L338 689.7 L337.5 689.9 L337 690 L332 690 L331.5 689.9 L331 689.7 L330.6 689.4 L330.3 689 L330.1 688.5 L330 688 L330 622 L330.1 621.5 L330.3 621 L330.6 620.6 L331 620.3 L331.5 620.1 L332 620 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>
   <path d="M351 620 L351.5 620.1 L352 620.3 L352.4 620.6 L352.7 621 L352.9 621.5 L353 622 L353 688 L352.9 688.5 L352.7 689 L352.4 689.4 L352 689.7 L351.5 689.9 L351 690 L346 690 L345.5 689.9 L345 689.7 L344.6 689.4 L344.3 689 L344.1 688.5 L344 688 L344 622 L344.1 621.5 L344.3 621 L344.6 620.6 L345 620.3 L345.5 620.1 L346 620 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>

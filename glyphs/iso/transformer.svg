@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Transformer</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M150 230 L850 230 L850 770 L150 770 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M250 330 L750 330 L750 670 L250 670 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
   <path d="M456 300 L462.2 300.8 L468 303.2 L473 307 L476.8 312 L479.2 317.8 L480 324 L480 676 L479.2 682.2 L476.8 688 L473 693 L468 696.8 L462.2 699.2 L456 700 L314 700 L307.8 699.2 L302 696.8 L297 693 L293.2 688 L290.8 682.2 L290 676 L290 324 L290.8 317.8 L293.2 312 L297 307 L302 303.2 L307.8 300.8 L314 300 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>

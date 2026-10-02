@@ -76,7 +76,8 @@ def patent_svg(label: str, pen, mode: str, view: str, source: str = "pcb-patent-
     mono  = ink only (the font's outline glyph)
     color = tinted fills under the same ink (the color font's layers)
     """
-    transform = ' transform="matrix(.46 .34 -.46 .34 500 160)"' if view == "isometric" else ""
+    # a true 30-degree isometric of the plate, sized so the drawing fills the frame instead of shrinking into it
+    transform = ' transform="matrix(.62 .36 -.62 .36 500 140)"' if view == "isometric" else ""
     paths = []
     if mode == "color":
         paths += [f'  <path d="{d}" fill="{tint}" data-role="fill" data-layer="fill"/>' for d, tint in pen.fills]
@@ -107,8 +108,9 @@ def main() -> int:
         for view in ("top", "front", "side", "isometric"):
             technical_path = ROOT / "glyphs/technical" / view / f"{name}.svg"
             technical_path.parent.mkdir(parents=True, exist_ok=True)
-            if base in TECHNICAL_BASES:
-                # the assembly plates keep their four constructed views (scripts/technical_art.py)
+            if base in TECHNICAL_BASES and view in ("front", "side"):
+                # the assembly keeps its constructed front and side elevations (scripts/technical_art.py); the top
+                # plate and the isometric are the patent drawing, the same art as the glyph
                 technical_path.write_text(svg_text(item["label"], technical_for(base, view), "color", view, "pcb-original-technical-art"), encoding="utf-8")
             else:
                 technical_path.write_text(patent_svg(item["label"], pen, "mono", view, "pcb-original-technical-art"), encoding="utf-8")

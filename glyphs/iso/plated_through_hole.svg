@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Plated through-hole</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M120 260 L880 260 L880 320 L120 320 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>
   <path d="M120 320 L880 320 L880 680 L120 680 Z" fill="#cfe0d6" data-role="fill" data-layer="fill"/>
   <path d="M120 680 L880 680 L880 740 L120 740 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>

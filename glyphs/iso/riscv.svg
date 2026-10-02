@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">RISC-V architecture</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M220 380 L222.6 380.3 L225 381.3 L227.1 382.9 L228.7 385 L229.7 387.4 L230 390 L230 610 L229.7 612.6 L228.7 615 L227.1 617.1 L225 618.7 L222.6 619.7 L220 620 L100 620 L97.4 619.7 L95 618.7 L92.9 617.1 L91.3 615 L90.3 612.6 L90 610 L90 390 L90.3 387.4 L91.3 385 L92.9 382.9 L95 381.3 L97.4 380.3 L100 380 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
   <path d="M390 380 L392.6 380.3 L395 381.3 L397.1 382.9 L398.7 385 L399.7 387.4 L400 390 L400 610 L399.7 612.6 L398.7 615 L397.1 617.1 L395 618.7 L392.6 619.7 L390 620 L270 620 L267.4 619.7 L265 618.7 L262.9 617.1 L261.3 615 L260.3 612.6 L260 610 L260 390 L260.3 387.4 L261.3 385 L262.9 382.9 L265 381.3 L267.4 380.3 L270 380 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
   <path d="M560 380 L562.6 380.3 L565 381.3 L567.1 382.9 L568.7 385 L569.7 387.4 L570 390 L570 610 L569.7 612.6 L568.7 615 L567.1 617.1 L565 618.7 L562.6 619.7 L560 620 L440 620 L437.4 619.7 L435 618.7 L432.9 617.1 L431.3 615 L430.3 612.6 L430 610 L430 390 L430.3 387.4 L431.3 385 L432.9 382.9 L435 381.3 L437.4 380.3 L440 380 Z" fill="#c8d8e6" data-role="fill" data-layer="fill"/>

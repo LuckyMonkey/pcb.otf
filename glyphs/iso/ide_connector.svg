@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">IDE / PATA connector</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M902 360 L904.1 360.3 L906 361.1 L907.7 362.3 L908.9 364 L909.7 365.9 L910 368 L910 632 L909.7 634.1 L908.9 636 L907.7 637.7 L906 638.9 L904.1 639.7 L902 640 L98 640 L95.9 639.7 L94 638.9 L92.3 637.7 L91.1 636 L90.3 634.1 L90 632 L90 368 L90.3 365.9 L91.1 364 L92.3 362.3 L94 361.1 L95.9 360.3 L98 360 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M902.7 350 L906.7 350.5 L911 352.3 L914.8 355.2 L917.7 359 L919.5 363.3 L920 367.3 L920 632.7 L919.5 636.7 L917.7 641 L914.8 644.8 L911 647.7 L906.7 649.5 L902.7 650 L97.3 650 L93.3 649.5 L89 647.7 L85.2 644.8 L82.3 641 L80.5 636.7 L80 632.7 L80 367.3 L80.5 363.3 L82.3 359 L85.2 355.2 L89 352.3 L93.3 350.5 L97.3 350 Z M98.7 370 L98.5 370 L99 369.8 L99.5 369.5 L99.8 369 L100 368.5 L100 368.7 L100 631.3 L100 631.5 L99.8 631 L99.5 630.5 L99 630.2 L98.5 630 L98.7 630 L901.3 630 L901.5 630 L901 630.2 L900.5 630.5 L900.2 631 L900 631.5 L900 631.3 L900 368.7 L900 368.5 L900.2 369 L900.5 369.5 L901 369.8 L901.5 370 L901.3 370 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M460 620 L540 620 L540 640 L460 640 Z" fill="#17252c" data-role="body" data-layer="ink"/>

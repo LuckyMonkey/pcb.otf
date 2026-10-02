@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
   <title id="title">USB protocol</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M140 370 L140 370 L140 370 L140 370 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M134 364 L206 364 L206 376 L134 376 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M194 376 L194 294 L206 294 L206 376 Z" fill="#17252c" data-role="body" data-layer="ink"/>

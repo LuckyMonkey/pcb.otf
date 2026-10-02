@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
   <title id="title">Operational amplifier</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M672.7 150 L679.3 150.9 L686 153.7 L691.9 158.1 L696.3 164 L699.1 170.7 L700 177.3 L700 822.7 L699.1 829.3 L696.3 836 L691.9 841.9 L686 846.3 L679.3 849.1 L672.7 850 L327.3 850 L320.7 849.1 L314 846.3 L308.1 841.9 L303.7 836 L300.9 829.3 L300 822.7 L300 177.3 L300.9 170.7 L303.7 164 L308.1 158.1 L314 153.7 L320.7 150.9 L327.3 150 Z M328.7 170 L326 170.4 L324 171.1 L322.4 172.4 L321.1 174 L320.4 176 L320 178.7 L320 821.3 L320.4 824 L321.1 826 L322.4 827.6 L324 828.9 L326 829.6 L328.7 830 L671.3 830 L674 829.6 L676 828.9 L677.6 827.6 L678.9 826 L679.6 824 L680 821.3 L680 178.7 L679.6 176 L678.9 174 L677.6 172.4 L676 171.1 L674 170.4 L671.3 170 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M556.3 154.3 L555.4 171.5 L543.4 170.9 L544.3 153.7 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M556.6 160.2 L553.9 177.3 L542 175.4 L544.7 158.4 Z" fill="#17252c" data-role="body" data-layer="ink"/>

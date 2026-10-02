@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">ATX power supply</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M908 200 L911.1 200.4 L914 201.6 L916.5 203.5 L918.4 206 L919.6 208.9 L920 212 L920 788 L919.6 791.1 L918.4 794 L916.5 796.5 L914 798.4 L911.1 799.6 L908 800 L92 800 L88.9 799.6 L86 798.4 L83.5 796.5 L81.6 794 L80.4 791.1 L80 788 L80 212 L80.4 208.9 L81.6 206 L83.5 203.5 L86 201.6 L88.9 200.4 L92 200 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M640 300 L820 300 L820 400 L790 430 L670 430 L640 400 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M696 340 L696.5 340.1 L697 340.3 L697.4 340.6 L697.7 341 L697.9 341.5 L698 342 L698 388 L697.9 388.5 L697.7 389 L697.4 389.4 L697 389.7 L696.5 389.9 L696 390 L684 390 L683.5 389.9 L683 389.7 L682.6 389.4 L682.3 389 L682.1 388.5 L682 388 L682 342 L682.1 341.5 L682.3 341 L682.6 340.6 L683 340.3 L683.5 340.1 L684 340 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>

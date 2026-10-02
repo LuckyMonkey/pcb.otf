@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Land grid array package</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M840 150 L842.6 150.3 L845 151.3 L847.1 152.9 L848.7 155 L849.7 157.4 L850 160 L850 840 L849.7 842.6 L848.7 845 L847.1 847.1 L845 848.7 L842.6 849.7 L840 850 L160 850 L157.4 849.7 L155 848.7 L152.9 847.1 L151.3 845 L150.3 842.6 L150 840 L150 160 L150.3 157.4 L151.3 155 L152.9 152.9 L155 151.3 L157.4 150.3 L160 150 Z" fill="#cfe0d6" data-role="fill" data-layer="fill"/>
   <path d="M223 202 L223.8 202.1 L224.5 202.4 L225.1 202.9 L225.6 203.5 L225.9 204.2 L226 205 L226 217 L225.9 217.8 L225.6 218.5 L225.1 219.1 L224.5 219.6 L223.8 219.9 L223 220 L199 220 L198.2 219.9 L197.5 219.6 L196.9 219.1 L196.4 218.5 L196.1 217.8 L196 217 L196 205 L196.1 204.2 L196.4 203.5 L196.9 202.9 L197.5 202.4 L198.2 202.1 L199 202 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>
   <path d="M223 254.7 L223.8 254.8 L224.5 255.1 L225.1 255.6 L225.6 256.2 L225.9 256.9 L226 257.7 L226 269.7 L225.9 270.5 L225.6 271.2 L225.1 271.8 L224.5 272.3 L223.8 272.6 L223 272.7 L199 272.7 L198.2 272.6 L197.5 272.3 L196.9 271.8 L196.4 271.2 L196.1 270.5 L196 269.7 L196 257.7 L196.1 256.9 L196.4 256.2 L196.9 255.6 L197.5 255.1 L198.2 254.8 L199 254.7 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>

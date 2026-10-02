@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">SATA connector</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M160 360 L840 360 L840 640 L240 640 L240 560 L160 560 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M200 420 L800 420 L800 580 L280 580 L280 500 L200 500 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
   <path d="M353 440 L353.8 440.1 L354.5 440.4 L355.1 440.9 L355.6 441.5 L355.9 442.2 L356 443 L356 497 L355.9 497.8 L355.6 498.5 L355.1 499.1 L354.5 499.6 L353.8 499.9 L353 500 L323 500 L322.2 499.9 L321.5 499.6 L320.9 499.1 L320.4 498.5 L320.1 497.8 L320 497 L320 443 L320.1 442.2 L320.4 441.5 L320.9 440.9 L321.5 440.4 L322.2 440.1 L323 440 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>

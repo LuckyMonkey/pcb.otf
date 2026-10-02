@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">USB Type-C connector</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M710 360 L746.2 364.8 L780 378.8 L809 401 L831.2 430 L845.2 463.8 L850 500 L850 500 L845.2 536.2 L831.2 570 L809 599 L780 621.2 L746.2 635.2 L710 640 L290 640 L253.8 635.2 L220 621.2 L191 599 L168.8 570 L154.8 536.2 L150 500 L150 500 L154.8 463.8 L168.8 430 L191 401 L220 378.8 L253.8 364.8 L290 360 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M690 470 L692.6 470.3 L695 471.3 L697.1 472.9 L698.7 475 L699.7 477.4 L700 480 L700 520 L699.7 522.6 L698.7 525 L697.1 527.1 L695 528.7 L692.6 529.7 L690 530 L310 530 L307.4 529.7 L305 528.7 L302.9 527.1 L301.3 525 L300.3 522.6 L300 520 L300 480 L300.3 477.4 L301.3 475 L302.9 472.9 L305 471.3 L307.4 470.3 L310 470 Z" fill="#e4ddd0" data-role="fill" data-layer="fill"/>
   <path d="M332 478 L332.5 478.1 L333 478.3 L333.4 478.6 L333.7 479 L333.9 479.5 L334 480 L334 494 L333.9 494.5 L333.7 495 L333.4 495.4 L333 495.7 L332.5 495.9 L332 496 L320 496 L319.5 495.9 L319 495.7 L318.6 495.4 L318.3 495 L318.1 494.5 L318 494 L318 480 L318.1 479.5 L318.3 479 L318.6 478.6 L319 478.3 L319.5 478.1 L320 478 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>

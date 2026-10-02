@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Thermal pad</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M271 170 L271.8 170.1 L272.5 170.4 L273.1 170.9 L273.6 171.5 L273.9 172.2 L274 173 L274 237 L273.9 237.8 L273.6 238.5 L273.1 239.1 L272.5 239.6 L271.8 239.9 L271 240 L249 240 L248.2 239.9 L247.5 239.6 L246.9 239.1 L246.4 238.5 L246.1 237.8 L246 237 L246 173 L246.1 172.2 L246.4 171.5 L246.9 170.9 L247.5 170.4 L248.2 170.1 L249 170 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>
   <path d="M271 760 L271.8 760.1 L272.5 760.4 L273.1 760.9 L273.6 761.5 L273.9 762.2 L274 763 L274 827 L273.9 827.8 L273.6 828.5 L273.1 829.1 L272.5 829.6 L271.8 829.9 L271 830 L249 830 L248.2 829.9 L247.5 829.6 L246.9 829.1 L246.4 828.5 L246.1 827.8 L246 827 L246 763 L246.1 762.2 L246.4 761.5 L246.9 760.9 L247.5 760.4 L248.2 760.1 L249 760 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>
   <path d="M237 246 L237.8 246.1 L238.5 246.4 L239.1 246.9 L239.6 247.5 L239.9 248.2 L240 249 L240 271 L239.9 271.8 L239.6 272.5 L239.1 273.1 L238.5 273.6 L237.8 273.9 L237 274 L173 274 L172.2 273.9 L171.5 273.6 L170.9 273.1 L170.4 272.5 L170.1 271.8 L170 271 L170 249 L170.1 248.2 L170.4 247.5 L170.9 246.9 L171.5 246.4 L172.2 246.1 L173 246 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>

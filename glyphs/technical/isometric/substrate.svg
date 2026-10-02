@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
   <title id="title">PCB substrate</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M114 294 L886 294 L886 386 L114 386 Z M126 374 L874 374 L874 306 L126 306 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M854 297.5 L882.5 326 L877.5 330.9 L849.1 302.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M811.6 297.5 L882.5 368.4 L877.5 373.4 L806.6 302.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>

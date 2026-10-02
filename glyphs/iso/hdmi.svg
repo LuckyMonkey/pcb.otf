@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">HDMI connector</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M150 340 L850 340 L850 560 L760 660 L240 660 L150 560 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M734 440 L735.6 440.2 L737 440.8 L738.2 441.8 L739.2 443 L739.8 444.4 L740 446 L740 504 L739.8 505.6 L739.2 507 L738.2 508.2 L737 509.2 L735.6 509.8 L734 510 L266 510 L264.4 509.8 L263 509.2 L261.8 508.2 L260.8 507 L260.2 505.6 L260 504 L260 446 L260.2 444.4 L260.8 443 L261.8 441.8 L263 440.8 L264.4 440.2 L266 440 Z" fill="#e4ddd0" data-role="fill" data-layer="fill"/>
   <path d="M292 450 L292.5 450.1 L293 450.3 L293.4 450.6 L293.7 451 L293.9 451.5 L294 452 L294 468 L293.9 468.5 L293.7 469 L293.4 469.4 L293 469.7 L292.5 469.9 L292 470 L274 470 L273.5 469.9 L273 469.7 L272.6 469.4 L272.3 469 L272.1 468.5 L272 468 L272 452 L272.1 451.5 L272.3 451 L272.6 450.6 L273 450.3 L273.5 450.1 L274 450 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>

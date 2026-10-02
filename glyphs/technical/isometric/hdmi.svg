@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
   <title id="title">HDMI connector</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M140 330 L860 330 L860 563.8 L764.5 670 L235.5 670 L140 563.8 Z M160 556.2 L244.5 650 L755.5 650 L840 556.2 L840 350 L160 350 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M189 374 L811 374 L811 547.4 L737.6 626 L262.4 626 L189 547.4 Z M201 542.6 L267.6 614 L732.4 614 L799 542.6 L799 386 L201 386 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M734.4 434 L737.1 434.4 L740 435.6 L742.5 437.5 L744.4 440 L745.6 442.9 L746 445.6 L746 504.4 L745.6 507.1 L744.4 510 L742.5 512.5 L740 514.4 L737.1 515.6 L734.4 516 L265.6 516 L262.9 515.6 L260 514.4 L257.5 512.5 L255.6 510 L254.4 507.1 L254 504.4 L254 445.6 L254.4 442.9 L255.6 440 L257.5 437.5 L260 435.6 L262.9 434.4 L265.6 434 Z M266.4 446 L266 446.1 L266 446 L266 446 L266 446 L266.1 446 L266 446.4 L266 503.6 L266.1 504 L266 504 L266 504 L266 504 L266 503.9 L266.4 504 L733.6 504 L734 503.9 L734 504 L734 504 L734 504 L733.9 504 L734 503.6 L734 446.4 L733.9 446 L734 446 L734 446 L734 446 L734 446.1 L733.6 446 Z" fill="#17252c" data-role="body" data-layer="ink"/>

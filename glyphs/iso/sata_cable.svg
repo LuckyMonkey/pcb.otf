@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">SATA data cable</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M90 300 L310 300 L310 470 L150 470 L150 420 L90 420 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M690 300 L910 300 L910 470 L850 470 L850 420 L690 420 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M80 290 L320 290 L320 480 L140 480 L140 430 L80 430 Z M100 410 L160 410 L160 460 L300 460 L300 310 L100 310 Z" fill="#17252c" data-role="body" data-layer="ink"/>

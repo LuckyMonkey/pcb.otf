@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">SD card</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M220 100 L680 100 L800 220 L800 900 L220 900 Z" fill="#c8d8e6" data-role="fill" data-layer="fill"/>
   <path d="M316 140 L317 140.1 L318 140.5 L318.8 141.2 L319.5 142 L319.9 143 L320 144 L320 256 L319.9 257 L319.5 258 L318.8 258.8 L318 259.5 L317 259.9 L316 260 L284 260 L283 259.9 L282 259.5 L281.2 258.8 L280.5 258 L280.1 257 L280 256 L280 144 L280.1 143 L280.5 142 L281.2 141.2 L282 140.5 L283 140.1 L284 140 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>
   <path d="M374 140 L375 140.1 L376 140.5 L376.8 141.2 L377.5 142 L377.9 143 L378 144 L378 256 L377.9 257 L377.5 258 L376.8 258.8 L376 259.5 L375 259.9 L374 260 L342 260 L341 259.9 L340 259.5 L339.2 258.8 L338.5 258 L338.1 257 L338 256 L338 144 L338.1 143 L338.5 142 L339.2 141.2 L340 140.5 L341 140.1 L342 140 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>

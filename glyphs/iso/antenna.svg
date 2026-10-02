@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Antenna</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M570 760 L572.6 760.3 L575 761.3 L577.1 762.9 L578.7 765 L579.7 767.4 L580 770 L580 870 L579.7 872.6 L578.7 875 L577.1 877.1 L575 878.7 L572.6 879.7 L570 880 L430 880 L427.4 879.7 L425 878.7 L422.9 877.1 L421.3 875 L420.3 872.6 L420 870 L420 770 L420.3 767.4 L421.3 765 L422.9 762.9 L425 761.3 L427.4 760.3 L430 760 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>
   <path d="M540 680 L542.6 680.3 L545 681.3 L547.1 682.9 L548.7 685 L549.7 687.4 L550 690 L550 750 L549.7 752.6 L548.7 755 L547.1 757.1 L545 758.7 L542.6 759.7 L540 760 L460 760 L457.4 759.7 L455 758.7 L452.9 757.1 L451.3 755 L450.3 752.6 L450 750 L450 690 L450.3 687.4 L451.3 685 L452.9 682.9 L455 681.3 L457.4 680.3 L460 680 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M475 120 L500 90 L525 120 L540 680 L460 680 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>

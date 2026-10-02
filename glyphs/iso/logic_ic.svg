@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Logic IC</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M690 200 L692.6 200.3 L695 201.3 L697.1 202.9 L698.7 205 L699.7 207.4 L700 210 L700 790 L699.7 792.6 L698.7 795 L697.1 797.1 L695 798.7 L692.6 799.7 L690 800 L310 800 L307.4 799.7 L305 798.7 L302.9 797.1 L301.3 795 L300.3 792.6 L300 790 L300 210 L300.3 207.4 L301.3 205 L302.9 202.9 L305 201.3 L307.4 200.3 L310 200 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M296 230 L297 230.1 L298 230.5 L298.8 231.2 L299.5 232 L299.9 233 L300 234 L300 256 L299.9 257 L299.5 258 L298.8 258.8 L298 259.5 L297 259.9 L296 260 L224 260 L223 259.9 L222 259.5 L221.2 258.8 L220.5 258 L220.1 257 L220 256 L220 234 L220.1 233 L220.5 232 L221.2 231.2 L222 230.5 L223 230.1 L224 230 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M776 230 L777 230.1 L778 230.5 L778.8 231.2 L779.5 232 L779.9 233 L780 234 L780 256 L779.9 257 L779.5 258 L778.8 258.8 L778 259.5 L777 259.9 L776 260 L704 260 L703 259.9 L702 259.5 L701.2 258.8 L700.5 258 L700.1 257 L700 256 L700 234 L700.1 233 L700.5 232 L701.2 231.2 L702 230.5 L703 230.1 L704 230 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>

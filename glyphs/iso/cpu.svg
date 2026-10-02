@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Central processing unit</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M860 170 L862.6 170.3 L865 171.3 L867.1 172.9 L868.7 175 L869.7 177.4 L870 180 L870 820 L869.7 822.6 L868.7 825 L867.1 827.1 L865 828.7 L862.6 829.7 L860 830 L140 830 L137.4 829.7 L135 828.7 L132.9 827.1 L131.3 825 L130.3 822.6 L130 820 L130 180 L130.3 177.4 L131.3 175 L132.9 172.9 L135 171.3 L137.4 170.3 L140 170 Z" fill="#cfe0d6" data-role="fill" data-layer="fill"/>
   <path d="M260 230 L740 230 L740 300 L800 300 L800 700 L740 700 L740 770 L260 770 L260 700 L200 700 L200 300 L260 300 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M361 790 L361.8 790.1 L362.5 790.4 L363.1 790.9 L363.6 791.5 L363.9 792.2 L364 793 L364 809 L363.9 809.8 L363.6 810.5 L363.1 811.1 L362.5 811.6 L361.8 811.9 L361 812 L333 812 L332.2 811.9 L331.5 811.6 L330.9 811.1 L330.4 810.5 L330.1 809.8 L330 809 L330 793 L330.1 792.2 L330.4 791.5 L330.9 790.9 L331.5 790.4 L332.2 790.1 L333 790 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>

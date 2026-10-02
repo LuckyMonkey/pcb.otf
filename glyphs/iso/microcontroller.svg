@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Microcontroller</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M752 240 L754.1 240.3 L756 241.1 L757.7 242.3 L758.9 244 L759.7 245.9 L760 248 L760 752 L759.7 754.1 L758.9 756 L757.7 757.7 L756 758.9 L754.1 759.7 L752 760 L248 760 L245.9 759.7 L244 758.9 L242.3 757.7 L241.1 756 L240.3 754.1 L240 752 L240 248 L240.3 245.9 L241.1 244 L242.3 242.3 L244 241.1 L245.9 240.3 L248 240 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M285 184 L285.5 184.1 L286 184.3 L286.4 184.6 L286.7 185 L286.9 185.5 L287 186 L287 238 L286.9 238.5 L286.7 239 L286.4 239.4 L286 239.7 L285.5 239.9 L285 240 L275 240 L274.5 239.9 L274 239.7 L273.6 239.4 L273.3 239 L273.1 238.5 L273 238 L273 186 L273.1 185.5 L273.3 185 L273.6 184.6 L274 184.3 L274.5 184.1 L275 184 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M285 760 L285.5 760.1 L286 760.3 L286.4 760.6 L286.7 761 L286.9 761.5 L287 762 L287 814 L286.9 814.5 L286.7 815 L286.4 815.4 L286 815.7 L285.5 815.9 L285 816 L275 816 L274.5 815.9 L274 815.7 L273.6 815.4 L273.3 815 L273.1 814.5 L273 814 L273 762 L273.1 761.5 L273.3 761 L273.6 760.6 L274 760.3 L274.5 760.1 L275 760 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>

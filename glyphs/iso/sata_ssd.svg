@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">SATA solid-state drive</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M826 120 L832.2 120.8 L838 123.2 L843 127 L846.8 132 L849.2 137.8 L850 144 L850 856 L849.2 862.2 L846.8 868 L843 873 L838 876.8 L832.2 879.2 L826 880 L174 880 L167.8 879.2 L162 876.8 L157 873 L153.2 868 L150.8 862.2 L150 856 L150 144 L150.8 137.8 L153.2 132 L157 127 L162 123.2 L167.8 120.8 L174 120 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M496 870 L497 870.1 L498 870.5 L498.8 871.2 L499.5 872 L499.9 873 L500 874 L500 906 L499.9 907 L499.5 908 L498.8 908.8 L498 909.5 L497 909.9 L496 910 L264 910 L263 909.9 L262 909.5 L261.2 908.8 L260.5 908 L260.1 907 L260 906 L260 874 L260.1 873 L260.5 872 L261.2 871.2 L262 870.5 L263 870.1 L264 870 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M736 870 L737 870.1 L738 870.5 L738.8 871.2 L739.5 872 L739.9 873 L740 874 L740 906 L739.9 907 L739.5 908 L738.8 908.8 L738 909.5 L737 909.9 L736 910 L544 910 L543 909.9 L542 909.5 L541.2 908.8 L540.5 908 L540.1 907 L540 906 L540 874 L540.1 873 L540.5 872 L541.2 871.2 L542 870.5 L543 870.1 L544 870 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>

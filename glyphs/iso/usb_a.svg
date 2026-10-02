@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">USB Type-A connector</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M824 300 L828.1 300.5 L832 302.1 L835.3 304.7 L837.9 308 L839.5 311.9 L840 316 L840 684 L839.5 688.1 L837.9 692 L835.3 695.3 L832 697.9 L828.1 699.5 L824 700 L176 700 L171.9 699.5 L168 697.9 L164.7 695.3 L162.1 692 L160.5 688.1 L160 684 L160 316 L160.5 311.9 L162.1 308 L164.7 304.7 L168 302.1 L171.9 300.5 L176 300 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M754 380 L755.6 380.2 L757 380.8 L758.2 381.8 L759.2 383 L759.8 384.4 L760 386 L760 494 L759.8 495.6 L759.2 497 L758.2 498.2 L757 499.2 L755.6 499.8 L754 500 L246 500 L244.4 499.8 L243 499.2 L241.8 498.2 L240.8 497 L240.2 495.6 L240 494 L240 386 L240.2 384.4 L240.8 383 L241.8 381.8 L243 380.8 L244.4 380.2 L246 380 Z" fill="#e4ddd0" data-role="fill" data-layer="fill"/>
   <path d="M347 470 L347.8 470.1 L348.5 470.4 L349.1 470.9 L349.6 471.5 L349.9 472.2 L350 473 L350 493 L349.9 493.8 L349.6 494.5 L349.1 495.1 L348.5 495.6 L347.8 495.9 L347 496 L293 496 L292.2 495.9 L291.5 495.6 L290.9 495.1 L290.4 494.5 L290.1 493.8 L290 493 L290 473 L290.1 472.2 L290.4 471.5 L290.9 470.9 L291.5 470.4 L292.2 470.1 L293 470 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>

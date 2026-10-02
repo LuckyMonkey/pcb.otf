@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Quad flat no-lead package</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M774 220 L775.6 220.2 L777 220.8 L778.2 221.8 L779.2 223 L779.8 224.4 L780 226 L780 774 L779.8 775.6 L779.2 777 L778.2 778.2 L777 779.2 L775.6 779.8 L774 780 L226 780 L224.4 779.8 L223 779.2 L221.8 778.2 L220.8 777 L220.2 775.6 L220 774 L220 226 L220.2 224.4 L220.8 223 L221.8 221.8 L223 220.8 L224.4 220.2 L226 220 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M299 220 L299.8 220.1 L300.5 220.4 L301.1 220.9 L301.6 221.5 L301.9 222.2 L302 223 L302 277 L301.9 277.8 L301.6 278.5 L301.1 279.1 L300.5 279.6 L299.8 279.9 L299 280 L281 280 L280.2 279.9 L279.5 279.6 L278.9 279.1 L278.4 278.5 L278.1 277.8 L278 277 L278 223 L278.1 222.2 L278.4 221.5 L278.9 220.9 L279.5 220.4 L280.2 220.1 L281 220 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M299 720 L299.8 720.1 L300.5 720.4 L301.1 720.9 L301.6 721.5 L301.9 722.2 L302 723 L302 777 L301.9 777.8 L301.6 778.5 L301.1 779.1 L300.5 779.6 L299.8 779.9 L299 780 L281 780 L280.2 779.9 L279.5 779.6 L278.9 779.1 L278.4 778.5 L278.1 777.8 L278 777 L278 723 L278.1 722.2 L278.4 721.5 L278.9 720.9 L279.5 720.4 L280.2 720.1 L281 720 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Quad flat package</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M742 250 L744.1 250.3 L746 251.1 L747.7 252.3 L748.9 254 L749.7 255.9 L750 258 L750 742 L749.7 744.1 L748.9 746 L747.7 747.7 L746 748.9 L744.1 749.7 L742 750 L258 750 L255.9 749.7 L254 748.9 L252.3 747.7 L251.1 746 L250.3 744.1 L250 742 L250 258 L250.3 255.9 L251.1 254 L252.3 252.3 L254 251.1 L255.9 250.3 L258 250 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M295 180 L295.5 180.1 L296 180.3 L296.4 180.6 L296.7 181 L296.9 181.5 L297 182 L297 248 L296.9 248.5 L296.7 249 L296.4 249.4 L296 249.7 L295.5 249.9 L295 250 L285 250 L284.5 249.9 L284 249.7 L283.6 249.4 L283.3 249 L283.1 248.5 L283 248 L283 182 L283.1 181.5 L283.3 181 L283.6 180.6 L284 180.3 L284.5 180.1 L285 180 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M295 750 L295.5 750.1 L296 750.3 L296.4 750.6 L296.7 751 L296.9 751.5 L297 752 L297 818 L296.9 818.5 L296.7 819 L296.4 819.4 L296 819.7 L295.5 819.9 L295 820 L285 820 L284.5 819.9 L284 819.7 L283.6 819.4 L283.3 819 L283.1 818.5 L283 818 L283 752 L283.1 751.5 L283.3 751 L283.6 750.6 L284 750.3 L284.5 750.1 L285 750 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>

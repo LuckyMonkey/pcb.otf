@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">ATX motherboard</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M902 172 L904.1 172.3 L906 173.1 L907.7 174.3 L908.9 176 L909.7 177.9 L910 180 L910 820 L909.7 822.1 L908.9 824 L907.7 825.7 L906 826.9 L904.1 827.7 L902 828 L98 828 L95.9 827.7 L94 826.9 L92.3 825.7 L91.1 824 L90.3 822.1 L90 820 L90 180 L90.3 177.9 L91.1 176 L92.3 174.3 L94 173.1 L95.9 172.3 L98 172 Z" fill="#cfe0d6" data-role="fill" data-layer="fill"/>
   <path d="M543.2 263.8 L544.8 264 L546.2 264.6 L547.4 265.6 L548.4 266.8 L549 268.3 L549.2 269.8 L549.2 487.4 L549 489 L548.4 490.4 L547.4 491.7 L546.2 492.6 L544.8 493.2 L543.2 493.4 L325.6 493.4 L324 493.2 L322.6 492.6 L321.4 491.7 L320.4 490.4 L319.8 489 L319.6 487.4 L319.6 269.8 L319.8 268.3 L320.4 266.8 L321.4 265.6 L322.6 264.6 L324 264 L325.6 263.8 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M670.2 224.5 L670.7 224.5 L671.2 224.7 L671.6 225.1 L671.9 225.5 L672.1 226 L672.2 226.5 L672.2 550.5 L672.1 551 L671.9 551.5 L671.6 551.9 L671.2 552.2 L670.7 552.4 L670.2 552.5 L649.6 552.5 L649.1 552.4 L648.6 552.2 L648.2 551.9 L647.9 551.5 L647.7 551 L647.6 550.5 L647.6 226.5 L647.7 226 L647.9 225.5 L648.2 225.1 L648.6 224.7 L649.1 224.5 L649.6 224.5 Z" fill="#e4ddd0" data-role="fill" data-layer="fill"/>

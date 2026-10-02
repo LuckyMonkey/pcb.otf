@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">RJ45 / 8P8C connector</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M786 200 L789.6 200.5 L793 201.9 L795.9 204.1 L798.1 207 L799.5 210.4 L800 214 L800 826 L799.5 829.6 L798.1 833 L795.9 835.9 L793 838.1 L789.6 839.5 L786 840 L214 840 L210.4 839.5 L207 838.1 L204.1 835.9 L201.9 833 L200.5 829.6 L200 826 L200 214 L200.5 210.4 L201.9 207 L204.1 204.1 L207 201.9 L210.4 200.5 L214 200 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M270 300 L730 300 L730 640 L580 640 L580 720 L420 720 L420 640 L270 640 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M314 760 L315.6 760.2 L317 760.8 L318.2 761.8 L319.2 763 L319.8 764.4 L320 766 L320 804 L319.8 805.6 L319.2 807 L318.2 808.2 L317 809.2 L315.6 809.8 L314 810 L236 810 L234.4 809.8 L233 809.2 L231.8 808.2 L230.8 807 L230.2 805.6 L230 804 L230 766 L230.2 764.4 L230.8 763 L231.8 761.8 L233 760.8 L234.4 760.2 L236 760 Z" fill="#c8d8e6" data-role="fill" data-layer="fill"/>

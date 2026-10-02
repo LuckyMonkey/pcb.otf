@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Differential pair</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M162 400 L164.1 400.3 L166 401.1 L167.7 402.3 L168.9 404 L169.7 405.9 L170 408 L170 452 L169.7 454.1 L168.9 456 L167.7 457.7 L166 458.9 L164.1 459.7 L162 460 L98 460 L95.9 459.7 L94 458.9 L92.3 457.7 L91.1 456 L90.3 454.1 L90 452 L90 408 L90.3 405.9 L91.1 404 L92.3 402.3 L94 401.1 L95.9 400.3 L98 400 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>
   <path d="M162 540 L164.1 540.3 L166 541.1 L167.7 542.3 L168.9 544 L169.7 545.9 L170 548 L170 592 L169.7 594.1 L168.9 596 L167.7 597.7 L166 598.9 L164.1 599.7 L162 600 L98 600 L95.9 599.7 L94 598.9 L92.3 597.7 L91.1 596 L90.3 594.1 L90 592 L90 548 L90.3 545.9 L91.1 544 L92.3 542.3 L94 541.1 L95.9 540.3 L98 540 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>
   <path d="M902 400 L904.1 400.3 L906 401.1 L907.7 402.3 L908.9 404 L909.7 405.9 L910 408 L910 452 L909.7 454.1 L908.9 456 L907.7 457.7 L906 458.9 L904.1 459.7 L902 460 L838 460 L835.9 459.7 L834 458.9 L832.3 457.7 L831.1 456 L830.3 454.1 L830 452 L830 408 L830.3 405.9 L831.1 404 L832.3 402.3 L834 401.1 L835.9 400.3 L838 400 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>

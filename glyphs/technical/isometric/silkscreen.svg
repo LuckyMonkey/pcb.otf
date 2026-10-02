@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
   <title id="title">Silkscreen</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M870.7 140 L877.8 140.9 L885 143.9 L891.3 148.7 L896.1 155 L899.1 162.2 L900 169.3 L900 830.7 L899.1 837.8 L896.1 845 L891.3 851.3 L885 856.1 L877.8 859.1 L870.7 860 L129.3 860 L122.2 859.1 L115 856.1 L108.7 851.3 L103.9 845 L100.9 837.8 L100 830.7 L100 169.3 L100.9 162.2 L103.9 155 L108.7 148.7 L115 143.9 L122.2 140.9 L129.3 140 Z M130.7 160 L127.4 160.4 L125 161.4 L123 163 L121.4 165 L120.4 167.4 L120 170.7 L120 829.3 L120.4 832.6 L121.4 835 L123 837 L125 838.6 L127.4 839.6 L130.7 840 L869.3 840 L872.6 839.6 L875 838.6 L877 837 L878.6 835 L879.6 832.6 L880 829.3 L880 170.7 L879.6 167.4 L878.6 165 L877 163 L875 161.4 L872.6 160.4 L869.3 160 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M250 274 L272 274 L272 286 L250 286 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M286 274 L308 274 L308 286 L286 286 Z" fill="#17252c" data-role="body" data-layer="ink"/>

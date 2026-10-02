@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Cooling fan</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M820 110 L838.1 112.4 L855 119.4 L869.5 130.5 L880.6 145 L887.6 161.9 L890 180 L890 820 L887.6 838.1 L880.6 855 L869.5 869.5 L855 880.6 L838.1 887.6 L820 890 L180 890 L161.9 887.6 L145 880.6 L130.5 869.5 L119.4 855 L112.4 838.1 L110 820 L110 180 L112.4 161.9 L119.4 145 L130.5 130.5 L145 119.4 L161.9 112.4 L180 110 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M610 500 L608.3 519.1 L603.4 537.6 L595.3 555 L584.3 570.7 L570.7 584.3 L555 595.3 L537.6 603.4 L519.1 608.3 L500 610 L480.9 608.3 L462.4 603.4 L445 595.3 L429.3 584.3 L415.7 570.7 L404.7 555 L396.6 537.6 L391.7 519.1 L390 500 L391.7 480.9 L396.6 462.4 L404.7 445 L415.7 429.3 L429.3 415.7 L445 404.7 L462.4 396.6 L480.9 391.7 L500 390 L519.1 391.7 L537.6 396.6 L555 404.7 L570.7 415.7 L584.3 429.3 L595.3 445 L603.4 462.4 L608.3 480.9 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M610 500 L639.1 515.7 L665.7 537.9 L688.7 566.2 L707.1 600 L719.9 638.7 L726.4 681.2 L725.8 726.7 L717.6 774.2 L652.5 815 L664.1 774.7 L669.9 735 L670.1 696.6 L665.1 660.1 L655.2 626.1 L640.8 595.3 L622.4 568 L600.4 544.9 Z" fill="#e4ddd0" data-role="fill" data-layer="fill"/>

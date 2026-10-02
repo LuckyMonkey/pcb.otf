@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">DisplayPort connector</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M150 340 L850 340 L850 660 L230 660 L150 580 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M734 450 L735.6 450.2 L737 450.8 L738.2 451.8 L739.2 453 L739.8 454.4 L740 456 L740 514 L739.8 515.6 L739.2 517 L738.2 518.2 L737 519.2 L735.6 519.8 L734 520 L266 520 L264.4 519.8 L263 519.2 L261.8 518.2 L260.8 517 L260.2 515.6 L260 514 L260 456 L260.2 454.4 L260.8 453 L261.8 451.8 L263 450.8 L264.4 450.2 L266 450 Z" fill="#e4ddd0" data-role="fill" data-layer="fill"/>
   <path d="M292 460 L292.5 460.1 L293 460.3 L293.4 460.6 L293.7 461 L293.9 461.5 L294 462 L294 478 L293.9 478.5 L293.7 479 L293.4 479.4 L293 479.7 L292.5 479.9 L292 480 L274 480 L273.5 479.9 L273 479.7 L272.6 479.4 L272.3 479 L272.1 478.5 L272 478 L272 462 L272.1 461.5 L272.3 461 L272.6 460.6 L273 460.3 L273.5 460.1 L274 460 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>

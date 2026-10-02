@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
   <title id="title">DisplayPort connector</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M140 330 L860 330 L860 670 L225.9 670 L140 584.1 Z M160 575.9 L234.1 650 L840 650 L840 350 L160 350 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M189 374 L811 374 L811 626 L247.5 626 L189 567.5 Z M201 562.5 L252.5 614 L799 614 L799 386 L201 386 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M734.4 444 L737.1 444.4 L740 445.6 L742.5 447.5 L744.4 450 L745.6 452.9 L746 455.6 L746 514.4 L745.6 517.1 L744.4 520 L742.5 522.5 L740 524.4 L737.1 525.6 L734.4 526 L265.6 526 L262.9 525.6 L260 524.4 L257.5 522.5 L255.6 520 L254.4 517.1 L254 514.4 L254 455.6 L254.4 452.9 L255.6 450 L257.5 447.5 L260 445.6 L262.9 444.4 L265.6 444 Z M266.4 456 L266 456.1 L266 456 L266 456 L266 456 L266.1 456 L266 456.4 L266 513.6 L266.1 514 L266 514 L266 514 L266 514 L266 513.9 L266.4 514 L733.6 514 L734 513.9 L734 514 L734 514 L734 514 L733.9 514 L734 513.6 L734 456.4 L733.9 456 L734 456 L734 456 L734 456 L734 456.1 L733.6 456 Z" fill="#17252c" data-role="body" data-layer="ink"/>

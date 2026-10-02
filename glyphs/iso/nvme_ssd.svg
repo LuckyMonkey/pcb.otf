@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">NVMe solid-state drive</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M912 360 L914.1 360.3 L916 361.1 L917.7 362.3 L918.9 364 L919.7 365.9 L920 368 L920 632 L919.7 634.1 L918.9 636 L917.7 637.7 L916 638.9 L914.1 639.7 L912 640 L88 640 L85.9 639.7 L84 638.9 L82.3 637.7 L81.1 636 L80.3 634.1 L80 632 L80 368 L80.3 365.9 L81.1 364 L82.3 362.3 L84 361.1 L85.9 360.3 L88 360 Z" fill="#cfe0d6" data-role="fill" data-layer="fill"/>
   <path d="M107 410 L107.5 410.1 L108 410.3 L108.4 410.6 L108.7 411 L108.9 411.5 L109 412 L109 588 L108.9 588.5 L108.7 589 L108.4 589.4 L108 589.7 L107.5 589.9 L107 590 L102 590 L101.5 589.9 L101 589.7 L100.6 589.4 L100.3 589 L100.1 588.5 L100 588 L100 412 L100.1 411.5 L100.3 411 L100.6 410.6 L101 410.3 L101.5 410.1 L102 410 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>
   <path d="M121 410 L121.5 410.1 L122 410.3 L122.4 410.6 L122.7 411 L122.9 411.5 L123 412 L123 588 L122.9 588.5 L122.7 589 L122.4 589.4 L122 589.7 L121.5 589.9 L121 590 L116 590 L115.5 589.9 L115 589.7 L114.6 589.4 L114.3 589 L114.1 588.5 L114 588 L114 412 L114.1 411.5 L114.3 411 L114.6 410.6 L115 410.3 L115.5 410.1 L116 410 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>

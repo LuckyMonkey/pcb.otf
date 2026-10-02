@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Chipset</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M820 170 L822.6 170.3 L825 171.3 L827.1 172.9 L828.7 175 L829.7 177.4 L830 180 L830 820 L829.7 822.6 L828.7 825 L827.1 827.1 L825 828.7 L822.6 829.7 L820 830 L180 830 L177.4 829.7 L175 828.7 L172.9 827.1 L171.3 825 L170.3 822.6 L170 820 L170 180 L170.3 177.4 L171.3 175 L172.9 172.9 L175 171.3 L177.4 170.3 L180 170 Z" fill="#cfe0d6" data-role="fill" data-layer="fill"/>
   <path d="M674 300 L675.6 300.2 L677 300.8 L678.2 301.8 L679.2 303 L679.8 304.4 L680 306 L680 514 L679.8 515.6 L679.2 517 L678.2 518.2 L677 519.2 L675.6 519.8 L674 520 L426 520 L424.4 519.8 L423 519.2 L421.8 518.2 L420.8 517 L420.2 515.6 L420 514 L420 306 L420.2 304.4 L420.8 303 L421.8 301.8 L423 300.8 L424.4 300.2 L426 300 Z" fill="#c9d0d8" data-role="fill" data-layer="fill"/>
   <path d="M307 640 L307.8 640.1 L308.5 640.4 L309.1 640.9 L309.6 641.5 L309.9 642.2 L310 643 L310 657 L309.9 657.8 L309.6 658.5 L309.1 659.1 L308.5 659.6 L307.8 659.9 L307 660 L283 660 L282.2 659.9 L281.5 659.6 L280.9 659.1 L280.4 658.5 L280.1 657.8 L280 657 L280 643 L280.1 642.2 L280.4 641.5 L280.9 640.9 L281.5 640.4 L282.2 640.1 L283 640 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>

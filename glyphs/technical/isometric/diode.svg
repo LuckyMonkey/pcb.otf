@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
   <title id="title">Diode</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M74 494 L286 494 L286 506 L74 506 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M714 494 L926 494 L926 506 L714 506 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M700.7 400 L707.8 400.9 L715 403.9 L721.3 408.7 L726.1 415 L729.1 422.2 L730 429.3 L730 570.7 L729.1 577.8 L726.1 585 L721.3 591.3 L715 596.1 L707.8 599.1 L700.7 600 L299.3 600 L292.2 599.1 L285 596.1 L278.7 591.3 L273.9 585 L270.9 577.8 L270 570.7 L270 429.3 L270.9 422.2 L273.9 415 L278.7 408.7 L285 403.9 L292.2 400.9 L299.3 400 Z M300.7 420 L297.4 420.4 L295 421.4 L293 423 L291.4 425 L290.4 427.4 L290 430.7 L290 569.3 L290.4 572.6 L291.4 575 L293 577 L295 578.6 L297.4 579.6 L300.7 580 L699.3 580 L702.6 579.6 L705 578.6 L707 577 L708.6 575 L709.6 572.6 L710 569.3 L710 430.7 L709.6 427.4 L708.6 425 L707 423 L705 421.4 L702.6 420.4 L699.3 420 Z" fill="#17252c" data-role="body" data-layer="ink"/>

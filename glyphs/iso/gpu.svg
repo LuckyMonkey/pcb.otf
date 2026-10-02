@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Graphics processing unit</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M870 120 L872.6 120.3 L875 121.3 L877.1 122.9 L878.7 125 L879.7 127.4 L880 130 L880 870 L879.7 872.6 L878.7 875 L877.1 877.1 L875 878.7 L872.6 879.7 L870 880 L130 880 L127.4 879.7 L125 878.7 L122.9 877.1 L121.3 875 L120.3 872.6 L120 870 L120 130 L120.3 127.4 L121.3 125 L122.9 122.9 L125 121.3 L127.4 120.3 L130 120 Z" fill="#cfe0d6" data-role="fill" data-layer="fill"/>
   <path d="M686 310 L687 310.1 L688 310.5 L688.8 311.2 L689.5 312 L689.9 313 L690 314 L690 686 L689.9 687 L689.5 688 L688.8 688.8 L688 689.5 L687 689.9 L686 690 L314 690 L313 689.9 L312 689.5 L311.2 688.8 L310.5 688 L310.1 687 L310 686 L310 314 L310.1 313 L310.5 312 L311.2 311.2 L312 310.5 L313 310.1 L314 310 Z" fill="#c9d0d8" data-role="fill" data-layer="fill"/>
   <path d="M336 216 L336.8 216.1 L337.5 216.4 L338.1 216.9 L338.6 217.5 L338.9 218.2 L339 219 L339 241 L338.9 241.8 L338.6 242.5 L338.1 243.1 L337.5 243.6 L336.8 243.9 L336 244 L324 244 L323.2 243.9 L322.5 243.6 L321.9 243.1 L321.4 242.5 L321.1 241.8 L321 241 L321 219 L321.1 218.2 L321.4 217.5 L321.9 216.9 L322.5 216.4 L323.2 216.1 L324 216 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>

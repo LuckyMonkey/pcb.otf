@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Voltage regulator</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M728 330 L731.1 330.4 L734 331.6 L736.5 333.5 L738.4 336 L739.6 338.9 L740 342 L740 648 L739.6 651.1 L738.4 654 L736.5 656.5 L734 658.4 L731.1 659.6 L728 660 L272 660 L268.9 659.6 L266 658.4 L263.5 656.5 L261.6 654 L260.4 651.1 L260 648 L260 342 L260.4 338.9 L261.6 336 L263.5 333.5 L266 331.6 L268.9 330.4 L272 330 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M664 170 L665.6 170.2 L667 170.8 L668.2 171.8 L669.2 173 L669.8 174.4 L670 176 L670 324 L669.8 325.6 L669.2 327 L668.2 328.2 L667 329.2 L665.6 329.8 L664 330 L336 330 L334.4 329.8 L333 329.2 L331.8 328.2 L330.8 327 L330.2 325.6 L330 324 L330 176 L330.2 174.4 L330.8 173 L331.8 171.8 L333 170.8 L334.4 170.2 L336 170 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M384 660 L385.6 660.2 L387 660.8 L388.2 661.8 L389.2 663 L389.8 664.4 L390 666 L390 834 L389.8 835.6 L389.2 837 L388.2 838.2 L387 839.2 L385.6 839.8 L384 840 L336 840 L334.4 839.8 L333 839.2 L331.8 838.2 L330.8 837 L330.2 835.6 L330 834 L330 666 L330.2 664.4 L330.8 663 L331.8 661.8 L333 660.8 L334.4 660.2 L336 660 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>

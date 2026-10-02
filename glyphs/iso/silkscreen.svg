@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Silkscreen</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M870 150 L875.2 150.7 L880 152.7 L884.1 155.9 L887.3 160 L889.3 164.8 L890 170 L890 830 L889.3 835.2 L887.3 840 L884.1 844.1 L880 847.3 L875.2 849.3 L870 850 L130 850 L124.8 849.3 L120 847.3 L115.9 844.1 L112.7 840 L110.7 835.2 L110 830 L110 170 L110.7 164.8 L112.7 160 L115.9 155.9 L120 152.7 L124.8 150.7 L130 150 Z" fill="#cfe0d6" data-role="fill" data-layer="fill"/>
   <path d="M366 330 L367 330.1 L368 330.5 L368.8 331.2 L369.5 332 L369.9 333 L370 334 L370 426 L369.9 427 L369.5 428 L368.8 428.8 L368 429.5 L367 429.9 L366 430 L314 430 L313 429.9 L312 429.5 L311.2 428.8 L310.5 428 L310.1 427 L310 426 L310 334 L310.1 333 L310.5 332 L311.2 331.2 L312 330.5 L313 330.1 L314 330 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>
   <path d="M466 330 L467 330.1 L468 330.5 L468.8 331.2 L469.5 332 L469.9 333 L470 334 L470 426 L469.9 427 L469.5 428 L468.8 428.8 L468 429.5 L467 429.9 L466 430 L414 430 L413 429.9 L412 429.5 L411.2 428.8 L410.5 428 L410.1 427 L410 426 L410 334 L410.1 333 L410.5 332 L411.2 331.2 L412 330.5 L413 330.1 L414 330 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>

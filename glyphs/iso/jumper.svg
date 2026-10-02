@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Jumper</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M744 520 L745.6 520.2 L747 520.8 L748.2 521.8 L749.2 523 L749.8 524.4 L750 526 L750 734 L749.8 735.6 L749.2 737 L748.2 738.2 L747 739.2 L745.6 739.8 L744 740 L256 740 L254.4 739.8 L253 739.2 L251.8 738.2 L250.8 737 L250.2 735.6 L250 734 L250 526 L250.2 524.4 L250.8 523 L251.8 521.8 L253 520.8 L254.4 520.2 L256 520 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M399 300 L400 300.1 L401 300.5 L401.8 301.2 L402.5 302 L402.9 303 L403 304 L403 816 L402.9 817 L402.5 818 L401.8 818.8 L401 819.5 L400 819.9 L399 820 L351 820 L350 819.9 L349 819.5 L348.2 818.8 L347.5 818 L347.1 817 L347 816 L347 304 L347.1 303 L347.5 302 L348.2 301.2 L349 300.5 L350 300.1 L351 300 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>
   <path d="M649 300 L650 300.1 L651 300.5 L651.8 301.2 L652.5 302 L652.9 303 L653 304 L653 816 L652.9 817 L652.5 818 L651.8 818.8 L651 819.5 L650 819.9 L649 820 L601 820 L600 819.9 L599 819.5 L598.2 818.8 L597.5 818 L597.1 817 L597 816 L597 304 L597.1 303 L597.5 302 L598.2 301.2 L599 300.5 L600 300.1 L601 300 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>

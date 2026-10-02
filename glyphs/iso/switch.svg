@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Network switch</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M918 350 L921.1 350.4 L924 351.6 L926.5 353.5 L928.4 356 L929.6 358.9 L930 362 L930 638 L929.6 641.1 L928.4 644 L926.5 646.5 L924 648.4 L921.1 649.6 L918 650 L82 650 L78.9 649.6 L76 648.4 L73.5 646.5 L71.6 644 L70.4 641.1 L70 638 L70 362 L70.4 358.9 L71.6 356 L73.5 353.5 L76 351.6 L78.9 350.4 L82 350 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M160 430 L230 430 L230 520 L210 520 L210 540 L180 540 L180 520 L160 520 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M250 430 L320 430 L320 520 L300 520 L300 540 L270 540 L270 520 L250 520 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>

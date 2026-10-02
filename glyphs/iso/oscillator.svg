@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Oscillator</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M760 260 L770.4 261.4 L780 265.4 L788.3 271.7 L794.6 280 L798.6 289.6 L800 300 L800 700 L798.6 710.4 L794.6 720 L788.3 728.3 L780 734.6 L770.4 738.6 L760 740 L240 740 L229.6 738.6 L220 734.6 L211.7 728.3 L205.4 720 L201.4 710.4 L200 700 L200 300 L201.4 289.6 L205.4 280 L211.7 271.7 L220 265.4 L229.6 261.4 L240 260 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M304 740 L305.6 740.2 L307 740.8 L308.2 741.8 L309.2 743 L309.8 744.4 L310 746 L310 884 L309.8 885.6 L309.2 887 L308.2 888.2 L307 889.2 L305.6 889.8 L304 890 L276 890 L274.4 889.8 L273 889.2 L271.8 888.2 L270.8 887 L270.2 885.6 L270 884 L270 746 L270.2 744.4 L270.8 743 L271.8 741.8 L273 740.8 L274.4 740.2 L276 740 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M724 740 L725.6 740.2 L727 740.8 L728.2 741.8 L729.2 743 L729.8 744.4 L730 746 L730 884 L729.8 885.6 L729.2 887 L728.2 888.2 L727 889.2 L725.6 889.8 L724 890 L696 890 L694.4 889.8 L693 889.2 L691.8 888.2 L690.8 887 L690.2 885.6 L690 884 L690 746 L690.2 744.4 L690.8 743 L691.8 741.8 L693 740.8 L694.4 740.2 L696 740 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">x86-64 architecture</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M850 140 L852.6 140.3 L855 141.3 L857.1 142.9 L858.7 145 L859.7 147.4 L860 150 L860 850 L859.7 852.6 L858.7 855 L857.1 857.1 L855 858.7 L852.6 859.7 L850 860 L150 860 L147.4 859.7 L145 858.7 L142.9 857.1 L141.3 855 L140.3 852.6 L140 850 L140 150 L140.3 147.4 L141.3 145 L142.9 142.9 L145 141.3 L147.4 140.3 L150 140 Z" fill="#c9d0d8" data-role="fill" data-layer="fill"/>
   <path d="M474 190 L475.6 190.2 L477 190.8 L478.2 191.8 L479.2 193 L479.8 194.4 L480 196 L480 384 L479.8 385.6 L479.2 387 L478.2 388.2 L477 389.2 L475.6 389.8 L474 390 L196 390 L194.4 389.8 L193 389.2 L191.8 388.2 L190.8 387 L190.2 385.6 L190 384 L190 196 L190.2 194.4 L190.8 193 L191.8 191.8 L193 190.8 L194.4 190.2 L196 190 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
   <path d="M474 430 L475.6 430.2 L477 430.8 L478.2 431.8 L479.2 433 L479.8 434.4 L480 436 L480 624 L479.8 625.6 L479.2 627 L478.2 628.2 L477 629.2 L475.6 629.8 L474 630 L196 630 L194.4 629.8 L193 629.2 L191.8 628.2 L190.8 627 L190.2 625.6 L190 624 L190 436 L190.2 434.4 L190.8 433 L191.8 431.8 L193 430.8 L194.4 430.2 L196 430 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>

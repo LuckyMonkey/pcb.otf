@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Copper layer</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M120 280 L880 280 L880 350 L120 350 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>
   <path d="M120 350 L880 350 L880 650 L120 650 Z" fill="#cfe0d6" data-role="fill" data-layer="fill"/>
   <path d="M120 650 L880 650 L880 720 L120 720 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>

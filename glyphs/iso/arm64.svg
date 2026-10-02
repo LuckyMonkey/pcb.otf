@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">ARM64 architecture</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M850 140 L852.6 140.3 L855 141.3 L857.1 142.9 L858.7 145 L859.7 147.4 L860 150 L860 850 L859.7 852.6 L858.7 855 L857.1 857.1 L855 858.7 L852.6 859.7 L850 860 L150 860 L147.4 859.7 L145 858.7 L142.9 857.1 L141.3 855 L140.3 852.6 L140 850 L140 150 L140.3 147.4 L141.3 145 L142.9 142.9 L145 141.3 L147.4 140.3 L150 140 Z" fill="#c9d0d8" data-role="fill" data-layer="fill"/>
   <path d="M354 190 L355.6 190.2 L357 190.8 L358.2 191.8 L359.2 193 L359.8 194.4 L360 196 L360 444 L359.8 445.6 L359.2 447 L358.2 448.2 L357 449.2 L355.6 449.8 L354 450 L196 450 L194.4 449.8 L193 449.2 L191.8 448.2 L190.8 447 L190.2 445.6 L190 444 L190 196 L190.2 194.4 L190.8 193 L191.8 191.8 L193 190.8 L194.4 190.2 L196 190 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
   <path d="M554 190 L555.6 190.2 L557 190.8 L558.2 191.8 L559.2 193 L559.8 194.4 L560 196 L560 444 L559.8 445.6 L559.2 447 L558.2 448.2 L557 449.2 L555.6 449.8 L554 450 L396 450 L394.4 449.8 L393 449.2 L391.8 448.2 L390.8 447 L390.2 445.6 L390 444 L390 196 L390.2 194.4 L390.8 193 L391.8 191.8 L393 190.8 L394.4 190.2 L396 190 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>

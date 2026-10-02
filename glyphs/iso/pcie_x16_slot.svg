@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">PCI Express x16 slot</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M900 430 L902.6 430.3 L905 431.3 L907.1 432.9 L908.7 435 L909.7 437.4 L910 440 L910 560 L909.7 562.6 L908.7 565 L907.1 567.1 L905 568.7 L902.6 569.7 L900 570 L100 570 L97.4 569.7 L95 568.7 L92.9 567.1 L91.3 565 L90.3 562.6 L90 560 L90 440 L90.3 437.4 L91.3 435 L92.9 432.9 L95 431.3 L97.4 430.3 L100 430 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M882 480 L883 480.1 L884 480.5 L884.8 481.2 L885.5 482 L885.9 483 L886 484 L886 516 L885.9 517 L885.5 518 L884.8 518.8 L884 519.5 L883 519.9 L882 520 L118 520 L117 519.9 L116 519.5 L115.2 518.8 L114.5 518 L114.1 517 L114 516 L114 484 L114.1 483 L114.5 482 L115.2 481.2 L116 480.5 L117 480.1 L118 480 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
   <path d="M956 410 L959.6 410.5 L963 411.9 L965.9 414.1 L968.1 417 L969.5 420.4 L970 424 L970 576 L969.5 579.6 L968.1 583 L965.9 585.9 L963 588.1 L959.6 589.5 L956 590 L924 590 L920.4 589.5 L917 588.1 L914.1 585.9 L911.9 583 L910.5 579.6 L910 576 L910 424 L910.5 420.4 L911.9 417 L914.1 414.1 L917 411.9 L920.4 410.5 L924 410 Z" fill="#e4ddd0" data-role="fill" data-layer="fill"/>

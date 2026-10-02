@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">USB protocol</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M370 640 L372.6 640.3 L375 641.3 L377.1 642.9 L378.7 645 L379.7 647.4 L380 650 L380 740 L379.7 742.6 L378.7 745 L377.1 747.1 L375 748.7 L372.6 749.7 L370 750 L150 750 L147.4 749.7 L145 748.7 L142.9 747.1 L141.3 745 L140.3 742.6 L140 740 L140 650 L140.3 647.4 L141.3 645 L142.9 642.9 L145 641.3 L147.4 640.3 L150 640 Z" fill="#c8d8e6" data-role="fill" data-layer="fill"/>
   <path d="M730 640 L732.6 640.3 L735 641.3 L737.1 642.9 L738.7 645 L739.7 647.4 L740 650 L740 740 L739.7 742.6 L738.7 745 L737.1 747.1 L735 748.7 L732.6 749.7 L730 750 L510 750 L507.4 749.7 L505 748.7 L502.9 747.1 L501.3 745 L500.3 742.6 L500 740 L500 650 L500.3 647.4 L501.3 645 L502.9 642.9 L505 641.3 L507.4 640.3 L510 640 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
   <path d="M140 370 L140 370 L140 370 L140 370 Z" fill="#17252c" data-role="body" data-layer="ink"/>

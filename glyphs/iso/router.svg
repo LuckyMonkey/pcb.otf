@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Router</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M850 470 L857.8 471 L865 474 L871.2 478.8 L876 485 L879 492.2 L880 500 L880 700 L879 707.8 L876 715 L871.2 721.2 L865 726 L857.8 729 L850 730 L150 730 L142.2 729 L135 726 L128.8 721.2 L124 715 L121 707.8 L120 700 L120 500 L121 492.2 L124 485 L128.8 478.8 L135 474 L142.2 471 L150 470 Z" fill="#e4ddd0" data-role="fill" data-layer="fill"/>
   <path d="M254 420 L256.1 420.3 L258 421.1 L259.7 422.3 L260.9 424 L261.7 425.9 L262 428 L262 462 L261.7 464.1 L260.9 466 L259.7 467.7 L258 468.9 L256.1 469.7 L254 470 L226 470 L223.9 469.7 L222 468.9 L220.3 467.7 L219.1 466 L218.3 464.1 L218 462 L218 428 L218.3 425.9 L219.1 424 L220.3 422.3 L222 421.1 L223.9 420.3 L226 420 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M514 420 L516.1 420.3 L518 421.1 L519.7 422.3 L520.9 424 L521.7 425.9 L522 428 L522 462 L521.7 464.1 L520.9 466 L519.7 467.7 L518 468.9 L516.1 469.7 L514 470 L486 470 L483.9 469.7 L482 468.9 L480.3 467.7 L479.1 466 L478.3 464.1 L478 462 L478 428 L478.3 425.9 L479.1 424 L480.3 422.3 L482 421.1 L483.9 420.3 L486 420 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>

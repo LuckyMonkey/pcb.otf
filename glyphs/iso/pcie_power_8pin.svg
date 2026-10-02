@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">PCIe 8-pin power connector</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M808 360 L811.1 360.4 L814 361.6 L816.5 363.5 L818.4 366 L819.6 368.9 L820 372 L820 628 L819.6 631.1 L818.4 634 L816.5 636.5 L814 638.4 L811.1 639.6 L808 640 L192 640 L188.9 639.6 L186 638.4 L183.5 636.5 L181.6 634 L180.4 631.1 L180 628 L180 372 L180.4 368.9 L181.6 366 L183.5 363.5 L186 361.6 L188.9 360.4 L192 360 Z" fill="#e4ddd0" data-role="fill" data-layer="fill"/>
   <path d="M338 390 L339.6 390.2 L341 390.8 L342.2 391.8 L343.2 393 L343.8 394.4 L344 396 L344 484 L343.8 485.6 L343.2 487 L342.2 488.2 L341 489.2 L339.6 489.8 L338 490 L212 490 L210.4 489.8 L209 489.2 L207.8 488.2 L206.8 487 L206.2 485.6 L206 484 L206 396 L206.2 394.4 L206.8 393 L207.8 391.8 L209 390.8 L210.4 390.2 L212 390 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
   <path d="M206 540 L275 510 L344 540 L344 610 L206 610 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>

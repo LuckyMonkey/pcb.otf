@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Resistor</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M240 425 L253 425.1 L266 425.3 L279 425.6 L292 426 L305 426.5 L318 427.2 L331 427.9 L344 428.6 L357 429.4 L370 430.2 L383 431.1 L396 431.9 L409 432.6 L422 433.3 L435 434 L448 434.5 L461 434.9 L474 435.2 L487 435.4 L500 435.5 L513 435.4 L526 435.2 L539 434.9 L552 434.5 L565 434 L578 433.3 L591 432.6 L604 431.9 L617 431.1 L630 430.2 L643 429.4 L656 428.6 L669 427.9 L682 427.2 L695 426.5 L708 426 L721 425.6 L734 425.3 L747 425.1 L760 425 L760 575 L747 574.9 L734 574.7 L721 574.4 L708 574 L695 573.5 L682 572.8 L669 572.1 L656 571.4 L643 570.6 L630 569.8 L617 568.9 L604 568.1 L591 567.4 L578 566.7 L565 566 L552 565.5 L539 565.1 L526 564.8 L513 564.6 L500 564.5 L487 564.6 L474 564.8 L461 565.1 L448 565.5 L435 566 L422 566.7 L409 567.4 L396 568.1 L383 568.9 L370 569.8 L357 570.6 L344 571.4 L331 572.1 L318 572.8 L305 573.5 L292 574 L279 574.4 L266 574.7 L253 574.9 L240 575 Z" fill="#e4ddd0" data-role="fill" data-layer="fill"/>
   <path d="M74 494 L246 494 L246 506 L74 506 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M754 494 L926 494 L926 506 L754 506 Z" fill="#17252c" data-role="body" data-layer="ink"/>

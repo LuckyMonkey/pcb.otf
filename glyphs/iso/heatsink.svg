@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Heatsink</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M874 230 L875.6 230.2 L877 230.8 L878.2 231.8 L879.2 233 L879.8 234.4 L880 236 L880 764 L879.8 765.6 L879.2 767 L878.2 768.2 L877 769.2 L875.6 769.8 L874 770 L126 770 L124.4 769.8 L123 769.2 L121.8 768.2 L120.8 767 L120.2 765.6 L120 764 L120 236 L120.2 234.4 L120.8 233 L121.8 231.8 L123 230.8 L124.4 230.2 L126 230 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M874 334 L880.7 334.9 L887 337.5 L892.4 341.6 L896.5 347 L899.1 353.3 L900 360 L900 360 L899.1 366.7 L896.5 373 L892.4 378.4 L887 382.5 L880.7 385.1 L874 386 L126 386 L119.3 385.1 L113 382.5 L107.6 378.4 L103.5 373 L100.9 366.7 L100 360 L100 360 L100.9 353.3 L103.5 347 L107.6 341.6 L113 337.5 L119.3 334.9 L126 334 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>
   <path d="M874 474 L880.7 474.9 L887 477.5 L892.4 481.6 L896.5 487 L899.1 493.3 L900 500 L900 500 L899.1 506.7 L896.5 513 L892.4 518.4 L887 522.5 L880.7 525.1 L874 526 L126 526 L119.3 525.1 L113 522.5 L107.6 518.4 L103.5 513 L100.9 506.7 L100 500 L100 500 L100.9 493.3 L103.5 487 L107.6 481.6 L113 477.5 L119.3 474.9 L126 474 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>

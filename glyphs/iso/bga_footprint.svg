@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">BGA footprint</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M260 230 L257.7 241.5 L251.2 251.2 L241.5 257.7 L230 260 L218.5 257.7 L208.8 251.2 L202.3 241.5 L200 230 L202.3 218.5 L208.8 208.8 L218.5 202.3 L230 200 L241.5 202.3 L251.2 208.8 L257.7 218.5 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>
   <path d="M260 338 L257.7 349.5 L251.2 359.2 L241.5 365.7 L230 368 L218.5 365.7 L208.8 359.2 L202.3 349.5 L200 338 L202.3 326.5 L208.8 316.8 L218.5 310.3 L230 308 L241.5 310.3 L251.2 316.8 L257.7 326.5 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>
   <path d="M260 446 L257.7 457.5 L251.2 467.2 L241.5 473.7 L230 476 L218.5 473.7 L208.8 467.2 L202.3 457.5 L200 446 L202.3 434.5 L208.8 424.8 L218.5 418.3 L230 416 L241.5 418.3 L251.2 424.8 L257.7 434.5 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>

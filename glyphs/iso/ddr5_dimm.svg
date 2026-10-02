@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">DDR5 DIMM</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M70 300 L930 300 L930 600 L518 600 L518 560 L482 560 L482 600 L70 600 Z" fill="#cfe0d6" data-role="fill" data-layer="fill"/>
   <path d="M107 540 L107.5 540.1 L108 540.3 L108.4 540.6 L108.7 541 L108.9 541.5 L109 542 L109 588 L108.9 588.5 L108.7 589 L108.4 589.4 L108 589.7 L107.5 589.9 L107 590 L102 590 L101.5 589.9 L101 589.7 L100.6 589.4 L100.3 589 L100.1 588.5 L100 588 L100 542 L100.1 541.5 L100.3 541 L100.6 540.6 L101 540.3 L101.5 540.1 L102 540 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>
   <path d="M121 540 L121.5 540.1 L122 540.3 L122.4 540.6 L122.7 541 L122.9 541.5 L123 542 L123 588 L122.9 588.5 L122.7 589 L122.4 589.4 L122 589.7 L121.5 589.9 L121 590 L116 590 L115.5 589.9 L115 589.7 L114.6 589.4 L114.3 589 L114.1 588.5 L114 588 L114 542 L114.1 541.5 L114.3 541 L114.6 540.6 L115 540.3 L115.5 540.1 L116 540 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>

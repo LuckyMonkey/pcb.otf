@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">ISA slot</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M630 430 L632.6 430.3 L635 431.3 L637.1 432.9 L638.7 435 L639.7 437.4 L640 440 L640 560 L639.7 562.6 L638.7 565 L637.1 567.1 L635 568.7 L632.6 569.7 L630 570 L90 570 L87.4 569.7 L85 568.7 L82.9 567.1 L81.3 565 L80.3 562.6 L80 560 L80 440 L80.3 437.4 L81.3 435 L82.9 432.9 L85 431.3 L87.4 430.3 L90 430 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M612 480 L613 480.1 L614 480.5 L614.8 481.2 L615.5 482 L615.9 483 L616 484 L616 516 L615.9 517 L615.5 518 L614.8 518.8 L614 519.5 L613 519.9 L612 520 L108 520 L107 519.9 L106 519.5 L105.2 518.8 L104.5 518 L104.1 517 L104 516 L104 484 L104.1 483 L104.5 482 L105.2 481.2 L106 480.5 L107 480.1 L108 480 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
   <path d="M900 430 L902.6 430.3 L905 431.3 L907.1 432.9 L908.7 435 L909.7 437.4 L910 440 L910 560 L909.7 562.6 L908.7 565 L907.1 567.1 L905 568.7 L902.6 569.7 L900 570 L690 570 L687.4 569.7 L685 568.7 L682.9 567.1 L681.3 565 L680.3 562.6 L680 560 L680 440 L680.3 437.4 L681.3 435 L682.9 432.9 L685 431.3 L687.4 430.3 L690 430 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>

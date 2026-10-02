@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Copper trace</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M220 240 L222.6 240.3 L225 241.3 L227.1 242.9 L228.7 245 L229.7 247.4 L230 250 L230 310 L229.7 312.6 L228.7 315 L227.1 317.1 L225 318.7 L222.6 319.7 L220 320 L120 320 L117.4 319.7 L115 318.7 L112.9 317.1 L111.3 315 L110.3 312.6 L110 310 L110 250 L110.3 247.4 L111.3 245 L112.9 242.9 L115 241.3 L117.4 240.3 L120 240 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>
   <path d="M880 480 L882.6 480.3 L885 481.3 L887.1 482.9 L888.7 485 L889.7 487.4 L890 490 L890 550 L889.7 552.6 L888.7 555 L887.1 557.1 L885 558.7 L882.6 559.7 L880 560 L780 560 L777.4 559.7 L775 558.7 L772.9 557.1 L771.3 555 L770.3 552.6 L770 550 L770 490 L770.3 487.4 L771.3 485 L772.9 482.9 L775 481.3 L777.4 480.3 L780 480 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>
   <path d="M220 360 L222.6 360.3 L225 361.3 L227.1 362.9 L228.7 365 L229.7 367.4 L230 370 L230 430 L229.7 432.6 L228.7 435 L227.1 437.1 L225 438.7 L222.6 439.7 L220 440 L120 440 L117.4 439.7 L115 438.7 L112.9 437.1 L111.3 435 L110.3 432.6 L110 430 L110 370 L110.3 367.4 L111.3 365 L112.9 362.9 L115 361.3 L117.4 360.3 L120 360 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>

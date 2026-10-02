@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">SCSI connector</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M140 330 L860 330 L800 670 L200 670 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M200 380 L800 380 L755 620 L245 620 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M120 500 L117 515.3 L108.3 528.3 L95.3 537 L80 540 L64.7 537 L51.7 528.3 L43 515.3 L40 500 L43 484.7 L51.7 471.7 L64.7 463 L80 460 L95.3 463 L108.3 471.7 L117 484.7 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">DDR5 DIMM slot</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M880 430 L882.6 430.3 L885 431.3 L887.1 432.9 L888.7 435 L889.7 437.4 L890 440 L890 560 L889.7 562.6 L888.7 565 L887.1 567.1 L885 568.7 L882.6 569.7 L880 570 L120 570 L117.4 569.7 L115 568.7 L112.9 567.1 L111.3 565 L110.3 562.6 L110 560 L110 440 L110.3 437.4 L111.3 435 L112.9 432.9 L115 431.3 L117.4 430.3 L120 430 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M862 480 L863 480.1 L864 480.5 L864.8 481.2 L865.5 482 L865.9 483 L866 484 L866 516 L865.9 517 L865.5 518 L864.8 518.8 L864 519.5 L863 519.9 L862 520 L138 520 L137 519.9 L136 519.5 L135.2 518.8 L134.5 518 L134.1 517 L134 516 L134 484 L134.1 483 L134.5 482 L135.2 481.2 L136 480.5 L137 480.1 L138 480 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
   <path d="M936 410 L939.6 410.5 L943 411.9 L945.9 414.1 L948.1 417 L949.5 420.4 L950 424 L950 576 L949.5 579.6 L948.1 583 L945.9 585.9 L943 588.1 L939.6 589.5 L936 590 L904 590 L900.4 589.5 L897 588.1 L894.1 585.9 L891.9 583 L890.5 579.6 L890 576 L890 424 L890.5 420.4 L891.9 417 L894.1 414.1 L897 411.9 L900.4 410.5 L904 410 Z" fill="#e4ddd0" data-role="fill" data-layer="fill"/>

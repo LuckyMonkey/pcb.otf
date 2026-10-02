@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Ground plane</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M120 120 L880 120 L880 880 L120 880 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>
   <path d="M650 500 L648.8 518.8 L645.3 537.3 L639.5 555.2 L631.4 572.3 L621.4 588.2 L609.3 602.7 L595.6 615.6 L580.4 626.6 L563.9 635.7 L546.4 642.7 L528.1 647.3 L509.4 649.7 L490.6 649.7 L471.9 647.3 L453.6 642.7 L436.1 635.7 L419.6 626.6 L404.4 615.6 L390.7 602.7 L378.6 588.2 L368.6 572.3 L360.5 555.2 L354.7 537.3 L351.2 518.8 L350 500 L351.2 481.2 L354.7 462.7 L360.5 444.8 L368.6 427.7 L378.6 411.8 L390.7 397.3 L404.4 384.4 L419.6 373.4 L436.1 364.3 L453.6 357.3 L471.9 352.7 L490.6 350.3 L509.4 350.3 L528.1 352.7 L546.4 357.3 L563.9 364.3 L580.4 373.4 L595.6 384.4 L609.3 397.3 L621.4 411.8 L631.4 427.7 L639.5 444.8 L645.3 462.7 L648.8 481.2 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
   <path d="M570 500 L567.4 518.9 L559.8 536.4 L547.8 551.2 L532.2 562.2 L514.2 568.5 L495.2 569.8 L476.6 566 L459.6 557.2 L445.7 544.2 L435.8 527.9 L430.7 509.5 L430.7 490.5 L435.8 472.1 L445.7 455.8 L459.6 442.8 L476.6 434 L495.2 430.2 L514.2 431.5 L532.2 437.8 L547.8 448.8 L559.8 463.6 L567.4 481.1 Z" fill="#ecc9a8" data-role="fill" data-layer="fill"/>

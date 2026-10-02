@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">AGP slot</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M810 430 L812.6 430.3 L815 431.3 L817.1 432.9 L818.7 435 L819.7 437.4 L820 440 L820 560 L819.7 562.6 L818.7 565 L817.1 567.1 L815 568.7 L812.6 569.7 L810 570 L270 570 L267.4 569.7 L265 568.7 L262.9 567.1 L261.3 565 L260.3 562.6 L260 560 L260 440 L260.3 437.4 L261.3 435 L262.9 432.9 L265 431.3 L267.4 430.3 L270 430 Z" fill="#e4ddd0" data-role="fill" data-layer="fill"/>
   <path d="M792 480 L793 480.1 L794 480.5 L794.8 481.2 L795.5 482 L795.9 483 L796 484 L796 516 L795.9 517 L795.5 518 L794.8 518.8 L794 519.5 L793 519.9 L792 520 L288 520 L287 519.9 L286 519.5 L285.2 518.8 L284.5 518 L284.1 517 L284 516 L284 484 L284.1 483 L284.5 482 L285.2 481.2 L286 480.5 L287 480.1 L288 480 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
   <path d="M860 400 L862.6 400.3 L865 401.3 L867.1 402.9 L868.7 405 L869.7 407.4 L870 410 L870 590 L869.7 592.6 L868.7 595 L867.1 597.1 L865 598.7 L862.6 599.7 L860 600 L830 600 L827.4 599.7 L825 598.7 L822.9 597.1 L821.3 595 L820.3 592.6 L820 590 L820 410 L820.3 407.4 L821.3 405 L822.9 402.9 L825 401.3 L827.4 400.3 L830 400 Z" fill="#e4ddd0" data-role="fill" data-layer="fill"/>

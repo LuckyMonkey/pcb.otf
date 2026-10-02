@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-original-technical-art">
   <title id="title">Ground plane</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M110 110 L890 110 L890 890 L110 890 Z M130 870 L870 870 L870 130 L130 130 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M857.9 117.5 L882.5 142.1 L877.5 147.1 L852.9 122.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M801.3 117.5 L882.5 198.7 L877.5 203.7 L796.3 122.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>

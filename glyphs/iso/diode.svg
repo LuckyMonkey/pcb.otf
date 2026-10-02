@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Diode</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M700 410 L705.2 410.7 L710 412.7 L714.1 415.9 L717.3 420 L719.3 424.8 L720 430 L720 570 L719.3 575.2 L717.3 580 L714.1 584.1 L710 587.3 L705.2 589.3 L700 590 L300 590 L294.8 589.3 L290 587.3 L285.9 584.1 L282.7 580 L280.7 575.2 L280 570 L280 430 L280.7 424.8 L282.7 420 L285.9 415.9 L290 412.7 L294.8 410.7 L300 410 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
   <path d="M74 494 L286 494 L286 506 L74 506 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   <path d="M714 494 L926 494 L926 506 L714 506 Z" fill="#17252c" data-role="body" data-layer="ink"/>

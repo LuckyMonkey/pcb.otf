@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="isometric" data-source="pcb-patent-art">
   <title id="title">Printed circuit board</title>
-  <g shape-rendering="geometricPrecision" transform="matrix(.46 .34 -.46 .34 500 160)">
+  <g shape-rendering="geometricPrecision" transform="matrix(.62 .36 -.62 .36 500 140)">
   <path d="M860 170 L867.8 171 L875 174 L881.2 178.8 L886 185 L889 192.2 L890 200 L890 800 L889 807.8 L886 815 L881.2 821.2 L875 826 L867.8 829 L860 830 L140 830 L132.2 829 L125 826 L118.8 821.2 L114 815 L111 807.8 L110 800 L110 200 L111 192.2 L114 185 L118.8 178.8 L125 174 L132.2 171 L140 170 Z" fill="#cfe0d6" data-role="fill" data-layer="fill"/>
   <path d="M186 220 L184 229.9 L178.4 238.4 L169.9 244 L160 246 L150.1 244 L141.6 238.4 L136 229.9 L134 220 L136 210.1 L141.6 201.6 L150.1 196 L160 194 L169.9 196 L178.4 201.6 L184 210.1 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
   <path d="M866 220 L864 229.9 L858.4 238.4 L849.9 244 L840 246 L830.1 244 L821.6 238.4 L816 229.9 L814 220 L816 210.1 L821.6 201.6 L830.1 196 L840 194 L849.9 196 L858.4 201.6 L864 210.1 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
