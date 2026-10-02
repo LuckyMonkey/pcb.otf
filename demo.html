@@ -13,40 +13,41 @@
     .hero-grid { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr); align-items:end; gap:40px; }
     .hero-glyphs { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; align-items:center; }
     .hero-glyphs img { width:100%; height:86px; object-fit:contain; padding:8px; border:1px solid var(--line); background:#fff; filter:contrast(1.2); }
-    .assembly { overflow:hidden; } .assembly-head { display:flex; justify-content:space-between; align-items:end; gap:24px; margin-bottom:22px; }
+    .assembly { overflow:visible; } .assembly-head { display:flex; justify-content:space-between; align-items:end; gap:24px; margin-bottom:22px; }
     .assembly-head h2 { margin-bottom:0; } .plate-mark { color:var(--muted); font:700 11px/1.3 ui-monospace,monospace; text-align:right; letter-spacing:.1em; text-transform:uppercase; }
     .assembly-toolbar { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:0 0 16px; padding:10px; border:1px solid var(--line); border-radius:12px; background:#f2ede4; }
     .assembly-toolbar button,.assembly-toolbar label { margin:0; font:700 11px ui-monospace,monospace; letter-spacing:.05em; }
     .assembly-toolbar button { padding:8px 11px; } .assembly-toolbar button.active { color:#fff; background:var(--pcb); border-color:var(--pcb); }
     .assembly-toolbar input[type=range] { width:120px; accent-color:var(--copper); } .assembly-toolbar input[type=checkbox] { accent-color:var(--copper); }
     .assembly-workspace { display:grid; grid-template-columns:minmax(0,1fr) minmax(240px,270px); gap:14px; align-items:stretch; }
-    .assembly-stage { position:relative; min-height:560px; overflow:hidden; border:1px solid #17252c; border-radius:14px; background-color:#fff; background-image:linear-gradient(#17252c12 1px,transparent 1px),linear-gradient(90deg,#17252c12 1px,transparent 1px); background-size:32px 32px; box-shadow:inset 0 0 50px #17252c14; perspective:1800px; }
-    .assembly-stage::before { position:absolute; inset:26px; border:1px solid #17252c38; border-radius:8px; content:""; box-shadow:0 0 0 18px #17252c08; pointer-events:none; }
+    .assembly-stage { position:relative; min-height:0; overflow:hidden; border:1px solid #17252c; border-radius:14px; background-color:#fff; background-image:linear-gradient(#17252c12 1px,transparent 1px),linear-gradient(90deg,#17252c12 1px,transparent 1px); background-size:32px 32px; box-shadow:inset 0 0 50px #17252c14; perspective:1800px; }
+    .assembly-stage::before { position:absolute; inset:18px; border:1px solid #17252c38; border-radius:8px; content:""; box-shadow:0 0 0 12px #17252c08; pointer-events:none; z-index:20; }
+    .assembly-stage::after { position:absolute; right:28px; bottom:22px; color:#68716f; content:"PCB.OTF / ATX ASSEMBLY DATUM"; font:700 9px ui-monospace,monospace; letter-spacing:.12em; pointer-events:none; z-index:21; }
     .assembly-stage.isometric { background:radial-gradient(circle at 50% 45%,#ffffff,#e8e8e3 72%,#d4d2ca); box-shadow:inset 0 0 50px #7c746844; }
-    .assembly-scene { position:absolute; inset:28px; transform-style:preserve-3d; }
+    .assembly-scene { position:absolute; inset:7% 6%; transform-style:preserve-3d; }
     .assembly-plane { position:absolute; inset:0; transform-origin:50% 50%; transform-style:preserve-3d; transition:transform .55s cubic-bezier(.2,.75,.25,1); }
-    .assembly-stage.isometric .assembly-plane { transform:rotateX(60deg) rotateZ(-28deg) scale(.93); }
-    .assembly-stage.front-view .assembly-plane { transform:rotateX(72deg) scale(.91); }
-    .assembly-stage.side-view .assembly-plane { transform:rotateY(68deg) scale(.91); }
+    .assembly-stage.isometric .assembly-plane { transform:rotateX(56deg) rotateZ(-26deg) scale(.82); }
+    .assembly-stage.front-view .assembly-plane,.assembly-stage.side-view .assembly-plane { transform:none; }
     .assembly-traces { position:absolute; inset:0; z-index:0; width:100%; height:100%; overflow:visible; pointer-events:none; }
-    .assembly-trace { fill:none; stroke-width:5; stroke-dasharray:16 14; opacity:.46; vector-effect:non-scaling-stroke; }
-    .assembly-traces circle { fill:#fffdf8; stroke-width:4; opacity:.66; vector-effect:non-scaling-stroke; }
-    .assembly-traces text { font:700 18px ui-monospace,monospace; letter-spacing:.08em; opacity:.62; }
+    .assembly-trace { fill:none; stroke-width:3; stroke-dasharray:10 12; opacity:.42; vector-effect:non-scaling-stroke; }
+    .assembly-traces circle { fill:#fffdf8; stroke-width:3; opacity:.66; vector-effect:non-scaling-stroke; }
+    .assembly-traces text { font:700 11px ui-monospace,monospace; letter-spacing:.05em; opacity:.66; paint-order:stroke; stroke:#fffdf8; stroke-width:5px; stroke-opacity:.7; }
     .assembly-layer { position:absolute; display:block; margin:0; padding:0; border:0; border-radius:5px; background:transparent; cursor:pointer; transform-style:preserve-3d; backface-visibility:visible; transition:transform .35s ease,opacity .2s ease,filter .2s ease; }
     .assembly-layer:hover,.assembly-layer:focus-visible,.assembly-layer.selected { filter:drop-shadow(0 0 8px #f4d28e); outline:1px solid #f4d28e; }
     .assembly-layer img { display:block; width:100%; height:100%; object-fit:fill; pointer-events:none; }
     .assembly-stage.isometric .assembly-layer img { filter:drop-shadow(0 8px 5px #17252c30); }
     .assembly-stage:not(.isometric) .assembly-layer img { filter:none; }
-    .assembly-inspector { min-height:240px; padding:16px; border:1px solid var(--line); border-radius:14px; background:#fffdf8; overflow:auto; }
+    .assembly-inspector { min-width:0; min-height:240px; padding:18px; border:1px solid var(--line); border-radius:14px; background:linear-gradient(160deg,#fffdf8,#f3eee5); overflow:auto; box-shadow:0 12px 26px #66564212; }
     .assembly-inspector h3 { margin:0 0 7px; font:700 21px/1.05 Georgia,serif; } .assembly-inspector p { margin-bottom:10px; color:var(--muted); font-size:12px; }
     .assembly-inspector code { display:block; margin:5px 0; font-size:10px; overflow-wrap:anywhere; }
     .assembly-inspector dl { margin:15px 0 0; font-size:11px; } .assembly-inspector dt { color:var(--copper); font:700 9px ui-monospace,monospace; text-transform:uppercase; } .assembly-inspector dd { margin:2px 0 9px; }
     .assembly-caption { margin:0; padding:14px 18px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
-    #assembly-groups { display:flex; flex:1 1 320px; flex-wrap:wrap; align-items:center; justify-content:flex-end; gap:5px 11px; }
-    #assembly-groups label { display:inline-flex; align-items:center; gap:4px; margin:0; white-space:nowrap; }
+    #assembly-groups { display:flex; flex:1 0 100%; flex-wrap:wrap; align-items:center; justify-content:flex-start; gap:5px 7px; margin-top:2px; padding-top:9px; border-top:1px solid #d2c7b7; }
+    #assembly-groups label { display:inline-flex; align-items:center; gap:4px; margin:0; padding:4px 7px; border:1px solid #d2c7b7; border-radius:999px; background:#fffdf8; white-space:nowrap; }
     .showcase { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; } .showcase-card { padding:15px; border:1px solid var(--line); border-radius:14px; background:#fff; }
     .showcase-card strong { display:block; margin-bottom:5px; font:700 16px Georgia,serif; } .showcase-card code { color:var(--muted); font-size:10px; }
-    @media(max-width:800px) { .hero-grid { grid-template-columns:1fr; } .hero-glyphs { justify-content:flex-start; } .showcase { grid-template-columns:repeat(2,1fr); } .assembly-workspace { grid-template-columns:1fr; } .assembly-stage { min-height:480px; } #assembly-groups { justify-content:flex-start; } }
+    @media(max-width:1100px) { .assembly-workspace { grid-template-columns:1fr; } .assembly-inspector { min-height:0; } }
+    @media(max-width:800px) { .hero-grid { grid-template-columns:1fr; } .hero-glyphs { justify-content:flex-start; } .showcase { grid-template-columns:repeat(2,1fr); } #assembly-groups { justify-content:flex-start; } }
     @media(max-width:480px) { .showcase { grid-template-columns:1fr; } .assembly-stage { min-height:360px; } }
   </style>
 </head>
@@ -65,7 +66,7 @@
       <div class="assembly-head"><div><p class="eyebrow">PLATE 01 / LAYERED TECHNICAL ASSEMBLY</p><h2 id="assembly-title">A computer, assembled from objects.</h2></div><div class="plate-mark">isometric first / x-ray assembly<br>every part and route is registry-backed</div></div>
       <div class="assembly-toolbar" aria-label="Assembly controls">
         <button type="button" data-assembly-view="top">TOP</button><button type="button" data-assembly-view="front">FRONT</button><button type="button" data-assembly-view="side">SIDE</button><button type="button" class="active" data-assembly-view="isometric">ISOMETRIC</button>
-        <label for="assembly-opacity">X-RAY <input id="assembly-opacity" type="range" min="30" max="100" value="78"></label>
+        <label for="assembly-opacity">X-RAY <input id="assembly-opacity" type="range" min="30" max="100" value="86"></label>
         <label><input id="assembly-explode" type="checkbox"> EXPLODE</label>
         <span id="assembly-groups" aria-label="Assembly layers"></span>
       </div>

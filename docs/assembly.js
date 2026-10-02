@@ -17,6 +17,9 @@
   const prefix = document.body.dataset.pcbAssetPrefix || '';
   const byInstance = new Map(scene.layers.map((layer) => [layer.instance, layer]));
   stage.style.aspectRatio = `${scene.viewBox[0]} / ${scene.viewBox[1]}`;
+  if (Number.isFinite(Number(scene.default_opacity))) {
+    opacity.value = String(Math.round(Number(scene.default_opacity) * 100));
+  }
 
   const sceneRoot = document.createElement('div');
   sceneRoot.className = 'assembly-scene';

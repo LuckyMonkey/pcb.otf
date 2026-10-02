@@ -1,11 +1,11 @@
 id: assembly:generic_atx_desktop
 label: Generic ATX desktop assembly
 description: A vendor-neutral ATX board composed from canonical PCB.OTF objects.
-viewBox: [1600, 1000]
+viewBox: [1280, 900]
 default_view: isometric
-default_opacity: 0.78
+default_opacity: 0.86
 layers:
-  - {instance: motherboard, object: hardware:atx_motherboard, view: top, x: 40, y: 40, width: 1120, height: 820, z: 0, opacity: 0.40, group: board, explode: [0, 0]}
+  - {instance: motherboard, object: hardware:atx_motherboard, view: top, x: 40, y: 40, width: 1120, height: 820, z: 0, opacity: 0.58, group: board, explode: [0, 0]}
   - {instance: mounting_hole_1, object: hardware:mounting_hole, view: top, x: 90, y: 90, width: 90, height: 90, z: 1, opacity: 0.90, group: board, explode: [-12, -10]}
   - {instance: mounting_hole_2, object: hardware:mounting_hole, view: top, x: 1020, y: 90, width: 90, height: 90, z: 1, opacity: 0.90, group: board, explode: [12, -10]}
   - {instance: mounting_hole_3, object: hardware:mounting_hole, view: top, x: 90, y: 720, width: 90, height: 90, z: 1, opacity: 0.90, group: board, explode: [-12, 10]}

@@ -3967,11 +3967,11 @@ const assemblies = [
     "label": "Generic ATX desktop assembly",
     "description": "A vendor-neutral ATX board composed from canonical PCB.OTF objects.",
     "viewBox": [
-      1600,
-      1000
+      1280,
+      900
     ],
     "default_view": "isometric",
-    "default_opacity": 0.78,
+    "default_opacity": 0.86,
     "layers": [
       {
         "instance": "motherboard",
@@ -3982,7 +3982,7 @@ const assemblies = [
         "width": 1120,
         "height": 820,
         "z": 0,
-        "opacity": 0.4,
+        "opacity": 0.58,
         "group": "board",
         "explode": [
           0,
