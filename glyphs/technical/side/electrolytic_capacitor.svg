@@ -1,9 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="side" data-source="pcb-original-technical-art">
   <title id="title">Electrolytic capacitor</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
-  <path d="M410 230 H590 Q720 230 720 360 V640 Q720 770 590 770 H410 Q280 770 280 640 V360 Q280 230 410 230 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M500 270 L500 270 L500 430 L500 430 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M420 350 H580 V350 H420 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M500 770 L500 770 L500 880 L500 880 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <g shape-rendering="geometricPrecision">
+  <path d="M636.7 110 L647.4 111.4 L658 115.8 L667.2 122.8 L674.2 132 L678.6 142.6 L680 153.3 L680 726.7 L678.6 737.4 L674.2 748 L667.2 757.2 L658 764.2 L647.4 768.6 L636.7 770 L363.3 770 L352.6 768.6 L342 764.2 L332.8 757.2 L325.8 748 L321.4 737.4 L320 726.7 L320 153.3 L321.4 142.6 L325.8 132 L332.8 122.8 L342 115.8 L352.6 111.4 L363.3 110 Z M364.7 130 L357.8 130.9 L352 133.3 L347.1 137.1 L343.3 142 L340.9 147.8 L340 154.7 L340 725.3 L340.9 732.2 L343.3 738 L347.1 742.9 L352 746.7 L357.8 749.1 L364.7 750 L635.3 750 L642.2 749.1 L648 746.7 L652.9 742.9 L656.7 738 L659.1 732.2 L660 725.3 L660 154.7 L659.1 147.8 L656.7 142 L652.9 137.1 L648 133.3 L642.2 130.9 L635.3 130 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M324 114 L426 114 L426 766 L324 766 Z M336 754 L414 754 L414 126 L336 126 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M349 224 L401 224 L401 236 L349 236 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M349 324 L401 324 L401 336 L349 336 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M349 424 L401 424 L401 436 L349 436 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M349 524 L401 524 L401 536 L349 536 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M349 624 L401 624 L401 636 L349 636 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M326.5 206.5 L673.5 206.5 L673.5 213.5 L326.5 213.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M326.5 226.5 L673.5 226.5 L673.5 233.5 L326.5 233.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M444 114 L556 114 L556 126 L444 126 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M446 754 L446 906 L434 906 L434 754 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M566 754 L566 866 L554 866 L554 754 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   </g>
 </svg>

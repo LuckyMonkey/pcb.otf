@@ -1,9 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="side" data-source="pcb-original-technical-art">
   <title id="title">Light-emitting diode</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
-  <path d="M120 500 H360 V500 H120 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M360 350 L650 500 L360 650 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="body" data-layer="body"/>
-  <path d="M650 340 L650 340 L650 660 L650 660 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
-  <path d="M650 500 H880 V500 H650 Z" fill="none" fill-opacity="1" stroke="#17252c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke" data-role="detail" data-layer="detail"/>
+  <g shape-rendering="geometricPrecision">
+  <path d="M500 129.9 L546.6 136.1 L590 154 L627.3 182.7 L656 220 L673.9 263.4 L680 309.3 L680 440.7 L673.9 486.6 L656 530 L627.3 567.3 L590 596 L546.6 613.9 L500 620.1 L453.4 613.9 L410 596 L372.7 567.3 L344 530 L326.1 486.6 L320 440.7 L320 309.3 L326.1 263.4 L344 220 L372.7 182.7 L410 154 L453.4 136.1 Z M458.6 155.5 L420 171.5 L386.9 196.9 L361.5 230 L345.5 268.6 L340 310.7 L340 439.3 L345.5 481.4 L361.5 520 L386.9 553.1 L420 578.5 L458.6 594.5 L500 599.9 L541.4 594.5 L580 578.5 L613.1 553.1 L638.5 520 L654.5 481.4 L660 439.3 L660 310.7 L654.5 268.6 L638.5 230 L613.1 196.9 L580 171.5 L541.4 155.5 L500 150.1 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M692.7 550 L696.7 550.5 L701 552.3 L704.8 555.2 L707.7 559 L709.5 563.3 L710 567.3 L710 612.7 L709.5 616.7 L707.7 621 L704.8 624.8 L701 627.7 L696.7 629.5 L692.7 630 L307.3 630 L303.3 629.5 L299 627.7 L295.2 624.8 L292.3 621 L290.5 616.7 L290 612.7 L290 567.3 L290.5 563.3 L292.3 559 L295.2 555.2 L299 552.3 L303.3 550.5 L307.3 550 Z M308.7 570 L308.5 570 L309 569.8 L309.5 569.5 L309.8 569 L310 568.5 L310 568.7 L310 611.3 L310 611.5 L309.8 611 L309.5 610.5 L309 610.2 L308.5 610 L308.7 610 L691.3 610 L691.5 610 L691 610.2 L690.5 610.5 L690.2 611 L690 611.5 L690 611.3 L690 568.7 L690 568.5 L690.2 569 L690.5 569.5 L691 569.8 L691.5 570 L691.3 570 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M414 566 L414 394 L426 394 L426 566 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M411.6 399.1 L470.9 351.6 L478.4 360.9 L419.1 408.4 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M476 354 L476 566 L464 566 L464 354 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M426 400 L425.5 402.3 L424.2 404.2 L422.3 405.5 L420 406 L417.7 405.5 L415.8 404.2 L414.5 402.3 L414 400 L414.5 397.7 L415.8 395.8 L417.7 394.5 L420 394 L422.3 394.5 L424.2 395.8 L425.5 397.7 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M476 360 L475.5 362.3 L474.2 364.2 L472.3 365.5 L470 366 L467.7 365.5 L465.8 364.2 L464.5 362.3 L464 360 L464.5 357.7 L465.8 355.8 L467.7 354.5 L470 354 L472.3 354.5 L474.2 355.8 L475.5 357.7 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M554 566 L554 374 L566 374 L566 566 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M467.3 355.8 L564.2 377.3 L562.7 384.2 L465.8 362.7 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M446 614 L446 926 L434 926 L434 614 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M566 614 L566 886 L554 886 L554 614 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M296.5 586.5 L333.5 586.5 L333.5 593.5 L296.5 593.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   </g>
 </svg>

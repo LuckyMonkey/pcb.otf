@@ -1,8 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-patent-art">
   <title id="title">Antenna</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
-  <path d="M500 760 L500 760 L500 290 L500 290 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
-  <path d="M410 220 A90 90 0 1 0 590 220 A90 90 0 1 0 410 220 Z" fill="#b86f3f" data-role="body" data-layer="body"/>
-  <path d="M350 300 Q500 120 650 300 L620 330 Q500 190 380 330 Z" fill="#5b83a0" data-role="detail" data-layer="detail"/>
+  <g shape-rendering="geometricPrecision">
+  <path d="M570 760 L572.6 760.3 L575 761.3 L577.1 762.9 L578.7 765 L579.7 767.4 L580 770 L580 870 L579.7 872.6 L578.7 875 L577.1 877.1 L575 878.7 L572.6 879.7 L570 880 L430 880 L427.4 879.7 L425 878.7 L422.9 877.1 L421.3 875 L420.3 872.6 L420 870 L420 770 L420.3 767.4 L421.3 765 L422.9 762.9 L425 761.3 L427.4 760.3 L430 760 Z" fill="#efd99a" data-role="fill" data-layer="fill"/>
+  <path d="M540 680 L542.6 680.3 L545 681.3 L547.1 682.9 L548.7 685 L549.7 687.4 L550 690 L550 750 L549.7 752.6 L548.7 755 L547.1 757.1 L545 758.7 L542.6 759.7 L540 760 L460 760 L457.4 759.7 L455 758.7 L452.9 757.1 L451.3 755 L450.3 752.6 L450 750 L450 690 L450.3 687.4 L451.3 685 L452.9 682.9 L455 681.3 L457.4 680.3 L460 680 Z" fill="#dfe2dc" data-role="fill" data-layer="fill"/>
+  <path d="M475 120 L500 90 L525 120 L540 680 L460 680 Z" fill="#b9c1c6" data-role="fill" data-layer="fill"/>
+  <path d="M570.7 750 L575.2 750.6 L580 752.6 L584.2 755.8 L587.4 760 L589.4 764.8 L590 769.3 L590 870.7 L589.4 875.2 L587.4 880 L584.2 884.2 L580 887.4 L575.2 889.4 L570.7 890 L429.3 890 L424.8 889.4 L420 887.4 L415.8 884.2 L412.6 880 L410.6 875.2 L410 870.7 L410 769.3 L410.6 764.8 L412.6 760 L415.8 755.8 L420 752.6 L424.8 750.6 L429.3 750 Z M430.7 770 L430 770.1 L430 770.1 L430.1 770.1 L430.1 770 L430.1 770 L430 770.7 L430 869.3 L430.1 870 L430.1 870 L430.1 869.9 L430 869.9 L430 869.9 L430.7 870 L569.3 870 L570 869.9 L570 869.9 L569.9 869.9 L569.9 870 L569.9 870 L570 869.3 L570 770.7 L569.9 770 L569.9 770 L569.9 770.1 L570 770.1 L570 770.1 L569.3 770 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M443.5 766.5 L443.5 873.5 L436.5 873.5 L436.5 766.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M483.5 766.5 L483.5 873.5 L476.5 873.5 L476.5 766.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M523.5 766.5 L523.5 873.5 L516.5 873.5 L516.5 766.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M563.5 766.5 L563.5 873.5 L556.5 873.5 L556.5 766.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M540.4 674 L544.2 674.5 L548 676.1 L551.4 678.6 L553.9 682 L555.5 685.8 L556 689.6 L556 750.4 L555.5 754.2 L553.9 758 L551.4 761.4 L548 763.9 L544.2 765.5 L540.4 766 L459.6 766 L455.8 765.5 L452 763.9 L448.6 761.4 L446.1 758 L444.5 754.2 L444 750.4 L444 689.6 L444.5 685.8 L446.1 682 L448.6 678.6 L452 676.1 L455.8 674.5 L459.6 674 Z M460.4 686 L459 686.2 L458 686.6 L457.2 687.2 L456.6 688 L456.2 689 L456 690.4 L456 749.6 L456.2 751 L456.6 752 L457.2 752.8 L458 753.4 L459 753.8 L460.4 754 L539.6 754 L541 753.8 L542 753.4 L542.8 752.8 L543.4 752 L543.8 751 L544 749.6 L544 690.4 L543.8 689 L543.4 688 L542.8 687.2 L542 686.6 L541 686.2 L539.6 686 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M525.6 720 L523.6 729.8 L518.1 738.1 L509.8 743.6 L500 745.6 L490.2 743.6 L481.9 738.1 L476.4 729.8 L474.4 720 L476.4 710.2 L481.9 701.9 L490.2 696.4 L500 694.4 L509.8 696.4 L518.1 701.9 L523.6 710.2 Z M517 712.9 L513 707 L507.1 703 L500 701.6 L492.9 703 L487 707 L483 712.9 L481.6 720 L483 727.1 L487 733 L492.9 737 L500 738.4 L507.1 737 L513 733 L517 727.1 L518.4 720 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M465.1 116.3 L500 74.4 L534.9 116.3 L550.3 690 L449.7 690 Z M470.3 670 L529.7 670 L515.1 123.7 L500 105.6 L484.9 123.7 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M466.5 196.5 L533.5 196.5 L533.5 203.5 L466.5 203.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M466.5 256.5 L533.5 256.5 L533.5 263.5 L466.5 263.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M466.5 316.5 L533.5 316.5 L533.5 323.5 L466.5 323.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M466.5 376.5 L533.5 376.5 L533.5 383.5 L466.5 383.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M466.5 436.5 L533.5 436.5 L533.5 443.5 L466.5 443.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M466.5 496.5 L533.5 496.5 L533.5 503.5 L466.5 503.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M466.5 556.5 L533.5 556.5 L533.5 563.5 L466.5 563.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M466.5 616.5 L533.5 616.5 L533.5 623.5 L466.5 623.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   </g>
 </svg>

@@ -1,10 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-original-art">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="top" data-source="pcb-patent-art">
   <title id="title">MOSFET</title>
-  <g fill-rule="evenodd" clip-rule="evenodd" shape-rendering="geometricPrecision">
-  <path d="M270 500 A230 230 0 1 0 730 500 A230 230 0 1 0 270 500 Z" fill="#293642" data-role="body" data-layer="body"/>
-  <path d="M210 500 H350 V500 H210 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
-  <path d="M500 270 L500 270 L500 380 L500 380 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
-  <path d="M500 620 L500 620 L500 730 L500 730 Z" fill="#c8cbc4" data-role="detail" data-layer="detail"/>
-  <path d="M430 390 L600 500 L430 610 Z" fill="#b86f3f" data-role="detail" data-layer="detail"/>
+  <g shape-rendering="geometricPrecision">
+  <path d="M800 500 L798.9 526.1 L795.4 552.1 L789.8 577.6 L781.9 602.6 L771.9 626.8 L759.8 650 L745.7 672.1 L729.8 692.8 L712.1 712.1 L692.8 729.8 L672.1 745.7 L650 759.8 L626.8 771.9 L602.6 781.9 L577.6 789.8 L552.1 795.4 L526.1 798.9 L500 800 L473.9 798.9 L447.9 795.4 L422.4 789.8 L397.4 781.9 L373.2 771.9 L350 759.8 L327.9 745.7 L307.2 729.8 L287.9 712.1 L270.2 692.8 L254.3 672.1 L240.2 650 L228.1 626.8 L218.1 602.6 L210.2 577.6 L204.6 552.1 L201.1 526.1 L200 500 L201.1 473.9 L204.6 447.9 L210.2 422.4 L218.1 397.4 L228.1 373.2 L240.2 350 L254.3 327.9 L270.2 307.2 L287.9 287.9 L307.2 270.2 L327.9 254.3 L350 240.2 L373.2 228.1 L397.4 218.1 L422.4 210.2 L447.9 204.6 L473.9 201.1 L500 200 L526.1 201.1 L552.1 204.6 L577.6 210.2 L602.6 218.1 L626.8 228.1 L650 240.2 L672.1 254.3 L692.8 270.2 L712.1 287.9 L729.8 307.2 L745.7 327.9 L759.8 350 L771.9 373.2 L781.9 397.4 L789.8 422.4 L795.4 447.9 L798.9 473.9 Z" fill="#f6f1e6" data-role="fill" data-layer="fill"/>
+  <path d="M810 500 L808.8 527 L805.3 553.8 L799.4 580.2 L791.3 606 L781 631 L768.5 655 L753.9 677.8 L737.5 699.3 L719.2 719.2 L699.3 737.5 L677.8 753.9 L655 768.5 L631 781 L606 791.3 L580.2 799.4 L553.8 805.3 L527 808.8 L500 810 L473 808.8 L446.2 805.3 L419.8 799.4 L394 791.3 L369 781 L345 768.5 L322.2 753.9 L300.7 737.5 L280.8 719.2 L262.5 699.3 L246.1 677.8 L231.5 655 L219 631 L208.7 606 L200.6 580.2 L194.7 553.8 L191.2 527 L190 500 L191.2 473 L194.7 446.2 L200.6 419.8 L208.7 394 L219 369 L231.5 345 L246.1 322.2 L262.5 300.7 L280.8 280.8 L300.7 262.5 L322.2 246.1 L345 231.5 L369 219 L394 208.7 L419.8 200.6 L446.2 194.7 L473 191.2 L500 190 L527 191.2 L553.8 194.7 L580.2 200.6 L606 208.7 L631 219 L655 231.5 L677.8 246.1 L699.3 262.5 L719.2 280.8 L737.5 300.7 L753.9 322.2 L768.5 345 L781 369 L791.3 394 L799.4 419.8 L805.3 446.2 L808.8 473 Z M788.9 474.7 L785.6 449.6 L780.1 424.9 L772.5 400.8 L762.8 377.4 L751.1 355 L737.5 333.7 L722.1 313.6 L705.1 294.9 L686.4 277.9 L666.3 262.5 L645 248.9 L622.6 237.2 L599.2 227.5 L575.1 219.9 L550.4 214.4 L525.3 211.1 L500 210 L474.7 211.1 L449.6 214.4 L424.9 219.9 L400.8 227.5 L377.4 237.2 L355 248.9 L333.7 262.5 L313.6 277.9 L294.9 294.9 L277.9 313.6 L262.5 333.7 L248.9 355 L237.2 377.4 L227.5 400.8 L219.9 424.9 L214.4 449.6 L211.1 474.7 L210 500 L211.1 525.3 L214.4 550.4 L219.9 575.1 L227.5 599.2 L237.2 622.6 L248.9 645 L262.5 666.3 L277.9 686.4 L294.9 705.1 L313.6 722.1 L333.7 737.5 L355 751.1 L377.4 762.8 L400.8 772.5 L424.9 780.1 L449.6 785.6 L474.7 788.9 L500 790 L525.3 788.9 L550.4 785.6 L575.1 780.1 L599.2 772.5 L622.6 762.8 L645 751.1 L666.3 737.5 L686.4 722.1 L705.1 705.1 L722.1 686.4 L737.5 666.3 L751.1 645 L762.8 622.6 L772.5 599.2 L780.1 575.1 L785.6 550.4 L788.9 525.3 L790 500 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M114 614 L386 614 L386 626 L114 626 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M386 374 L386 626 L374 626 L374 374 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M440 325 L440 435 L420 435 L420 325 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M440 445 L440 555 L420 555 L420 445 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M440 565 L440 675 L420 675 L420 565 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M424 374 L646 374 L646 386 L424 386 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M634 386 L634 94 L646 94 L646 386 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M424 614 L646 614 L646 626 L424 626 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M646 614 L646 906 L634 906 L634 614 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M424 494 L646 494 L646 506 L424 506 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M646 494 L646 626 L634 626 L634 494 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M440 500 L500 470 L500 530 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M703.5 376.5 L703.5 623.5 L696.5 623.5 L696.5 376.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M700 520 L675 470 L725 470 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M671.5 516.5 L728.5 516.5 L728.5 523.5 L671.5 523.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M636.5 376.5 L703.5 376.5 L703.5 383.5 L636.5 383.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
+  <path d="M636.5 616.5 L703.5 616.5 L703.5 623.5 L636.5 623.5 Z" fill="#17252c" data-role="body" data-layer="ink"/>
   </g>
 </svg>

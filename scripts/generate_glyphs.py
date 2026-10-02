@@ -8,7 +8,9 @@ from pathlib import Path
 
 import yaml
 
-from hardware_designs import PALETTE, design_for
+from hardware_designs import PALETTE
+from patent_art import draw
+from patent_pen import INK
 from technical_art import TECHNICAL_BASES, technical_for
 
 
@@ -68,39 +70,48 @@ def svg_text(label: str, parts: list[tuple[str, str, str]], mode: str, view: str
     ])
 
 
+def patent_svg(label: str, pen, mode: str, view: str, source: str = "pcb-patent-art") -> str:
+    """The glyph art: patent-style line drawing, every mark a filled outline (see scripts/patent_pen.py).
+
+    mono  = ink only (the font's outline glyph)
+    color = tinted fills under the same ink (the color font's layers)
+    """
+    transform = ' transform="matrix(.46 .34 -.46 .34 500 160)"' if view == "isometric" else ""
+    paths = []
+    if mode == "color":
+        paths += [f'  <path d="{d}" fill="{tint}" data-role="fill" data-layer="fill"/>' for d, tint in pen.fills]
+    paths += [f'  <path d="{d}" fill="{INK}" data-role="body" data-layer="ink"/>' for d in pen.ink]
+    return "\n".join([
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title" data-view="{view}" data-source="{source}">',
+        f'  <title id="title">{html.escape(label)}</title>',
+        f'  <g shape-rendering="geometricPrecision"{transform}>',
+        *paths,
+        "  </g>",
+        "</svg>",
+        "",
+    ])
+
+
 def main() -> int:
     data = source()
     for item in data["objects"]:
         base = item["glyph"]["base"]
         name = item["id"].split(":", 1)[1]
-        if base in TECHNICAL_BASES:
-            for view in ("top", "front", "side", "isometric"):
-                parts = technical_for(base, view)
-                mode = "color"
-                technical_path = ROOT / "glyphs/technical" / view / f"{name}.svg"
-                technical_path.parent.mkdir(parents=True, exist_ok=True)
-                technical_path.write_text(svg_text(item["label"], parts, mode, view, "pcb-original-technical-art"), encoding="utf-8")
-            # Keep the font masters as compact filled artwork. The technical
-            # linework is a separate renderer used by the catalog and assembly
-            # plates, so the downloadable font remains a useful color/mono font.
-            (ROOT / "glyphs/color" / f"{name}.svg").write_text(svg_text(item["label"], technical_for(base, "top"), "color", "top"), encoding="utf-8")
-            (ROOT / "glyphs/mono" / f"{name}.svg").write_text(svg_text(item["label"], technical_for(base, "top"), "mono", "top"), encoding="utf-8")
-            (ROOT / "glyphs/iso" / f"{name}.svg").write_text(svg_text(item["label"], technical_for(base, "isometric"), "color", "isometric"), encoding="utf-8")
-            continue
-        parts = design_for(base)
-        # Every registry object gets a technical plate asset. For objects that
-        # do not yet have a bespoke construction drawing, the original vector
-        # master is rendered through the same drafting treatment. This keeps
-        # the catalog complete without pretending that a generic resistor or
-        # protocol glyph has a fabricated mechanical side profile.
+        pen = draw(base)
+        if pen is None:
+            raise SystemExit(f"no patent drawing for {base} (scripts/patent_art.py)")
+        # the font masters: one original patent drawing per object
+        (ROOT / "glyphs/mono" / f"{name}.svg").write_text(patent_svg(item["label"], pen, "mono", "top"), encoding="utf-8")
+        (ROOT / "glyphs/color" / f"{name}.svg").write_text(patent_svg(item["label"], pen, "color", "top"), encoding="utf-8")
+        (ROOT / "glyphs/iso" / f"{name}.svg").write_text(patent_svg(item["label"], pen, "color", "isometric"), encoding="utf-8")
         for view in ("top", "front", "side", "isometric"):
             technical_path = ROOT / "glyphs/technical" / view / f"{name}.svg"
             technical_path.parent.mkdir(parents=True, exist_ok=True)
-            technical_path.write_text(svg_text(item["label"], parts, "color", view, "pcb-original-technical-art"), encoding="utf-8")
-        for mode, view, directory in (("mono", "top", "glyphs/mono"), ("color", "top", "glyphs/color"), ("color", "isometric", "glyphs/iso")):
-            path = ROOT / directory / f"{name}.svg"
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text(svg_text(item["label"], parts, mode, view), encoding="utf-8")
+            if base in TECHNICAL_BASES:
+                # the assembly plates keep their four constructed views (scripts/technical_art.py)
+                technical_path.write_text(svg_text(item["label"], technical_for(base, view), "color", view, "pcb-original-technical-art"), encoding="utf-8")
+            else:
+                technical_path.write_text(patent_svg(item["label"], pen, "mono", view, "pcb-original-technical-art"), encoding="utf-8")
     print(f"generated {len(data['objects'])} monochrome, color, and isometric SVG masters")
     return 0
 

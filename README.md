@@ -115,7 +115,10 @@ Unicode code points but are not official Unicode Consortium hardware characters.
 ## Artwork and licensing
 
 PCB.OTF uses original deterministic SVG engineering drawings inspired by service
-manuals, silkscreen conventions, catalogs, and datasheet geometry. It does not
+manuals, silkscreen conventions, catalogs, and datasheet geometry. Each object has
+its own patent-style line drawing (`scripts/patent_art.py`): heavy outline, medium
+parts, fine hatching, drawn as filled outlines (`scripts/patent_pen.py`) so one
+drawing serves the SVG, the mono font and the color font. It does not
 copy vendor logos or certification marks. Source code, ontology, metadata, SVGs,
 and docs are MIT; generated font artifacts are OFL-1.1. See `LICENSE` and
 `font/OFL.txt`.
